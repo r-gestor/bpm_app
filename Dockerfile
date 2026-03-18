@@ -1,8 +1,7 @@
 FROM node:20-slim AS base
 
-# Chromium dependencies for Puppeteer
+# Dependencias del sistema para que Chrome for Testing (Puppeteer) funcione en Docker
 RUN apt-get update && apt-get install -y \
-    chromium \
     fonts-liberation \
     libasound2 \
     libatk-bridge2.0-0 \
@@ -19,16 +18,19 @@ RUN apt-get update && apt-get install -y \
     libxrandr2 \
     xdg-utils \
     ca-certificates \
+    wget \
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+# Puppeteer descargará Chrome for Testing en este directorio controlado
+ENV PUPPETEER_CACHE_DIR=/app/.puppeteer-cache
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
 
 # ── deps ──────────────────────────────────────────────────────────────────────
 FROM base AS deps
 WORKDIR /app
 COPY package*.json ./
+# npm ci descarga dependencias Y Chrome for Testing en PUPPETEER_CACHE_DIR
 RUN npm ci
 
 # ── builder ───────────────────────────────────────────────────────────────────
@@ -69,9 +71,13 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Copiar Chrome for Testing descargado en la etapa deps
+COPY --from=deps --chown=nextjs:nodejs /app/.puppeteer-cache /app/.puppeteer-cache
+
 USER nextjs
 EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
+ENV PUPPETEER_CACHE_DIR=/app/.puppeteer-cache
 
 CMD ["node", "server.js"]
