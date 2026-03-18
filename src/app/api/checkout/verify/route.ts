@@ -13,7 +13,8 @@ export async function GET(req: Request) {
   console.log("[API Verify] Requesting status for:", { transactionId: id, planId });
 
   try {
-    const isProd = process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY?.startsWith("pub_prod_");
+    const wompiKey = process.env.WOMPI_PUBLIC_KEY ?? process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY;
+    const isProd = wompiKey?.startsWith("pub_prod_");
     const baseUrl = isProd ? "https://production.wompi.co/v1" : "https://sandbox.wompi.co/v1";
     
     const response = await fetch(`${baseUrl}/transactions/${id}`);
