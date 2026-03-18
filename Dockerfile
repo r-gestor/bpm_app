@@ -27,15 +27,13 @@ RUN apt-get update && apt-get install -y \
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
-# Puppeteer descargará Chrome for Testing en este directorio controlado
-ENV PUPPETEER_CACHE_DIR=/app/.puppeteer-cache
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
+# @sparticuz/chromium trae su propio binario, no necesitamos que Puppeteer descargue Chrome
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 # ── deps ──────────────────────────────────────────────────────────────────────
 FROM base AS deps
 WORKDIR /app
 COPY package*.json ./
-# npm ci descarga dependencias Y Chrome for Testing en PUPPETEER_CACHE_DIR
 RUN npm ci
 
 # ── builder ───────────────────────────────────────────────────────────────────
@@ -76,17 +74,9 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
-# Copiar Chrome for Testing descargado en la etapa deps
-COPY --from=deps --chown=nextjs:nodejs /app/.puppeteer-cache /app/.puppeteer-cache
-
-# Reemplazar chrome_crashpad_handler con un no-op para evitar el error FATAL
-# Chrome requiere que el binario exista, pero no necesitamos crash reporting
-RUN find /app/.puppeteer-cache -name "chrome_crashpad_handler" -exec sh -c 'echo "#!/bin/sh\nexit 0" > "$1" && chmod +x "$1"' _ {} \;
-
 USER nextjs
 EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
-ENV PUPPETEER_CACHE_DIR=/app/.puppeteer-cache
 
 CMD ["node", "server.js"]

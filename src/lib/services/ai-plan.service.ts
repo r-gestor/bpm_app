@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 import fs from 'fs';
 import path from 'path';
 import QRCode from 'qrcode';
@@ -1328,23 +1329,15 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
   
   private static async generatePdfWithPuppeteer(html: string, plan: any, logoDataUrl?: string, qrCodeDataUrl?: string): Promise<Buffer> {
     console.log("[Puppeteer] Iniciando lanzamiento del browser...");
-    console.log("[Puppeteer] PUPPETEER_CACHE_DIR:", process.env.PUPPETEER_CACHE_DIR ?? "(no definido)");
     console.log("[Puppeteer] NODE_ENV:", process.env.NODE_ENV);
 
+    const executablePath = await chromium.executablePath();
+    console.log("[Puppeteer] executablePath (@sparticuz/chromium):", executablePath);
+
     const browser = await puppeteer.launch({
-      headless: true,
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu",
-        "--disable-breakpad",
-        "--disable-crash-reporter",
-        "--disable-features=CrashpadReport",
-        "--disable-extensions",
-        "--no-first-run",
-        "--disable-software-rasterizer",
-      ],
+      executablePath,
+      headless: chromium.headless,
+      args: chromium.args,
     });
     console.log("[Puppeteer] ✅ Browser lanzado correctamente");
 
