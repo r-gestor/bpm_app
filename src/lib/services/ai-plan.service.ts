@@ -1333,6 +1333,7 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
 
     const browser = await puppeteer.launch({
       headless: true,
+      pipe: true,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -1340,11 +1341,16 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
         "--disable-gpu",
         "--no-zygote",
         "--single-process",
+        "--disable-breakpad",
         "--disable-crash-reporter",
         "--disable-features=CrashpadReport",
         "--disable-extensions",
         "--no-first-run",
       ],
+      env: {
+        ...process.env,
+        CHROME_CRASHPAD_HANDLER_PID: "0",
+      },
     });
     console.log("[Puppeteer] ✅ Browser lanzado correctamente");
 
