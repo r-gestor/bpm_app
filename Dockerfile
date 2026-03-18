@@ -39,10 +39,21 @@ COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
-# Variables dummy para que el build no falle al analizar rutas
-# Los valores reales se inyectan en runtime desde Easypanel
+# Variables placeholder para que el build no falle al analizar rutas.
+# Los valores reales se inyectan en runtime desde Easypanel.
 ENV NEXTAUTH_SECRET=build-placeholder
 ENV NEXTAUTH_URL=http://localhost:3000
+ENV NEXT_PUBLIC_SUPABASE_URL=https://placeholder.supabase.co
+ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder
+ENV SUPABASE_SERVICE_ROLE_KEY=placeholder
+ENV ANTHROPIC_API_KEY=placeholder
+ENV VOYAGE_API_KEY=placeholder
+ENV BREVO_API_KEY=placeholder
+ENV NEXT_PUBLIC_WOMPI_PUBLIC_KEY=placeholder
+ENV WOMPI_INTEGRITY_SECRET=placeholder
+ENV WOMPI_EVENTS_SECRET=placeholder
+ENV GOOGLE_CLIENT_ID=placeholder
+ENV GOOGLE_CLIENT_SECRET=placeholder
 
 RUN npm run build
 
