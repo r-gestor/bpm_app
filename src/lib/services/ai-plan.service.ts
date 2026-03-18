@@ -1327,22 +1327,23 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
   // ─── Generar PDF con Puppeteer ──────────────────────────────────────────────
   
   private static async generatePdfWithPuppeteer(html: string, plan: any, logoDataUrl?: string, qrCodeDataUrl?: string): Promise<Buffer> {
-    const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || "/usr/bin/chromium";
     console.log("[Puppeteer] Iniciando lanzamiento del browser...");
-    console.log("[Puppeteer] executablePath:", executablePath);
+    console.log("[Puppeteer] PUPPETEER_CACHE_DIR:", process.env.PUPPETEER_CACHE_DIR ?? "(no definido)");
     console.log("[Puppeteer] NODE_ENV:", process.env.NODE_ENV);
 
     const browser = await puppeteer.launch({
       headless: true,
-      executablePath,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
         "--disable-dev-shm-usage",
         "--disable-gpu",
         "--no-zygote",
+        "--single-process",
         "--disable-crash-reporter",
+        "--disable-features=CrashpadReport",
         "--disable-extensions",
+        "--no-first-run",
       ],
     });
     console.log("[Puppeteer] ✅ Browser lanzado correctamente");
