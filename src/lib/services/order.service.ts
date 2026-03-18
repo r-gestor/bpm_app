@@ -106,17 +106,22 @@ export class OrderService {
     return order;
   }
   static async updateOrderStatus(orderId: string, status: string, transactionId?: string, planId?: string) {
-    console.log("[updateOrderStatus] Input:", { orderId, status, transactionId, planId });
+    console.log("[updateOrderStatus] ▶ Input:", { orderId, status, transactionId, planId });
 
     // 1. Obtener orden actual para saber qué producto se compró
+    console.log("[updateOrderStatus] Buscando pago en Supabase con id:", orderId);
     const { data: order, error: fError } = await supabase
       .from('payments')
       .select('*, products(*)')
       .eq('id', orderId)
       .maybeSingle();
 
-    if (fError || !order) {
-      console.error("[updateOrderStatus] Order not found or fetch error:", fError);
+    if (fError) {
+      console.error("[updateOrderStatus] ❌ Error consultando Supabase:", fError);
+      throw new Error("Orden no encontrada");
+    }
+    if (!order) {
+      console.error("[updateOrderStatus] ❌ No existe pago con id:", orderId);
       throw new Error("Orden no encontrada");
     }
 
@@ -124,11 +129,12 @@ export class OrderService {
     const productData = Array.isArray(order.products) ? order.products[0] : order.products;
     const productSlug = productData?.slug;
 
-    console.log("[updateOrderStatus] Processing order:", { 
-      id: order.id, 
-      currentStatus: order.status, 
-      receivedStatus: status,
-      productSlug: productSlug
+    console.log("[updateOrderStatus] Pago encontrado:", {
+      id: order.id,
+      currentStatus: order.status,
+      newStatus: status,
+      productSlug,
+      buyerId: order.buyerId,
     });
 
     // Evitar procesar estados que ya están en un estado final si es una actualización repetida
@@ -150,25 +156,29 @@ export class OrderService {
       updateData.transactionId = transactionId;
     }
 
-    console.log("[updateOrderStatus] Final update data:", updateData);
+    console.log("[updateOrderStatus] Datos a actualizar en Supabase:", updateData);
 
     const { error: uError, data: updatedObj } = await supabase
       .from('payments')
       .update(updateData)
       .eq('id', orderId)
       .select();
-    
+
     if (uError) {
-      console.error("[updateOrderStatus] Error updating payment status:", uError);
+      console.error("[updateOrderStatus] ❌ Error de Supabase al actualizar pago:", uError);
       throw uError;
     }
 
     if (!updatedObj || updatedObj.length === 0) {
-      console.error("[updateOrderStatus] No rows updated. Is orderId correct?", orderId);
+      console.error("[updateOrderStatus] ❌ UPDATE no afectó ninguna fila. orderId:", orderId);
       throw new Error("No se pudo actualizar el estado del pago (ID no coincide)");
     }
 
-    console.log("[updateOrderStatus] Update payment status SUCCESS:", updatedObj[0]);
+    console.log("[updateOrderStatus] ✅ Pago actualizado en Supabase:", {
+      id: updatedObj[0].id,
+      status: updatedObj[0].status,
+      transactionId: updatedObj[0].transactionId,
+    });
 
     // Actualizar el estado del plan de saneamiento si aplica
     if (productSlug === 'plan-saneamiento-iav' || planId) {

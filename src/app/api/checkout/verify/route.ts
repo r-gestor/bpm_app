@@ -12,7 +12,7 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "Transaction ID is required" }, { status: 400 });
   }
 
-  console.log("[API Verify] Requesting status for:", { transactionId: id, planId });
+  console.log("[Verify] ▶ Verificando transacción Wompi:", { transactionId: id, planId });
 
   try {
     const baseUrl =
@@ -21,38 +21,47 @@ export async function GET(req: Request) {
         ? "https://production.wompi.co/v1"
         : "https://sandbox.wompi.co/v1");
 
-    console.log("[API Verify] Using Wompi base URL:", baseUrl);
+    console.log("[Verify] NODE_ENV:", process.env.NODE_ENV, "→ URL Wompi:", baseUrl);
 
     const response = await fetch(`${baseUrl}/transactions/${id}`, {
       headers: { "Content-Type": "application/json" },
     });
 
+    console.log("[Verify] Respuesta HTTP de Wompi:", response.status, response.statusText);
+
     if (!response.ok) {
-      console.error("[API Verify] Wompi returned non-OK:", response.status);
-      // Devolver PENDING para que el cliente siga reintentando
+      const errorBody = await response.text();
+      console.error("[Verify] ❌ Wompi respondió con error:", response.status, errorBody);
       return NextResponse.json({ status: "PENDING" });
     }
 
     const result = await response.json();
+    console.log("[Verify] Respuesta Wompi (data):", JSON.stringify(result?.data ?? result));
 
     if (!result.data) {
-      console.error("[API Verify] No data in Wompi response:", result);
+      console.error("[Verify] ❌ Sin campo 'data' en respuesta Wompi:", result);
       return NextResponse.json({ status: "PENDING" });
     }
 
     const transaction = result.data;
-    console.log("[API Verify] Transaction status from Wompi:", transaction.status);
+    console.log("[Verify] Estado de la transacción:", {
+      wompiId: transaction.id,
+      reference: transaction.reference,
+      status: transaction.status,
+      amountInCents: transaction.amount_in_cents,
+    });
 
-    // Actualizar DB si llegó a estado final — sin bloquear la respuesta al cliente
+    // Actualizar DB si llegó a estado final — fire-and-forget, no bloquea la respuesta
     if (FINAL_STATUSES.includes(transaction.status)) {
+      console.log("[Verify] Estado final detectado, actualizando DB en background...");
       OrderService.updateOrderStatus(
         transaction.reference,
         transaction.status,
         transaction.id,
         planId || undefined
-      ).catch((err) =>
-        console.error("[API Verify] DB update failed (webhook will retry):", err)
-      );
+      )
+        .then(() => console.log("[Verify] ✅ DB actualizada correctamente para:", transaction.reference))
+        .catch((err) => console.error("[Verify] ❌ Error actualizando DB:", err?.message, err?.stack));
     }
 
     return NextResponse.json({
@@ -60,8 +69,7 @@ export async function GET(req: Request) {
       reference: transaction.reference,
     });
   } catch (error: any) {
-    console.error("[API Verify] Unexpected error:", error);
-    // Devolver PENDING en lugar de 500 para que el cliente siga reintentando
+    console.error("[Verify] ❌ Error inesperado:", error?.message, error?.stack);
     return NextResponse.json({ status: "PENDING" });
   }
 }
