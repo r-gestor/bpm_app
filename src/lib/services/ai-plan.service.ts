@@ -478,23 +478,37 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
   // ═══════════════════════════════════════════════════════════════════════════
 
   static async generatePdf(planId: string): Promise<PdfGenerationResult> {
-    console.log(`[AiPlanService] ══════════════════════════════════════`);
-    console.log(`[AiPlanService] FASE 2: Generando PDF para ${planId}`);
-    console.log(`[AiPlanService] ══════════════════════════════════════`);
+    console.log(`[GeneratePdf] ══════════════════════════════════════`);
+    console.log(`[GeneratePdf] Iniciando para plan: ${planId}`);
+    console.log(`[GeneratePdf] ══════════════════════════════════════`);
 
     try {
       // 1. Verificar que el contenido esté listo
+      console.log(`[GeneratePdf] Consultando plan en Supabase...`);
       const { data: plan, error: pError } = await supabase
         .from("sanitation_plans")
         .select("*")
         .eq("id", planId)
         .single();
 
-      if (pError || !plan) {
+      if (pError) {
+        console.error(`[GeneratePdf] ❌ Error Supabase:`, pError);
+        throw new Error("Plan no encontrado");
+      }
+      if (!plan) {
+        console.error(`[GeneratePdf] ❌ Plan no existe con id:`, planId);
         throw new Error("Plan no encontrado");
       }
 
+      console.log(`[GeneratePdf] Plan encontrado:`, {
+        id: plan.id,
+        generation_status: plan.generation_status,
+        status: plan.status,
+        hasContent: !!plan.content,
+      });
+
       if (plan.generation_status !== "content_ready" && plan.generation_status !== "partial_error") {
+        console.error(`[GeneratePdf] ❌ Estado inválido: "${plan.generation_status}". Se esperaba content_ready o partial_error.`);
         throw new Error(`Estado inválido: ${plan.generation_status}. Debe ser 'content_ready' o 'partial_error'.`);
       }
 
@@ -615,13 +629,15 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
       };
 
     } catch (error: any) {
-      console.error("[AiPlanService] Error generando PDF:", error);
+      console.error("[GeneratePdf] ❌ Error generando PDF:", error?.message);
+      console.error("[GeneratePdf] Stack:", error?.stack);
 
       // Revertir a content_ready para permitir reintentos
       await supabase
         .from("sanitation_plans")
         .update({ generation_status: "content_ready" })
         .eq("id", planId);
+      console.log("[GeneratePdf] Estado revertido a content_ready para reintento.");
 
       return {
         success: false,
@@ -1311,11 +1327,14 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
   // ─── Generar PDF con Puppeteer ──────────────────────────────────────────────
   
   private static async generatePdfWithPuppeteer(html: string, plan: any, logoDataUrl?: string, qrCodeDataUrl?: string): Promise<Buffer> {
-    console.log("[AiPlanService] Iniciando Puppeteer para generación simple...");
-    
+    const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || "/usr/bin/chromium";
+    console.log("[Puppeteer] Iniciando lanzamiento del browser...");
+    console.log("[Puppeteer] executablePath:", executablePath);
+    console.log("[Puppeteer] NODE_ENV:", process.env.NODE_ENV);
+
     const browser = await puppeteer.launch({
       headless: true,
-      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || "/usr/bin/chromium",
+      executablePath,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -1326,6 +1345,7 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
         "--disable-extensions",
       ],
     });
+    console.log("[Puppeteer] ✅ Browser lanzado correctamente");
 
     try {
       const page = await browser.newPage();

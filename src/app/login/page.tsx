@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ShieldCheck, Mail, Lock, Loader2, AlertCircle, ArrowRight, Sparkles } from "lucide-react";
+import { ShieldCheck, Mail, Lock, Loader2, AlertCircle, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function LoginPage() {
@@ -148,22 +148,6 @@ export default function LoginPage() {
           </div>
         </div>
 
-        {/* Credentials Info (Only for development/testing) */}
-        <div className="mt-8 p-6 bg-primary/5 border border-primary/20 rounded-3xl">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-primary-dark mb-3 flex items-center gap-2">
-            <Sparkles className="w-3 h-3" /> Credenciales de Prueba (Admin)
-          </p>
-          <div className="grid grid-cols-2 gap-4 text-sm">
-            <div>
-              <span className="block text-[10px] text-text-muted uppercase tracking-tighter">Email</span>
-              <code className="text-primary-dark">admin@bpmsalud.com</code>
-            </div>
-            <div>
-              <span className="block text-[10px] text-text-muted uppercase tracking-tighter">Password</span>
-              <code className="text-primary-dark">admin123</code>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
