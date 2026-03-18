@@ -4,13 +4,13 @@ import { PaymentService } from "@/lib/services/payment.service";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const xWompiSignature = req.headers.get("x-wompi-signature");
     const eventsSecret = process.env.WOMPI_EVENTS_SECRET;
 
-    // 1. Validar firma si el secreto existe (Seguridad)
-    if (eventsSecret && xWompiSignature) {
-      const isValid = PaymentService.validateWebhookSignature(body, xWompiSignature, eventsSecret);
+    // 1. Validar firma — Wompi envía el checksum en el body (payload.signature.checksum)
+    if (eventsSecret) {
+      const isValid = PaymentService.validateWebhookSignature(body, eventsSecret);
       if (!isValid) {
+        console.error("[Webhook] Invalid signature from Wompi");
         return NextResponse.json({ error: "Invalid signature" }, { status: 401 });
       }
     }
