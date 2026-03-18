@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { OrderService } from "@/lib/services/order.service";
 
+const FINAL_STATUSES = ["APPROVED", "DECLINED", "ERROR", "VOIDED"];
+
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const id = searchParams.get("id"); // Wompi Transaction ID
@@ -16,28 +18,48 @@ export async function GET(req: Request) {
     const wompiKey = process.env.WOMPI_PUBLIC_KEY ?? process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY;
     const isProd = wompiKey?.startsWith("pub_prod_");
     const baseUrl = isProd ? "https://production.wompi.co/v1" : "https://sandbox.wompi.co/v1";
-    
-    const response = await fetch(`${baseUrl}/transactions/${id}`);
+
+    console.log("[API Verify] Using Wompi base URL:", baseUrl);
+
+    const response = await fetch(`${baseUrl}/transactions/${id}`, {
+      headers: { "Content-Type": "application/json" },
+    });
+
+    if (!response.ok) {
+      console.error("[API Verify] Wompi returned non-OK:", response.status);
+      // Devolver PENDING para que el cliente siga reintentando
+      return NextResponse.json({ status: "PENDING" });
+    }
+
     const result = await response.json();
-    
-    if (result.error) {
-       return NextResponse.json({ error: result.error.reason }, { status: 400 });
+
+    if (!result.data) {
+      console.error("[API Verify] No data in Wompi response:", result);
+      return NextResponse.json({ status: "PENDING" });
     }
 
     const transaction = result.data;
+    console.log("[API Verify] Transaction status from Wompi:", transaction.status);
 
-    // Optional: Synchronize status with backend if we reach a final state
-    // Webhooks might overlap, but this guarantees immediate resolution for the user.
-    if (["APPROVED", "DECLINED", "ERROR", "VOIDED"].includes(transaction.status)) {
-       await OrderService.updateOrderStatus(transaction.reference, transaction.status, transaction.id, planId || undefined);
+    // Actualizar DB si llegó a estado final — sin bloquear la respuesta al cliente
+    if (FINAL_STATUSES.includes(transaction.status)) {
+      OrderService.updateOrderStatus(
+        transaction.reference,
+        transaction.status,
+        transaction.id,
+        planId || undefined
+      ).catch((err) =>
+        console.error("[API Verify] DB update failed (webhook will retry):", err)
+      );
     }
 
-    return NextResponse.json({ 
-       status: transaction.status, 
-       reference: transaction.reference 
+    return NextResponse.json({
+      status: transaction.status,
+      reference: transaction.reference,
     });
   } catch (error: any) {
-    console.error("Verification Error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error("[API Verify] Unexpected error:", error);
+    // Devolver PENDING en lugar de 500 para que el cliente siga reintentando
+    return NextResponse.json({ status: "PENDING" });
   }
 }

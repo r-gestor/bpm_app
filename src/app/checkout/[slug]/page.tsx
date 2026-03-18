@@ -135,8 +135,10 @@ export default function CheckoutPage() {
         const interval = 3000;
 
         const checkStatus = async () => {
+          attempts++;
+          console.log(`[Polling] Checking status for ${transactionId}, attempt ${attempts}`);
+
           try {
-            console.log(`[Polling] Checking status for ${transactionId}, attempt ${attempts + 1}`);
             const res = await fetch(`/api/checkout/verify?id=${transactionId}&planId=${planId || ""}`);
             const result = await res.json();
 
@@ -149,20 +151,18 @@ export default function CheckoutPage() {
               setError(`El pago fue ${result.status === "DECLINED" ? "rechazado" : "fallido"}. Por favor verifica los datos e intenta de nuevo.`);
               return;
             }
-
-            attempts++;
-            if (attempts >= maxAttempts) {
-              setPollingPayment(false);
-              setError("El tiempo de espera se ha agotado (3 min). Tu pago podría estar pendiente; por favor revisa tu correo o el dashboard en unos minutos.");
-              return;
-            }
-
-            setTimeout(checkStatus, interval); 
           } catch (err) {
-            console.error("Polling error:", err);
-            setPollingPayment(false);
-            setError("Error al verificar el estado del pago. Intenta más tarde.");
+            // Error de red — seguir reintentando, no parar el polling
+            console.error(`[Polling] Network error on attempt ${attempts}, retrying...`, err);
           }
+
+          if (attempts >= maxAttempts) {
+            setPollingPayment(false);
+            setError("El tiempo de espera se ha agotado (3 min). Tu pago podría estar pendiente; por favor revisa tu correo o el dashboard en unos minutos.");
+            return;
+          }
+
+          setTimeout(checkStatus, interval);
         };
 
         checkStatus();
