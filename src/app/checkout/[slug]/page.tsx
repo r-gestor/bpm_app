@@ -169,11 +169,17 @@ export default function CheckoutPage() {
       };
 
       // Abrir widget de WOMPI
+      // NOTA: publicKey se lee del bundle del cliente (NEXT_PUBLIC_*) porque el servidor
+      // devuelve "placeholder" al estar inlineado en build time.
+      const wompiPublicKey = process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY;
+      console.log("[Wompi Widget] Inicializando con publicKey:", wompiPublicKey?.substring(0, 15) + "...");
+      console.log("[Wompi Widget] Orden:", { orderId: data.orderId, amountInCents: data.amountInCents });
+
       const checkout = new (window as any).WidgetCheckout({
         currency: "COP",
         amountInCents: data.amountInCents,
         reference: data.orderId,
-        publicKey: data.publicKey,
+        publicKey: wompiPublicKey,
         signature: { integrity: data.signature },
         customerEmail: session.user.email,
       });
@@ -182,33 +188,40 @@ export default function CheckoutPage() {
 
       checkout.open(async (result: any) => {
         const transaction = result.transaction;
-        console.log("[Wompi Widget] Transaction callback received:", transaction);
+        console.log("[Wompi Callback] Estado recibido:", transaction?.status);
+        console.log("[Wompi Callback] transaction.id:", transaction?.id);
+        console.log("[Wompi Callback] transaction.reference:", transaction?.reference);
 
         if (transaction.status === "APPROVED") {
           if (isSanitationPlan) {
-            // Fire-and-forget: register payment without blocking the user
+            console.log("[Wompi Callback] Plan de saneamiento APPROVED — verificando en background");
             fetch(`/api/checkout/verify?id=${transaction.id}&planId=${planId || ""}`).catch(() => {});
             router.push(`/checkout/success?ref=${transaction.reference}&type=sanitation`);
           } else {
+            console.log("[Wompi Callback] Curso APPROVED — llamando verify para actualizar DB");
             setPollingPayment(true);
             try {
-              await fetch(`/api/checkout/verify?id=${transaction.id}&planId=${planId || ""}`);
+              const verifyRes = await fetch(`/api/checkout/verify?id=${transaction.id}&planId=${planId || ""}`);
+              const verifyData = await verifyRes.json();
+              console.log("[Wompi Callback] Respuesta verify:", verifyData);
               router.push(`/checkout/success?ref=${transaction.reference}`);
             } catch (err) {
-              console.error("Error verifying final status:", err);
+              console.error("[Wompi Callback] Error en verify — redirigiendo igual:", err);
               router.push(`/checkout/success?ref=${transaction.reference}`);
             } finally {
               setPollingPayment(false);
             }
           }
         } else if (transaction.status === "PENDING") {
+          console.log("[Wompi Callback] PENDING — iniciando polling de 3 minutos");
           setPollingPayment(true);
           pollTransactionStatus(transaction.id, transaction.reference);
         } else {
+          console.warn("[Wompi Callback] Estado no manejado:", transaction.status);
           try {
             await fetch(`/api/checkout/verify?id=${transaction.id}&planId=${planId || ""}`);
           } catch (err) {
-            console.error("Error updating failed status:", err);
+            console.error("[Wompi Callback] Error actualizando estado fallido:", err);
           }
           setError("El pago no pudo ser completado. Estado: " + transaction.status);
         }
