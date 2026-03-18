@@ -25,7 +25,7 @@ export async function POST(req: Request) {
     return NextResponse.json({
       orderId: order.id,
       amountInCents,
-      publicKey: process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY,
+      publicKey: process.env.WOMPI_PUBLIC_KEY ?? process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY,
       signature: integritySignature,
     });
   } catch (error: any) {
