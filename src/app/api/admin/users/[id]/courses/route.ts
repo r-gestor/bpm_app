@@ -5,15 +5,16 @@ import { AdminService } from "@/lib/services/admin.service";
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const session = await getServerSession(authOptions);
   if (!session || session.user.role !== "ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 403 });
   }
 
   try {
-    const courses = await AdminService.getUserCourseStatus(params.id);
+    const courses = await AdminService.getUserCourseStatus(id);
     return NextResponse.json(courses);
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
@@ -22,8 +23,9 @@ export async function GET(
 
 export async function POST(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const session = await getServerSession(authOptions);
   if (!session || session.user.role !== "ADMIN") {
     return NextResponse.json({ error: "No autorizado" }, { status: 403 });
@@ -35,7 +37,7 @@ export async function POST(
   }
 
   try {
-    const cert = await AdminService.approveCourseForUser(params.id, courseId);
+    const cert = await AdminService.approveCourseForUser(id, courseId);
     return NextResponse.json(cert);
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
