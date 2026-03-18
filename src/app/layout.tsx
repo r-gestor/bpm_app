@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BPM Salud",
+  title: "Manipulador Capacitado",
   description: "Capacitación en manipulación de alimentos y planes de saneamiento",
 };
 
