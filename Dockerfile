@@ -79,6 +79,10 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 # Copiar Chrome for Testing descargado en la etapa deps
 COPY --from=deps --chown=nextjs:nodejs /app/.puppeteer-cache /app/.puppeteer-cache
 
+# Reemplazar chrome_crashpad_handler con un no-op para evitar el error FATAL
+# Chrome requiere que el binario exista, pero no necesitamos crash reporting
+RUN find /app/.puppeteer-cache -name "chrome_crashpad_handler" -exec sh -c 'echo "#!/bin/sh\nexit 0" > "$1" && chmod +x "$1"' _ {} \;
+
 USER nextjs
 EXPOSE 3000
 ENV PORT=3000
