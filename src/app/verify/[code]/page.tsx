@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import React from "react";
 import { verifyDocument } from "@/lib/services/verification.service";
 import { XCircle, ShieldCheck, Calendar, Hash, User, GraduationCap, ArrowLeft } from "lucide-react";

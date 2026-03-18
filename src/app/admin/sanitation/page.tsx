@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import React from "react";
 import { AdminService } from "@/lib/services/admin.service";
 import { 
