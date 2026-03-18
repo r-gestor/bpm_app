@@ -72,7 +72,7 @@ export default function PlanViewer({ plan }: PlanViewerProps) {
  <div className="relative z-10">
  <header className="mb-12">
  <div className="flex items-center gap-4 text-blue-600 mb-4">
- {React.cloneElement(currentSection?.icon as React.ReactElement, { size: 32 })}
+ {React.cloneElement(currentSection?.icon as React.ReactElement<{ size?: number }>, { size: 32 })}
  <div className="h-1 flex-1 bg-slate-50 rounded-full">
  <div className="h-full bg-blue-600 w-24"></div>
  </div>
