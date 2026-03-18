@@ -1331,9 +1331,26 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
     console.log("[Puppeteer] PUPPETEER_CACHE_DIR:", process.env.PUPPETEER_CACHE_DIR ?? "(no definido)");
     console.log("[Puppeteer] NODE_ENV:", process.env.NODE_ENV);
 
+    // Desactivar crashpad renombrando el handler si existe
+    const cachePath = process.env.PUPPETEER_CACHE_DIR || "/app/.puppeteer-cache";
+    try {
+      const fs = await import("fs");
+      const glob = await import("path");
+      const chromeDir = fs.readdirSync(`${cachePath}/chrome`)[0];
+      if (chromeDir) {
+        const handlerPath = `${cachePath}/chrome/${chromeDir}/chrome-linux64/chrome_crashpad_handler`;
+        const disabledPath = `${handlerPath}.disabled`;
+        if (fs.existsSync(handlerPath) && !fs.existsSync(disabledPath)) {
+          fs.renameSync(handlerPath, disabledPath);
+          console.log("[Puppeteer] chrome_crashpad_handler renombrado a .disabled");
+        }
+      }
+    } catch (e) {
+      console.warn("[Puppeteer] No se pudo desactivar crashpad handler:", e);
+    }
+
     const browser = await puppeteer.launch({
       headless: true,
-      pipe: true,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -1346,10 +1363,6 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
         "--no-first-run",
         "--disable-software-rasterizer",
       ],
-      env: {
-        ...process.env,
-        CHROME_CRASHPAD_HANDLER_PID: "0",
-      },
     });
     console.log("[Puppeteer] ✅ Browser lanzado correctamente");
 
