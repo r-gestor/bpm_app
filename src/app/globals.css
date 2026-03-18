@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #00AACC;
+  --color-primary-dark: #0088AA;
+  --color-primary-light: #E0F7FC;
+  --color-accent: #0369A1;
+  --color-accent-light: #0EA5E9;
+  --color-bg: #F8FBFC;
+  --color-bg-section: #EEF8FB;
+  --color-text: #1A1A2E;
+  --color-text-muted: #5A6A72;
+  --color-success: #2ECC71;
+  --color-white: #FFFFFF;
+}
+
+@theme inline {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-light: var(--color-primary-light);
+  --color-accent: var(--color-accent);
+  --color-accent-light: var(--color-accent-light);
+  --color-bg: var(--color-bg);
+  --color-bg-section: var(--color-bg-section);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-success: var(--color-success);
+  --color-white: var(--color-white);
+  
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Additional values used by Tailwind like shadows */
+  --shadow-brand: 0 4px 20px rgba(0, 170, 204, 0.12);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}

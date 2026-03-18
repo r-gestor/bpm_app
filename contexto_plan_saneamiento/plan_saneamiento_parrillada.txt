@@ -1,0 +1,369 @@
+INTRODUCCIÓN
+En el competitivo sector de la gastronomía, la excelencia de un establecimiento no se mide únicamente por el sabor de sus platos, sino por la seguridad y confianza que deposita en cada uno de sus clientes. Para King Parrilla, la inocuidad alimentaria es el pilar fundamental sobre el cual construimos nuestra reputación. Entendemos que la preparación de parrilladas, hamburguesas, acompañamientos y bebidas, implica retos sanitarios específicos, especialmente en el manejo de proteínas animales y grasas, que exigen los más altos estándares de higiene y conservación. 
+Bajo esta premisa, presentamos el presente Plan de Saneamiento Básico, un documento técnico y operativo diseñado no solo para cumplir con la exigencia legal, sino para servir como hoja de ruta diaria en nuestra operación. Este plan es la manifestación del compromiso inquebrantable de King Parrilla con la protección de la salud pública y el cumplimiento estricto del marco normativo colombiano, en especial de la Resolución 2674 de 2013 (la cual rige las condiciones sanitarias para la preparación y comercialización de alimentos en el territorio nacional).
+Para garantizar una operación segura y libre de riesgos contaminantes, este manual integra de manera detallada los cuatro programas fundamentales exigidos por la normativa:
+Programa de Limpieza y Desinfección: Donde definimos protocolos científicos y técnicos para combatir la acumulación de grasa y carga microbiológica en nuestras parrillas, equipos y áreas de servicio.
+Programa de Control Integrado de Plagas: Enfocado en la prevención y hermeticidad, asegurando un ambiente libre de agentes biológicos externos mediante la colaboración con expertos certificados.
+Programa de Gestión de Residuos Sólidos: Que establece una ruta sanitaria responsable para el manejo de desechos y la disposición legal de Aceites Vegetales Usados (AVU), mitigando nuestro impacto ambiental.
+Programa de Abastecimiento de Agua Potable: Garantizando que el recurso hídrico, insumo vital en nuestra cocina, mantenga siempre las condiciones organolépticas y fisicoquímicas óptimas.
+En King Parrilla, la calidad se cocina desde la limpieza. Este plan involucra a todos los niveles de la organización, desde la gerencia hasta el personal de cocina y servicio, asegurando que cada hamburguesa y cada corte de carne que sale de nuestros fogones sea sinónimo de seguridad, frescura y cumplimiento legal.
+Responsables
+Cargo
+Responsabilidad General
+Funciones Específicas en el Plan
+Representante Legal
+Garantía y Gestión de Recursos
+• Proveer los recursos económicos para compra de químicos, dotación y EPP.
+• Contratar formalmente a terceros (Control de Plagas, Lavado de Tanques, Gestor de Aceite).
+• Asegurar que el establecimiento cuente con los permisos sanitarios vigentes.
+Administrador / Jefe de Punto
+Supervisión y Verificación
+• Supervisar que los formatos de los 4 programas se diligencien diariamente.
+• Realizar las pruebas de cloro residual y pH cada mañana.
+• Gestionar el inventario de insumos de limpieza para evitar desabastecimiento.
+• Verificar la vigencia de los certificados médicos y carnés de manipulación del personal.
+Cocineros (Parrilleros y Auxiliares)
+Ejecución Técnica en Producción
+• Realizar la limpieza y desinfección profunda de parrillas, planchas, freidoras y campanas.
+• Aplicar las diluciones correctas (ppm) para desinfectar utensilios y superficies de contacto.
+• Clasificar correctamente los residuos orgánicos (bolsa verde) y aceite usado (AVU).
+• Mantener la higiene personal y reportar síntomas de enfermedad.
+Meseros / Personal de Salón
+Higiene en Punto de Servicio
+• Limpiar y desinfectar mesas, sillas y estaciones de salsas entre cada servicio.
+• Asegurar que las vajillas y cubiertos limpios se mantengan protegidos de contaminación.
+• Reportar de inmediato avistamientos de plagas en el salón de clientes.
+• Gestionar los residuos sólidos generados por los clientes (bolsa negra/blanca).
+Personal de Oficios Varios
+Saneamiento de Áreas Comunes
+• Ejecutar la limpieza y desinfección de pisos, paredes, techos y baños según cronograma.
+• Realizar la evacuación de residuos sólidos por la ruta sanitaria establecida.
+• Lavar y desinfectar las canecas de basura después de cada recolección.
+• Mantener el orden y aseo en el cuarto de almacenamiento de residuos.
+
+
+
+PROGRAMA DE LIMPIEZA Y DESINFECCIÓN 
+Objetivo General
+Establecer, estandarizar y ejecutar los procedimientos de limpieza y desinfección en todas las áreas, superficies, equipos y utensilios del establecimiento, con el fin de eliminar la suciedad visible y reducir la carga microbiológica a niveles seguros, garantizando la inocuidad de los alimentos (asados, hamburguesas, ensaladas, papas fritas, papas cocinadas y similares) disminuyendo el riesgo de aparición de Enfermedades Transmitidas por Alimentos (ETA) en los consumidores. 
+Objetivos Específicos
+Para lograr el objetivo general, los responsables del proceso deben enfocarse en estos cuatro puntos clave:
+Eliminar riesgos biológicos y físicos: Suprimir los residuos orgánicos (especialmente grasa animal y restos de proteína) y químicos que puedan contaminar las materias primas durante el proceso de asado y ensamble.
+Estandarizar el uso de químicos: Definir las concentraciones exactas en ppm y los tiempos de contacto de los detergentes desengrasantes y desinfectantes para asegurar su efectividad sin generar toxicidad residual en las superficies.
+Prevenir la contaminación cruzada: Implementar protocolos estrictos para que los microorganismos no se trasladen de las áreas de recepción de carne cruda a las áreas de despacho de alimentos listos para el consumo.
+Mantenimiento de la infraestructura: Alargar la vida útil de los equipos (parrillas, planchas, freidoras) mediante la eliminación de agentes corrosivos y la acumulación de hollín y grasa carbonizada.
+Cumplimiento normativo: Asegurar que todos los procesos de higiene estén debidamente documentados y registrados para dar cumplimiento a los requisitos legales exigidos por las autoridades sanitarias locales.
+Alcance 
+Este programa de limpieza y desinfección aplica a todas las etapas del proceso productivo, desde la recepción de materias primas hasta la disposición final de los residuos, siendo de cumplimiento obligatorio en las áreas de recepción, almacenamiento, preparación, producción, servicio y áreas comunes, incluyendo baños y zonas de residuos.
+El alcance comprende todas las áreas, equipos, maquinaria, utensilios y mobiliario que tienen contacto directo o indirecto con los alimentos, tales como equipos de calor y frío, sistemas de extracción, superficies de trabajo, utensilios de preparación y elementos del área de servicio al cliente.
+Asimismo, incluye al personal manipulador de alimentos, contemplando la higiene personal, el uso y mantenimiento de la dotación y elementos de protección, y se aplica en tres momentos operativos: antes, durante y después del servicio, garantizando condiciones higiénico-sanitarias continuas.
+Marco normativo
+Resolución 2674 de 2013: Es la norma que le da vida al plan de saneamiento y a los programas que lo componen en especial los artículos 26 y 27. 
+Ley 09 de 1979 (Título V): Es la norma madre de la salud pública. Dicta las condiciones higiénicas para los establecimientos y el control de los agentes químicos usados en el aseo.
+Decreto 1575 de 2007: Define que el agua utilizada para los procesos de limpieza y desinfección debe ser agua potable, garantizando que no contaminemos las superficies.
+Resolución 2115 de 2007: Establece los límites de cloro residual en el agua (0.3 a 2.0 mg/L) que deben verificarse antes de empezar cualquier jornada de limpieza.
+Decreto 1496 de 2018 (Sistema Globalmente Armonizado): Obliga a que todos los productos químicos (cloro, desengrasantes, ácidos) estén rotulados con pictogramas internacionales y que el establecimiento cuente con las Fichas de Datos de Seguridad (FDS) actualizadas en el punto de uso.
+Decreto 1072 de 2015: Establece que el personal debe usar Elementos de Protección Personal (EPP) específicos para la manipulación de los químicos del programa de limpieza y desinfección (guantes de nitrilo, monogafas, delantales impermeables).
+Definiciones
+Biofilm (Biopelícula): Capa microscópica de bacterias y grasa que se adhiere a las superficies si la limpieza no es profunda. Es muy común en las ranuras de las parrillas mal lavadas.
+Contaminación Cruzada: Es el proceso por el cual los microorganismos son trasladados de una zona sucia a una limpia. Ejemplo: Usar el mismo cuchillo con el que cortaste la carne cruda de la parrillada para picar la lechuga de la hamburguesa.
+Desinfección: Es la reducción, mediante agentes químicos o métodos físicos adecuados, del número de microorganismos en el ambiente, superficies y utensilios, a un nivel que no comprometa la inocuidad.
+Desinfectante: Agente químico que mata microorganismos pero no necesariamente esporas. El más común es el Hipoclorito de Sodio, pero en parrilladas se recomienda también el Amonio Cuaternario por ser menos corrosivo con el acero inoxidable de las parrillas.
+Detergente: Sustancia química que facilita la eliminación de la suciedad al disminuir la tensión superficial del agua. Para hamburgueserías, se exigen detergentes alcalinos por su capacidad para disolver la grasa pesada.
+Enjuague: Eliminación de detergentes, agentes químicos y suciedad de las superficies mediante el uso de agua potable.
+Limpieza: Es el proceso de eliminación de residuos de alimentos, grasa, tierra, polvo u otras materias objetables. En una parrillada, la limpieza es la remoción física de la costra de carbón y la grasa animal.
+PPM (Partes por Millón): Unidad de medida de concentración que indica la cantidad de miligramos de principio activo presentes en un litro de solución ($1 mg/L = 1 ppm$). Es la medida estándar para preparar tus diluciones.
+Principio Activo: Es el componente del producto químico que realiza la acción de limpieza o desinfección (ej: el cloro residual en el hipoclorito).
+Sanitización: Proceso conjunto de limpieza y desinfección para alcanzar condiciones de higiene óptimas.
+Solución: Mezcla homogénea de un producto químico (soluto) en agua (solvente).
+Superficies de Contacto: Todo aquello que toca el alimento directamente (tablas de picar, parrilla, platos, manos del parrillero).
+Utensilios a utilizar
+
+Aspersores: Para aplicar desinfectante con precisión.
+Cepillos de cerdas duras: Para realizar estregado de suciedad difícil siguiendo el código de colores Verde: cocina; Rojo: baños; Amarillo: pisos.
+Escobas: Para realizar la remoción de residuos de gran tamaño en pisos
+Esponjas para fregar: Para realizar la aplicación del agente detergente y/o desengrasante en superficies aplicando el código de colores. Verde: utensilios de cocina; Rojo: baños; Amarillo: pisos y paredes.
+Paños de microfibra o desechables: Para realizar secado después de la limpieza.
+Rasquetas de acero inoxidable: Para remover costras en la plancha/parrilla.
+Traperos: Para realizar el secado de pisos siguiendo el código de colores Verde: pisos de cocina; Rojo: pisos de baños; Amarillo: pisos de áreas de clientes.
+Anotación: Evitar esponjas de alambre que suelten residuos para las superficies de contacto con el alimento.
+
+Productos químicos a utilizar
+Utilizaremos como base hipoclorito de sodio al 5.25%, desengrasantes alcalinos y detergente neutro. 
+El desengrasante alcalino y el detergente neutro será utilizado como lo entregue el fabricante en parrilla, pisos, paredes, techos, campana y demás lugares que acumulen grasa. 
+Fórmula de dilución del hipoclorito de sodio:
+Superficie
+Concentración (ppm)
+Dilución sugerida por 1 Litro de agua potable
+Tiempo de contacto
+Mesas, platos y cubiertos
+100 ppm
+2 ml de cloro
+5 - 10 min
+Equipos (Parrilla, Licuadora, utensilios de cocina)
+200 ppm
+4 ml de cloro
+10 min
+Pisos, paredes y techos
+500 ppm
+10 ml de cloro
+15 min
+Baños y zonas de basura
+1000 ppm
+20 ml de cloro
+20 min
+
+
+Procedimientos
+Tenga en cuenta que deberá usar en todos los procedimientos de limpieza y desinfección los elementos de protección personal (guantes de nitrilo, monogafas de protección transparente, tapabocas y delantal) Debe realizar estas actividades con calzado cerrado de preferencia de material impermeable, siempre garantice su seguridad antes de realizar cualquier tarea que ponga en riesgo su integridad. 
+
+Parrilla y plancha (Diario / cierre)
+
+Utensilios: Rasqueta de acero, cepillo de cerdas metálicas, esponja abrasiva verde.
+Químico: Desengrasante alcalino pesado.
+Procedimiento:
+Desengrasado: En caliente, no hirviendo, raspar costras de carne y grasa haciendo uso de Rasquetas de acero inoxidable.
+Aplicación: Aplicar desengrasante puro y dejar actuar 10-15 min.
+Fregado: Frotar con cepillo metálico hasta ver el metal.
+Enjuague: Abundante agua caliente.
+Curado: Aplicar una capa fina de aceite vegetal para evitar la oxidación.
+Limpieza de la campana (parte baja y filtros)
+Este proceso debe realizarse diariamente en la parte externa y profundamente cada semana a los filtros y al interior. 
+Utensilios: Rasquetas de plástico o acero, esponjas abrasivas (fibra negra), y atomizadores para desengrasante. 
+Químicos: Desengrasante alcalino para grasas carbonizadas.
+Procedimiento:
+Aseguramiento: Apagar motores de extracción y esperar a que la parrilla/estufa esté fría. Cubrir los equipos de cocción con plásticos o mantas para evitar que caiga suciedad o químicos sobre las superficies de contacto.
+Desmontaje de filtros: Retirar los filtros de la campana y sumergir los filtros en una tina con agua muy caliente y desengrasante (relación 1:5) durante mínimo 30 minutos.
+Remoción mecánica: Mientras los filtros se ablandan, usa la rasqueta para quitar la grasa espesa de las paredes internas de la campana y del canal recolector.
+Aplicación de químico: Atomizar el desengrasante puro sobre las paredes internas. Dejar actuar por 10-15 minutos (no dejar secar).
+Fregado: Frotar con fibra negra. Verás cómo la grasa se emulsiona (se vuelve líquida y oscura).
+Aclarado: Limpiar con paños húmedos con agua caliente hasta retirar todo el rastro de químico.
+Desinfección: Aspersión con alcohol al 70% o Amonio Cuaternario de 5ta generación sobre el acero inoxidable.
+Reinstalación: Lavar los filtros de la tina con cepillo de cerdas duras, enjuagar y colocar de nuevo cuando estén secos.
+
+Neveras, refrigeradores y despensas (semanal)
+
+Utensilios: Paños de microfibra, cepillo de cerdas suaves.
+Químico: Detergente neutro y Cloro (500 ppm).
+Procedimiento:
+Desalojo: Trasladar alimentos a otra unidad (no romper cadena de frío).
+Lavado: Fregar paredes internas, rejillas y empaques de caucho (donde crece hongo).
+Enjuague y desinfección: Pasar paño con solución de cloro a 500 ppm.
+Secado: Dejar puertas abiertas 15 min antes de volver a llenar. En despensas, asegurar que no haya humedad.
+Utensilios y vajilla (Cuchillos, pinzas, cucharas, tenedores, platos, ollas)
+
+Utensilios: Esponja de fibra verde, cepillo para detalles.
+Químicos: Hipoclorito de sodio a 100 ppm, detergente neutro.
+Procedimiento:
+Retiro de residuos sólidos: Retirar restos de comida a la basura orgánica.
+Prelavado: Enjuague rápido con agua.
+Enjabonado: Sumergir en solución de detergente neutro y fregar (especialmente mangos de cuchillos y pinzas).
+Enjuague: Retirar jabón neutro totalmente.
+Desinfección: Sumergir en solución de 100 ppm por 5 a 10 minutos.
+Secado: Al aire en rejillas plásticas. Prohibido secar con trapos de tela.
+
+Baños (Mínimo 2 veces por día)
+
+Utensilios: Cepillo de cerdas duras (rojo), esponja para fregar (roja), trapero (rojo), paño de microfibra (rojo), cepillo para inodoro, escoba, recogedor, balde.
+Químicos: Detergente, Hipoclorito de sodio en 1000 ppm. 
+Procedimiento:
+Retirar residuos sólidos con escoba y recogedor.
+Retirar implementos del baño que se pueda averiar al entrar en contacto con el agua (papel higiénico, toallas desechables)
+Arrojar abundante agua potable con detergente neutro en paredes, lavamanos, inodoro y pisos. 
+Fregar con esponja abrasiva roja hasta quitar la suciedad visible del lavamanos.
+Fregar paredes con cepillo de cerdas duras las paredes hasta quitar la suciedad visible
+Fregar el inodoro con cepillo de inodoro hasta quitar la suciedad visible.
+Retirar el detergente con abundante agua potable de las superficies. 
+Secar las superficies con paño de microfibra rojo, en el siguiente orden, espejo, lavamanos, paredes. El inodoro se deberá secar con paños desechables de papel. 
+Aplicar por aspersión solución de cloro a 1000 ppm en lavamanos, paredes, pisos e inodoro.
+Retirar el cloro con toalla desechable. 
+Pisos, paredes y techos (cocina y área de servido)
+
+	Utensilios: Trapero, escoba, balde, mopa, cepillo de cerda dura (amarillo) y paño
+	Químicos: Desengrasante e Hipoclorito de sodio a 500 ppm.
+
+Procedimiento:
+
+Orden lógico: Siempre de arriba hacia abajo (Techos - Paredes - Pisos).
+Techos: Limpiar telarañas y hollín con mopa seca, luego paño húmedo con desinfectante (Mensual).
+Paredes: En cocina, fregar con desengrasante hasta la altura de 2 metros para eliminar salpicaduras de grasa (Diario).
+Pisos: Barrido húmedo, aplicar detergente, fregar con cepillo amarillo y finalizar con trapero y cloro a 500 ppm.
+Área de clientes y mesas de servido (Cada cambio de cliente)
+
+Utensilios: Paños desechables o de microfibra color amarillo
+		Químicos: Hipoclorito de sodio 100 ppm.
+Procedimiento:
+Retirar residuos sólidos.
+Pasar paños húmedos sobre las superficies. 
+Limpiar uniformemente. Ojo: Limpiar también las patas de las mesas y las sillas.
+Aplicar desinfectante (100 ppm) mediante aspersión.
+Retirar desinfectante pasados 10 minutos con toalla de papel desechable. 
+
+Seguimiento y verificación
+
+Dentro de los registros de seguimiento se deberá tener:
+	
+Formatos PS-LYD-001 diligenciados conforme lo estipulado en el programa. Después de la implementación deben reposar registros de el último año (como mínimo)
+	
+Fichas técnicas y de seguridad de los productos químicos utilizados (Hipoclorito de sodio, desengrasante alcalino)
+
+
+
+PROGRAMA DE CONTROL INTEGRAL DE PLAGAS
+Objetivo General
+Garantizar un ambiente libre de plagas (insectos, roedores y otras especies) mediante la implementación de medidas preventivas, barreras físicas y controles químicos, con el fin de proteger la inocuidad de las materias primas y la salud de los consumidores.
+Objetivos Específicos
+Mantener el establecimiento en condiciones de hermeticidad para impedir el ingreso de plagas.
+Asegurar la ejecución de la jornada de control químico trimestral por parte de una empresa certificada.
+Eliminar sitios de refugio y fuentes de alimento mediante una limpieza profunda y orden en áreas de almacenamiento.
+Capacitar al personal en el reporte temprano de avistamientos.
+Alcance
+Este programa aplica a todas las áreas del establecimiento sin excepción, área de preparación de alimentos, de servido a mesa, congeladores, refrigeradores, línea de parrilla, barra de ensamble, baños, área de recolección de residuos sólidos y perímetros externos del local.
+Marco normativo
+Resolución 2674 de 2013, Capitulo II, Exige medidas de hermeticidad (rejillas, mallas, sellado) para impedir el ingreso de plagas; Artículo 26, 27. Define que el programa debe ser preventivo y cubrir todas las áreas. Especifica que el control químico (fumigación) debe ser realizado por empresas autorizadas y que los productos deben tener registro sanitario.
+Decreto 1843 de 1991: Es la norma nacional que regula el uso y manejo de plaguicidas. Establece que sólo personal capacitado y empresas con Concepto Sanitario Favorito emitido por la Secretaría de Salud pueden realizar estas actividades.
+Ley 09 de 1979 (Código Sanitario Nacional): En sus artículos 155 a 157, dicta la obligación de mantener los establecimientos libres de artrópodos y roedores para evitar la transmisión de enfermedades.
+Decreto 1496 de 2018: Adopta el Sistema Globalmente Armonizado (SGA). Exige que todas las fichas técnicas y hojas de seguridad de los venenos o cebos que la empresa externa deje en tu local estén etiquetadas bajo este estándar internacional.
+Resolución 1506 de 2011: Relacionada con el manejo de residuos peligrosos (en caso de que la empresa deje envases de químicos o trampas usadas en tu establecimiento).
+Decreto 1072 de 2015: Obliga al empleador a informar al personal sobre los riesgos químicos a los que se exponen durante y después de la fumigación trimestral, y a garantizar que el área esté ventilada y limpia antes del reingreso.
+
+Definiciones
+Plaga: Animales que pueden contaminar los alimentos de forma directa o indirecta (cucarachas, moscas, ratas, hormigas).
+Control Integrado de Plagas (CIP): Sistema que combina métodos preventivos (barreras) y correctivos (químicos).
+Hermeticidad: Grado de cerramiento del local para evitar entradas (uso de guardapolvos, mallas, sellado de grietas).
+Cebo: Sustancia atrayente con veneno colocada en puntos estratégicos.
+Infestación: Presencia y multiplicación de plagas en el establecimiento.
+Procedimientos 
+Medidas preventivas (Diario)
+Inspección de pedidos: Al recibir el pan o los vegetales, el encargado debe revisar que las cajas no traigan cucarachas o huevos.
+Manejo de basuras: Las canecas deben permanecer tapadas y evacuarse al final de cada turno. Nunca dejar basura dentro del local durante la noche.
+Limpieza de sifones: Aplicar agua caliente y desengrasante en los sifones de la zona de parrilla para evitar la cría de la mosca de la fruta.
+Orden de bodega: Aplicar la norma de separación de pared (30 cm) y separación de piso (15 cm) en estanterías para facilitar la inspección.
+Aplicación de insecticida en gel para cucarachas: En zonas de motores de neveras, grietas cercanas a zonas donde pueda existir humedad.
+Lámparas de luz UV (Atrapa-insectos): En un área alejada del área de preparación y ensamble de los alimentos.
+Gestión del Tercero (Trimestral)
+Verificación de Idoneidad: Antes de contratar, exigir el Concepto Sanitario Vigente de la empresa de fumigación de la entidad territorial en donde se opera.
+Preparación del Local: Antes de la fumigación, cubrir todos los utensilios, superficies de contacto (mesones, parrilla) y alimentos con plástico. Garantizar una limpieza profunda antes de la fumigación. 
+Supervisión: Acompañar al técnico para identificar "puntos calientes" (ej. detrás de la nevera de carnes).
+Seguimiento y Verificación
+Dentro de los registros de seguimiento se deberá tener: 
+Certificado de Servicio: Entregado por la empresa de fumigación (debe decir fecha, productos usados, dosis, nombre del técnico aplicador y número de carnet del mismo).
+Fichas Técnicas: Copia de las fichas de los químicos aplicados (LD50, antídotos).
+Mapa de Cebado: Croquis del local con la ubicación de las estaciones de control.
+
+PROGRAMA DE MANEJO DE RESIDUOS SÓLIDOS
+
+Objetivo General
+Establecer un sistema integral para el manejo de los residuos sólidos y líquidos (aceites) generados en el establecimiento, garantizando su correcta separación, almacenamiento y disposición final para evitar la contaminación cruzada, la proliferación de plagas y el impacto ambiental negativo.
+
+Objetivos Específicos
+
+Implementar el código de colores nacional para la separación en la fuente.
+Garantizar la recolección y disposición legal del 100% del Aceite Vegetal Usado (AVU).
+Mantener las áreas de preparación libres de acumulación de desechos durante la operación.
+Cumplir con la ruta sanitaria interna para evitar que los residuos entren en contacto con alimentos frescos.
+
+Marco Normativo Aplicable
+
+Resolución 2674 de 2013, articulo 27, númeral 3: Obliga a contar con un programa de residuos sólidos con procedimientos, frecuencias y responsables.
+Resolución 2184 de 2019: Establece el código de colores para la separación (Blanco, Verde, Negro).
+Resolución 0316 de 2018: Regula la gestión de los Aceites Vegetales Usados (AVU).
+Ley 09 de 1979: Marco general de medidas sanitarias para el manejo de basuras.
+
+Definiciones
+
+Residuo sólido: Cualquier objeto o sustancia del cual su poseedor se desprenda.
+Residuos orgánicos aprovechables: Restos de alimentos, restos de poda (ej: cáscaras de papa, restos de lechuga).
+Residuo no aprovechable: Papel higiénico, servilletas sucias con grasa, papeles metalizados.
+Lixiviado: Líquido que percola de los residuos sólidos y que tiene alta carga contaminante.
+Ruta sanitaria: Trayecto definido para evacuar los residuos desde la cocina hasta el depósito final.
+
+Procedimientos
+
+Separación en la fuente (Código de Colores)
+
+El personal debe depositar los residuos según el color de la bolsa/caneca:
+Caneca blanca (Aprovechables): Plástico limpio, vidrio, papel y cartón seco, metal (latas de gaseosa).
+Bolsa verde (Orgánicos): Restos de comida, cáscaras, restos de carne.
+Bolsa negra (No aprovechables): Servilletas usadas, papel carbón, empaques de salsas sucios.
+Manejo del aceite vegetal usado (AVU)
+
+Detección: Guías visuales para detectar un aceite vegetal que requiere cambio: 
+Color muy oscuro, presencia de espuma persistente, residuos sólidos en suspensión (partículas negras flotando o sedimentadas incluso después de filtrar), apariencia turbia, exceso de humo a temperatura normal, viscosidad anormal. 
+Tip: Si el aceite se ve oscuro, espumoso y turbio al mismo tiempo, no se discute, se cambia.
+Enfriamiento: Esperar a que el aceite de las freidoras baje de 40°C
+Filtrado: Pasar el aceite por un tamiz para quitar restos de comida.
+Envasado: Verter en bidones plásticos exclusivos y etiquetados. Prohibido verter al sifón.
+Entrega: Entregar mensualmente al gestor autorizado y solicitar el certificado de entrega.
+Almacenamiento y evacuación
+
+Recolección interna: Vaciar las canecas cuando lleguen al 60-70% de su capacidad.
+Ruta de recolección de residuos: Retirar las bolsas en horarios de baja producción o al cierre, usando la salida más cercana al depósito, evitando pasar por el área de preparación o ensamble de alimentos.
+Lavado de canecas: Cada vez que se retire una bolsa, la caneca debe lavarse con desengrasante y desinfectarse con cloro (1000 ppm).
+6. Seguimiento y Verificación
+Dentro de los registros de seguimiento se deberá tener:
+Formatos PS-RS-001 diligenciados conforme lo estipulado en el programa. Después de la implementación deben reposar registros de el último año (como mínimo)
+Formatos PS-RS-002 diligenciados conforme lo estipulado en el programa. Después de la implementación deben reposar registros de el último año (como mínimo)
+
+PROGRAMA DE ABASTECIMIENTO DE AGUA POTABLE
+Objetivo general
+Garantizar que el agua utilizada en el establecimiento para la preparación de alimentos, bebidas, lavado de materias primas y procesos de limpieza, sea potable y cumpla con los estándares físicos, químicos y microbiológicos exigidos por la ley colombiana para asegurar la inocuidad.
+Objetivos específicos
+Mantener el tanque de almacenamiento en condiciones higiénicas óptimas mediante lavados semestrales.
+Monitorear diariamente los niveles de cloro residual libre y pH del agua.
+Asegurar el suministro continuo de agua potable en todas las áreas (cocina, baños, zona de parrilla).
+Prevenir la contaminación del agua dentro de la red interna del establecimiento.
+Marco normativo aplicable
+Resolución 2674 de 2013, artículo 27, numeral 4: Exige un programa de agua potable con registros de control de cloro. 
+Decreto 1575 de 2007: Establece el sistema para la protección y control de la calidad del agua para consumo humano.
+Resolución 2115 de 2007: Define los valores aceptables de cloro residual (0.3 a 2.0 mg/L) y pH (6.5 a 9.0).
+Definiciones
+Agua Potable: Agua que por sus características físicas, químicas y microbiológicas es apta para el consumo humano.
+Cloro Residual Libre: Cantidad de cloro presente en el agua que garantiza la eliminación de bacterias y virus.
+Tanque de Almacenamiento: Depósito que garantiza el suministro de agua en caso de cortes y debe ser hermético.
+Red de Distribución: Conjunto de tuberías y accesorios internos que llevan el agua desde el contador hasta los grifos.
+Procedimiento
+Monitoreo diario de cloro y pH
+Frecuencia: Todos los días antes de iniciar la producción.
+Punto de toma: El grifo de la cocina o el área de lavado de materias primas.
+Acción:  Abrir el grifo y dejar correr el agua durante dos (2) minutos. Llenar el comparador colorimétrico con la muestra de agua.
+Agregar la tableta o gotas de DPD1 (para cloro) y Rojo Fenol (para pH).
+Comparar el color resultante con la escala del kit.
+Rango de seguridad: Cloro entre 0.3 y 2.0 mg/L. pH entre 6.5 y 9.0.
+Registro: Anotar el resultado en el formato de control diario.
+Monitoreo diario de propiedades
+
+		Color aparente: El color debe ser translúcido sin turbiedad. 
+
+Olor: No debe desprender malos olores o similares al metal, debe ser de un olor casi imperceptible a cloro. 
+
+Sabor: El agua debe ser insípida, si detecta sabor metálico, amargo, salobre (salado) o sabor a moho, reportelo haciendo uso del formato y no la use para preparación. 
+
+Lavado y Desinfección del Tanque (Semestral) (Si aplica)
+Programación: Se debe realizar cada 6 meses obligatoriamente.
+Procedimiento Interno o Externo: Si es con un tercero, exigir certificado. Si es interno:
+Cerrar el paso de agua y vaciar el tanque.
+Fregar paredes y piso con cepillo de cerdas plásticas (no metálicas).
+Enjuagar para retirar sedimentos.
+Desinfectar con una solución de cloro a 500 ppm atomizada en las paredes.
+Dejar actuar 20 minutos, enjuagar y volver a llenar.
+Mantenimiento de Filtros y Dispositivos (Si aplica)
+Si el establecimiento usa filtros para la máquina de hielo o jugos, se deben cambiar los cartuchos según la recomendación del fabricante (generalmente cada 3 o 6 meses).
+Seguimiento y verificación
+Dentro de los registros de seguimiento se deberá tener:
+Formatos PS-AP-001 diligenciados conforme lo estipulado en el programa. Después de la implementación deben reposar registros de el último año (como mínimo)
+Formatos PS-AP-002 diligenciados conforme lo estipulado en el programa. Después de la implementación deben reposar registros de el último año (como mínimo)
+Elaboró y revisó
+Aprobó
+
+
+
+
+Angelica María López Caicedo 
+Nutricionista
+T.P: 1.112.494.779
+Alejandro López Rojas
+Representante legal
+C.C 1.112.482.157
+
+

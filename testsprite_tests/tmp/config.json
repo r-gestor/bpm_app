@@ -1,0 +1,20 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "loginUser": "rrr@gma.com",
+  "loginPassword": "123456",
+  "executionArgs": {
+    "projectName": "bpm_app",
+    "projectPath": "C:\\Users\\Itachi\\Desktop\\bpm_app",
+    "testIds": [],
+    "additionalInstruction": "",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user-JySFfOSz_R6nBAY8jE56LVjnDuI1tHqmKyfFMr8I1bAblJuP6v0VpTZUgJymUSr5Eh2FRoNg7S3PP1r42XdvaHG1WfGLLetlBUO8o0bxuvW4ZtcnaJ5e3qiRmN-dOI4vyJ4"
+    }
+  },
+  "serverPort": 50708,
+  "proxy": "http://c606da83-4c21-40f4-9206-181e8a4f5393:q5SVH8n8qfLaJWuBzwL5aGFZMWcrEiNp@tun.testsprite.com:8080"
+}

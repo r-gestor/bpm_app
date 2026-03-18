@@ -1,0 +1,2003 @@
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+PLAN DE SANEAMIENTO
+BÁSICO
+FURAI GASTROBAR
+
+2025
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+TABLA DE CONTENIDO
+INTRODUCCIÓN
+
+3
+
+JUSTIFICACIÓN
+
+4
+
+OBJETIVOS
+
+5
+
+OBJETIVO GENERAL__________________________________________________________ 5
+OBJETIVOS ESPECÍFICOS_____________________________________________________ 5
+ALCANCE
+
+6
+
+DEFINICIONES________________________________________________________________
+8
+MARCO LEGAL
+
+10
+
+MARCO REFERENCIAL
+
+11
+
+PLAN DE SANEAMIENTO BÁSICO
+
+12
+
+1. 12
+2. 34
+3. 37
+4. 42
+5. 46
+BIBLIOGRAFÍA
+
+57
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+INTRODUCCIÓN
+
+En la actualidad las industrias de alimentos conocen la importancia de asegurar la calidad de los
+productos siguiendo la cadena alimentaria desde la producción primaria hasta el consumo final.
+Todo esto basado en la reglamentación vigente para este tipo de industria, que permiten que el
+producto final cumpla con los requerimientos tanto de la empresa como del cliente. Para lograr
+este objetivo toda empresa de alimentos debe contar con un plan de saneamiento básico que es
+la base para la aplicación de las Buenas Prácticas de Manufactura (BPM) que incluya los
+programas de limpieza y desinfección, residuos sólidos, control integral de plagas y abastecimiento
+de agua potable, que garantice la inocuidad de los alimentos.
+“FURAI GASTROBAR” ha implementado el plan de saneamiento mediante el cual se aplican
+Buenas Prácticas de Higiene, el plan de este trabajo consiste en documentar los cuatro programas
+de saneamiento básico necesarios para el desarrollo y cumplimiento de la Norma De Calidad NTSUSNA 007 “Norma Sanitaria De Manipulación De Alimentos” y legislación colombiana, Decreto
+3075 de 1997 y Resolución 2674 de 2013. Prevenir enfermedades en el consumidor es el mayor
+propósito de este trabajo debido a que son ellos quienes toman la decisión de confiar y probar las
+preparaciones producidas por el restaurante, además creen en la calidad e higiene durante el
+procesamiento.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+JUSTIFICACIÓN
+
+La industria de Alimentos es un sector de gran responsabilidad debido al cuidado que deben tener
+los operarios al manipular los alimentos de tal manera que los productos sean inocuos. El Decreto
+3075 de 1997 y la Resolución 2674 de 2013 marca los lineamientos para las empresas de
+Alimentos y cumplimiento con las BPM, entre ellas está documentar e implementar el Plan de
+Saneamiento Básico con los siguientes programas: Limpieza y Desinfección, Residuos sólidos,
+control de plagas y control de calidad del agua.
+La Capacitación al personal es primordial en la implementación de los programas, crear cultura y
+conciencia en el personal operativo significa un compromiso continuo con el cumplimiento de las
+normas. Propiciar espacios de conocimiento permite el desarrollo de habilidades y modificar
+acciones que afecten directa o indirectamente la empresa. Por la cual la implementación del plan
+de saneamiento básico es necesario y de obligatorio cumplimiento en todas las empresas de
+alimentos y para garantizar la inocuidad de los productos protegiendo la salud de los
+consumidores, minimizando los errores y fallas que se comenten dentro de la producción de
+alimentos por una inadecuada manipulación y por falta de conocimiento de los manipuladores que
+son parte fundamental para lograr el objetivo.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+OBJETIVOS
+OBJETIVO GENERAL
+
+Documentar e implementar el plan de saneamiento básico en “FURAI GASTROBAR” en la ciudad
+de Duitama para así dar cumplimiento con la normatividad sanitaria vigente en el país.
+
+OBJETIVOS ESPECÍFICOS
+
+✔ Diseñar el plan de saneamiento básico (programa de limpieza y desinfección, programa
+de calidad del agua, programa de residuos sólidos y programa de control de plagas).
+✔ Elaborar instructivos y formatos para el control y seguimiento de las actividades
+correspondientes a cada uno de los programas establecidos.
+✔ Capacitar al personal del centro de producción del restaurante sobre cada uno de los
+programas del plan de saneamiento básico.
+✔ Realizar la socialización del plan de saneamiento básico y los programas prerrequisitos a
+todo el personal del restaurante.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+ALCANCE
+
+Este Plan de Saneamiento Básico aplica a todas las áreas de “FURAI GASTROBAR”, de la ciudad
+de Duitama, el cual será responsabilidad directa del representante legal y personal de trabajo del
+restaurante, de modo que al aplicar el plan se dé cumplimiento a los programas y controles
+establecidos, para así garantizar la calidad en los servicios suministrados.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+DEFINICIONES
+
+Plan de Saneamiento Básico: Todo establecimiento destinado a la fabricación, procesamiento,
+envase y almacenamiento de alimentos debe implantar y desarrollar un Plan de Saneamiento con
+objetivos claramente definidos y con los procedimientos requeridos para disminuir los riesgos de
+contaminación de los alimentos. Este plan debe ser responsabilidad directa de la dirección de la
+Empresa. (Presidencia de la República, 1997).
+Programa de limpieza y desinfección: Los procedimientos de limpieza y desinfección deben
+satisfacer las necesidades particulares del proceso y del producto de que se trate. Cada
+establecimiento debe tener por escrito todos los procedimientos, incluyendo los agentes y
+sustancias utilizadas así como las concentraciones o formas de uso y los equipos e implementos
+requeridos para efectuar las operaciones y periodicidad de limpieza y desinfección. (Presidencia
+de la República, 1997).
+Programa de manejo de residuos sólidos: En cuanto a los desechos sólidos (basuras) debe
+contarse con las instalaciones, elementos, reas, recursos y procedimientos que garanticen una
+eficiente labor de recolección, conducción, manejo, almacenamiento interno, clasificación,
+transporte y disposición, lo cual tendrá que hacerse observando las normas de higiene y salud
+ocupacional establecidas con el propósito de evitar la contaminación de los alimentos, áreas,
+dependencias y equipos o el deterioro del medio ambiente. (Presidencia de la República, 1997).
+Programa de control de plagas: Las plagas entendidas como artrópodos y roedores deberán ser
+objeto de un programa de control específico, el cual debe involucrar un concepto de control
+integral, esto apelando a la aplicación armónica de las diferentes medidas de control conocidas,
+con especial énfasis en las radicales y de orden preventivo. (Presidencia de la República, 1997).
+Programa de calidad del agua: Todos los establecimientos de que trata la presente resolución
+deben tener documentado el proceso de abastecimiento de agua que incluye claramente: fuente
+de captación o suministro, tratamientos realizados, manejo, diseño y capacidad del tanque de
+almacenamiento, distribución; mantenimiento, limpieza y desinfección de redes y tanque de
+almacenamiento; controles realizados para garantizar el cumplimiento de los requisitos
+fisicoquímicos y microbiológicos establecidos en la normatividad vigente, así como los registros
+que soporten el cumplimiento de los mismos. (Ministerio de salud y protección social, 2013).
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Buenas prácticas de manufactura: Son los principios básicos y prácticos generales de higiene
+en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y
+distribución de alimentos para consumo humano, con el objeto de garantizar que los productos en
+cada una de las operaciones mencionadas cumplan con las condiciones sanitarias adecuadas, de
+modo que se disminuyan los riesgos inherentes a la producción (Ministerio de salud y protección
+social, 2013).
+Desinfección – descontaminación: Es el tratamiento fisicoquímico o biológico aplicado a las
+superficies limpias en contacto con el alimento con el fin de destruirlas células vegetativas de los
+microorganismos que pueden ocasionar riesgos para la salud pública y reducir sustancialmente el
+número de otros microorganismos indeseables, sin que dicho tratamiento afecte adversamente la
+calidad e inocuidad del alimento. (Ministerio de salud y protección social, 2013).
+Higiene de los alimentos: Todas las condiciones y medidas necesarias para asegurar la
+inocuidad y la aptitud de los alimentos en cualquier etapa de su manejo. (Ministerio de salud y
+protección social, 2013).
+Inocuidad de los alimentos: Es la garantía de que los alimentos no causarán daño al consumidor
+cuando se preparen y consuman de acuerdo con el uso al que se destina. (Ministerio de salud y
+protección social, 2013).
+Infestación: Es la presencia y multiplicación de plagas que pueden contaminar o deteriorar los
+alimentos, materias primas y/o insumos. (Ministerio de salud y protección social, 2013).
+Manipulador de alimentos: Es toda persona que interviene directamente, en forma permanente
+u ocasional, en actividades de fabricación, procesamiento, preparación, envase, almacenamiento,
+transporte y expendio de alimentos. (Ministerio de salud y protección social, 2013).
+Plaga: Cualquier animal, incluyendo, pero no limitado, a aves, roedores, artrópodos o quirópteros
+que puedan ocasionar daños o contaminar los alimentos de manera directa o indirecta. (Ministerio
+de salud y protección social, 2013).
+Contaminante: agente biológico o químico, materia extraña u otra sustancia añadida de forma no
+intencionada a los alimentos que puede poner en peligro la inocuidad o idoneidad de estos.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+MARCO LEGAL
+
+En la tabla 1 se presentan las normas aplicadas al tema de Inspección Vigilancia y Control en
+establecimientos de expendio de alimentos y los requisitos que se deben cumplir para las prácticas
+de manipulación de alimentos.
+Tabla 1 Marco legal
+NORMA
+Ley 9 de 1979
+
+Resolución 2674 de
+2013
+
+OBJETIVO
+Por el cual se dictan medidas sanitarias. Parámetros que tienen como objetivo
+lograr un ambiente de trabajo seguro y saludable, que cuente con las
+condiciones necesarias para preservar y mejorar la salud humana.
+Establece requisitos sanitarios que deben cumplir las personas naturales y/o
+jurídicas que ejercen actividades de fabricación, procesamiento, preparación,
+envase, almacenamiento, transporte, distribución y comercialización de
+alimentos materias primas de alimentos y los requisitos para la notificación,
+permiso o registro sanitario de los alimentos, según el riesgo en salud pública.
+Y establece que contara como mínimo con los programas prerrequisitos de:
+1.Programa de limpieza y desinfección.
+2. Programa de desechos sólidos.
+3.Programa de control integrado de plagas.
+4.Programa de abastecimiento de agua potable
+
+Guía técnica
+Colombiana GTC 24
+
+Gestión ambiental, residuos sólidos. Guía para la separación en la fuente
+
+Resolución 2115 del 22
+de junio de 2007
+
+Por medio de la cual se señalan las características, instrumentos básicos y
+frecuencias del sistema de control y vigilancia para la calidad del agua para
+consumo humano.
+
+Decreto 1575 de 2007
+Normas Técnicas
+Sectoriales
+Decreto 3075 de 1997.
+
+Fuente: elaboración propia.
+
+Por el cual se establece el sistema para la protección y control de calidad del
+agua para consumo humano
+Conjunto de características y procedimientos de orden técnico que deben
+cumplir los servicios y productos que ofrecen los empresarios del sector
+Se reglamentan las actividades de fabricación, procesamiento, preparación,
+envase, almacenamiento, transporte, distribución y comercialización de
+alimentos en el territorio nacional.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+MARCO REFERENCIAL
+LOCALIZACIÓN
+
+Localizado en el departamento de Boyacá, Duitama, pertenece a la
+región geográfica Andina y se ubica en el Altiplano Cundí boyacense.
+Es la capital de la provincia del Tundama y se encuentra sobre el
+corredor industrial de Boyacá. Por el Norte con el Departamento de
+Santander, Municipios de Charalá y Encino; por el Sur con los
+Municipios de Tibasosa y Paipa; por el Oriente con los Municipios de
+Santa Rosa de Viterbo y Belén; y por el occidente con el Municipio de
+Paipa.
+“FURAI GASTROBAR” se encuentra ubicado en la calle 18 #13-05, en
+la ciudad de Duitama.
+
+PLAN DE SANEAMIENTO BÁSICO
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+“FURAI GASTROBAR” a través del presente documento da a conocer el Plan de saneamiento,
+el cual se compone de los programas:
+1. Limpieza y Desinfección
+2. Control de plagas.
+3. Residuos sólidos
+4. Abastecimiento de agua potable.
+5. Higiene y de Protección.
+Los programas se realizan con el fin de que “FURAI GASTROBAR” los implemente y desarrolle
+adecuadamente, para lograr un control periódico de los programas y disminuir el riesgo de
+contaminación de los alimentos.
+Los anteriores programas deben constar por escrito debidamente documentados sobre objetivos
+claros, componentes, cronograma de actividades (precisando el qué, cómo, cuándo, quién y con
+qué), firmados y fechados por el funcionario responsable del proceso en la planta de producción.
+La documentación de los programas del plan de saneamiento debe ser de fácil comprensión y
+utilización por cualquier persona de la empresa.
+Estos documentos se deben realizar con base en el siguiente modelo (Betancourt, 2012):
+Introducción
+Objetivo
+Alcance
+Glosario
+Desarrollo del programa
+Responsable
+Recomendaciones
+Anexos (registros de verificación y control, fichas técnicas)
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+1. PROGRAMA DE LIMPIEZA Y DESINFECCIÓN
+
+El programa de limpieza y desinfección es un conjunto de actividades que son
+INTRODUCCIÓN
+
+aplicadas a cada una de las áreas de proceso para disminuir o eliminar a un mínimo
+aceptable la carga microbiana presente en los equipos, utensilios, personal
+manipulador, planta física y en el ambiente donde se realiza el proceso (Albarracín,
+2005).
+
+OBJETIVO
+
+Proponer y verificar las actividades de limpieza y desinfección adecuadas para los
+procesos y áreas de “FURAI GASTROBAR”
+El diseño y la implementación de este programa abarca todas las instalaciones
+físicas y sus alrededores, así como los equipos y utensilios empleados en el proceso
+
+ALCANCE
+
+de transformación del alimento, igualmente abarca el personal manipulador los
+alimentos del restaurante teniendo como fin específico garantizar la calidad del
+alimento, y por ende la inocuidad del mismo.
+
+GLOSARIO
+1.Limpieza
+Parámetros que buscan eliminar cualquier contaminante en áreas de elaboración y superficies
+que entren en contacto con los alimentos. Evitando así que se den condiciones favorables para el crecimiento
+de microorganismos que puedan afectar la inocuidad del alimento.
+Beneficios de la limpieza:
+✔ Reducir al máximo el número de microorganismos
+✔ Minimizar la proliferación de otras fuentes de vida como insectos y roedores
+✔ La calidad de los productos durante el proceso y servicio
+✔ Incrementar la vida útil de los equipos y utensilios
+✔ Preservar las instalaciones aptas para el procesamiento de alimentos
+Agentes limpiadores
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Por lo general los agentes limpiadores que se utilizan son detergentes, los cuales mezclados con el agua
+modifican sus propiedades físicas y químicas, convirtiéndola en una solución limpiadora que puede ablandar los
+residuos que se pegan sobre los utensilios o equipos.
+La aplicación de detergente logra eliminar la suciedad y parte de los microorganismos,
+manteniéndolos en suspensión para que a través del enjuague se eliminen, al igual que la
+suciedad despegada y los residuos de detergente. Los agentes limpiadores deben ser:
+✔ Rápidos y de fácil enjuague, puesto que los procesos de limpieza duran tan solo unos minutos.
+✔ No corrosivos, para no afectar las superficies de equipos o utensilios en los que sean
+✔ utilizados.
+✔ No tóxicos
+✔ Estables durante su almacenamiento, que no representen ningún peligro químico para las instalaciones.
+2. Desinfección
+Es el tratamiento físico químico o biológico aplicado a las superficies limpias en contacto con el alimento con el
+fin de destruir las células vegetativas de los microorganismos que pueden ocasionar riesgos para la salud pública
+y reducir sustancialmente el número de otros microorganismos indeseables, sin que dicho tratamiento afecte
+adversamente la calidad e inocuidad del alimento (Resolución 2674 de 2013).
+La desinfección no logra destruir todos los microorganismos, pero los reduce a un nivel aceptable, que no
+resulten nocivos para la salud, ni afecten la calidad de los alimentos.
+Desinfectantes
+Como desinfectantes se utiliza generalmente el hipoclorito de sodio para superficies porosas y algunos equipos
+de acero inoxidable. En la actualidad se está realizando el cambio por los desinfectantes a base de amonio
+cuaternario, los cuales no son corrosivos ni tóxicos.
+ELEMENTOS DE LIMPIEZA
+Para cada proceso se debe tener un material de limpieza destinado solo para ese fin, ubicados en un área
+específica debidamente separados y rotulados de acuerdo al riesgo que representa cada uno, a continuación,
+se nombra los implementos y productos de limpieza y desinfección utilizados para lograr un procedimiento
+adecuado:
+Implementos de limpieza:
+✔ Cepillo plástico
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+✔ Toallas desechables
+✔ Canecas de plástico
+✔ Esponja
+✔ Atomizador
+✔ Bolsas de aseo
+✔ Protección personal
+✔ Escobas
+✔ Recogedor
+✔ Hipoclorito de sodio al 5.25%
+✔ Bolsas de basura
+✔ Desinfectantes
+✔ Alcohol industrial
+✔ Limpiavidrios
+✔ Multiusos (jabón, liquido antibacterial)
+Los implementos utilizados serán lavados y desinfectados periódicamente y no se debe repetir su uso para todas
+las áreas y así evitar contaminación.
+MANEJO DE AGENTES QUÍMICOS PARA LAS ACTIVIDADES DE LIMPIEZA Y DESINFECCIÓN
+PRECAUCIONES CON ELEMENTOS DE DESINFECCIÓN Y LIMPIEZA
+Tabla 2: Productos de limpieza y desinfección
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Fuente: https://bit.ly/31VkNML
+Tabla 3. Tabla de dosificación
+
+Fuente: Guía de limpieza y desinfección. https://bit.ly/3gImLVB.
+HOJA DE SEGURIDAD
+CLOROX
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+MANIPULACIÓN
+Precauciones para la manipulación segura: Prohibido comer, beber o fumar durante su manipulación. Evitar
+contacto con ojos, piel y ropa. Lavarse los brazos, manos, y uñas después de manejar este producto. Facilitar
+el acceso a duchas de seguridad y lavaojos de emergencias. Evitar la inhalación del producto. Use los EPP.
+Mantenga el recipiente cerrado. Use con ventilación adecuada. Manejar los envases con cuidado.
+Medidas operacionales y técnicas: Proveer extracción localizada en aquellos recintos donde puedan
+superarse los valores de control de exposición.
+ALMACENAMIENTO
+Condiciones para el almacenamiento seguro: Almacenar en un área limpia, seca y bien ventilada. Proteger
+del sol. Revisar periódicamente los envases para advertir pérdidas y roturas. MANTENER ALEJADO DE
+SUSTANCIAS ÁCIDAS. Almacenar a temperaturas entre 15°C y 25°C.
+Sustancias y mezclas incompatibles: ácidos (descomposición violenta con liberación de cloro gaseoso),
+metales y/o sustancias combustibles.
+Materiales de embalaje apropiados: acero recubierto en goma o vulcanizado, polietileno o poliéster. No
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+recomendado: acero, acero inoxidable, cobre, aluminio y metales sin recubrimiento.
+ELEMENTOS DE PROTECCIÓN PERSONAL
+Protección de ojos y cara: usar gafas de seguridad.
+Protección respiratoria: En caso de grandes vertidos, utilizar una máscara para vapores orgánicos (A). Debe
+prestarse especial atención a los niveles de oxígeno presentes en el aire. Si ocurren grandes liberaciones,
+utilizar equipo de respiración autónomo (SCBA).
+Protección de manos: Use guantes adecuados de PVC, nitrilo o butilo que cumplan con las normas EN374.
+Medidas de ingeniería: Mantener ventilado el lugar de trabajo. La ventilación normal para operaciones
+habituales de manufacturas es generalmente adecuada. Campanas locales deben ser usadas durante
+operaciones que produzcan o liberen grandes cantidades de producto. En áreas bajas o confinadas debe
+proveerse ventilación mecánica. Disponer de duchas y estaciones lavaojos.
+MEDIDAS DE PRIMEROS AUXILIOS:
+Contacto Con los Ojos: Lavar inmediatamente los ojos con abundante agua y a baja presión durante 15
+minutos como mínimo. Obtener atención médica inmediata, preferiblemente de un Oftalmólogo.
+Contacto con la Piel: Si hay contacto con la piel, lave con abundante agua, retire la ropa contaminada y repita
+el lavado, si presenta alguna irritación consulte al médico.
+Inhalación: Trasladar al afectado al aire libre. Si se producen efectos consultar al médico.
+Ingestión: No inducir el vómito, Tomar grandes cantidades de agua si el paciente está consciente para diluir el
+material y transportarlo a un servicio médico de inmediato. Si el vómito ocurre de manera natural, inclinarlo
+hacia delante para evitar aspiración, enjuagar la boca y dar de beber agua. Buscar atención médica
+inmediatamente.
+FICHA TÉCNICA DETERGENTE
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+TABLA 4. DOSIFICACIÓN DETERGENTE
+
+PROCEDIMIENTOS GENERALES DE LIMPIEZA Y DESINFECCIÓN PERSONAL
+MANIPULADOR DE ALIMENTOS
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Estado de salud.
+El personal que ingrese a realizar las labores de manipulador de alimentos en el programa, debe
+cumplir con los siguientes requisitos.
+-
+
+Contar con certificación médica, en la cual conste la aptitud para la manipulación de alimentos.
+
+-
+
+Los exámenes médicos deben ser tomados en el centro de salud autorizado más cercano de cada
+municipio, con una periodicidad anual.
+
+-
+
+En caso de que el empleado presente algún padecimiento respiratorio (resfriado, sinusitis, amigdalitis,
+alteraciones bronquiales, entre otras) y padecimientos intestinales como la diarrea o vómitos, deberá
+informar a su jefe inmediato.
+
+-
+
+Ninguna persona que sufra de heridas o lesiones deberá seguir manipulando productos ni superficies
+en contacto con los alimentos mientras la herida no haya sido completamente protegida mediante
+vendajes impermeables. Además, en el caso de que las lesiones sean en las manos deberán utilizarse
+guantes.
+
+Dotación.
+La dotación del personal manipulador de alimentos consta de los siguientes elementos.
+a) Camisa antifluidos; sin cierres, sin bolsillos, sin broches, sin cremalleras.
+b) Pantalón antifluidos, sin cierres, sin bolsillos, sin broches, sin cremalleras.
+c) Delantal antifluidos .
+d) Cofia.
+e) Tapabocas
+f) Zapato blanco cerrado antideslizante.
+El personal manipulador de alimentos, deberá llevar diariamente a la unidad de servicio su dotación completa,
+completamente limpia (previamente lavada en el lugar de vivienda) y dentro de una bolsa plástica con las mismas
+características. Además, el personal no deberá usar la dotación suministrada fuera del restaurante de igual
+manera tampoco podrá usar las prendas particulares dentro de las unidades de servicio.
+PROCEDIMIENTO DE LAVADO DE MANOS.
+Todo el personal que labore en “FURAI GASTROBAR”, deberá ejecutar el lavado de manos con la siguiente
+frecuencia.
+-
+
+Diariamente, al inicio de labores.
+
+-
+
+Siempre que exista una situación o cambio de actividad.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+-
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Después de prácticas antihigiénicas como utilizar el baño, luego de rascarse la cabeza, tocarse el pelo,
+la cara, la nariz, de estornudar o toser.
+INSTRUCTIVO DE LIMPIEZA Y DESINFECCIÓN PARA RECIPIENTES Y
+EQUIPOS
+
+Para lograr una correcta limpieza y desinfección de los recipientes y equipos primero se debe proteger las partes
+eléctricas del equipo para evitar accidentes en el momento de la limpieza y desinfección; A continuación se
+explica el procedimiento que se debe llevar a cabo con cada uno de los recipientes y equipos del restaurante,
+sopas carnes y algo más para lograr una adecuada limpieza y desinfección de los mismos.
+✔ Agua
+✔ Detergente
+Elementos A
+
+✔ Cepillo
+
+Utilizar
+
+✔ Escoba
+✔ Trapero
+✔ Desinfectante (Hipoclorito según la tabla)
+LIMPIEZA
+1. Retirar los residuos visibles con escoba o cepillo que se
+encuentren sobre las superficies que estarán sometidas a
+limpieza y depositarlos en el contenedor de residuos.
+
+PISOS
+
+2. Preparar solución jabonosa, disolviendo el detergente
+conforme a las instrucciones de la etiqueta.
+3. Humedecer las superficies con agua potable suficiente.
+Procedimiento
+
+4. Enjabonar y restregar las superficies empleando escoba,
+cepillo o esponja dependiendo del área a limpiar.
+5. Dejar actuar el detergente por un tiempo de 3 a 5 minutos.
+6. Enjuagar con suficiente agua potable hasta eliminar el total
+de la solución detergente.
+7. Verificar la limpieza correcta, de lo contrario repetir el
+procedimiento.
+DESINFECCIÓN
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+1. Verificar que todas las superficies se encuentren limpias.
+2. Preparar la solución desinfectante. (ver tabla de dosificación)
+3. Aplicar la solución desinfectante y dejar actuar 15 minutos
+4. Enjuagar con agua potable para eliminar el posible cloro
+residual.
+5. Secar con utensilios limpios y desinfectados.
+Frecuencia
+
+Tres veces al día, al ingreso, cambio de turno y final del día.
+
+Responsable
+
+Auxiliares de cocina en cada turno
+✔ Agua caliente y fría
+✔ Detergente
+
+Elementos a
+
+✔ Cepillo
+
+Utilizar
+
+✔ Escoba
+✔ Trapero
+✔ Desinfectante (Hipoclorito según la tabla)
+LIMPIEZA
+1. Retire con un limpia techo las telarañas y el polvo presente.
+2. Con agua y jabón, cepillo o esponja limpie las paredes que
+son lavables.
+
+PAREDES
+
+3. Refriegue entre las uniones pared-pared, pared-piso con
+ayuda de la esponja.
+4. Deje actuar la solución por 10 minutos.
+Procedimiento
+
+5. Retire con abundante agua potable hasta eliminar
+completamente la solución.
+DESINFECCIÓN
+1. Prepare la solución desinfectante (ver tabla 3 dosificación).
+Aplique por inundación en la pared.
+2. Deje actuar de 10-15 minutos.
+3. Enjuague con abundante agua.
+4. Dejar secar
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Frecuencia
+
+una vez por semana todos los martes en la noche.
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+✔ Agua caliente y fría
+✔ Esponja abrasiva
+
+Elementos a
+Utilizar
+
+✔ Lija de agua
+✔ Cepillo
+✔ Esponjilla
+✔ Trapero
+✔ Desinfectante (Hipoclorito según la tabla 3)
+Una vez retirado el aceite se procede a retirar los sólidos
+
+FREIDORAS
+
+decantados de cada una de las máquinas freidoras, luego se
+aplica detergente con agua caliente, se restriega con la espuma
+Procedimiento
+
+abrasiva y se aplica agua caliente de nuevo para retirar el
+detergente. Una vez por semana este proceso se le añade, la
+aplicación de lija de agua para retirar los residuos adheridos a
+las paredes de las freidoras y por último se seca con las toallas.
+
+Frecuencia
+
+Todos los días al finalizar el turno de la noche.
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+
+✔ Agua caliente y fría
+✔ Esponja abrasiva
+
+ESTUFA Y PLANCHA
+
+Elementos a
+Utilizar
+
+✔ Lija de agua
+✔ Cepillo
+✔ Esponjilla
+✔ Trapero
+✔ Desengrasante
+✔ Detergente
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Alistamiento: Apagar la estufa y cerrar los pilotos
+Desarme: Desmontar las partes removibles, como parrillas,
+quemadores entre otros, para facilitar su limpieza y
+desinfección.
+Limpieza: Aplicar solución jabonosa (10 gr por litro de agua)
+(ver tabla 4) y restregar con una esponjilla, la mugre gruesa.
+Luego agregar agua caliente para facilitar la remoción de la
+grasa, y nuevamente agregar detergente y restregar.
+Enjuague: Enjuague nuevamente con agua potable el equipo y
+sus partes para remover todo el detergente.
+Preparación de solución desinfectante: Prepare la solución
+Procedimiento
+
+desinfectante para equipos (ver tabla 3) Aplíquese sobre todas
+las superficies de la estufa y dejé actuar por 15 minutos.
+Desinfección: Adicione la solución desinfectante al equipo, de
+igual forma sumergir todas las partes que se han retirado del
+equipo en la solución desinfectante por un tiempo de 15
+minutos.
+Enjuague: Lave el equipo y sus partes con agua potable hasta
+retirar completamente la solución desinfectante.
+Secado: Con una toalla absorbente desechable o un limpión
+previamente higienizado, se realiza el secado completo del
+equipo y sus partes o dejar secar al ambiente.
+Ensamble: Se arma el equipo correctamente con cada una de
+sus partes retiradas
+
+Frecuencia
+Responsable
+
+MESONES
+
+Elementos a
+Utilizar
+
+Todos los días y una vez por semana se desarma en su totalidad
+la estufa para hacer una limpieza más profunda.
+Auxiliares de cocina que se encuentren de turno
+✔ Agua
+✔ Detergente
+✔ Esponja abrasiva
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+✔ Desinfectante (Hipoclorito según la tabla 3)
+Se retiran los sólidos y elementos encima de los mesones, se
+Procedimiento
+
+humedecen con agua, se aplica detergente, se pasa la esponja,
+se retira el jabón con bastante agua, luego se desinfecta con
+hipoclorito de sodio de acuerdo a la dosificación. (tabla 3)
+
+Frecuencia
+
+Al ingreso y salida del restaurante y cada que se necesite.
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+✔ Agua
+✔ Jabón líquido
+
+Elementos a
+Utilizar
+
+✔ Detergente
+✔ Esponja abrasiva
+✔ Toalla de secar
+✔ Desinfectante (Hipoclorito según la tabla 3)
+Alistamiento: Retire manualmente el exceso de residuos
+sólidos (sobrantes de comida, etc.) del menaje.
+Limpieza: Humedecer y aplicar jabón lava loza.
+
+MENAJE
+
+Enjuague: Enjuague el menaje con agua potable.
+
+(Platos, Cubiertos, Ollas,
+
+Preparación de solución desinfectante: Preparar la solución
+
+vasos)
+
+desinfectante (ver tabla 3)
+Procedimiento
+
+Desinfección: Sumergir el menaje en la solución desinfectante,
+de tal manera que la tape totalmente y deje actuar por 15
+minutos.
+Enjuague: Enjuague con agua potable el menaje, para remover
+el posible cloro residual.
+Secado: Dejar secar al ambiente, para evitar cualquier tipo de
+contaminación cruzada.
+
+Frecuencia
+
+Según uso y rotación de utensilios
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+✔ Agua
+Elementos a
+Utilizar
+
+✔ Detergente
+✔ Esponja abrasiva
+✔ Toalla de secar
+✔ Desinfectante (Hipoclorito según la tabla 3)
+Alistamiento: Remover todos los alimentos que se encuentran
+en la nevera, clasificar y descartar los que hayan iniciado
+descomposición. De igual manera desmontar las parrillas, tapas
+y recipientes propios del equipo.
+Enjuague: Enjuague con agua potable el interior y el exterior de
+la nevera para retirar las partículas de polvo u otras impurezas,
+con la precaución de no ir a mojar el sistema eléctrico y de
+refrigeración. Las partes desmontadas enjuáguese con agua
+potable de igual manera.
+Limpieza: Aplicar el detergente o jabón (10 gr por litro de agua)
+
+NEVERAS Y
+
+(ver tabla 4) en una esponjilla y/o limpión, y frote o restriegue
+
+CONGELADORES
+
+todas las partes “lavables.
+Procedimiento
+
+Enjuague: Enjuague nuevamente con agua para eliminar los
+residuos de jabón.
+Preparación de solución desinfectante: Prepare la solución
+desinfectante para equipos (ver tabla 3)
+Desinfección: Atomizar las neveras y enfriadores, por un
+tiempo de 15 minutos.
+Enjuague: Enjuague con agua potable el interior y el exterior de
+la nevera para retirar residuos
+químicos, con la precaución de no ir a mojar el sistema de
+eléctrico y de refrigeración.
+Las partes desmontadas enjuáguelas con agua potable de igual
+manera.
+Secado: Se realiza el secado completo
+
+Frecuencia
+
+Una vez por semana, todos los martes en turno de la noche.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+Responsable
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Auxiliares de cocina que se encuentren de turno
+✔ Agua caliente y fría
+✔ Esponja abrasiva
+
+Elementos a
+Utilizar
+
+✔ Toalla de secar
+✔ Cepillo
+✔ Escoba
+✔ Desengrasante
+✔ Desinfectante (Hipoclorito según la tabla 3)
+1. Desconectar el interruptor.
+
+TECHOS Y CAMPANA
+
+2. Retirar la tierra grasa con una toalla húmeda y un
+
+EXTRACTORA
+
+desengrasante.
+3. Retirar las rejillas de la campana y rosear con
+Procedimiento
+
+desengrasante y ayuda de un cepillo.
+4. En el interior de la campana limpiar con una esponja
+húmeda y desengrasante.
+5. Secar y limpiar el exterior de la campana y la estufa con
+una mezcla de agua y bicarbonato (1 cucharada)
+
+Frecuencia
+
+una vez por semana todos los martes en la noche.
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+✔ Escoba.
+✔ Recogedor.
+✔ Cepillo de mano.
+
+Elementos a
+BAÑOS
+
+Utilizar
+
+✔ Esponja abrasiva.
+✔ Churrusco.
+✔ Detergente en polvo.
+✔ Desinfectante.
+✔ Baldes y Agua.
+
+Procedimiento
+
+Se barre y se recogen los sólidos.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Limpieza: Humedezca la unidad sanitaria y el lavamanos con la
+solución detergente (10 gr por litro de agua) (ver tabla 4), y retire
+el exceso de suciedad estregando uniformemente la superficie,
+debajo de la unidad sanitaria, y el lavamanos con ayuda de una
+esponja abrasiva y cepillo de goma. estregue fuertemente el
+interior de la unidad sanitaria con ayuda del churrusco, hasta
+retirar excesos de suciedad. enjuague con abundante agua,
+hasta retirar la solución detergente y suciedad.
+Desinfección: aplicar la solución desinfectante (8 ml por litro de
+agua) (ver tabla 3), esparciendo la solución en todas las áreas
+de estos, y dejando actuar por 10 minutos. Luego enjuagar con
+abundante agua potable, retirar el exceso de agua con ayuda de
+una escoba. secado: deje secar la unidad sanitaria y el
+lavamanos pisos y paredes de estos a temperatura ambiente.
+Frecuencia
+
+Todos los días en la mañana
+
+Responsable
+
+Auxiliares de cocina que se encuentren de turno
+✔ Esponja abrasiva.
+
+Elementos a
+Utilizar
+
+✔ Detergente en polvo.
+✔ Desinfectante.
+✔ Baldes.
+✔ Agua
+
+ESTANTES Y
+
+Alistamiento: Retirar todos los alimentos que se encuentran en
+
+ALACENAS
+
+los estantes.
+Limpieza: Remover el polvo con ayuda de un cepillo; Aplicar el
+Procedimiento
+
+detergente o jabón (10 gr por litro de agua) (ver tabla 4) y
+restregar con una esponjilla y/o limpiones.
+Enjuague: Enjuague con agua para eliminar los residuos de
+jabón.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Preparación De Solución Desinfectante: Preparar la solución
+desinfectante (ver tabla 3)
+Desinfección: Atomizar la estantería y dejar actuar por un
+tiempo de 15 minutos.
+Secado: Se realiza el secado completo, y posteriormente
+reubicar los alimentos teniendo en cuenta la rotación de los
+mismos. Lo último que sale es lo primero que sale.
+Frecuencia
+
+semanal
+
+Responsable
+
+Auxiliar de turno
+
+Elementos a
+Utilizar
+
+✔ Desinfectante.
+✔ Recipiente plástico
+✔ Agua.
+Clasificación y acondicionamiento: Seleccione y clasifique las
+frutas y verduras, descartando aquellas que posean
+degradación parcial y/o total.
+Limpieza: Sumerja las frutas y las verduras recipiente con agua
+y frote una a una constantemente con las manos hasta retirar el
+exceso de suciedad (tierra). Cambie el agua del recipiente y
+
+FRUTAS Y VERDURAS
+
+Procedimiento
+
+repita este procedimiento, hasta que los alimentos se
+encuentren limpios.
+Preparación de solución desinfectante: Preparar la solución
+desinfectante (ver tabla 3)
+Desinfección: Sumerja las frutas, verduras y/o hortalizas en la
+solución, y deje actuar por 15 minutos
+Enjuague: Enjuague con abundante agua potable, para
+remover el cloro residual que posiblemente haya quedado.
+
+Frecuencia
+Responsable
+
+Limpieza seca, posterior al recibo semanal de los alimentos.
+Limpieza y desinfección diaria antes de iniciar la producción
+Auxiliar de cocina de turno
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+✔ Agua
+Elementos a
+Utilizar
+
+✔ Toalla
+✔ Detergente
+✔ Desinfectante
+✔ Atomizador
+Se retiran los residuos sólidos de mesas y sillas, luego se pasa
+
+MESAS
+
+la toalla con detergente para remover la grasa que haya
+Procedimiento
+
+quedado. Con una segunda toalla limpia se pasa nuevamente
+para retirar el detergente, y se procede a aplicar el desinfectante
+y se seca con una toalla.
+
+Frecuencia
+
+Diaria, Antes de iniciar y al terminar la producción.
+
+Responsable
+
+Empleado de turno
+✔ Esponja abrasiva.
+✔ Cepillo de mano.
+
+Elementos a
+Utilizar
+
+✔ Detergente en polvo.
+✔ Desinfectante.
+✔ Baldes.
+✔ Agua
+Limpieza: Con ayuda de un cepillo remover el polvo, luego
+sacudir muy bien. Humedezca las canastillas y estibas con la
+
+CANASTILLAS
+
+solución detergente (10 gr por litro de agua) (ver Tabla
+
+PLÁSTICAS Y ESTIBAS
+
+4), y retire el exceso de suciedad estregando fuertemente, en el
+interior, exterior, en los bordes y entre las ranuras de las
+Procedimiento
+
+canastillas y estibas, con ayuda de una esponja abrasiva y el
+cepillo de mano. Al culminar el proceso anterior, enjuague con
+abundante agua las canastillas y estibas retirando
+el exceso de suciedad y solución detergente.
+Desinfección: Después del proceso anterior, aplique la
+solución desinfectante (ver Tabla 3) por contacto.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Secado: Deje a temperatura ambiente las canastillas y las
+estibas para que se escurran y se sequen totalmente, no
+utilizarlas hasta que estén totalmente secas
+Frecuencia
+
+Diaria
+
+Responsable
+
+Auxiliar de turno
+✔ Esponja abrasiva.
+✔ Cepillo de mano.
+
+Elementos a
+Utilizar
+
+✔ Detergente en polvo.
+✔ Desinfectante.
+✔ Baldes.
+✔ Agua.
+Alistamiento: Colocarse guantes y sacar la bolsa de las
+canecas y retirar el resto de los residuos con
+un cepillo.
+
+RECIPIENTES Y TAPAS
+
+Limpieza: Aplique el detergente o solución jabonosa (10 gr por
+
+PARA LA DISPOSICIÓN
+
+litro de agua) (ver tabla 4) y con ayuda de un cepillo de cerdas
+
+DE RESIDUOS
+
+duras, restriegue fuertemente en todos los espacios internos,
+
+SOLIDOS
+
+externos, y entre las ranuras, de manera tal que no queden
+Procedimiento
+
+restos de suciedad en estos.
+Enjuague: Al culminar el proceso anterior, enjuague con
+abundante agua las canastillas y estibas retirando el exceso de
+suciedad y solución detergente.
+Preparación de solución desinfectante: Preparar la solución
+desinfectante (ver tabla 3).
+Desinfección: Esparcir la solución desinfectante por las canecas
+y las tapas, de tal manera que los cubra totalmente, por un
+tiempo de 15 minutos.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Enjuague: Lave las canecas y las tapas, con agua potable
+hasta retirar completamente la solución desinfectante, para
+evitar residuos químicos en ellos.
+Secado: Disponer boca abajo las canecas y déjelas secar a
+temperatura ambiente, deben ser utilizadas cuando estén
+completamente secas.
+Frecuencia
+
+Semanal
+
+Responsable
+
+Personal manipulador de alimentos.
+✔ Detergente en polvo.
+✔ Desinfectante.
+✔ Escoba.
+
+Elementos a
+Utilizar
+
+✔ Recogedor.
+✔ Cepillo de mano.
+✔ Cepillo para largo de cerdas suaves.
+✔ Balde.
+✔ Agua.
+Retirar de las paredes y/o ventanas cualquier aviso, letrero o
+pieza, que se encuentre colgada o
+
+VENTANAS
+
+sobre estas.
+Retire el exceso de polvo u otros elementos extraños de las
+paredes y ventanas, con ayuda de una
+escoba.
+Procedimiento
+
+Una vez haya realizado el proceso anterior, humedezca las
+superficies (ventanas, y paredes) con la solución detergente (10
+gr por litro de agua) (ver Tabla 4).
+Estregue fuertemente las superficies haciendo uso del cepillo
+largo de cerdas suaves, de arriba hacia abajo, iniciando con las
+paredes y luego continuando en ventanas hasta retirar el exceso
+de suciedad.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CÓDIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: MARZO 2025
+
+Se debe tener en cuenta que los días en que no se realiza
+limpieza y desinfección en techo, el proceso se realiza iniciando
+con las paredes, y luego continúa en ventanas.
+Al culminar el proceso anterior, enjuague con abundante agua,
+hasta retirar por completo el exceso de suciedad y solución
+detergente.
+Desinfección: Aplique la solución desinfectante (ver Tabla 3)
+fregando con un paño humedecido en esta solución
+desinfectante, todas las paredes del área de producción y dejar
+actuar por 15 minutos.
+Secado: Deje secar las superficies a temperatura ambiente.
+fregar todas las paredes con el fin de retirar residuos de la
+solución desinfectante
+Frecuencia
+
+una vez por semana
+
+Responsable
+
+Personal manipulador de alimentos
+
+Diligenciar diariamente el registro de la limpieza y desinfección, con el fin de
+llevar el control del programa.
+Utilizar la cantidad de desinfectante necesaria para prevenir posibles lesiones a
+las personas que manipulen este tipo de sustancia y minimizar el gasto
+RECOMENDACIONES
+
+innecesario del producto.
+Nunca mezclar el desinfectante con detergente, ya que puede producir gases
+tóxicos.
+Se rotará semanalmente el tipo de desinfectante para evitar que las bacterias se
+adapten al desinfectante utilizado en la planta.
+Adjunto a este programa se agrega el procedimiento para la limpieza de la
+trampa de grasas y vehículo transportador de productos terminados.
+
+FORMATOS DE REGISTRO
+A Continuación, formatos de limpieza y desinfección para “FURAI GASTROBAR”
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+2. PROGRAMA CONTROL DE PLAGAS
+El programa de control de plagas constituye una herramienta basada en la búsqueda de
+mecanismos que prevengan la multiplicación de agentes y vectores contaminantes que
+puedan llegar a afectar la salud pública y el bienestar de nuestros beneficiarios.
+INTRODUCCIÓN
+
+La eliminación de las plagas en el restaurante, se realizará ejecutando las respectivas
+fumigaciones, limpieza de las áreas exteriores e interiores y finalmente realizando
+jornadas de desratización basadas en la ubicación de bloques parafinadosanticoagulante, insecticidas y desinfección
+Dar a los manipuladores y el personal que hace parte del funcionamiento de “FURAI
+GASTROBAR” las pautas para la identificación de las posibles plagas, las
+
+OBJETIVO
+
+recomendaciones antes y después de cada fumigación, para garantizar alimentos que
+sean seguros y que garanticen la protección y el bienestar de todos los titulares de
+derecho
+Cebo: Comida o preparación presentada en formas y lugares adecuados para su
+consumo por los animales-plaga. Puede contener en su composición un veneno dirigido
+a ellos.
+
+TÉRMINOS Y
+DEFINICIONES.
+
+Infestación: Es la presencia y multiplicación de plagas que pueden contaminar o
+deteriorar los alimentos, materias primas y/o insumos.
+Plaga: Cualquier animal, incluyendo, pero no limitado, a aves, roedores, artrópodos o
+quirópteros que puedan ocasionar o contaminar los alimentos de manera directa o
+indirecta.
+Plaguicida: Se entiende por plaguicida a cualquier sustancia destinada a prevenir,
+destruir, atraer, repeler o combatir cualquier plaga.
+El diseño y la implementación de este programa abarcan todas las instalaciones físicas
+
+ALCANCE
+
+del restaurante y sus alrededores, teniendo como fin específico disminuir los riesgos de
+contaminación o deterioro del alimento a través de plagas.
+INSPECCIÓN Y DIAGNÓSTICO DE PLAGAS.
+
+Se deben realizar inspecciones diarias por parte del personal manipulador de alimentos, a fin de identificar las
+especies-problema teniendo en cuenta los diferentes signos que evidencian su presencia, resaltando estos a
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+continuación:
+Identificación de roedores.
+o Cuerpos vivos o muertos, incluyendo sus formas larvales y pupales.
+o Los excrementos.
+o La alteración de sacos, envases, etc., causada por ratones y ratas al roerlos.
+o La presencia de alimento derramado cerca de sus envases, que mostraría que las plagas
+los han dañado.
+o Las manchas grasientas que producen los roedores al lado de las cañerías.
+Señales de presencia de cucarachas.
+o Especímenes vivos o muertos.
+o Olor aceitoso fuerte, acompañado de un olor a moho cuando hay una fuerte infestación.
+o Heces en forma de granos grandes.
+o Bolsas de huevos; pequeñas esferas segmentadas de coloración oscura, de superficie tersa y brillante.
+o Pelos o fragmentos de insectos
+Moscas: Las moscas se reproducen en estercoleros, aguas residuales y materias en descomposición, las
+hembras ponen 500 huevos que en tres semanas alcanzan estado de adulto, se aparean y pueden vivir un
+mes. Las moscas transportan sobre sus cuerpos y patas muchos microorganismos patógenos, diseminando la
+contaminación a lugares alejados y alimentos expuestos. Cuando comen, regurgita parte de la comida digerida
+sobre los alimentos, contaminándolos.
+MEDIDAS PERMANENTES DE CONTROL DE PLAGAS
+Las medidas permanentes de control de plagas abarcan dos tipos:
+Control físico: Este se encamina a prevenir el ingreso y proliferación de plagas a las instalaciones y diversas
+áreas del restaurante abarcando las siguientes acciones. Para impedir la obtención de alimentos.
+Mantener bien cerrados los recipientes que contengan productos.
+Limpiar y desinfectar todas las suciedades en las diferentes superficies siguiendo el protocolo establecido en
+el programa de limpieza y desinfección.
+Mantener la zona de manipulación de alimentos, bodega e instalaciones sanitarias limpias, desinfectadas y
+ordenadas según el protocolo establecido en el programa de limpieza y desinfección.
+Mantener una adecuada limpieza y desinfección de los utensilios, siguiendo el protocolo
+establecido en el programa de limpieza y desinfección.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+Llevar a cabo la disposición de residuos sólidos generados en la planta siguiendo el protocolo establecido en
+el respectivo programa manejo integrado de residuos sólidos.
+Para imposibilitar que las plagas encuentren refugio, deben mantenerse todas las áreas y servicios higiénicos
+debidamente limpios y ordenados, siguiendo los protocolos establecidos en el respectivo programa de limpieza
+y desinfección.
+No permitir el ingreso de gatos, perros u otro animal doméstico o mascota a las instalaciones.
+Control químico: Este tipo de control, hace referencia a la erradicación de plagas mediante la realización de
+actividades que involucran el uso de agentes químicos, los cuales deben ser manipulados por personal con la
+capacitación competente.
+RECOMENDACIÓN
+
+Llevar a cabo este programa de forma rigurosa ayudará a disminuir los riesgos de
+infestación de cualquier plaga en la planta.
+Ficha técnica y hojas de seguridad de productos químicos utilizados para el control de
+plagas.
+
+ANEXOS
+
+Documentos legales de la empresa encargada del control de plagas.
+formato para el registro de verificación para control de plagas en la planta de
+procesos.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+3. PROGRAMA DE RESIDUOS SÓLIDOS
+La problemática ambiental relacionada con el inadecuado manejo de los residuos sólidos
+afecta actualmente a los restaurantes cuando se presentan eventos de contaminación de
+INTRODUCCIÓN
+
+los alimentos y mala higiene de los productos, derivados de la mala disposición de los
+desechos generados, el programa de manejo de residuos sólidos propone medidas de
+control para evitar posibles contaminaciones.
+
+OBJETIVO
+
+Promover y garantizar el manejo integral de los residuos sólidos generados en el
+establecimiento, para lograr el adecuado manejo y disposición de estos, cumpliendo con
+la norma y brindando la atención adecuada.
+
+DEFINICIONES
+● Barrido y limpieza: Es el conjunto de actividades tendientes a dejar las áreas públicas libres de todo
+residuo sólido esparcido o acumulado.
+● Barrido y limpieza manual: Es la labor realizada mediante el uso de fuerza humana y elementos
+manuales, la cual comprende el barrido para que las áreas públicas queden libres de papeles, hojas,
+arenilla acumulada en los bordes del andén y de cualquier otro objeto o material susceptible de ser
+removido manualmente.
+● Caracterización de los residuos: Determinación de las características cualitativas y cuantitativas de
+los residuos sólidos, identificando sus contenidos y propiedades.
+● Contaminación: Es la alteración del medio ambiente por sustancias o formas de energía puestas allí
+por la actividad humana o de la naturaleza en cantidades, concentraciones o niveles capaces de
+interferir con el bienestar y la salud de las personas, atentar contra la flora y/o la fauna, degradar la
+calidad del medio ambiente o afectar los recursos de la Nación o de los particulares.
+● Disposición final de residuos: Es el proceso de aislar y confinar los residuos sólidos en especial los
+no aprovechables, en forma definitiva, en lugares especialmente seleccionados y diseñados para
+evitar la contaminación, y los daños o riesgos a la salud humana y al medio ambiente.
+● Manejo: Es el conjunto de actividades que se realizan desde la generación hasta la eliminación del
+residuo o desecho sólido. Comprende las actividades de separación en la fuente, presentación,
+recolección, transporte, almacenamiento, tratamiento y/o la eliminación de los residuos o desechos
+sólidos.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+● Recolección selectiva: Consiste en la evacuación de los residuos separados en las diferentes
+fuentes de generación, que se encuentran almacenados y presentados adecuadamente por el
+generador, con el fin de que se transporten hasta los centros de acopio y/o sitios de disposición final.
+(Ministerio del Medio Ambiente, 2002)
+● Recipientes: Material utilizado para la separación de residuos como bolsas, contenedores, cajas,
+canecas, entre otros.
+● Residuos de alimentos o similares: Materiales sólidos o semisólidos de origen animal o vegetal que
+se abandonan, botan, descartan o rechazan y son susceptibles de biodegradación. (ICONTEC, 2009)
+● Residuo sólido o desecho: Es cualquier objeto, material, sustancia o elemento sólido resultante del
+consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales, de
+servicios, que el generador abandona, rechaza o entrega y que es susceptible de aprovechamiento o
+transformación en un nuevo bien, con valor económico o de disposición final. Los residuos sólidos se
+dividen en aprovechables y no aprovechables. Igualmente, se consideran como residuos sólidos
+aquellos provenientes del barrido de áreas públicas.
+● Residuo sólido aprovechable: Es cualquier material, objeto, sustancia o elemento sólido que no
+tiene valor de uso directo o indirecto para quien lo genere, pero que es susceptible de incorporación
+a un proceso productivo. (Ministerio del Medio Ambiente, 2002)
+● Residuo Sólido Domiciliario: residuo que por su naturaleza, composición, cantidad y volumen es
+generado en actividades realizadas en viviendas o en cualquier establecimiento similar. (Universidad
+Santo Tomás)
+CLASIFICACIÓN Y MANEJO DE LOS RESIDUOS SÓLIDOS GENERADOS
+Los residuos sólidos generados en el establecimiento deben ser clasificados de acuerdo al tipo de residuo
+generado, en la (tabla 5).
+Tabla 5. Tipos de residuos para la separación en la fuente.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+.
+Se muestra la clasificación de estos de acuerdo a la Norma Técnica Colombiana GTC-24. Para la adecuada
+disposición de los residuos se explica por medio de un código de colores (ver tabla 6.) a qué recipiente
+corresponde el residuo generado.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+Tabla 6. Código de colores
+
+Capacidad suficiente para la disposición de los residuos de acuerdo a la frecuencia de
+CARACTERÍSTICAS
+DE LOS
+RECIPIENTES
+
+recolección del servicio de aseo.
+Deben ser de material liviano, impermeable y resistente para facilitar el manejo y limpieza
+del mismo.
+Debe ser amplia y de material sanitario para una fácil limpieza.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+LIMPIEZA DEL ÁREA DE ACOPIO Y DE LOS RECIPIENTES
+El lavado, limpieza y desinfección del área de acopio y de los recipientes se debe hacer cada vez que se lleve
+a cabo la recolección por parte de la empresa de aseo.
+PROCEDIMIENTO
+1. Lavar con Detergente y restregar con una escoba el piso, las
+paredes y los recipientes.
+2. Enjuagar con suficiente agua
+3. Desinfectar con hipoclorito de sodio diluido en agua (Para un litro de solución depositar 100 ml de hipoclorito
+comercial (cloro) en un recipiente y completar con agua hasta un litro.) Utilizando una toalla limpia humedecida
+con la solución explicada anteriormente cubriendo todas las superficies.
+4. Dejar secar
+DISPOSICIÓN FINAL DE LOS RESIDUOS ORGÁNICOS
+Como manejo de los residuos orgánicos un mecanismo de aprovechamiento correcto y aceptable es el
+compostaje: ¿QUÉ ES EL COMPOSTAJE?
+El compostaje o “composting” es el proceso biológico aeróbico (presencia de oxígeno), mediante el cual los
+microorganismos actúan sobre la materia rápidamente biodegradable (restos de cosecha, excrementos de
+animales y residuos urbanos), permitiendo obtener "compost", abono excelente para la agricultura.
+El compost es un nutriente para el suelo que mejora la estructura y ayuda a reducir la erosión, ayuda a la
+absorción de agua y nutrientes por parte de las plantas. Se recomienda vender los residuos orgánicos a
+personas naturales que realicen esta actividad, como forma de aprovechamiento de los residuos sólidos.
+DISPOSICIÓN FINAL: La empresa de servicios públicos de la ciudad de Duitama “URBASER” tiene a su
+disposición las canecas como sitio de acopio de demás establecimientos comerciales dispuestas en la calle
+15, a 2 metros del restaurante en la cual pueden disponer sus residuos sólidos en cualquier momento del día.
+RESPONSABLE
+
+Mesero
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+4. PROGRAMA DE AGUA POTABLE
+La provisión de agua con las características adecuadas, reviste gran importancia
+para la calidad del producto final como para la salud y bienestar del personal
+implicado en los procesos de transformación de alimentos. Este programa se
+diseña con el fin de garantizar la calidad físico química, organoléptica y
+microbiológica del agua utilizada tanto en los procesos de preparación de
+alimentos, como en las operaciones de limpieza y desinfección de instalaciones,
+equipos, utensilios, menaje y demás elementos de cocina que tienen contacto
+INTRODUCCIÓN
+
+directo o indirecto con los mismos. El programa de abastecimiento y control de
+calidad del agua está planteado de tal manera, que se pueda ejercer control sobre
+las diversas condiciones que puedan afectar la calidad, volumen y adecuado
+suministro del agua Asegurar que la calidad del agua para todos los procesos que
+se desarrollan en las mesas y bodegas de almacenamiento, cumpla con las
+características físicas, organolépticas y microbiológicas; con el fin de garantizar la
+inocuidad en los productos almacenados, procesados y distribuidos a los Titulares
+de Derecho.
+Crear acciones y procedimientos metodológicos que garanticen la calidad y
+
+OBJETIVO
+
+suministro de agua potable, para ejecutar idóneamente las actividades de
+procesamiento de alimentos, limpieza y desinfección, y demás acciones que lo
+requieran.
+
+ALCANCE
+
+Empleados, clientes y proveedores de “FURAI GASTROBAR”
+Agua potable: El agua potable es agua dulce que puede ser consumida por
+personas y animales sin riesgo de contraer enfermedades.
+Calidad de Agua: Es el conjunto de las características organolépticas, físicas
+
+TÉRMINOS Y
+
+químicas y microbiológicas.
+
+DEFINICIONES.
+
+Tratamiento o Potabilización: Es el conjunto de operaciones y procesos que se
+realizan sobre el agua cruda, con el fin de modificar sus características físicas,
+químicas y microbiológicas, para hacerla apta para el consumo humano.
+Agua contaminada: Cuando existe algún cambio en las características
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+fisicoquímicas, microbiológicas u organolépticas de agua para consumo humano
+o cuando el agua contiene residuos de alimentos, mugre o cualquier otro tipo de
+elemento que impida su utilización.
+Agua segura: Es aquella que por su condición y tratamiento no contiene gérmenes
+ni sustancias tóxicas que puedan afectar la salud de las personas.
+Uso Racional del Agua: Se puede definir como el uso estrictamente necesario
+del recurso hídrico en las diferentes actividades.
+MEDIDAS DE CONTROL.
+Se efectuarán las siguientes medidas de control, encaminadas a garantizar un suministro de agua inocua con
+características ideales de consumo.
+Uso de filtro del agua.
+El agua potable que proviene del acueducto, frecuentemente posee impurezas y materiales extraños que se
+adhieren de la tubería que la conduce, estas características son minimizadas por medio de un sistema de
+purificación, el cual está ubicado de forma tal que el agua pase por el sistema antes de llegar a los puntos de
+suministro del restaurante; cuando se presentan casos en los cuales no se cuenta con estos equipos , es preciso
+efectuar un proceso térmico o hervido al agua de consumo con el fin de eliminar cualquier tipo de microorganismo
+patógeno que pueda estar presente en la misma capaz de desencadenar problemas de salud a quien la
+consuma. El personal manipulador de alimentos, realizará diariamente al finalizar la jornada el hervido del agua,
+durante diez minutos posteriores al punto de ebullición (cuando empieza a hacer burbujas), dejando esta lista
+para su uso al día siguiente.
+El agua potable es suministrada por el acueducto municipal mediante presión y
+conducida por tuberías desde el punto de llegada hasta el tanque de
+SISTEMAS DE
+ALMACENAMIENTO.
+
+almacenamiento por tuberías de PVC. El tanque debe garantizar almacenamiento
+de aguas para suministrar y procesar alimentos en las mesas al cliente, con la
+capacidad suficiente para atender como mínimo las necesidades correspondientes
+a un día de proceso, de igual forma la presión debe ser adecuada para todas las
+operaciones efectuadas en las diversas áreas.
+
+PROCEDIMIENTO DE LIMPIEZA Y DESINFECCIÓN DE LOS SISTEMAS DE ALMACENAMIENTO (tanque)
+Este procedimiento es responsabilidad del restaurante, y se debe realizar mínimo cada 6 meses y debe
+considerar las siguientes actividades:
+1. Iniciar con la suspensión de la irrigación interna y desocupar el tanque totalmente.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+2. Retirar sólidos y sedimentos que se encuentren al interior (de forma manual o mecánica).
+3. Teniendo en cuenta el material del tanque, con una solución de agua y jabón o detergente, con la ayuda de
+una esponja o cepillo, restregar internamente toda la superficie del tanque, luego restregar la parte externa,
+realizar el mismo proceso con la tapa
+4. Enjuagar con abundante agua potable asegurándose de no dejar residuos de detergente.
+5. Empleando un atomizador con una solución específica para este procedimiento, rociar las paredes internas
+y externas y la tapa del tanque dejando actuar durante 20 minutos.
+6. Evacuar la solución por la tubería para su desinfección, dejar actuar por 10 minutos y enjuagar.
+7. Por último, se procede a llenar de agua nuevamente el tanque, instalar su tapa verificando su adecuado
+cierre hermético, para evitar el ingreso de animales, polvo o suciedad que puedan contaminar el agua.
+8. La aparición de agentes patógenos es la verificación que el proceso fue mal realizado.
+Diariamente, el personal manipulador, realizará inspección del estado de las redes
+hidráulicas visibles, verificando empates de la tubería y la ausencia de roturas y/o
+VERIFICACIÓN DE
+
+fugas al interior y exterior de dichas instalaciones; a fin de garantizar la calidad en
+
+INSTALACIONES
+
+la prestación del servicio de alimentación. En las llaves de cocina y baños se
+
+HIDRÁULICAS
+
+verificará el estado de su limpieza, en caso de encontrar anomalías se procede a
+mitigar la situación encontrada, igualmente se realiza mantenimiento preventivo
+verificando empaques y ductos para evitar fugas y/o goteras.
+Con el ánimo de generar concientización, entre todos los actores involucrados en
+el proceso, de manera particular el personal manipulador, el operador direcciona
+algunas directrices para el correcto uso y optimización del agua y la conservación
+del recurso, mediante sistemas ahorradores de agua y avisos alusivos que generen
+
+MECANISMOS DE
+
+sensibilización al personal manipulador de alimentos. Por lo anterior, algunas de
+
+AHORRO DE AGUA
+
+las técnicas a emplear son:
+Publicación de avisos alusivos a la conservación del recurso hídrico y su correcto
+uso.
+
+PLAN DE CONTINGENCIA
+Con el fin de evitar cualquier problema se estableció un plan de contingencia aplicable en caso de emergencia
+y ante la presencia de un caso fortuito o inesperado en el manejo del programa. El plan comprende una serie
+de actividades que se deben ejecutar de forma inmediata ante alguna falla en el programa trazado; estos
+aspectos y procedimientos son:
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+a) La principal acción correctiva es la no prestación del servicio cuando hay cortes de agua
+anunciado con anticipación.
+1. De surgir inconformidades en la verificación de los procedimientos realizados, informar y realizar de nuevo las
+actividades registradas en los mismos. Si el lavado y desinfección del tanque no se realizó de acuerdo a lo
+establecido, se debe iniciar el procedimiento
+garantizando el cumplimiento mínimo de las actividades especificadas o según las
+pautas suministradas por los actores competentes.
+2. En caso de un racionamiento, suspensión o cortes continuos en el servicio de acueducto,
+que se haya avisado oportunamente se inhabilitará el servicio del comedor.
+3. En los casos en que no se cuente con un tanque de almacenamiento de agua potable y
+no sea conveniente e higiénico otro tipo de almacenamiento, se debe establecer la
+consecución inmediata de un tanque con las especificaciones mínimas para su
+funcionamiento.
+4. Como medida preventiva se tomará en cuenta la información de los cortes de agua en
+zonas, que establezcan las empresas prestadoras del servicio de agua, que son
+transmitidas por los medios de comunicación.
+5. Si se notifican resultados del laboratorio de salud pública en muestras del agua no
+aceptable, se realizará supervisión de inmediato. Para determinar los factores causantes
+(en cada etapa del proceso productivo y en el personal), se tomarán los correctivos y se
+efectuará un nuevo muestreo
+La ejecución de las actividades consignadas en este programa, son
+RESPONSABLE
+
+responsabilidad exclusiva del personal manipulador de alimentos encargado del
+restaurante.
+
+Anexos
+
+Formato de lavado de tanques
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+5. PROGRAMA MEDIDAS HIGIÉNICAS Y DE PROTECCIÓN
+Una de las principales fuentes de contaminación de los alimentos son las personas
+que los manipulan, pues estos albergan gérmenes en algunas partes de su cuerpo
+que pueden ser transmitidos a los alimentos al entrar en contacto con ellos y causar
+enfermedades; las partes del cuerpo humano a las que se les debe prestar especial
+atención cuando se manipulan alimentos son la piel, las manos, la nariz, la boca, los
+INTRODUCCIÓN
+
+oídos y el cabello. También se debe tener cuidado con los cortes o heridas que tienen
+los manipuladores y el tipo de ropa que debe usarse al manipular alimentos.
+La correcta presentación y los hábitos higiénicos ayudan a prevenir las
+enfermedades y dan una impresión de seguridad al consumidor además de generar
+mayor clientela al restaurante.
+Garantizar medidas higiénicas y de protección, adecuadas para asegurar el
+
+OBJETIVO
+
+cumplimiento de la normativa, conseguir una buena presentación personal y evitar
+los riesgos de contaminación que generan enfermedades a los clientes por la
+manipulación incorrecta de los alimentos.
+Buenas prácticas de manufactura: Son los principios básicos y prácticas generales
+de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento,
+transporte y distribución de alimentos para consumo humano, con el objeto de
+garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se
+disminuyan los riesgos inherentes a la producción.
+
+TÉRMINOS Y
+DEFINICIONES
+
+Higiene de los alimentos: Son el conjunto de medidas preventivas necesarias para
+garantizar la seguridad, limpieza y calidad de los alimentos en cualquier etapa de su
+manejo.
+Higiene personal: Es el concepto que se tiene del cuidado con el cuerpo humano
+quiere decir el aseo y la limpieza.
+Manipulador de alimentos: Es toda persona que interviene directamente y, aunque
+sea en forma ocasional, en actividades de fabricación, procesamiento, preparación,
+envase, almacenamiento, transporte y expendio de alimentos. (Colombia, 1997)
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+Toxiinfecciones alimentarias: Constituyen un grupo de enfermedades que se
+producen a consecuencia de la ingestión de alimentos contaminados En muchas
+ocasiones aparecen en forma de brotes epidémicos al afectar a varias personas que
+consumen esos alimentos. (Rosales Zabal, s.f.)
+Para prevenir la contaminación de los alimentos se debe enfocar en la higiene del
+manipulador y poner en práctica este habito, para lograrlo a continuación se explica
+cómo debe ser la higiene de las partes del cuerpo y los aspectos más importantes en
+el manipulador.
+Manos: el manipulador siempre tiene contacto directo con los alimentos, por esto se
+debe tener mayor precaución al manipularlos e incrementar la higiene en esta parte
+del cuerpo, para lograrlo debe:
+HIGIENE PERSONAL
+
+Lavarse las manos antes de tocar los alimentos y cada vez que se cambie de actividad
+que indique que estas se han contaminado, por ejemplo, después de ir al baño,
+tocarse alguna parte del cuerpo, de estornudar o toser, tocar a algún animal o tener
+contacto con la basura.
+Mantener las uñas cortas para evitar acumulación de mugre, limpias, no deben
+llevarse pintadas ni tener joyas u objetos personales durante la manipulación del
+alimento.
+Si tiene algún tipo de corte o herida en las manos se deben proteger con guantes para
+evitar que tengan contacto con los alimentos.
+
+PROCEDIMIENTO
+1. Mojarse las manos con agua.
+2. Aplicar suficiente jabón para cubrir toda la mano
+3. Frotar las palmas entre si
+4. Frotar la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa
+5. Frotar las palmas de las manos entre sí, con los dedos entrelazados
+6. Frotar el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos
+7. Rodeando el pulgar izquierdo con la palma de la mano derecha, frotarlo con un movimiento de rotación, y
+viceversa.
+8. Frotar la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento
+de rotación, y viceversa.
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+9. Enjuagar las manos.
+
+10. Secarlas con una toalla de un solo uso.
+11. Utilizar la toalla para cerrar el grifo.
+
+Nariz y Boca: son dos partes fundamentales del cuerpo por las que se transmiten cantidad de bacterias
+generadoras de contaminación a los alimentos como el “Staphylococcus aureus”, esta bacteria se dispersa
+fácilmente al hablar, toser o estornudar ocasionando toxiinfecciones alimentarias, por lo que se debe evitar:
+Estornudar sobre los alimentos o áreas de manipulación de los mismos, se aconseja el uso del tapabocas.
+Comer, fumar o beber en el área de preparación de alimentos, esto se debe realizar en el área destinada para
+su fin.
+Hablar directamente sobre los alimentos.
+Si el manipulador presenta síntomas de alguna enfermedad debe comunicar a su superior y evitar el contacto
+con los alimentos.
+Cabello: este recoge con frecuencia polvo, suciedad y está cambiando constantemente, por esto se debe evitar
+el contacto con los alimentos. Además, el manipulador no debe tocarlo mientras está en contacto con los
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+alimentos y si lo hace debe lavarse las manos antes de volver a manipular los alimentos. El manipulador debe
+llevar el cabello recogido, cubierto con un gorro y evitar en lo posible la barba y el bigote.
+La ropa de trabajo tiene que ser exclusiva y adecuada para la manipulación de
+los alimentos, el vestuario debe estar limpio y permanente, es necesario lavarlo
+a diario y cada vez que sea necesario.
+Características:
+ROPA DE TRABAJO
+
+● Color claro
+● Siempre limpia
+● De fácil limpieza y lavado
+● Cómodo y amplio
+● Preferiblemente sin bolsillos ni cremalleras
+● Zapatos cerrados y de color claro
+● Cubrecabezas eficiente
+CONTROL DE TEMPERATURAS
+
+La mayoría de las enfermedades transmitidas por alimentos en los restaurantes, es el exceso de tiempo y
+temperatura de alimentos. Esto ocurre cuando los alimentos se dejan a temperaturas entre 41º (5 oC) y 135ºF
+(57oC) – las temperaturas de la zona de peligro – por cuatro horas o más. Cuando un alimento está dentro de
+este rango de temperatura por más de cuatro horas, las bacterias peligrosas pueden crecer y multiplicarse.
+¿Cómo Medir la Temperatura de los Alimentos?
+La lectura de la temperatura de los alimentos únicamente será correcta si el termómetro es colocado en el lugar
+adecuado dentro del alimento. Si el termómetro no se inserta correctamente o es colocado en el sitio equivocado,
+la lectura del termómetro no refleja correctamente la temperatura interna del alimento. En general, el termómetro
+debe ser insertado en la parte más gruesa del alimento, lejos del hueso, grasa y cartílago.
+La mejor manera de evitar el abuso de tiempo y temperatura es minimizar el tiempo en que los alimentos están
+en la zona de peligro. Para lograr esto:
+Revise periódicamente la temperatura de los alimentos durante el almacenamiento, después de cocinarlos y
+mientras se exhiben antes de servir.
+Revise cuanto tiempo están los alimentos dentro de la zona de peligro, particularmente después de retirarlos
+de lugares con temperatura controlada (como retirarlos del refrigerador o del horno).
+
+CODIGO: PSB-SGS-001
+
+PLAN DE SANEAMIENTO BÁSICO
+
+VERSIÓN: 001
+
+FURAI GASTROBAR
+
+FECHA: Marzo 2025
+
+Mantenga termómetros en los refrigeradores y gabinetes de mantenimiento en caliente.
+Use termómetros para alimentos debidamente calibrados para revisar las temperaturas.
+Registre las temperaturas tomadas regularmente y la hora en que se tomaron
+Prepare
+
+los
+
+procedimientos (acciones
+
+correctivas)
+
+cuando ocurra abuso de tiempo o temperatura de un alimento.
+(Food Safety, 2000)
+ANEXOS
+
+Formato de temperatura refrigeración
+
+a
+
+tomar
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+BIBLIOGRAFÍA
+
+Chan, L., & Rodriguez , k. (18 de 02 de 2013). Manual de buenas prácticas de higiene y sanidad.
+Recuperado el 08 de 07 de 2020, de Universidad Modelo:
+http://es.slideshare.net/KenedyRodriguezColli/manual-de-buenas-practicas-de-higiene-y-sanidad
+Colombia, P. d. (31 de 12 de 1997). Alcaldía de Bogotá. Recuperado el 08 de 07 de 2020 de
+Alcaldía de Bogota:http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=3337
+Guzmán, Y. (2011). BPM EN FABRICAS DE ALIMENTOS. Recuperado el 08 de 07 de 2020,
+de Programa control de plagas: http://bpmfabricasdealimentos.blogspot.com.co/p/programacontrol-de-plagas.html
+ICONTEC. Norma Técnica Colombiana GTC 24. Recuperado el 08 de 07 de 2020, de Guía
+para la separación de la fuente: http://www.estra.com/eco/pdf/norma.pdf
+Ministerio del Medio Ambiente. (7 de agosto de 2002). DECRETO 1713 DE 2002. Recuperado el
+08 de 07 de 2020, de http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=5542
+Grupo de vigilancia y control de factores de riesgo ambiental. (2010). Protocolo de vigilancia y
+control de enfermedades transmitidas por alimentos. Bogotá: Instituto Nacional de Salud.
+Recuperado de: https://www.minsalud.gov.co/comunicadosPrensa/Documents/ETA.pd
+El Presidente de la Republica de Colombia. (1997). Decreto 3075 por el cual se reglamenta
+parcialmente la ley 09 de 1979 y se dictan otras disposiciones. Bogotá: El Presidente de la
+Republica de Colombia. Recuperado de:
+https://www.invima.gov.co/images/stories/aliementos/decreto_3075_1997.pdf
+El Ministerio de Salud y Protección Social. (2013). Resolución número 2674 de 2013 por la cual
+se reglamenta el artículo 126 del Decreto ley 019 de 2012 y se dictan otras disposiciones.
+Recuperado de:
+https://www.invima.gov.co/images/pdf/normatividad/alimentos/resoluciones/resolucio
+mes/2013/2674.pdf
+FAO. (2003). Manual para la preparación y venta de frutas y hortalizas del campo al mercado
+(Vol. 151). Wood & Agricultura Org. FAO y OMS. (2011). Comision del Codex Alimentarius.
+Manual de procedimiento:12º. Roma: Secretaria del Programa Conjunto FAO/OMS sobre
+Normas Alimentarias. INVIMA. (s.f.). Glosario de términos. Recuperado el 08 de 07 de 2020,
+de https://www.invima.gov.co/index.php?option=com_content&view=article& id=770&Itemid=242
+
+PLAN DE SANEAMIENTO BÁSICO
+FURAI GASTROBAR
+
+CODIGO: PSB-SGS-001
+VERSIÓN: 001
+FECHA: Marzo 2025
+
+Ministerio de la Protección Social. (09 de 10 de 2006). Decreto 3518 de 2006. Recuperado el 08
+de 07 de 2020, de http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=21859
+Ministerio de Salud. (23 de 12 de 1997). DECRETO 3075 DE 1997. Recuperado el 19 de 08 de
+2015, de Por la cual se reglamenta parcialmente la Ley 9 de 1979 y se dictan otras
+disposiciones.: http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=3337
+Organización de las Naciones Unidas para la Alimentación y la Agricultura. (2007). Mejoramiento
+de la calidad e inocuidad de las frutas y hortalizas frescas. Food & Agriculture. Secretaria de
+Salud de Mexico. (s.f.). GLOSARIO DE TERMINOS. Recuperado el 08 de 07 de 2020, de
+http://www.salud.gob.mx/unidades/cdi/documentos/gloterm.html
+Secretaria Distrital de Salud. (2012). Area de Vigilancia en Salud Pública. Obtenido de Guia
+Operativa Alimentos Sanos y Seguros:
+http://saludpublicabogota.org/wiki/images/7/74/GUIA_OPERATIVA_ALIM
+Decreto 3075. Presidencia de la Republica, Colombia, diciembre 23 de 1997. Consultado
+08 de 07 de 2020. Disponible en:
+https://www.invima.gov.co/images/stories/aliementos/decreto_3075_1997.pdf
+Ministerio de Cultura de Colombia (2014). Medalla al mérito cultural a Doña Chepa.
+Recuperado el 08 de 07 de 2020 de
+http://www.mincultura.gov.co/prensa/noticias/Paginas/Medalla-al-M%C3%A9ritoCultural-aDo%C3%B1a-Chepa.aspx
+Resolución 2674. Ministerio de salud y protección social, Colombia, julio 22 de 2013.
+Consultado 08 de 07 de 2020. Disponible en:
+https://www.invima.gov.co/images/pdf/normatividad/alimentos/resoluciones/resoluciones
+/2013/2674.pdf
+Organización mundial de la salud (2007). Manual sobre las cinco claves para la inocuidad de los
+alimentos. Recuperado de http://www.who.int/foodsafety/publications/5keysmanual/es/
+Zumbado H. (2005). Análisis químicos de los alimentos, métodos clásicos. Instituto de farmacias
+y alimentos. Universidad de la Habana.
+
+

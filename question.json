@@ -1,0 +1,657 @@
+{
+  "titulo": "Banco de Preguntas – Curso Manipulador de Alimentos",
+  "normativa": "Colombia – Resolución 2674 de 2013",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "modulo": 1,
+      "modulo_nombre": "Introducción",
+      "pregunta": "¿Cuál es la definición de manipulador de alimentos según la normativa colombiana?",
+      "opciones": {
+        "A": "Persona que únicamente transporta alimentos envasados",
+        "B": "Toda persona que interviene en actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos",
+        "C": "Solo el cocinero que prepara los alimentos directamente",
+        "D": "Persona que trabaja en una empresa de alimentos con contrato laboral"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 2,
+      "modulo": 1,
+      "modulo_nombre": "Introducción",
+      "pregunta": "¿Qué normativa colombiana regula las Buenas Prácticas de Manufactura para alimentos?",
+      "opciones": {
+        "A": "Decreto 616 de 2006",
+        "B": "Ley 9 de 1979",
+        "C": "Resolución 2674 de 2013",
+        "D": "Decreto 1500 de 2007"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 3,
+      "modulo": 1,
+      "modulo_nombre": "Introducción",
+      "pregunta": "¿Qué es una Enfermedad de Transmisión Alimentaria (ETA)?",
+      "opciones": {
+        "A": "Una alergia causada por el consumo de mariscos",
+        "B": "Enfermedad causada o transmitida por el consumo de alimentos o agua contaminados",
+        "C": "Una infección que se contagia por contacto con animales",
+        "D": "Cualquier malestar estomacal después de comer"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 4,
+      "modulo": 1,
+      "modulo_nombre": "Introducción",
+      "pregunta": "¿Cuál es la función principal del INVIMA en Colombia?",
+      "opciones": {
+        "A": "Fijar los precios de los alimentos en el mercado",
+        "B": "Vigilar y controlar la calidad e inocuidad de alimentos, medicamentos y otros productos",
+        "C": "Capacitar a los manipuladores de alimentos en todo el país",
+        "D": "Emitir permisos de construcción para plantas de alimentos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 5,
+      "modulo": 1,
+      "modulo_nombre": "Introducción",
+      "pregunta": "¿En qué etapa de la cadena alimentaria NO puede estar presente un manipulador de alimentos?",
+      "opciones": {
+        "A": "Producción primaria",
+        "B": "Distribución y transporte",
+        "C": "Eliminación de residuos nucleares",
+        "D": "Preparación y servicio"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 6,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "¿A qué temperatura se considera que los alimentos están en la 'zona de peligro' para el crecimiento bacteriano?",
+      "opciones": {
+        "A": "Entre 0°C y 4°C",
+        "B": "Entre 5°C y 65°C",
+        "C": "Entre 70°C y 100°C",
+        "D": "Por encima de 100°C"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 7,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "¿Cuál de los siguientes microorganismos es BENEFICIOSO para la industria alimentaria?",
+      "opciones": {
+        "A": "Salmonella",
+        "B": "Clostridium botulinum",
+        "C": "Lactobacillus acidophilus (yogur)",
+        "D": "Listeria monocytogenes"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 8,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "¿Cuál es la temperatura mínima de cocción segura para carnes de aves?",
+      "opciones": {
+        "A": "55°C",
+        "B": "63°C",
+        "C": "74°C",
+        "D": "100°C"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 9,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "¿Qué condición NO favorece el crecimiento de bacterias patógenas?",
+      "opciones": {
+        "A": "Temperatura entre 5°C y 65°C",
+        "B": "Alta humedad",
+        "C": "Temperatura de refrigeración (0-4°C)",
+        "D": "Presencia de nutrientes"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 10,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "La acrilamida es una sustancia que se forma en los alimentos cuando:",
+      "opciones": {
+        "A": "Se refrigeran por más de 24 horas",
+        "B": "Se cocinan a altas temperaturas alimentos ricos en almidón",
+        "C": "Se mezclan productos lácteos con frutas ácidas",
+        "D": "Se descongela el pescado a temperatura ambiente"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 11,
+      "modulo": 2,
+      "modulo_nombre": "Higiene Alimentaria",
+      "pregunta": "¿Cuál bacteria produce la toxina responsable del botulismo?",
+      "opciones": {
+        "A": "Salmonella typhimurium",
+        "B": "Staphylococcus aureus",
+        "C": "Clostridium botulinum",
+        "D": "Escherichia coli O157:H7"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 12,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "¿Qué tipo de contaminación ocurre cuando los microorganismos pasan de un alimento crudo a uno cocido?",
+      "opciones": {
+        "A": "Contaminación química",
+        "B": "Contaminación cruzada",
+        "C": "Contaminación física",
+        "D": "Contaminación radiactiva"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 13,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "Un hueso pequeño encontrado en un filete de pescado es un ejemplo de contaminación:",
+      "opciones": {
+        "A": "Biológica",
+        "B": "Química",
+        "C": "Física",
+        "D": "Microbiológica"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 14,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "¿Cuál de los siguientes es un contaminante QUÍMICO de los alimentos?",
+      "opciones": {
+        "A": "Un pelo humano",
+        "B": "Residuos de pesticidas en frutas y verduras",
+        "C": "Una bacteria patógena",
+        "D": "Un fragmento de vidrio"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 15,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "¿Cómo se puede prevenir la contaminación cruzada en la cocina?",
+      "opciones": {
+        "A": "Usando la misma tabla de corte para todos los alimentos",
+        "B": "Lavando los alimentos crudos con agua caliente",
+        "C": "Usando tablas de corte y utensilios separados para carnes crudas y alimentos listos para consumir",
+        "D": "Guardando carnes crudas y alimentos cocidos en el mismo recipiente"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 16,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "¿Cuál es la principal fuente de contaminación biológica en los alimentos?",
+      "opciones": {
+        "A": "Los envases plásticos",
+        "B": "Las personas manipuladoras de alimentos",
+        "C": "Los equipos de frío",
+        "D": "El agua destilada"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 17,
+      "modulo": 3,
+      "modulo_nombre": "Contaminación",
+      "pregunta": "¿Cuál de las siguientes señales indica que un alimento puede estar contaminado?",
+      "opciones": {
+        "A": "Color brillante y olor agradable",
+        "B": "Temperatura adecuada de refrigeración",
+        "C": "Cambio de color, olor extraño o textura viscosa",
+        "D": "Fecha de vencimiento vigente"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 18,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "¿Cuál de las siguientes es una ETA de origen bacteriano?",
+      "opciones": {
+        "A": "Hepatitis A",
+        "B": "Salmonelosis",
+        "C": "Anisakiasis",
+        "D": "Norovirus"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 19,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "¿Cuáles son los síntomas más comunes de una ETA?",
+      "opciones": {
+        "A": "Fiebre alta, sarpullido y dolor de cabeza",
+        "B": "Náuseas, vómito, diarrea y dolor abdominal",
+        "C": "Tos, congestión nasal y dolor de garganta",
+        "D": "Dolor muscular, fatiga y mareos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 20,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "¿Cuál es uno de los alimentos de MAYOR riesgo para causar ETA?",
+      "opciones": {
+        "A": "Arroz bien cocido y caliente",
+        "B": "Manzanas frescas lavadas",
+        "C": "Huevos crudos o poco cocidos",
+        "D": "Agua embotellada sellada"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 21,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "Según las 5 claves de la OMS para alimentos más seguros, ¿cuál es la temperatura correcta para mantener los alimentos calientes?",
+      "opciones": {
+        "A": "Por encima de 60°C",
+        "B": "Entre 40°C y 50°C",
+        "C": "A temperatura ambiente",
+        "D": "Por debajo de 30°C"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 22,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "Un manipulador de alimentos con diarrea o vómito debe:",
+      "opciones": {
+        "A": "Usar guantes y mascarilla y continuar trabajando",
+        "B": "Notificar al responsable y no manipular alimentos hasta recuperarse",
+        "C": "Tomar medicamentos y seguir en su puesto",
+        "D": "Solo lavarse las manos con más frecuencia"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 23,
+      "modulo": 4,
+      "modulo_nombre": "Enfermedades de Transmisión Alimentaria (ETA)",
+      "pregunta": "¿Qué es la hepatitis A en el contexto de las ETA?",
+      "opciones": {
+        "A": "Una enfermedad bacteriana causada por Salmonella",
+        "B": "Una infección parasitaria transmitida por mariscos",
+        "C": "Una enfermedad viral que afecta el hígado, transmitida por alimentos o agua contaminada",
+        "D": "Una intoxicación por consumo de conservas en mal estado"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 24,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿Qué es la cadena de frío?",
+      "opciones": {
+        "A": "El proceso de congelar alimentos a -18°C por 24 horas",
+        "B": "El mantenimiento ininterrumpido de temperatura de refrigeración o congelación desde el origen hasta el consumidor",
+        "C": "El sistema de transporte refrigerado exclusivo para carnes",
+        "D": "El procedimiento de enfriamiento rápido de alimentos calientes"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 25,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿A qué temperatura debe mantenerse un refrigerador para conservar alimentos correctamente?",
+      "opciones": {
+        "A": "Entre 8°C y 12°C",
+        "B": "Entre 0°C y 4°C",
+        "C": "Entre -5°C y 0°C",
+        "D": "Entre 15°C y 18°C"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 26,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿Qué significa el sistema PEPS (FIFO) en el almacenamiento de alimentos?",
+      "opciones": {
+        "A": "Primero en producirse, primero en servirse",
+        "B": "Primero en entrar, primero en salir",
+        "C": "Precio establecido por el sistema",
+        "D": "Procedimiento estándar para la producción segura"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 27,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿Cuál es la temperatura adecuada para mantener alimentos congelados?",
+      "opciones": {
+        "A": "0°C",
+        "B": "-5°C",
+        "C": "-18°C o menos",
+        "D": "-10°C"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 28,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿Qué información DEBE tener obligatoriamente una etiqueta de alimento según la normativa colombiana?",
+      "opciones": {
+        "A": "Solo el nombre del producto y el precio",
+        "B": "Nombre, ingredientes, fecha de vencimiento, fabricante y condiciones de conservación",
+        "C": "Solo la fecha de fabricación y el código de barras",
+        "D": "El nombre del distribuidor y el peso neto únicamente"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 29,
+      "modulo": 5,
+      "modulo_nombre": "Conservación y Almacenamiento",
+      "pregunta": "¿Qué método de conservación utiliza el calor para eliminar microorganismos en leche?",
+      "opciones": {
+        "A": "Liofilización",
+        "B": "Irradiación",
+        "C": "Pasteurización",
+        "D": "Salazón"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 30,
+      "modulo": 6,
+      "modulo_nombre": "Higiene de los Manipuladores",
+      "pregunta": "¿Cuántos pasos tiene el correcto lavado de manos según los protocolos de higiene alimentaria?",
+      "opciones": {
+        "A": "3 pasos",
+        "B": "5 pasos",
+        "C": "8 pasos",
+        "D": "10 pasos"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 31,
+      "modulo": 6,
+      "modulo_nombre": "Higiene de los Manipuladores",
+      "pregunta": "¿Cuándo es OBLIGATORIO lavarse las manos durante la manipulación de alimentos?",
+      "opciones": {
+        "A": "Solo antes de comenzar la jornada laboral",
+        "B": "Únicamente después de ir al baño",
+        "C": "Antes de manipular alimentos, después de ir al baño, al cambiar de tarea y al tocar superficies sucias",
+        "D": "Solo cuando las manos están visiblemente sucias"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 32,
+      "modulo": 6,
+      "modulo_nombre": "Higiene de los Manipuladores",
+      "pregunta": "¿Cuál de las siguientes prácticas está PROHIBIDA para un manipulador de alimentos?",
+      "opciones": {
+        "A": "Usar cofia o gorro para cubrir el cabello",
+        "B": "Usar ropa de trabajo limpia y exclusiva",
+        "C": "Fumar, comer o masticar chicle en las zonas de manipulación",
+        "D": "Lavarse las manos frecuentemente"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 33,
+      "modulo": 6,
+      "modulo_nombre": "Higiene de los Manipuladores",
+      "pregunta": "¿Para qué sirven los guantes en la manipulación de alimentos?",
+      "opciones": {
+        "A": "Para proteger las manos del frío",
+        "B": "Para evitar el contacto directo con alimentos listos para consumir y reducir riesgos de contaminación",
+        "C": "Son obligatorios en todo momento y reemplazan el lavado de manos",
+        "D": "Para manipular alimentos calientes sin quemarse"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 34,
+      "modulo": 6,
+      "modulo_nombre": "Higiene de los Manipuladores",
+      "pregunta": "¿Qué debe hacer un manipulador de alimentos si tiene una herida en la mano?",
+      "opciones": {
+        "A": "Dejar la herida expuesta para que cicatrice más rápido",
+        "B": "Cubrir la herida con una venda de color llamativo y usar guante sobre ella",
+        "C": "Continuar trabajando normalmente sin ninguna precaución",
+        "D": "Usar solo una mano para manipular alimentos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 35,
+      "modulo": 7,
+      "modulo_nombre": "Limpieza e Higiene",
+      "pregunta": "¿Cuál es la diferencia entre limpieza y desinfección?",
+      "opciones": {
+        "A": "Son sinónimos, ambos términos significan lo mismo",
+        "B": "La limpieza elimina microorganismos y la desinfección elimina la suciedad visible",
+        "C": "La limpieza elimina suciedad visible y la desinfección reduce o elimina microorganismos",
+        "D": "La limpieza se hace con agua fría y la desinfección con agua caliente"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 36,
+      "modulo": 7,
+      "modulo_nombre": "Limpieza e Higiene",
+      "pregunta": "¿Cuál es el orden correcto del proceso de limpieza y desinfección?",
+      "opciones": {
+        "A": "Desinfectar → Limpiar → Aclarar → Secar",
+        "B": "Limpiar en seco → Lavar → Aclarar → Desinfectar → Aclarar final → Secar",
+        "C": "Mojar → Desinfectar → Limpiar → Secar",
+        "D": "Aplicar desinfectante → Frotar → Aclarar → Secar"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 37,
+      "modulo": 7,
+      "modulo_nombre": "Limpieza e Higiene",
+      "pregunta": "¿Cuál es la mejor manera de prevenir la presencia de plagas en una instalación alimentaria?",
+      "opciones": {
+        "A": "Usar insecticidas potentes en todas las áreas de cocina",
+        "B": "Mantener instalaciones limpias, sin fisuras, con mallas en ventanas y gestión adecuada de residuos",
+        "C": "Tener un gato en la instalación para ahuyentar roedores",
+        "D": "Sellar todos los desagües permanentemente"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 38,
+      "modulo": 7,
+      "modulo_nombre": "Limpieza e Higiene",
+      "pregunta": "¿Con qué frecuencia mínima se deben retirar los residuos sólidos de las áreas de manipulación de alimentos?",
+      "opciones": {
+        "A": "Una vez por semana",
+        "B": "Cada 15 días",
+        "C": "Diariamente o cuando sea necesario para evitar acumulación",
+        "D": "Solo cuando los contenedores estén completamente llenos"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 39,
+      "modulo": 7,
+      "modulo_nombre": "Limpieza e Higiene",
+      "pregunta": "¿Qué tipo de contenedor es el adecuado para residuos en zonas de manipulación de alimentos?",
+      "opciones": {
+        "A": "Contenedor abierto para facilitar el acceso",
+        "B": "Cualquier recipiente disponible de cualquier material",
+        "C": "Contenedor con tapa, de material resistente, de fácil limpieza y accionamiento sin manos",
+        "D": "Bolsas de plástico directamente en el suelo"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 40,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Qué significan las siglas BPM en la industria alimentaria colombiana?",
+      "opciones": {
+        "A": "Buenas Prácticas de Manufactura",
+        "B": "Bases para la Producción de Manufactura",
+        "C": "Buenas Prácticas de Mantenimiento",
+        "D": "Bases del Proceso de Manipulación"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 41,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Cuántos principios tiene el sistema HACCP?",
+      "opciones": {
+        "A": "5 principios",
+        "B": "7 principios",
+        "C": "10 principios",
+        "D": "3 principios"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 42,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Qué es un Punto Crítico de Control (PCC) en el sistema HACCP?",
+      "opciones": {
+        "A": "Cualquier etapa del proceso donde se puede agregar un ingrediente",
+        "B": "Una etapa donde se puede aplicar un control para prevenir, eliminar o reducir un peligro a nivel aceptable",
+        "C": "El punto donde se realiza el control de calidad del producto final",
+        "D": "El área de almacenamiento refrigerado de la planta"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 43,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Qué es la trazabilidad en la industria alimentaria?",
+      "opciones": {
+        "A": "El proceso de seguir la temperatura de los alimentos durante la cocción",
+        "B": "La capacidad de rastrear un alimento a través de todas las etapas de producción, transformación y distribución",
+        "C": "El registro de las ventas diarias de un establecimiento de alimentos",
+        "D": "El control de calidad visual del producto terminado"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 44,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Cuál es el primer principio del sistema HACCP?",
+      "opciones": {
+        "A": "Establecer límites críticos",
+        "B": "Identificar medidas correctoras",
+        "C": "Realizar el análisis de peligros",
+        "D": "Establecer un sistema de vigilancia"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 45,
+      "modulo": 8,
+      "modulo_nombre": "BPM y HACCP",
+      "pregunta": "¿Qué entidad en Colombia supervisa el cumplimiento de la Resolución 2674 de 2013?",
+      "opciones": {
+        "A": "Ministerio de Hacienda y Crédito Público",
+        "B": "INVIMA y las Secretarías de Salud departamentales y municipales",
+        "C": "Superintendencia de Industria y Comercio",
+        "D": "Ministerio de Agricultura y Desarrollo Rural"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 46,
+      "modulo": 9,
+      "modulo_nombre": "Alérgenos",
+      "pregunta": "¿Cuál es la diferencia entre alergia alimentaria e intolerancia alimentaria?",
+      "opciones": {
+        "A": "Son exactamente lo mismo, solo cambia el nombre",
+        "B": "La alergia involucra una respuesta del sistema inmune; la intolerancia es una reacción metabólica sin respuesta inmune",
+        "C": "La intolerancia es más grave que la alergia",
+        "D": "La alergia solo afecta a niños y la intolerancia a adultos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 47,
+      "modulo": 9,
+      "modulo_nombre": "Alérgenos",
+      "pregunta": "¿Cuántos alérgenos de declaración obligatoria exige la normativa colombiana en el etiquetado?",
+      "opciones": {
+        "A": "8 alérgenos",
+        "B": "10 alérgenos",
+        "C": "14 alérgenos",
+        "D": "20 alérgenos"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 48,
+      "modulo": 9,
+      "modulo_nombre": "Alérgenos",
+      "pregunta": "¿Cuál de los siguientes es uno de los 14 alérgenos de declaración obligatoria?",
+      "opciones": {
+        "A": "Arroz",
+        "B": "Maíz",
+        "C": "Gluten (cereales que contienen gluten)",
+        "D": "Aceite de oliva"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 49,
+      "modulo": 9,
+      "modulo_nombre": "Alérgenos",
+      "pregunta": "¿Qué es la anafilaxia?",
+      "opciones": {
+        "A": "Una reacción alérgica leve que causa picazón en la piel",
+        "B": "Una reacción alérgica grave y potencialmente mortal que requiere atención médica inmediata",
+        "C": "Un tipo de intolerancia alimentaria crónica",
+        "D": "Un trastorno digestivo causado por exceso de fibra"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 50,
+      "modulo": 9,
+      "modulo_nombre": "Alérgenos",
+      "pregunta": "¿Cómo se puede prevenir la contaminación cruzada por alérgenos en la cocina?",
+      "opciones": {
+        "A": "Lavando los utensilios con agua fría entre preparaciones",
+        "B": "Usando los mismos utensilios para todos los alimentos si se lavan bien",
+        "C": "Usando utensilios y superficies exclusivas, lavando bien los equipos y etiquetando correctamente los alimentos",
+        "D": "Cocinando todos los alimentos a altas temperaturas para destruir los alérgenos"
+      },
+      "respuesta_correcta": "C"
+    }
+  ]
+}

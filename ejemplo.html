@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formato de Control Sanitario Mensual</title>
+    <style>
+        /* Estilos generales para pantalla y PDF */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            font-size: 9px; /* Tamaño de fuente reducido para que quepan todas las columnas */
+        }
+        
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 3px 2px;
+            white-space: nowrap;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* Títulos de sección */
+        .section-title {
+            background-color: #e6e6e6;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        .day-col {
+            font-weight: bold;
+            background-color: #f9f9f9;
+            width: 20px;
+        }
+
+        /* Encabezados verticales si es necesario ahorrar espacio */
+        .vertical-text {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            height: 80px;
+            white-space: nowrap;
+        }
+
+        /* Configuración de impresión para PDF (ideal para Apps Script) */
+        @media print {
+            @page {
+                size: landscape; /* Orientación horizontal */
+                margin: 10mm;
+            }
+            body {
+                padding: 0;
+                font-size: 8px; /* Ajuste milimétrico para impresión */
+            }
+            .table-container {
+                overflow-x: visible;
+                page-break-inside: avoid;
+            }
+            /* Evitar que la tabla se corte a la mitad en la impresión */
+            table { page-break-inside:auto }
+            tr    { page-break-inside:avoid; page-break-after:auto }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" class="day-col">Día</th>
+                    <th colspan="9" class="section-title">Programa de limpieza y desinfección / Marque con 2 o 3 (x)</th>
+                    <th colspan="10" class="section-title">Control integral de plagas / Marque con 2 o 3 (x)</th>
+                    <th colspan="10" class="section-title">Materias primas / Marque con 2 (x)</th>
+                </tr>
+                <tr>
+                    <th>Limpieza</th>
+                    <th>Desinfección</th>
+                    <th>Superficies</th>
+                    <th>Utensilios</th>
+                    <th>Equipos</th>
+                    <th>Neveras</th>
+                    <th>Paredes</th>
+                    <th>Pisos</th>
+                    <th>Luminarias</th>
+                    
+                    <th>Verificación</th>
+                    <th>Avistamiento</th>
+                    <th>Almacenamiento</th>
+                    <th>Preparación</th>
+                    <th>Clientes</th>
+                    <th>Recepción</th>
+                    <th>UTA</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+
+                    <th>Cumple</th>
+                    <th>No Cumple</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                    <th>_________</th>
+                </tr>
+            </thead>
+            <tbody>
+                <script>
+                    for (let i = 1; i <= 31; i++) {
+                        document.write(`<tr>
+                            <td class="day-col">${i}</td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        </tr>`);
+                    }
+                </script>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" class="day-col">Día</th>
+                    <th colspan="6" class="section-title">Calidad del agua potable / Diligencie valores</th>
+                    <th colspan="3" class="section-title">Residuos solidos / Diligencie cantidades KG</th>
+                    <th colspan="10" class="section-title">Verificación de temperaturas / Diligencie en °C</th>
+                </tr>
+                <tr>
+                    <th>Cloro</th>
+                    <th>Ph</th>
+                    <th>Color</th>
+                    <th>Olor</th>
+                    <th>Sabor</th>
+                    <th>Turbiedad</th>
+
+                    <th>Aprovechables</th>
+                    <th>No aprovechables</th>
+                    <th>Orgánicos</th>
+
+                    <th>Refrigerador 1</th>
+                    <th>Refrigerador 2</th>
+                    <th>Congelador 1</th>
+                    <th>Congelador 2</th>
+                    <th>Cuarto frío 1</th>
+                    <th>Cuarto frío 2</th>
+                    <th>Mostrador 1</th>
+                    <th>Mostrador 2</th>
+                    <th>_____________</th>
+                    <th>_____________</th>
+                </tr>
+            </thead>
+            <tbody>
+                <script>
+                    for (let i = 1; i <= 31; i++) {
+                        document.write(`<tr>
+                            <td class="day-col">${i}</td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td></td><td></td><td></td>
+                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        </tr>`);
+                    }
+                </script>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-top: 15px; font-size: 11px;">
+        <p><strong>NOTA:</strong> En ___________________________________________________________________________________________________________________________</p>
+    </div>
+
+</body>
+</html>

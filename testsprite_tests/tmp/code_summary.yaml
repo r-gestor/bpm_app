@@ -1,0 +1,395 @@
+version: "2"
+type: frontend
+tech_stack:
+  - language: TypeScript
+  - framework: Next.js 16.1.6 (App Router)
+  - ui_library: React 19.2.3, Tailwind CSS 4, lucide-react
+  - other: NextAuth.js 4.24.13, Supabase 2.99.0, Zod 4.3.6, jspdf, @react-pdf/renderer, qrcode, jsqr, Wompi, Stripe SDK, Anthropic Claude Sonnet 4.6, Voyage AI
+
+routes:
+  - path: /
+    file: src/app/page.tsx
+    auth_required: false
+    description: Landing page with product cards, CTA buttons, and branding for BPM Salud
+
+  - path: /login
+    file: src/app/login/page.tsx
+    auth_required: false
+    description: Email/password login and Google OAuth sign-in page
+
+  - path: /activate
+    file: src/app/activate/page.tsx
+    auth_required: false
+    description: Student account activation page using token to set password
+
+  - path: /manipulacion-alimentos
+    file: src/app/manipulacion-alimentos/page.tsx
+    auth_required: false
+    description: Food handling course landing page with 3 pricing tiers and CTA to checkout
+
+  - path: /plan-de-saneamiento
+    file: src/app/plan-de-saneamiento/page.tsx
+    auth_required: false
+    description: AI sanitation plan service landing page with legal compliance info and pricing
+
+  - path: /verify
+    file: src/app/verify/page.tsx
+    auth_required: false
+    description: QR code scanner for certificate/plan verification via camera or image upload
+
+  - path: /verify/[code]
+    file: src/app/verify/[code]/page.tsx
+    auth_required: false
+    description: Public certificate or sanitation plan verification details page by unique code
+
+  - path: /dashboard
+    file: src/app/dashboard/page.tsx
+    auth_required: true
+    description: Buyer/Admin dashboard showing registered students, sanitation plans, quota, and pending orders
+
+  - path: /course-content
+    file: src/app/course-content/page.tsx
+    auth_required: true
+    description: Student course material view with toggle between PDF content and exam, and certificate download
+
+  - path: /courses/[slug]/learn
+    file: src/app/courses/[slug]/learn/page.tsx
+    auth_required: true
+    description: Video player with playlist sidebar for enrolled students
+
+  - path: /courses/[slug]/exam
+    file: src/app/courses/[slug]/exam/page.tsx
+    auth_required: true
+    description: Exam interface for students with multiple-choice questions, score, and certificate download
+
+  - path: /sanitation/generate
+    file: src/app/sanitation/generate/page.tsx
+    auth_required: true
+    description: Conversational form for AI-powered food sanitation plan generation with PDF export
+
+  - path: /checkout/[slug]
+    file: src/app/checkout/[slug]/page.tsx
+    auth_required: false
+    description: Checkout page with quantity, discount codes, and Wompi payment widget
+
+  - path: /checkout/success
+    file: src/app/checkout/success/page.tsx
+    auth_required: false
+    description: Payment confirmation page with transaction reference number
+
+  - path: /admin
+    file: src/app/admin/page.tsx
+    auth_required: true
+    description: Admin dashboard with stats cards (users, sales, certificates, plans), 7-day sales chart, notifications
+
+  - path: /admin/courses
+    file: src/app/admin/courses/page.tsx
+    auth_required: true
+    description: Admin course catalog management with enrollment counts and pass rates
+
+  - path: /admin/users
+    file: src/app/admin/users/page.tsx
+    auth_required: true
+    description: Admin user management table with role, status, and registration date
+
+  - path: /admin/payments
+    file: src/app/admin/payments/page.tsx
+    auth_required: true
+    description: Admin payment transactions table with buyer, product, amount, status, and Wompi ID
+
+  - path: /admin/sanitation
+    file: src/app/admin/sanitation/page.tsx
+    auth_required: true
+    description: Admin sanitation plans grid with business name, owner, date, and verification link
+
+features:
+  - name: User Login
+    description: Authenticate users with email/password credentials or Google OAuth
+    files:
+      - src/app/login/page.tsx
+      - src/lib/auth/auth-options.ts
+    entry_route: /login
+    user_interactions:
+      - Fill email input field
+      - Fill password input field
+      - Click "Iniciar sesión" button to submit
+      - Click Google OAuth button to sign in with Google
+      - See error message on invalid credentials
+      - Get redirected to dashboard or original page after login
+    api_calls:
+      - method: POST
+        endpoint: /api/auth/callback/credentials
+    auth_required: false
+
+  - name: Student Account Activation
+    description: New students activate their account using an email token and set their password
+    files:
+      - src/app/activate/page.tsx
+    entry_route: /activate
+    user_interactions:
+      - Visit activation link from email
+      - Fill new password field
+      - Confirm password field
+      - Click "Activar cuenta" button
+      - Get redirected to login on success
+    api_calls:
+      - method: POST
+        endpoint: /api/auth/activate
+    auth_required: false
+
+  - name: Course Landing Page
+    description: Public page showing food handling course details and pricing tiers to attract buyers
+    files:
+      - src/app/manipulacion-alimentos/page.tsx
+    entry_route: /manipulacion-alimentos
+    user_interactions:
+      - View course features and certification details
+      - View 3 pricing tiers (1-3, 4-9, 10+ people)
+      - Click CTA button to go to checkout
+    api_calls: []
+    auth_required: false
+
+  - name: Sanitation Plan Landing Page
+    description: Public page explaining the AI sanitation plan service for Colombian food businesses
+    files:
+      - src/app/plan-de-saneamiento/page.tsx
+    entry_route: /plan-de-saneamiento
+    user_interactions:
+      - Read service description and legal compliance info
+      - View supported establishment types
+      - View 6 sanitation module descriptions
+      - Click CTA to proceed to checkout or generate plan
+    api_calls: []
+    auth_required: false
+
+  - name: Checkout & Payment
+    description: Multi-step checkout with quantity selection, discount codes, and Wompi payment integration
+    files:
+      - src/app/checkout/[slug]/page.tsx
+    entry_route: /checkout/manipulacion-alimentos
+    user_interactions:
+      - View product summary with pricing
+      - Adjust quantity using + / - controls (for courses)
+      - Enter and apply discount code
+      - Remove applied discount code
+      - See total price update in real-time
+      - If not logged in, fill registration form or login modal
+      - Click "Pagar con Wompi" to open payment widget
+      - Complete payment in Wompi widget
+      - Wait for payment confirmation (up to 3 min polling)
+    api_calls:
+      - method: GET
+        endpoint: /api/products/[slug]
+      - method: GET
+        endpoint: /api/discounts/validate
+      - method: POST
+        endpoint: /api/checkout/create
+      - method: GET
+        endpoint: /api/checkout/verify
+    auth_required: false
+
+  - name: Payment Success
+    description: Confirmation page shown after successful Wompi payment
+    files:
+      - src/app/checkout/success/page.tsx
+    entry_route: /checkout/success
+    user_interactions:
+      - View transaction reference number
+      - Click button to go to dashboard
+    api_calls: []
+    auth_required: false
+
+  - name: Buyer Dashboard
+    description: Dashboard for buyers to manage students, sanitation plans, quota, and view orders
+    files:
+      - src/app/dashboard/page.tsx
+    entry_route: /dashboard
+    user_interactions:
+      - View student list with name, email, status, progress, certificate status
+      - Search/filter students by name or email
+      - Click to register a new student
+      - Fill student registration form (name, email, document type, document number)
+      - View sanitation plans with business name, type, status, code
+      - View quota usage (total/used slots)
+      - View pending orders list
+    api_calls:
+      - method: GET
+        endpoint: /api/students
+      - method: POST
+        endpoint: /api/students
+      - method: GET
+        endpoint: /api/sanitation/plans
+    auth_required: true
+
+  - name: Course Video Learning
+    description: Video player with sidebar playlist for students to watch course content
+    files:
+      - src/app/courses/[slug]/learn/page.tsx
+    entry_route: /courses/manipulacion-alimentos/learn
+    user_interactions:
+      - View video player with current module
+      - Browse video playlist in sidebar
+      - Click video in sidebar to switch
+      - Read video description below player
+    api_calls:
+      - method: GET
+        endpoint: /api/courses/content/[slug]
+      - method: GET
+        endpoint: /api/courses/progress
+    auth_required: true
+
+  - name: Course Exam
+    description: Timed exam interface for students with multiple-choice questions and score display
+    files:
+      - src/app/courses/[slug]/exam/page.tsx
+    entry_route: /courses/manipulacion-alimentos/exam
+    user_interactions:
+      - View exam instructions
+      - Click "Iniciar examen" to begin
+      - Select answer for each multiple-choice question
+      - Click "Siguiente" to go to next question
+      - Click "Enviar examen" on last question
+      - View results screen (pass/fail, score percentage, correct/total)
+      - Click "Descargar certificado" if passed
+      - Click "Reintentar examen" if failed
+    api_calls:
+      - method: POST
+        endpoint: /api/exams/start
+      - method: POST
+        endpoint: /api/exams/submit
+      - method: GET
+        endpoint: /api/certificates/[id]
+    auth_required: true
+
+  - name: Certificate Download
+    description: Students can download their PDF certificate after passing the exam
+    files:
+      - src/app/course-content/page.tsx
+    entry_route: /course-content
+    user_interactions:
+      - View course completion status
+      - Click "Descargar certificado" button
+      - PDF downloads to local device
+    api_calls:
+      - method: GET
+        endpoint: /api/certificates/check/[slug]
+      - method: GET
+        endpoint: /api/certificates/[id]
+    auth_required: true
+
+  - name: AI Sanitation Plan Generation
+    description: Conversational AI form that generates a custom food-safety sanitation plan using Claude Sonnet and Voyage AI embeddings
+    files:
+      - src/app/sanitation/generate/page.tsx
+      - src/lib/services/ai-plan.service.ts
+    entry_route: /sanitation/generate
+    user_interactions:
+      - Fill out conversational form with business details (name, type, NIT, address, legal representative)
+      - Submit form to trigger AI generation
+      - Wait for plan to be generated
+      - View generated sanitation plan with 6 compliance modules
+      - Export plan as PDF with QR code
+      - Optional: Add professional signature
+    api_calls:
+      - method: POST
+        endpoint: /api/sanitation/generate
+    auth_required: true
+
+  - name: QR Code Certificate Verification
+    description: Public QR scanning tool to verify certificate authenticity via camera or image upload
+    files:
+      - src/app/verify/page.tsx
+    entry_route: /verify
+    user_interactions:
+      - Click "Cámara" tab to activate real-time QR scanning
+      - Point camera at QR code on certificate
+      - OR click "Subir imagen" tab to upload image with QR
+      - View verification result (valid/invalid, details)
+      - View scan history from previous verifications
+    api_calls:
+      - method: POST
+        endpoint: /api/verify/check
+    auth_required: false
+
+  - name: Public Certificate/Plan Verification Page
+    description: Permanent public page showing full verification details for a certificate or sanitation plan by code
+    files:
+      - src/app/verify/[code]/page.tsx
+    entry_route: /verify/[code]
+    user_interactions:
+      - View certificate details (student name, course, issue date, expiry, code hash)
+      - OR view plan details (business name, establishment type, legal rep, NIT, generation date)
+      - See valid/invalid verification status badge
+    api_calls:
+      - method: GET
+        endpoint: /api/verify/[code]
+    auth_required: false
+
+  - name: Admin Dashboard
+    description: Admin overview with KPI stats, sales chart, and recent notifications
+    files:
+      - src/app/admin/page.tsx
+    entry_route: /admin
+    user_interactions:
+      - View stats cards (total users, total sales, certificates issued, plans generated)
+      - View 7-day sales chart
+      - View recent notifications (payments, exam results, plan generations, system alerts)
+    api_calls:
+      - method: GET
+        endpoint: /api/admin/stats
+    auth_required: true
+
+  - name: Admin User Management
+    description: Admin can view and manage all user accounts with role and status info
+    files:
+      - src/app/admin/users/page.tsx
+    entry_route: /admin/users
+    user_interactions:
+      - View user table (name, email, role, status, registration date)
+      - Filter or search users
+      - View user actions (edit/disable)
+    api_calls:
+      - method: GET
+        endpoint: /api/admin/users
+    auth_required: true
+
+  - name: Admin Payment Transactions
+    description: Admin can view all payment transactions with status and Wompi reference IDs
+    files:
+      - src/app/admin/payments/page.tsx
+    entry_route: /admin/payments
+    user_interactions:
+      - View payments table (reference, buyer, product, amount, status)
+      - Filter by status (APPROVED/PENDING/DECLINED)
+      - View Wompi transaction ID
+    api_calls:
+      - method: GET
+        endpoint: /api/admin/payments
+    auth_required: true
+
+  - name: Admin Sanitation Plans
+    description: Admin can view all generated AI sanitation plans with verification links
+    files:
+      - src/app/admin/sanitation/page.tsx
+    entry_route: /admin/sanitation
+    user_interactions:
+      - View plan cards (business name, establishment type, owner, date)
+      - Click verification link to view public plan details
+    api_calls:
+      - method: GET
+        endpoint: /api/admin/sanitation
+    auth_required: true
+
+known_limitations:
+  - issue: Stripe SDK is present but Wompi is the primary and only actively used payment provider
+    location: src/lib/services/payment.service.ts
+    impact: Stripe payment flow is not functional in production
+  - issue: Course progress percentage is hardcoded at 85% in the video learning page
+    location: src/app/courses/[slug]/learn/page.tsx
+    impact: Progress tracking does not reflect real user progress
+  - issue: Prisma schema documents the data model but is not used at runtime; all DB access is via Supabase JS client
+    location: prisma/schema.prisma
+    impact: Schema migrations must be managed manually through Supabase dashboard
+  - issue: /api/debug/test-ai-plan endpoint is present and should be restricted or removed in production
+    location: src/app/api/debug/test-ai-plan/route.ts
+    impact: Potential unauthorized AI plan generation in production

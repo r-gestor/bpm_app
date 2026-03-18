@@ -1,0 +1,3360 @@
+[
+  {
+    "id": "TC001",
+    "title": "Successful email/password login redirects to dashboard",
+    "description": "Verifies that a user can log in with valid credentials and is redirected to the dashboard.",
+    "category": "User Login",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify page title contains \"Login\""
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Dashboard\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "title": "Invalid password shows visible error message",
+    "description": "Verifies that invalid credentials do not log the user in and an error message is shown.",
+    "category": "User Login",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"fake.user@example.com\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"WrongPassword123!\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"error\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/login\""
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "title": "Empty email and password blocks login",
+    "description": "Verifies that submitting the login form with empty required fields prevents login and shows a visible validation message.",
+    "category": "User Login",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"email\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"password\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/login\""
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "title": "Password-only submission shows validation for missing email",
+    "description": "Verifies that the login form requires an email when attempting to submit with only a password filled.",
+    "category": "User Login",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"SomePassword123!\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"email\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/login\""
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "title": "Email-only submission shows validation for missing password",
+    "description": "Verifies that the login form requires a password when attempting to submit with only an email filled.",
+    "category": "User Login",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"fake.user@example.com\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"password\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/login\""
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "title": "Invalid email format is rejected before login attempt",
+    "description": "Verifies that an obviously invalid email format triggers a visible validation message and does not redirect.",
+    "category": "User Login",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"not-an-email\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"AnyPassword123!\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar sesión\" button to submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"email\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/login\""
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "title": "Login page renders core controls",
+    "description": "Verifies that the login page displays the email field, password field, and submit button so the user can attempt sign-in.",
+    "category": "User Login",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Iniciar sesión\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Email\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Password\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "title": "View food handling course landing page core content and pricing tiers",
+    "description": "Verifies the landing page renders course features, certification info, and all three tiered pricing options.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify page title contains \"Manipulación\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Certificación\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"1-3\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"4-9\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"10+\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "title": "CTA from course landing page initiates checkout navigation (via click)",
+    "description": "Verifies that clicking a primary call-to-action from the course landing page routes the user into the checkout experience.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Checkout\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify page title contains \"Checkout\""
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "title": "Tier selection affects the checkout quantity context (small tier)",
+    "description": "Verifies that choosing the 1-3 people tier and then using the CTA takes the user to checkout with small-tier context visible.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"1-3\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Checkout\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cantidad\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "title": "Tier selection affects the checkout quantity context (mid tier)",
+    "description": "Verifies that choosing the 4-9 people tier and then using the CTA takes the user to checkout with quantity controls visible.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"4-9\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Checkout\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cantidad\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "title": "Tier selection affects the checkout quantity context (10+ tier)",
+    "description": "Verifies that choosing the 10+ people tier and then using the CTA takes the user to checkout with quantity controls visible.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"10+\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Checkout\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/checkout\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cantidad\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC013",
+    "title": "Landing page contains certification/benefits section below the fold",
+    "description": "Verifies that the page provides additional course benefits and certification details when the user scrolls.",
+    "category": "Course Landing Page (Food Handling)",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /manipulacion-alimentos"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the bottom of the page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Certificación\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Checkout\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC014",
+    "title": "Sanitation plan landing page loads and shows core service description/compliance messaging",
+    "description": "Verifies the sanitation plan landing page renders and displays the main service description and legal/compliance information.",
+    "category": "Sanitation Plan Landing Page",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /plan-de-saneamiento"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify page title contains \"Plan\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Plan\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"saneamiento\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"legal\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Colombia\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC015",
+    "title": "Supported establishment types section is visible on the landing page",
+    "description": "Verifies users can find and view the supported establishment types on the sanitation plan landing page.",
+    "category": "Sanitation Plan Landing Page",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /plan-de-saneamiento"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the section describing supported establishment types"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"tipos\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"establecimiento\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"restaurante\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"panadería\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC016",
+    "title": "Six sanitation modules section is visible and appears complete",
+    "description": "Verifies the landing page shows a section describing the sanitation modules and that multiple module items are visible.",
+    "category": "Sanitation Plan Landing Page",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /plan-de-saneamiento"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the section that lists the sanitation modules"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"módulos\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"limpieza\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"desinfección\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"residuos\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC017",
+    "title": "Login then reach sanitation plan generation page from landing CTA",
+    "description": "Verifies a user can log in and then access the sanitation plan generation page after clicking the CTA.",
+    "category": "Sanitation Plan Landing Page",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sign in\""
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Plan de saneamiento\" in the site navigation"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Generate plan\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/sanitation/generate\""
+      }
+    ]
+  },
+  {
+    "id": "TC018",
+    "title": "Login then navigate directly to sanitation generation page (access is granted post-login)",
+    "description": "Verifies that after logging in, the sanitation generation page can be opened successfully.",
+    "category": "Sanitation Plan Landing Page",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sign in\""
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Generate sanitation plan\" from any visible dashboard/home CTA"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/sanitation/generate\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"saneamiento\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC019",
+    "title": "Checkout page loads and shows product summary and pricing",
+    "description": "Verifies that the checkout page for manipulacion-alimentos loads and displays the product summary with pricing information.",
+    "category": "Checkout & Payment",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Checkout\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Manipulación\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cantidad\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC020",
+    "title": "Adjust quantity using + and - updates total price",
+    "description": "Verifies that increasing and decreasing quantity updates the total price in real time.",
+    "category": "Checkout & Payment",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cantidad\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"+\" quantity control"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"2\" is visible in the quantity value"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"-\" quantity control"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"1\" is visible in the quantity value"
+      }
+    ]
+  },
+  {
+    "id": "TC021",
+    "title": "Apply valid discount code updates total and shows discount applied",
+    "description": "Verifies that applying a valid discount code results in a visible applied state and a changed total price.",
+    "category": "Checkout & Payment",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Código\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Type \"DESCUENTO10\" into the discount code field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Aplicar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Descuento\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC022",
+    "title": "Remove applied discount code returns checkout to non-discount state",
+    "description": "Verifies that a previously applied discount can be removed and the discount indicator is no longer shown.",
+    "category": "Checkout & Payment",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "action",
+        "description": "Type \"DESCUENTO10\" into the discount code field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Aplicar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Descuento\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Quitar descuento\" control"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Descuento\" is not visible"
+      }
+    ]
+  },
+  {
+    "id": "TC023",
+    "title": "Invalid discount code shows validation error",
+    "description": "Verifies that an invalid discount code displays a visible validation error message.",
+    "category": "Checkout & Payment",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Código\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Type \"CODIGO_INVALIDO_123\" into the discount code field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Aplicar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"inválido\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC024",
+    "title": "Discount code apply with empty input shows required/invalid message",
+    "description": "Verifies that clicking apply with an empty discount code input shows a visible validation message.",
+    "category": "Checkout & Payment",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/manipulacion-alimentos"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Código\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Aplicar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"código\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC025",
+    "title": "Payment success page shows confirmation and transaction reference number",
+    "description": "Verifies the success page displays a visible transaction reference number for a completed payment.",
+    "category": "Payment Success",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"success\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"transaction\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"reference\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Transaction reference number\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC026",
+    "title": "From payment success page, user can navigate to buyer dashboard",
+    "description": "Verifies the call-to-action on the success page takes the user to the dashboard.",
+    "category": "Payment Success",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Go to dashboard\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Go to dashboard\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"dashboard\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC027",
+    "title": "Payment success page handles missing transaction reference with a clear notice",
+    "description": "Verifies the success page displays a support/pending-verification notice when the transaction reference is missing.",
+    "category": "Payment Success",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"transaction\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"reference\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"contact support\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC028",
+    "title": "Payment success page shows pending verification message when reference is not available",
+    "description": "Verifies the success page indicates verification is pending when the transaction reference cannot be displayed.",
+    "category": "Payment Success",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"verification\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"pending\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"transaction\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC029",
+    "title": "Payment success page remains usable after refresh (confirmation content still visible)",
+    "description": "Verifies that reloading the success page still shows confirmation content and does not appear broken.",
+    "category": "Payment Success",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"success\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Press \"Enter\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"transaction\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC030",
+    "title": "Payment success page provides a visible dashboard navigation control even when reference is missing",
+    "description": "Verifies the dashboard navigation button is visible and actionable in the missing-reference scenario.",
+    "category": "Payment Success",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"contact support\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Go to dashboard\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Go to dashboard\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      }
+    ]
+  },
+  {
+    "id": "TC031",
+    "title": "Payment success page does not expose unrelated payment provider messaging",
+    "description": "Verifies the success page does not show Stripe-related confirmation language since Wompi is the active provider.",
+    "category": "Payment Success",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /checkout/success"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Wompi\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Stripe\" is not visible"
+      }
+    ]
+  },
+  {
+    "id": "TC032",
+    "title": "Login and load Buyer Dashboard with core sections visible",
+    "description": "Verifies an authenticated buyer can log in and see key dashboard sections (students, quota, sanitation plans, pending orders).",
+    "category": "Buyer Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Students\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Quota\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Pending orders\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC033",
+    "title": "Search students by email from Buyer Dashboard",
+    "description": "Verifies the student list can be filtered using an email query and the filtered results are shown.",
+    "category": "Buyer Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Type \"test\" into the student search field"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"test\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Press \"Enter\" key"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Student list\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC034",
+    "title": "Open new student registration form from Buyer Dashboard",
+    "description": "Verifies the buyer can open the register-student flow and see required form fields.",
+    "category": "Buyer Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Register new student\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Student registration\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Name field\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Email field\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC035",
+    "title": "Register a new student successfully and see it in the list",
+    "description": "Verifies a buyer can submit the registration form with valid details and see the new student appear in the student list.",
+    "category": "Buyer Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Register new student\""
+      },
+      {
+        "type": "action",
+        "description": "Type \"E2E Student\" into the name field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"e2e.student+1@example.com\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Submit\" button"
+      }
+    ]
+  },
+  {
+    "id": "TC036",
+    "title": "Registration validation: required fields prevent submission",
+    "description": "Verifies the registration form shows validation when submitting with missing required fields.",
+    "category": "Buyer Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Register new student\""
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Submit\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"required\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Email\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC037",
+    "title": "View sanitation plans section on Buyer Dashboard",
+    "description": "Verifies sanitation plans are visible with expected summary fields (business name, status, code).",
+    "category": "Buyer Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the \"Sanitation plans\" section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Sanitation plans\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Business\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Status\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC038",
+    "title": "Quota usage is displayed on Buyer Dashboard",
+    "description": "Verifies quota usage is shown (total/used slots) for the buyer.",
+    "category": "Buyer Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the \"Quota\" section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Quota\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"/\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Quota usage\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC039",
+    "title": "Pending orders list is visible on Buyer Dashboard",
+    "description": "Verifies the buyer can see the pending orders section and it renders without errors.",
+    "category": "Buyer Dashboard",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Login\" button"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the \"Pending orders\" section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Pending orders\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Pending orders list\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Order\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC040",
+    "title": "Authenticated student can open course learn page and see the video player and playlist",
+    "description": "Verifies that an authenticated student can reach the course learning page and see the core UI (player and playlist).",
+    "category": "Course Video Learning",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/learn"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"video player\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"playlist sidebar\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC041",
+    "title": "Switching modules from the sidebar updates the active video module",
+    "description": "Verifies that clicking a different module in the playlist switches the currently displayed video module.",
+    "category": "Course Video Learning",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/learn"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"video description\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on a different video item in the playlist sidebar"
+      }
+    ]
+  },
+  {
+    "id": "TC042",
+    "title": "After switching modules, the video description updates below the player",
+    "description": "Verifies that the description content below the video player changes after selecting another module in the playlist.",
+    "category": "Course Video Learning",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/learn"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"video description\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on a different video item in the playlist sidebar"
+      }
+    ]
+  },
+  {
+    "id": "TC043",
+    "title": "Playlist sidebar allows browsing and selecting an item further down the list",
+    "description": "Verifies that the user can scroll the playlist sidebar and select a module that is not initially visible.",
+    "category": "Course Video Learning",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/learn"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the bottom of the playlist sidebar"
+      },
+      {
+        "type": "action",
+        "description": "Click on a video item near the bottom of the playlist sidebar"
+      }
+    ]
+  },
+  {
+    "id": "TC044",
+    "title": "Selected module remains visible as the active item in the playlist",
+    "description": "Verifies that after selecting a module, the UI indicates which playlist item is currently active.",
+    "category": "Course Video Learning",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Login\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/learn"
+      },
+      {
+        "type": "action",
+        "description": "Click on a different video item in the playlist sidebar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"active/selected playlist item indicator\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC045",
+    "title": "Start exam from instructions and complete to results screen",
+    "description": "Verifies an authenticated student can start the exam, answer questions, submit, and see the results summary.",
+    "category": "Course Exam",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Iniciar examen\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar examen\" to begin"
+      }
+    ]
+  },
+  {
+    "id": "TC046",
+    "title": "Navigate through questions using Siguiente and submit on last question",
+    "description": "Verifies the student can select answers, move to the next question, and submit the exam from the last question.",
+    "category": "Course Exam",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar examen\" to begin"
+      },
+      {
+        "type": "action",
+        "description": "Select an answer option for the current multiple-choice question"
+      }
+    ]
+  },
+  {
+    "id": "TC047",
+    "title": "Submit exam and verify results fields are shown (pass/fail, percentage, correct/total)",
+    "description": "Verifies that after submitting the exam, the results screen shows pass/fail plus score percentage and correct/total values.",
+    "category": "Course Exam",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar examen\" to begin"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Enviar examen\""
+      }
+    ]
+  },
+  {
+    "id": "TC048",
+    "title": "Fail path: Reintentar examen is available after failing",
+    "description": "Verifies that if the student fails, the results screen offers a retry action and returns the user to the exam start state.",
+    "category": "Course Exam",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Reintentar examen\" if it is visible on the results screen"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Iniciar examen\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC049",
+    "title": "Time limit expiry auto-submits and shows results",
+    "description": "Verifies that when the time limit expires during an active exam, the system auto-submits and shows the results screen.",
+    "category": "Course Exam",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar examen\" to begin"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the exam time limit to expire and for the results screen to appear"
+      }
+    ]
+  },
+  {
+    "id": "TC050",
+    "title": "Attempt to submit immediately after starting shows validation or prevents submit",
+    "description": "Verifies the exam prevents submitting without completing required questions or shows a visible validation message.",
+    "category": "Course Exam",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /courses/manipulacion-alimentos/exam"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Iniciar examen\" to begin"
+      },
+      {
+        "type": "action",
+        "description": "Click \"Enviar examen\""
+      }
+    ]
+  },
+  {
+    "id": "TC051",
+    "title": "Course completion status is visible on Course Content page",
+    "description": "Verifies the course completion/passing status area is visible to support certificate eligibility clarity.",
+    "category": "Certificate Download",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/course-content\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"course completion status\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text indicating progress or completion status is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC052",
+    "title": "Course Content page handles slow certificate availability check gracefully",
+    "description": "Verifies the page shows a visible loading/processing state while determining certificate availability.",
+    "category": "Certificate Download",
+    "priority": "Low",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Iniciar sesión\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/course-content\""
+      },
+      {
+        "type": "action",
+        "description": "Wait for 3 seconds"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element indicating loading or checking status is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Descargar certificado\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC053",
+    "title": "Generate an AI sanitation plan successfully and view the 6-module output",
+    "description": "Verifies an authenticated user can submit valid business details, wait for generation, and see the full sanitation plan with all compliance modules.",
+    "category": "AI Sanitation Plan Generation",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Log in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /sanitation/generate"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Generar\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Panadería La Esperanza\" into the business name field"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Panadería\" from the business type dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"900123456-7\" into the NIT field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Calle 10 # 20-30, Bogotá\" into the address field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"María Pérez\" into the legal representative field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the generation result section to appear"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Módulo\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"1\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"2\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"3\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"4\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"5\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"6\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC054",
+    "title": "Attempt to submit sanitation plan form with missing required fields and see validation messages",
+    "description": "Verifies client-side/server-side validation prevents generation and displays visible prompts for required fields.",
+    "category": "AI Sanitation Plan Generation",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Log in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /sanitation/generate"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"\" into the business name field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"\" into the NIT field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"requer\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Nombre\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC055",
+    "title": "Validation clears after correcting missing fields and resubmitting",
+    "description": "Verifies validation errors disappear after filling required inputs and the generation proceeds to results.",
+    "category": "AI Sanitation Plan Generation",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Log in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /sanitation/generate"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"requer\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Cafetería Central\" into the business name field"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Cafetería\" from the business type dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"901111111-1\" into the NIT field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Avenida 1 # 2-03, Cali\" into the address field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Laura Martínez\" into the legal representative field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the generation result section to appear"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Módulo\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC056",
+    "title": "Handle AI generation failure message and retry generation",
+    "description": "Verifies that if the generation fails, a visible failure message appears and the user can retry from the UI.",
+    "category": "AI Sanitation Plan Generation",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Log in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /sanitation/generate"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Carnicería Los Andes\" into the business name field"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Carnicería\" from the business type dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"900222333-4\" into the NIT field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Transversal 15 # 8-90, Bucaramanga\" into the address field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Carlos Ruiz\" into the legal representative field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the generation to finish or fail message to appear"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"error\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Reintentar\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Reintentar\" button"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the generation result section to appear"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Módulo\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC057",
+    "title": "Generation shows a visible loading/in-progress state while waiting",
+    "description": "Verifies the UI indicates generation is in progress (loading text/spinner) after submission and before results.",
+    "category": "AI Sanitation Plan Generation",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Log in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /sanitation/generate"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Minimercado San José\" into the business name field"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Tienda\" from the business type dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"901234567-0\" into the NIT field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Calle 33 # 12-55, Barranquilla\" into the address field"
+      },
+      {
+        "type": "action",
+        "description": "Fill \"Sofía López\" into the legal representative field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Generar\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Generando\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the generation result section to appear"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Módulo\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC058",
+    "title": "Verify page loads and shows QR verification options",
+    "description": "Ensures the public verification page is reachable and presents camera and image-upload options to the user.",
+    "category": "QR Code Certificate Verification (Scanner)",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /verify"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/verify\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Cámara\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Subir imagen\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Verificar\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC059",
+    "title": "Image upload tab shows upload controls and instructions",
+    "description": "Verifies the image-upload verification path is discoverable and provides a clear way to provide a QR image.",
+    "category": "QR Code Certificate Verification (Scanner)",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /verify"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Subir imagen\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Subir imagen\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Seleccionar\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"imagen\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC060",
+    "title": "Submit verification without providing an image shows validation error",
+    "description": "Ensures the system prevents verification when no QR image is provided and displays a helpful message.",
+    "category": "QR Code Certificate Verification (Scanner)",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /verify"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Subir imagen\""
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Verificar\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Selecciona\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"imagen\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC061",
+    "title": "Scan history area is visible on the verification page",
+    "description": "Checks that the page presents a visible scan history section to the user.",
+    "category": "QR Code Certificate Verification (Scanner)",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /verify"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Historial\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Escaneos\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"scan history list\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC062",
+    "title": "Admin can access /admin and see KPI stats cards",
+    "description": "Verifies an authenticated user can load the Admin Dashboard and view the KPI stats cards.",
+    "category": "Admin Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total users\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC063",
+    "title": "Admin Dashboard stats cards display all required KPI labels",
+    "description": "Verifies the Admin Dashboard shows all expected KPI stat labels for quick monitoring.",
+    "category": "Admin Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total users\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Total sales\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Certificates\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC064",
+    "title": "Admin Dashboard shows plans generated KPI label",
+    "description": "Verifies the Admin Dashboard includes the plans generated KPI label in the stats area.",
+    "category": "Admin Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Plans\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Generated\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC065",
+    "title": "Admin Dashboard displays the 7-day sales chart section",
+    "description": "Verifies the Admin Dashboard renders the 7-day sales chart area for recent performance tracking.",
+    "category": "Admin Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"7-day\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Sales\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"sales chart\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC066",
+    "title": "Admin Dashboard shows recent notifications section",
+    "description": "Verifies the Admin Dashboard includes a visible notifications area for recent events.",
+    "category": "Admin Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Notifications\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"notifications list\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC067",
+    "title": "Admin Dashboard notifications include recognizable event types when present",
+    "description": "Verifies that the notifications area can display common event categories such as payments, exam results, and plan generations.",
+    "category": "Admin Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the Notifications section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"notification item\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Payment\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC068",
+    "title": "Admin Dashboard loads without visible error state",
+    "description": "Verifies that the Admin Dashboard does not show an error message on initial load (basic resilience check).",
+    "category": "Admin Dashboard",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Admin\" link in the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Error\" is not visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Something went wrong\" is not visible"
+      }
+    ]
+  },
+  {
+    "id": "TC069",
+    "title": "Non-admin user is denied access to Admin Dashboard after login",
+    "description": "Verifies a logged-in user without admin permissions cannot access /admin and sees a denial message or is redirected away.",
+    "category": "Admin Dashboard",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"nonadmin@example.com\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"WrongPassword123!\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Invalid\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Type \"nonadmin_user@example.com\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"NotTheRightPassword!\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      }
+    ]
+  },
+  {
+    "id": "TC070",
+    "title": "Admin can view Users page with user management table columns",
+    "description": "Verifies an authenticated admin can open Admin Users and see the user table with expected column information visible.",
+    "category": "Admin User Management",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Login\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Users\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Email\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC071",
+    "title": "Admin can search/filter users and see results update",
+    "description": "Verifies search/filter functionality narrows the visible rows in the admin user table.",
+    "category": "Admin User Management",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"User table\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Type \"test\" into the user search field"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"User table\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC072",
+    "title": "Admin opens user actions and sees edit/disable options",
+    "description": "Verifies that user action controls are available per user row and present edit/disable actions.",
+    "category": "Admin User Management",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"User table\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click on the first row \"Actions\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Edit\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Disable\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC073",
+    "title": "Admin changes a user role and saves; updated role is shown in the table",
+    "description": "Verifies an admin can edit a user, change role, save, and see the updated role reflected in the user row.",
+    "category": "Admin User Management",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "action",
+        "description": "Click on the first row \"Actions\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Edit\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Role\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Admin\" from the role dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Save\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Admin\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC074",
+    "title": "Admin disables a user and saves; status changes to disabled/inactive",
+    "description": "Verifies an admin can disable a user account and see the status update in the table.",
+    "category": "Admin User Management",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "action",
+        "description": "Click on the first row \"Actions\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Edit\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Status\" is visible"
+      },
+      {
+        "type": "action",
+        "description": "Select \"Disabled\" from the status dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Save\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Disabled\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC075",
+    "title": "Canceling out of edit leaves the user row unchanged",
+    "description": "Verifies leaving the edit form without saving does not change role/status values shown in the user row.",
+    "category": "Admin User Management",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/users"
+      },
+      {
+        "type": "action",
+        "description": "Click on the first row \"Actions\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Edit\""
+      },
+      {
+        "type": "action",
+        "description": "Select \"Admin\" from the role dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Cancel\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"User table\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC076",
+    "title": "Admin can view the payments transactions table",
+    "description": "Verifies an authenticated admin can load the Admin Payments page and see the transactions table with expected columns.",
+    "category": "Admin Payment Transactions",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Payments\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Status\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC077",
+    "title": "Filter payments by APPROVED status",
+    "description": "Verifies the status filter can be set to APPROVED and the table updates to show approved transactions.",
+    "category": "Admin Payment Transactions",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Select \"APPROVED\" from the status dropdown"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"APPROVED\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC078",
+    "title": "Filter payments by PENDING status",
+    "description": "Verifies the status filter can be set to PENDING and the table updates accordingly.",
+    "category": "Admin Payment Transactions",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Select \"PENDING\" from the status dropdown"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"PENDING\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC079",
+    "title": "Filter payments by DECLINED status",
+    "description": "Verifies the status filter can be set to DECLINED and the table updates accordingly.",
+    "category": "Admin Payment Transactions",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Select \"DECLINED\" from the status dropdown"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"DECLINED\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC080",
+    "title": "Open a payment row to view Wompi transaction ID and details",
+    "description": "Verifies an admin can click a transaction row and see the Wompi transaction ID/details for that payment.",
+    "category": "Admin Payment Transactions",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Click the first payment row in the payments table"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"Wompi\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC081",
+    "title": "No-results empty state after filtering",
+    "description": "Verifies that when a filter produces no matching transactions, an empty-state message with guidance is shown.",
+    "category": "Admin Payment Transactions",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Select \"DECLINED\" from the status dropdown"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"No results\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC082",
+    "title": "Switching filters updates results without leaving the page",
+    "description": "Verifies an admin can switch between status filters and the UI remains functional, showing the new filter state.",
+    "category": "Admin Payment Transactions",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/dashboard\""
+      },
+      {
+        "type": "action",
+        "description": "Navigate to /admin/payments"
+      },
+      {
+        "type": "action",
+        "description": "Select \"APPROVED\" from the status dropdown"
+      },
+      {
+        "type": "action",
+        "description": "Select \"PENDING\" from the status dropdown"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify text \"PENDING\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC083",
+    "title": "Admin can open sanitation plans grid and see plan cards",
+    "description": "Verifies an authenticated admin can access the sanitation plans page and see plan cards with key summary fields.",
+    "category": "Admin Sanitation Plans",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin\""
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sanitation\" in the admin navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin/sanitation\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Sanitation plans\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC084",
+    "title": "Sanitation plan cards display required summary information",
+    "description": "Verifies the plans grid shows the expected fields on at least one plan card (business name, establishment type, owner, date).",
+    "category": "Admin Sanitation Plans",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sanitation\" in the admin navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/admin/sanitation\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Business name\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Owner\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC085",
+    "title": "Admin opens public verification details from a plan card verification link",
+    "description": "Verifies clicking a plan card's verification link navigates to a public verification details page.",
+    "category": "Admin Sanitation Plans",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sanitation\" in the admin navigation"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Verification\" link on the first visible plan card"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify URL contains \"/verify/\""
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Verification\" is visible"
+      }
+    ]
+  },
+  {
+    "id": "TC086",
+    "title": "Public verification details page shows plan details after opening from admin",
+    "description": "Verifies the public verification page reached from admin displays identifiable plan details (not an empty page).",
+    "category": "Admin Sanitation Plans",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /login"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_USER}}\" into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Type \"{{LOGIN_PASSWORD}}\" into the password field"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Sign in\" button"
+      },
+      {
+        "type": "action",
+        "description": "Click on \"Sanitation\" in the admin navigation"
+      },
+      {
+        "type": "action",
+        "description": "Click on the \"Verification\" link on the first visible plan card"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Business\" is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify element \"Owner\" is visible"
+      }
+    ]
+  }
+]

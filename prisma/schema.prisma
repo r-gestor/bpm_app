@@ -1,0 +1,425 @@
+// prisma/schema.prisma
+
+// ─── CONFIGURATION ───────────────────────────────────────────
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── AUTH & USERS ────────────────────────────────────────────
+
+enum Role {
+  ADMIN
+  BUYER
+  STUDENT
+  PROFESSIONAL
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  passwordHash  String
+  name          String
+  role          Role     @default(BUYER)
+  phone         String?
+  documentType  String?
+  documentNumber String?
+  registeredById String?
+  activationToken String?  @unique
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Self-relation for registration tracking
+  registeredBy  User?    @relation("UserRegistrations", fields: [registeredById], references: [id])
+  registrations User[]    @relation("UserRegistrations")
+
+  // Professional profile (if role is PROFESSIONAL)
+  professional   Professional?
+
+  // Relations
+  orders          Order[]
+  enrollmentsAsBuyer Enrollment[] @relation("BuyerEnrollments")
+  enrollmentsAsStudent Enrollment[] @relation("StudentEnrollments")
+  videoProgress   VideoProgress[]
+  examAttempts    ExamAttempt[]
+  certificates    Certificate[]
+  sanitationPlans SanitationPlan[]
+
+  @@index([email])
+  @@index([role])
+}
+
+// ─── PROFESSIONALS & SIGNATURES ────────────────────────────────
+
+model Professional {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  title         String   // e.g., "Veterinario Colegiado", "Ingeniero Agrónomo"
+  licenseNumber String   @unique
+  bio           String?  @db.Text
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  user       User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  signatures ProfessionalSignature[]
+
+  @@index([licenseNumber])
+}
+
+model ProfessionalSignature {
+  id             String   @id @default(cuid())
+  professionalId String
+  documentType   VerifiableDocType
+  documentId     String   // ID of Certificate or SanitationPlan
+  signatureHash  String   // Cryptographic signature of the specific document
+  signedAt       DateTime @default(now())
+
+  professional Professional @relation(fields: [professionalId], references: [id])
+
+  @@unique([documentType, documentId])
+  @@index([professionalId])
+}
+
+// ─── PRODUCTS & PRICING ──────────────────────────────────────
+
+enum ProductType {
+  COURSE
+  AI_SERVICE
+}
+
+model Product {
+  id              String      @id @default(cuid())
+  name            String
+  slug            String      @unique
+  description     String      @db.Text
+  longDescription String?     @db.Text
+  type            ProductType @default(COURSE)
+  price           Decimal     @db.Decimal(10, 2)
+  currency        String      @default("EUR")
+  imageUrl        String?
+  isActive        Boolean     @default(true)
+  metadata        Json?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  course     Course?
+  orderItems OrderItem[]
+
+  @@index([slug])
+  @@index([type])
+}
+
+// ─── COURSES & LEARNING ──────────────────────────────────────
+
+model Course {
+  id           String   @id @default(cuid())
+  productId    String   @unique
+  title        String
+  description  String?  @db.Text
+  thumbnailUrl String?
+  totalLessons Int      @default(0)
+  passingScore Int      @default(70)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  product     Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
+  modules     CourseModule[]
+  enrollments Enrollment[]
+  questions   Question[]
+
+  @@index([productId])
+}
+
+model CourseModule {
+  id          String   @id @default(cuid())
+  courseId    String
+  title       String
+  description String?  @db.Text
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  course  Course        @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  videos  CourseVideo[]
+
+  @@index([courseId])
+}
+
+model CourseVideo {
+  id          String   @id @default(cuid())
+  moduleId    String
+  title       String
+  description String?  @db.Text
+  videoUrl    String
+  duration    Int?     // in seconds
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  module   CourseModule    @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  progress VideoProgress[]
+
+  @@index([moduleId])
+}
+
+model VideoProgress {
+  id             String    @id @default(cuid())
+  studentId      String
+  videoId        String
+  completed      Boolean   @default(false)
+  watchedSeconds Int       @default(0)
+  completedAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  student User        @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  video   CourseVideo @relation(fields: [videoId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, videoId])
+  @@index([studentId])
+}
+
+// ─── ENROLLMENTS ─────────────────────────────────────────────
+
+enum EnrollmentStatus {
+  ACTIVE
+  COMPLETED
+  EXPIRED
+  CANCELLED
+}
+
+model Enrollment {
+  id          String           @id @default(cuid())
+  buyerId     String?
+  studentId   String
+  courseId    String
+  orderId     String?
+  status      EnrollmentStatus @default(ACTIVE)
+  enrolledAt  DateTime         @default(now())
+  completedAt DateTime?
+  expiresAt   DateTime?
+
+  buyer   User?   @relation("BuyerEnrollments", fields: [buyerId], references: [id])
+  student User    @relation("StudentEnrollments", fields: [studentId], references: [id])
+  course  Course  @relation(fields: [courseId], references: [id])
+  order   Order?  @relation(fields: [orderId], references: [id])
+
+  @@unique([studentId, courseId])
+  @@index([studentId])
+  @@index([courseId])
+}
+
+// ─── EXAMS & EVALUATION ──────────────────────────────────────
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  TRUE_FALSE
+}
+
+model Question {
+  id            String       @id @default(cuid())
+  courseId      String
+  question      String       @db.Text
+  type          QuestionType @default(MULTIPLE_CHOICE)
+  options       Json         // Array of strings
+  correctAnswer Int          // Index of options
+  explanation   String?      @db.Text
+  isActive      Boolean      @default(true)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  course  Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  answers Answer[]
+
+  @@index([courseId])
+}
+
+model ExamAttempt {
+  id             String    @id @default(cuid())
+  studentId      String
+  courseId       String
+  score          Decimal   @db.Decimal(5, 2)
+  totalQuestions Int
+  correctAnswers Int
+  passed         Boolean
+  startedAt      DateTime  @default(now())
+  completedAt    DateTime?
+
+  student     User     @relation(fields: [studentId], references: [id])
+  answers     Answer[]
+  certificate Certificate?
+
+  @@index([studentId])
+  @@index([courseId])
+}
+
+model Answer {
+  id             String  @id @default(cuid())
+  attemptId      String
+  questionId     String
+  selectedAnswer Int
+  isCorrect      Boolean
+
+  attempt  ExamAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id])
+
+  @@index([attemptId])
+  @@index([questionId])
+}
+
+// ─── PAYMENTS & ORDERS ───────────────────────────────────────
+
+enum OrderStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDED
+  CANCELLED
+}
+
+model Order {
+  id              String      @id @default(cuid())
+  buyerId         String
+  status          OrderStatus @default(PENDING)
+  subtotal        Decimal     @db.Decimal(10, 2)
+  discountAmount  Decimal     @db.Decimal(10, 2) @default(0)
+  total           Decimal     @db.Decimal(10, 2)
+  currency        String      @default("EUR")
+  discountCodeId  String?
+  stripeSessionId String?     @unique
+  paidAt          DateTime?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  buyer        User          @relation(fields: [buyerId], references: [id])
+  discountCode DiscountCode? @relation(fields: [discountCodeId], references: [id])
+  items        OrderItem[]
+  payments     Payment[]
+  enrollments  Enrollment[]
+
+  @@index([buyerId])
+  @@index([status])
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  productId String
+  quantity  Int     @default(1)
+  unitPrice Decimal @db.Decimal(10, 2)
+  total     Decimal @db.Decimal(10, 2)
+
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id])
+
+  @@index([orderId])
+}
+
+model Payment {
+  id              String    @id @default(cuid())
+  orderId         String
+  amount          Decimal   @db.Decimal(10, 2)
+  provider        String    // e.g., "STRIPE", "PAYPAL"
+  providerPaymentId String? @unique
+  status          String
+  createdAt       DateTime  @default(now())
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  @@index([orderId])
+}
+
+model DiscountCode {
+  id              String    @id @default(cuid())
+  code            String    @unique // e.g., "BPM10"
+  discountPercent Decimal   @db.Decimal(5, 2) // e.g., 10.00
+  isActive        Boolean   @default(true)
+  maxUses         Int?
+  currentUses     Int       @default(0)
+  validFrom       DateTime  @default(now())
+  validUntil      DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  orders Order[]
+
+  @@index([code])
+}
+
+// ─── CERTIFICATES & SANITATION PLANS ─────────────────────────
+
+model Certificate {
+  id              String    @id @default(cuid())
+  studentId       String
+  examAttemptId   String    @unique
+  certificateCode String    @unique // Public alphanumeric code
+  verificationHash String   @unique // Cryptographic SHA-256 hash
+  qrCodeUrl       String?
+  pdfUrl          String?
+  issuedAt        DateTime  @default(now())
+  expiresAt       DateTime? // Certificate expires 1 year after issuance
+  revokedAt       DateTime?
+
+  student     User        @relation(fields: [studentId], references: [id])
+  examAttempt ExamAttempt @relation(fields: [examAttemptId], references: [id])
+
+  @@index([certificateCode])
+  @@index([studentId])
+}
+
+enum SanitationPlanStatus {
+  PENDING
+  GENERATING
+  COMPLETED
+  FAILED
+  APPROVED
+  DECLINED
+  ERROR
+}
+
+model SanitationPlan {
+  id               String               @id @default(cuid())
+  buyerId          String
+  businessName     String
+  businessData     Json                 // Form data sent to AI
+  generatedPlan    Json?                // Output from AI
+  status           SanitationPlanStatus @default(PENDING)
+  planCode         String               @unique
+  verificationHash String?              @unique
+  qrCodeUrl        String?
+  pdfUrl           String?
+  templateId       String?
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+
+  buyer    User                @relation(fields: [buyerId], references: [id])
+  template SanitationTemplate? @relation(fields: [templateId], references: [id])
+
+  @@index([buyerId])
+  @@index([planCode])
+}
+
+model SanitationTemplate {
+  id          String   @id @default(cuid())
+  name        String
+  description String?  @db.Text
+  content     Json     // Base structure or prompts
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  plans SanitationPlan[]
+}
+
+// ─── AUDIT & VERIFICATION ─────────────────────────────────────
+
+enum VerifiableDocType {
+  CERTIFICATE
+  SANITATION_PLAN
+}

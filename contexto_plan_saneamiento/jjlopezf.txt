@@ -1,0 +1,6017 @@
+1
+Diseño de un plan de saneamiento básico en el restaurante La Estación Pizza y Sabor
+ubicado en la ciudad de Cali- Colombia
+
+John Jairo López Fernández
+
+Asesor
+Carlos Andrés Guarnizo Guerra
+
+Universidad Nacional Abierta y a Distancia UNAD.
+Escuela de Ciencias Básicas, Tecnología e Ingeniería ECBTI
+Ingeniería de Alimentos
+2024
+
+2
+Carlos Andrés Guarnizo Guerra
+Nombre director de Trabajo de Grado
+
+_________________________
+
+_________________________
+
+Jurado
+
+Jurado
+
+2024
+
+3
+Dedicatoria
+A nuestro señor mi Dios por haberme dado la oportunidad de cumplir un sueño. A mi esposa e
+hijas por su apoyo y comprensión. A mis queridos tutores por su insistencia y gran apoyo siempre
+que los necesite, a ellos mil gracias.
+
+4
+Agradecimiento
+Quiero expresar mi más sincero agradecimiento a todas las personas que con su apoyo,
+orientación y dedicación, hicieron posible la culminación de este proyecto.
+A mi esposa e hijas, por su amor incondicional y por estar ahí siempre motivándome, dándome
+fuerza y sabiduría. Les agradezco mucho por enseñarme a perseverar ante cualquier obstáculo o
+dificultad.
+Al personal del restaurante La estación Pizza y Sabor, quienes siempre estuvieron prestos a
+colaborarme, con su disposición y dedicación durante el proyecto.
+A mis tutores, quienes me guiaron en este proceso académico, por su valioso tiempo y consejos
+que enriquecieron mi aprendizaje. Su apoyo ha sido fundamental para llegar a este logro.
+A mi asesor de proyecto ingeniero Carlos Andrés Guarnizo Guerra por todo su apoyo y asesoría
+durante el desarrollo del proyecto.
+Y, finalmente, a todos aquellos que de alguna manera ayudaron a mi crecimiento académico y
+personal. Este fruto es el resultado del esfuerzo y colaboración de muchos de ustedes que han
+dejado una huella a lo largo de este camino.
+Gracias de corazón.
+
+5
+Resumen
+La Estación Pizza y Sabor, un restaurante con 26 años de funcionamiento en Cali, Valle del
+Cauca, no contaba con un plan de saneamiento básico adecuado para garantizar alimentos aptos
+para el consumo humano. El objetivo del proyecto fue desarrollar e implementar este plan en
+cinco fases. La primera fase consistió en una inspección inicial usando material fotográfico y un
+acta sanitaria. En la segunda fase, se diagnosticaron las deficiencias sanitarias y se estableció un
+orden de prioridades. En la tercera fase, se diseñó el plan de saneamiento, el cual fue aprobado
+por la gerencia y comenzó a ejecutarse. La cuarta fase incluyó la capacitación del personal en
+buenas prácticas de manufactura mediante charlas, evaluaciones y videos. Finalmente, en la
+quinta fase, se realizó una inspección final con la misma metodología utilizada en la primera fase.
+Los resultados mostraron un notable aumento en el cumplimiento de los estándares sanitarios,
+pasando del 72% al 93.5%. La implementación del plan permitió la eliminación de riesgos y
+mejoró la manipulación de los alimentos, promoviendo buenas prácticas ambientales e
+institucionales, optimizando recursos y ofreciendo un ambiente saludable. El proyecto también
+estandarizó procesos, capacito al personal y permitió un seguimiento efectivo mediante la
+recolección de información en tiempo real. Este enfoque contribuyó a hacer la organización más
+competitiva y eficiente.
+Palabras clave: saneamiento básico, restaurante, capacitación del personal, inspección
+sanitaria, manipulación de alimentos.
+
+6
+Abstract
+La Estación Pizza y Sabor, a restaurant that has been in operation for 26 years in Cali, Valle del
+Cauca, did not have an adequate basic sanitation plan to guarantee food suitable for human
+consumption. The objective of the project was to develop and implement this plan in five phases.
+The first phase consisted of an initial inspection using photographic material and a health report.
+In the second phase, health deficiencies were diagnosed and an order of priorities was
+established. In the third phase, the sanitation plan was designed, which was approved by
+management and began to be executed. The fourth phase included training staff in good
+manufacturing practices through talks, evaluations and videos. Finally, in the fifth phase, a final
+inspection was carried out with the same methodology used in the first phase. The results showed
+a notable increase in compliance with health standards, going from 72% to 93.5%. The
+implementation of the plan allowed the elimination of risks and improved food handling,
+promoting good environmental and institutional practices, optimizing resources and offering a
+healthy environment. The project also standardized processes, trained staff, and enabled effective
+monitoring through real-time information collection. This approach contributed to making the
+organization more competitive and efficient.
+Keywords: basic sanitation, restaurant, staff training, health inspection, food handling.
+
+7
+Tabla de Contenido
+Introducción…………………………………………………………………………….. 14
+Descripción del Problema……………………………………………………………….. 15
+Planteamiento del problema……………………………………………………………... 16
+Sistematización del Problema…………………………………………………………… 17
+Justificación……………………………………………………………………………... 18
+Objetivos………………………………………………………………………………… 19
+Objetivo General………………………………………………………………… 19
+Objetivos Específicos……………………………………………………………. 19
+Marco de referencia……………………………………………………………………… 20
+Reseña Histórica………………………………………………………………………… 20
+Marco Conceptual……………………………………………………………………….. 22
+Marco Legal………………………………………………………………………………30
+Marco Teórico…………………………………………………………………………… 31
+Plan de Saneamiento Básico………………………………………………... 31
+Programa de Limpieza y Desinfección……………………………………...31
+Etapas de la Limpieza y Desinfección………………………………………32
+Programa de Residuos Solidos……………………………………………... 32
+Programa control de Plagas………………………………………………… 34
+Programa de Abastecimiento de Agua Potable…………………………….. 35
+Componentes Clave de un Programa de Abastecimiento de Agua……… 36
+Buenas Prácticas de Manufactura (BPM)………………………………….. 36
+
+8
+Metodología…………………………………………………………………………….. 38
+Fase 1. Visita inspección………………………………………………………… 39
+Fase 2. Diagnóstico……………………………………………………………… 42
+Fase 3. Diseño…………………………………………………………………… 43
+Fase 4. Capacitación……………………………………………………………... 44
+Fase 5. Evaluación final…………………………………………………………. 44
+Resultados y análisis……………………………………………………………………. 46
+Fase 1. Visita de inspección……………………………………………………... 46
+Producción………………………………………………………………….. 46
+Baños……………………………………………………………………….. 46
+Atención al cliente………………………………………………………….. 46
+Almacenamiento……………………………………………………………. 46
+Disposición de residuos sólidos……………………………………………..47
+Horarios y servicios………………………………………………………… 47
+Fase 2. Diagnóstico……………………………………………………………….48
+Edificaciones e Instalaciones físicas………………………………………...48
+Equipos y utensilios………………………………………………………… 48
+Personal manipulador de alimentos………………………………………… 49
+Requisitos higiénicos de fabricación……………………………………….. 52
+Saneamiento…………………………………………………………………52
+Fase 3. Diseño plan de saneamiento……………………………………………... 58
+Programa de limpieza y desinfección………………………………………. 58
+Programa de Manejo de residuos solidos…………………………………... 59
+
+9
+Programa control de plagas………………………………………………… 60
+Programa de abastecimiento de agua potable………………………………. 60
+Fase 4. Capacitación……………………………………………………………... 60
+Fase 5. Evaluación final…………………………………………………………. 61
+Edificaciones e Instalaciones físicas………………………………………...61
+Equipos y utensilios………………………………………………………… 62
+Personal manipulador de alimentos………………………………………… 64
+Requisitos higiénicos de fabricación……………………………………….. 65
+Saneamiento…………………………………………………………………67
+Mejoras realizadas con la implementación del plan de saneamiento (Resolución 2674 de
+2013)……………………………………………………………………………………... 72
+Conclusiones…………………………………………………………………………….. 83
+Recomendaciones……………………………………………………………………….. 85
+Referencias……………………………………………………………………………… 90
+
+10
+Lista de Tablas
+Tabla 1 Cronograma de actividades .............................................................................. 45
+Tabla 2 Costo del proyecto ............................................................................................ 82
+
+11
+Lista de Figuras
+Figura 1 Área de producción ......................................................................................... 39
+Figura 2 Área de baños ................................................................................................. 40
+Figura 3 Área de atención al cliente .............................................................................. 41
+Figura 4 Área almacenamiento...................................................................................... 41
+Figura 5 Área de residuos sólidos ................................................................................. 42
+Figura 6 Porcentaje de cumplimiento con respecto a equipos y utencilios ..................... 48
+Figura 7 Personal manipulador de alimentos ................................................................ 49
+Figura 8 Plan de capacitación ....................................................................................... 50
+Figura 9 Requisitos higiénicos de fabricación ............................................................... 52
+Figura 10 Saneamiento.................................................................................................. 53
+Figura 11 Diagnóstico inicial check list invima ............................................................. 54
+Figura 12 Socialización plan de saneamiento ................................................................ 61
+Figura 13 Instalaciones sanitarias ................................................................................. 62
+Figura 14 Equipos y utensilios evaluacion inicial .......................................................... 63
+Figura 15 Equipos y utensilios evaluacion final............................................................. 63
+Figura 16 Personal manipulador de alimentos evaluación inicial.................................. 64
+Figura 17 Personal manipulador de alimentos evaluación final .................................... 65
+Figura 18 requisitos higiénicos iniciales........................................................................ 66
+Figura 19 requisitos higiénicos finales .......................................................................... 66
+Figura 20 Saneamiento inicial ....................................................................................... 67
+Figura 21 Saneamiento final.......................................................................................... 67
+Figura 22 Diagnóstico final check list invima ................................................................ 68
+Figura 23 Área de producción (antes) ........................................................................... 72
+
+12
+Figura 24 Área de producción (después) ....................................................................... 73
+Figura 25 Interior producción horno a gas (antes) ........................................................ 74
+Figura 26 Interior producción horno a gas (después) .................................................... 74
+Figura 27 Baño (antes) .................................................................................................. 75
+Figura 28 Baño (después) .............................................................................................. 76
+Figura 29 Residuos sólidos (antes) ................................................................................ 77
+Figura 30 Residuos sólidos (después) ............................................................................ 77
+Figura 31 Residuos sólidos (después) ............................................................................ 78
+Figura 32 Ingreso área producción(antes)..................................................................... 78
+Figura 33 Ingreso área producción. (después)............................................................... 79
+Figura 34 Habladores (después).................................................................................... 80
+Figura 35 Habladores y ruta evacuación (después) ....................................................... 80
+Figura 36 Habladores equipos (después) ....................................................................... 81
+Figura 37 Punto de encuentro (después) ........................................................................ 81
+
+13
+Lista de Apéndices
+Apéndice A Plan de saneamiento básico restaurante la estación pizza y sabor
+
+91
+
+14
+Introducción
+El Plan de Saneamiento Básico (PSB) establece procedimientos, procesos y medidas
+encaminadas a minimizar los riesgos de contaminación de los alimentos. Vela por mantener en
+buenas condiciones todas las instalaciones físicas, equipos, utensilios, manejo adecuado de
+recursos y residuos, capacitación del personal con el fin de garantizar un alimento inocuo (Maya,
+2015).
+La estación Pizza y Sabor no cuenta con un plan escrito de saneamiento básico que
+contenga los estándares mínimos exigidos por los entes de control según la resolución 2674 de
+2013 para la manipulación de alimentos. Con la elaboración del proyecto esperamos contribuir a
+que el restaurante cumpla con la normatividad vigente, que se elabore un producto de calidad
+apto para el consumo humano y además que sea un punto de partida en el desarrollo de los
+indicadores que nos trazamos y así realizar el seguimiento, ya que en la actualidad no se tiene
+establecida una línea de base (Maya, 2015).
+
+15
+Descripción del Problema
+La estación Pizza y Sabor carece de un plan formal de saneamiento básico, que es
+fundamental para garantizar la seguridad alimentaria según los estándares establecidos en la
+Resolución 2674 de 2013. Esta normativa, emitida por el Ministerio de Salud y Protección Social
+de Colombia, establece los lineamientos para la manipulación, conservación y preparación de
+alimentos, orientados a prevenir riesgos para la salud pública, como contaminaciones bacterianas,
+químicas o físicas. La ausencia de un plan estructurado de saneamiento básico podría generar
+condiciones propensas para la proliferación de patógenos como Salmonella, Escherichia coli y
+Listeria monocytogenes, que son responsables de diversas intoxicaciones alimentarias (Maya,
+2015).
+
+16
+Planteamiento del problema
+El restaurante la estación Pizza y Sabor enfrenta una problemática importante relacionada
+con la falta de un plan formal de saneamiento básico, el cual es esencial para garantizar la
+seguridad alimentaria y prevenir los riesgos vinculados a la manipulación de alimentos. A pesar
+de la existencia de normativas nacionales clave, como la Resolución 2674 de 2013, que establece
+los requisitos mínimos para la manipulación, conservación y preparación de alimentos, el
+restaurante no cuenta con un plan escrito que cumpla con estas disposiciones. Esta situación pone
+en peligro tanto la salud de los consumidores como la imagen del establecimiento, al no
+garantizar que los alimentos sean preparados y servidos en condiciones higiénicas adecuadas
+(Maya, 2015).
+El incumplimiento de las normativas de saneamiento básico puede crear un ambiente
+propenso para el crecimiento de patógenos como Salmonella, Escherichia coli, Listeria
+monocytogenes y otros microorganismos responsables de enfermedades transmitidas por los
+alimentos (ETA). La presencia de estos patógenos puede causar intoxicaciones alimentarias, lo
+que no solo impacta la salud pública, sino que también puede generar consecuencias legales y
+económicas graves para el restaurante. En resumen, el problema central radica en la ausencia de
+un plan formal de saneamiento que cumpla con la Resolución 2674 de 2013, lo cual afecta la
+calidad de los productos ofrecidos en el restaurante, y pone en riesgo la salud de los
+consumidores, la confianza del público y la sostenibilidad del negocio (Maya, 2015).
+
+17
+Sistematización del Problema
+El problema revela que la principal dificultad en el restaurante la estación Pizza y Sabor
+radica en la ausencia de un plan formal de saneamiento básico. Este vacío se debe a diversas
+causas, tales como deficiencias en el cumplimiento normativo, problemas operativos y
+limitaciones de recursos, y sus repercusiones afectan tanto la salud pública como la estabilidad
+del negocio. La solución radica en crear e implementar un plan de saneamiento formal, capacitar
+adecuadamente al personal, establecer indicadores de calidad y garantizar el cumplimiento de las
+regulaciones sanitarias exigidas. Esto favorecerá la mejora continua en la seguridad alimentaria
+del establecimiento. Además, es crucial desarrollar un sistema de indicadores que permita evaluar
+y monitorear las condiciones de higiene y el cumplimiento de las buenas prácticas de
+manufactura, asegurando así la calidad del producto y protegiendo el bienestar de los
+consumidores (Farfan y Socha, 2016).
+
+18
+Justificación
+La Estación Pizza y Sabor cuenta con un buen producto, organolépticamente agradable en
+cuanto a sabor, color, textura y aroma. Dicho establecimiento no cuenta con un plan de
+saneamiento básico (PSB), por tal motivo se busca implementar un PSB documentando los
+procesos bajo la resolución 2674 de 2013 acorde a las necesidades del establecimiento, para
+poder estandarizar procesos de producción, mejorando tiempos de elaboración y entrega,
+establecer medidas de higiene y limpieza, documentadas y rutinarias, manejo y control de plagas,
+ayudar al medio ambiente con un correcto manejo de desechos, uso racional de agua, energía y
+gas.
+Implementar un plan de saneamiento básico también es un acto de responsabilidad. Los
+consumidores actuales valoran los esfuerzos de las empresas por proteger no solo sus intereses,
+sino también el bienestar de la comunidad. Un restaurante que promueve la salud pública
+mediante prácticas seguras de manipulación de alimentos, buen servicio y responsabilidad
+contribuye a la construcción de una cultura ética y respetuosa con el entorno y la sociedad que
+nos rodea.
+
+19
+Objetivos
+Objetivo General
+Diseñar un plan de saneamiento básico en el restaurante La Estación Pizza y Sabor
+ubicado en la ciudad de Cali-Valle.
+Objetivos Específicos
+Desarrollar y formalizar un Plan de Saneamiento Básico (PSB) para la pizzería, conforme
+a los requisitos establecidos en la resolución 2674 de 2013, en un período de 3 meses, con el
+objeto de asegurar una adecuada manipulación de alimentos, el mantenimiento de las
+instalaciones y equipos, y la correcta gestión de los residuos.
+Formar al 100% del personal de la pizzería en los protocolos de saneamiento básico y
+manejo adecuado de alimentos en un plazo de 60 días después de la creación del PSB, para
+garantizar que todos los empleados entiendan y apliquen correctamente las normas de higiene y
+seguridad alimentaria.
+Evaluar el cumplimiento de los requisitos de saneamiento básico en el restaurante a través
+del acta de inspección sanitaria proporcionada por los organismos de control, como el INVIMA,
+con el fin de llevar a cabo un seguimiento constante y garantizar que el proyecto genere un
+impacto cuantificable en la mejora de las condiciones de salud y seguridad alimentaria.
+
+20
+Marco de referencia
+Reseña Histórica
+La Estación Pizza y Sabor es un restaurante ubicado en la ciudad de Cali (Valle del
+Cauca.) Con una antigüedad en el mercado de 26 años, en la actualidad funciona con 4
+empleados contratados de forma directa y se encuentra localizado en la calle 43N # 2D-34 barrio
+Vipasa en Cali (Valle del Cauca).
+Todo comenzó alrededor del año 1995, en ese tiempo los hermanos Harold y Juan Manuel
+Herrera (fundadores del restaurante La Estación Pizza y Sabor) trabajaban en una Pizzería
+ubicada en el barrio Pacara al norte de la ciudad de Cali, en dicho barrio había una plazoleta con
+ese mismo nombre donde se encontraba la pizzería, aquel restaurante era administrado por su
+dueño Carlo el cual era de origen italiano, los hermanos Herrera fueron aprendiendo las recetas e
+ingredientes que el señor Carlo utilizaba para hacer sus deliciosas pizzas y lasagna que se
+preparaban en la pizzería, al cabo de un tiempo regreso a Italia el señor Carlo y vendió el negocio
+a otras personas.
+Los hermanos Harold y Juan Manuel decidieron emprender con lo que habían aprendido
+del señor Carlo y gracias al apoyo de su señora madre compraron el primer horno a gas, con el
+cual desde la casa que vivían con su madre comenzaron a vender Lasagna a amigos, conocidos y
+para eventos familiares, donde se fueron dando a conocer y crecieron el negocio en poco tiempo.
+Una anécdota que me contaron fue que a los hermanos les tocaba a veces dejar las lasagna
+en el horno preparando para poder ir a entregar rápidamente los multiplex pedidos a domicilio y
+volver lo más pronto posible, no más de 15 minutos para que no se fueran a quemar en el horno.
+Luego al cabo de un tiempo implementaron la venta de pizza de acuerdo a lo que habían
+aprendido y se aumentaron los pedidos y optaron por contratar más personal alrededor de 6
+personas y alquilaron la casa donde hoy sigue funcionando el restaurante.
+
+21
+Debido a la afectación del COVID19 y el alza en los productos de la canasta familiar que
+afecto a miles de negocios a nivel mundial donde la mayoría se vio obligado a cerrar, ellos
+lograron sobrevivir, después de la pandemia los hermanos decidieron migrar hacia los Estados
+Unidos en busca de nuevas oportunidades y dejaron el restaurante a cargo del señor José Wilson
+Lopez quien actualmente administra la pizzería y me conto dicha historia. El restaurante hoy en
+día cuenta con 4 empleados que luchan por seguir adelante y mejorar cada día más.
+
+22
+Marco Conceptual
+La información conceptual fue tomada de la Resolución 2674 de 2013.
+Alimento. Todo producto natural o artificial, elaborado o no, que ingerido aporta al
+organismo humano los nutrientes y la energía necesaria para el desarrollo de los procesos
+biológicos. Se entienden incluidas en la presente definición las bebidas no alcohólicas y aquellas
+sustancias con que se sazonan algunos comestibles, y que se conocen con el nombre genérico de
+especias.
+Alimento adulterado. Es aquel: a) Al cual se le ha sustraído parte de los elementos
+constituyentes, reemplazándolos o no por otras sustancias. b) Que haya sido adicionado con
+sustancias no autorizadas. c) Que haya sido sometido a tratamientos que disimulen u oculten sus
+condiciones originales y, d) Que por deficiencias en su calidad normal hayan sido disimuladas u
+ocultadas en forma fraudulenta, sus condiciones originales.
+Alimento alterado. Alimento que sufre modificación o degradación, parcial o total, de los
+constituyentes que le son propios, por agentes físicos, químicos o biológicos. Se incluye, pero no
+se limita a: a) El cual se encuentre por fuera de su vida útil. b) No esté siendo almacenado bajo
+las condiciones necesarias para evitar su alteración.
+Alimento contaminado. Alimento que presenta o contiene agentes y/o sustancias extrañas
+de cualquier naturaleza en cantidades superiores a las permitidas en las normas nacionales, o en
+su defecto en normas reconocidas internacionalmente.
+Alimento de mayor riesgo en salud pública. Los alimentos que pueden contener
+microorganismos patógenos y favorecer la formación de toxinas o el crecimiento de
+microorganismos patógenos y alimentos que pueden contener productos químicos nocivos.
+Alimento de menor riesgo en salud pública. Los alimentos que tienen poca probabilidad
+de contener microorganismos patógenos y normalmente no favorecen su crecimiento debido a las
+
+23
+características de los alimentos y los alimentos que probablemente no contienen productos
+químicos nocivos.
+Alimento derivado de un organismo genéticamente modificado (OGM). Alimento
+derivado en su totalidad o en una parte de un Organismo Genéticamente Modificado.
+Alimento de riesgo medio en salud pública. Los alimentos que pueden contener
+microorganismos patógenos, pero normalmente no favorecen su crecimiento debido a las
+características del alimento o alimentos que es poco probable que contengan microorganismos
+patógenos debido al tipo de alimento o procesamiento del mismo, pero que pueden apoyar la
+formación de toxinas o el crecimiento de microorganismos patógenos.
+Alimento fraudulento. Es aquel que:
+a) Se le designe o expenda con nombre o calificativo distinto al que le corresponde.
+b) Su envase, rótulo o etiqueta contenga diseño o declaración ambigua, falsa o que pueda
+inducir o producir engaño o confusión respecto de su composición intrínseca y uso.
+c) No proceda de sus verdaderos fabricantes o importadores declarados en el rótulo o que
+tenga la apariencia y caracteres generales de un producto legítimo, protegido o no por marca
+registrada y que se denomine como éste, sin serlo.
+d) Aquel producto que de acuerdo a su riesgo y a lo contemplado en la presente
+resolución, requiera de registro, permiso o notificación sanitaria y sea comercializado,
+publicitado o promocionado como un alimento, sin que cuente con el respectivo registro, permiso
+o notificación sanitaria.
+Alimento perecedero. El alimento que, en razón de su composición, características
+fisicoquímicas y biológicas, pueda experimentar alteración de diversa naturaleza en un tiempo
+determinado y que, por lo tanto, exige condiciones especiales de proceso, conservación,
+almacenamiento, transporte y expendio.
+
+24
+Ambiente. Cualquier área interna o externa delimitada físicamente que forma parte del
+establecimiento destinado a la fabricación, al procesamiento, a la preparación, al envase,
+almacenamiento y expendio de alimentos.
+Autoridades sanitarias competentes. Son autoridades sanitarias, el Instituto Nacional de
+Vigilancia de Medicamentos y Alimentos - INVIMA - y las Entidades Territoriales de Salud que,
+de acuerdo con la ley, ejercen funciones de inspección, vigilancia y control, y adoptan las
+acciones de prevención y seguimiento para garantizar el cumplimiento de lo dispuesto en la
+presente resolución.
+Biotecnología moderna. Aplicación de técnicas in Vitre de ácido nucleico, incluidos el
+ácido desoxirribonucleico (ADN) recombinante y la inyección directa de ácido nucleico en
+células u orgánulos, o la fusión de células más allá de la familia taxonómica, que superan las
+barreras fisiológicas naturales de la reproducción o de la recombinación y que no son técnicas
+utilizadas en la reproducción y selección tradicional.
+Buenas prácticas de manufactura. Son los principios básicos y prácticos generales de
+higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y
+distribución de alimentos para consumo humano, con el objeto de garantizar que los productos en
+cada una de las operaciones mencionadas cumplan con las condiciones sanitarias adecuadas, de
+modo que se disminuyan los riesgos inherentes a la producción.
+Comercialización. Es el proceso general de promoción de un producto, incluyendo la
+publicidad, relaciones públicas acerca del producto y servicios de información, así como la
+distribución y venta en los mercados nacionales e internacionales.
+Concepto sanitario. Es el concepto emitido por la autoridad sanitaria una vez realizada la
+inspección, vigilancia y control al establecimiento donde se fabriquen, procesen, preparen,
+envasen, almacenen, transporten, distribuyan, comercialicen, importen o exporten alimentos o sus
+
+25
+materias primas. Este concepto puede ser favorable o desfavorable, dependiendo de la situación
+encontrada.
+Desinfección descontaminación. Es el tratamiento fisicoquímico o biológico aplicado a
+las superficies limpias en contacto con el alimento con el fin de destruir las células vegetativas de
+los microorganismos que pueden ocasionar riesgos para la salud pública y reducir
+sustancialmente el número de otros microorganismos indeseables, sin que dicho tratamiento
+afecte adversamente la calidad e inocuidad del alimento.
+Diseño sanitario. Es el conjunto de características que deben reunir las edificaciones,
+equipos, utensilios e instalaciones de los establecimientos dedicados a la fabricación,
+procesamiento, preparación, almacenamiento, transporte y expendio con el fin de evitar riesgos
+en la calidad e inocuidad de los alimentos.
+Embalaje. Elementos que permiten proteger los envases primarios de las influencias
+externas y lograr un mantenimiento y almacenamiento adecuados. Incluye los envases
+secundarios y terciarios.
+Envase primario. Artículo que está en contacto directo con el alimento, destinado a
+contenerlo desde su fabricación hasta su entrega al consumidor, con la finalidad de protegerlo de
+agentes externos de alteración y contaminación. Los componentes del envase primario, es decir,
+el cuerpo principal y los cierres, pueden estar en contacto directo o indirecto con el alimento.
+Envase secundario. Artículo diseñado para dar protección adicional al alimento
+contenido en un envase primario o para agrupar un número determinado de envases primarios.
+Envase terciario. Artículo diseñado para facilitar la manipulación y el transporte de varias
+unidades de envases primarios o secundarios para protegerlos durante su manipulación física y
+evitar los daños inherentes al transporte.
+
+26
+Equipo. Es el conjunto de maquinaria, utensilios, recipientes, tuberías, vajillas y demás
+accesorios que se empleen en la fabricación, procesamiento, preparación, envase,
+fraccionamiento, almacenamiento, distribución, transporte y expendio de alimentos y sus
+materias primas.
+Expendio de alimentos. Es el establecimiento destinado a la venta de alimentos para
+consumo humano.
+Fábrica de alimentos. Es el establecimiento en el cual se realiza una o varias operaciones
+tecnológicas, ordenadas e higiénicas, destinadas a fraccionar, elaborar, producir, transformar o
+envasar alimentos para el consumo humano.
+Higiene de los alimentos. Todas las condiciones y medidas necesarias para asegurar la
+inocuidad y la aptitud de los alimentos en cualquier etapa de su manejo.
+Inocuidad de los alimentos. Es la garantía de que los alimentos no causarán daño al
+consumidor cuando se preparen y consuman de acuerdo con el uso al que se destina.
+Infestación. Es la presencia y multiplicación de plagas que pueden contaminar o
+deteriorar los alimentos, materias primas y/o insumas.
+Ingredientes primarios. Son elementos constituyentes de un alimento o materia prima
+para alimentos, que una vez sustituido uno de estos, el producto deja de ser tal para convertirse en
+otro.
+Ingredientes secundarios. Son elementos constituyentes de un alimento o materia prima
+para alimentos, incluidos los aditivos alimentarios, que, de ser sustituidos, pueden determinar el
+cambio de las características del producto, aunque éste continúe siendo el mismo.
+Insumo. Comprende los ingredientes, envases y embalajes de alimentos.
+Limpieza. Es el proceso o la operación de eliminación de residuos de alimentos u otras
+materias extrañas o indeseables.
+
+27
+Lote. Cantidad determinada de unidades de un alimento de características similares
+fabricadas o producidas en condiciones esencialmente iguales que se identifican por tener el
+mismo código o clave de producción.
+Manipulador de alimentos. Es toda persona que interviene directamente, en forma
+permanente u ocasional, en actividades de fabricación, procesamiento, preparación, envase,
+almacenamiento, transporte y expendio de alimentos.
+Materia prima. Son las sustancias naturales o artificiales, elaboradas o no, empleadas por
+la industria de alimentos para su utilización directa, fraccionamiento o conversión en alimentos
+para consumo humano. A pesar que las materias primas pueden o no sufrir transformaciones
+tecnológicas, éstas deben ser consideradas como alimento para consumo humano.
+Medio de transporte. Es cualquier nave, aeronave, vagón de ferrocarril o vehículo de
+transporte por carretera que moviliza mercancías, incluidos los remolques y semirremolques
+cuando están incorporados a un tractor o a otro vehículo motor.
+Notificación sanitaria. Número consecutivo asignado por la autoridad sanitaria
+competente, mediante el cual se autoriza a una persona natural o jurídica para fabricar, procesar,
+envasar, importar y/o comercializar un alimento de menor riesgo en salud pública con destino al
+consumo humano.
+Organismo genéticamente modificado(OGM). Cualquier organismo vivo que posea una
+combinación nueva de material genético, que se haya obtenido mediante la aplicación de la
+tecnología de ADN Recombinante, sus desarrollos o avances; así como sus partes, derivados o
+productos que los contengan, con capacidad de reproducirse o de transmitir información genética.
+Se incluyen dentro de este concepto los Organismos Vivos Modificados - OVM a que se refiere
+el Protocolo de Cartagena sobre Seguridad en la Biotecnología.
+
+28
+Permiso sanitario. Acto administrativo expedido por la autoridad sanitaria competente,
+mediante el cual se autoriza a una persona natural o jurídica para fabricar, procesar, envasar,
+importar y/o comercializar un alimento de riesgo medio en salud pública con destino al consumo
+humano.
+Plaga. Cualquier animal, incluyendo, pero no limitado, a aves, roedores, artrópodos o
+quirópteros que puedan ocasionar daños o contaminar los alimentos de manera directa o
+indirecta.
+Proceso tecnológico. Es la secuencia de etapas u operaciones que se aplican a las materias
+primas y demás ingredientes para obtener un alimento. Esta definición incluye la operación de
+envasado y embalaje del producto terminado.
+Registro sanitario. Acto administrativo expedido por la autoridad sanitaria competente,
+mediante el cual se autoriza a una persona natural o jurídica para fabricar, procesar, envasar,
+importar y/o comercializar un alimento de alto riesgo en salud pública con destino al consumo
+humano.
+Restaurante o establecimiento gastronómico. Es todo establecimiento fijo destinado a la
+preparación, servicio, expendio y consumo de alimentos.
+Sistema de análisis de peligros y puntos de control critico (HACCP). Sistema que
+permite identificar, evaluar y controlar peligros significativos contra la inocuidad de los
+alimentos.
+Sustancia peligrosa. Es toda forma de material que durante la fabricación, manejo,
+transporte, almacenamiento o uso puede generar polvos, humos, gases, vapores, radiaciones o
+causar explosión, corrosión, incendio, irritación, toxicidad, u otra afección que constituya riesgo
+para la salud de las personas o causar daños materiales o deterioro del ambiente.
+
+29
+Vigilancia epidemiológica de las enfermedades trasmitidas por alimentos. Es el
+conjunto de actividades que le permite a las autoridades competentes, la recolección de
+información permanente y continúa, su tabulación, análisis e interpretación. Del mismo modo, le
+permite tomar una serie de medidas conducentes a prevenir y controlar las enfermedades
+transmitidas por alimentos y los factores de riesgo relacionados con éstas, la divulgación y
+evaluación del sistema empleado para este fin (Resolución 2674 de 2013).
+
+30
+Marco Legal
+En Colombia, las regulaciones de seguridad alimentaria se fundamentan en la Ley 9 de
+1979, la cual define las normas sanitarias y fitosanitarias aplicables a la producción,
+almacenamiento, transporte, comercialización y consumo de alimentos.
+Además, el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA)
+supervisa y regula la calidad y seguridad de los alimentos en el país (Colombia, 1979).
+La Resolución 683 de 2012, emitida por el Ministerio de Salud y Protección Social,
+establece el Reglamento Técnico que especifica los estándares sanitarios que deben cumplir los
+materiales, objetos, envases y equipos destinados a utilizarse con alimentos y bebidas para
+consumo humano (Zapata, 2022).
+La Resolución 2674 de 2013 especifica las normas de salud que deben seguirse en todas
+las etapas de producción, manipulación, almacenamiento y comercialización de alimentos y
+materias primas, clasificando los requisitos según el riesgo para la salud pública. El objetivo es
+salvaguardar la salud y la vida de la población mediante la regulación de la notificación, permisos
+o registros sanitarios correspondientes (Maya, 2015).
+
+31
+Marco Teórico
+Plan de Saneamiento Básico
+El Plan de Saneamiento Básico implica llevar a cabo actividades de ubicación, limpieza y
+mantenimiento necesarias para asegurar un entorno libre de contaminación que beneficie la salud
+de las personas. En Colombia, esta responsabilidad ha sido asignada al Estado, a los particulares
+y a todos los ciudadanos según lo establecido en el Código Sanitario Nacional "Ley 9 de 1979".
+Este marco legal prescribe una serie de medidas destinadas a prevenir y controlar agentes
+biológicos, físicos y químicos que puedan alterar el ambiente y representar riesgos para la salud
+humana. Además, se deben seguir los lineamientos del Código Sanitario Nacional, el Decreto
+3075 de 1997 y la Resolución 2674 de 2013, los cuales incluyen programas específicos con
+procedimientos, cronogramas, registros, listas de verificación y responsables designados para
+asegurar su correcta implementación:
+Procesos de limpieza y desinfección.
+Manejo de desechos sólidos.
+Control de plagas.
+Aseguramiento del suministro de agua potable (Farfán y Socha, 2016).
+Programa de Limpieza y Desinfección
+Un Programa de Limpieza y Desinfección es un documento detallado que establece los
+procedimientos y protocolos específicos que deben seguirse en un establecimiento, especialmente
+aquellos relacionados con la preparación y manipulación de alimentos, para garantizar la higiene
+y seguridad alimentaria. Este programa es esencial para prevenir la contaminación de los
+alimentos y proteger la salud de los consumidores (Vanegas, 2014).
+Un programa completo generalmente incluye los siguientes elementos:
+
+32
+
+
+Cronograma de Limpieza: Un calendario detallado que indica cuándo y con qué
+frecuencia se deben limpiar y desinfectar las diferentes áreas y equipos.
+
+
+
+Procedimientos de Limpieza: Instrucciones paso a paso sobre cómo limpiar y
+desinfectar cada superficie, equipo y utensilio.
+
+
+
+Productos de Limpieza y Desinfección: Una lista de los productos químicos
+autorizados y sus concentraciones.
+
+Registro de Limpieza: Un registro donde se documenten las tareas de limpieza realizadas,
+la fecha y el nombre del personal responsable.
+Capacitación del Personal: Un plan de capacitación para asegurar que todos los
+empleados conozcan y sigan los procedimientos de limpieza y desinfección (Vanegas, 2014).
+Etapas de la Limpieza y Desinfección.
+Desempacar y limpiar: Retirar todos los objetos de la zona a limpiar.
+Limpiar: Eliminar la suciedad visible utilizando agua y detergente.
+Enjuagar: Eliminar los restos de detergente con agua limpia.
+Desinfectar: Aplicar un desinfectante adecuado y dejar actuar el tiempo recomendado.
+Enjuagar: Eliminar los restos del desinfectante con agua limpia.
+Secar: Secar las superficies con un paño limpio o dejar que se sequen al aire (Vanegas,
+2014).
+Programa de Residuos Solidos
+Un programa de gestión de residuos sólidos es un plan estratégico diseñado para manejar
+de manera eficiente y sostenible los desechos generados en una determinada área o actividad. Su
+objetivo principal es minimizar el impacto ambiental de los residuos, promoviendo su reducción,
+reutilización y reciclaje, y asegurando una disposición final adecuada (Vanegas, 2014).
+
+33
+Un programa efectivo debe incluir los siguientes elementos:
+Generación y Caracterización:
+Identificar las fuentes y tipos de residuos generados.
+Cuantificar la cantidad de residuos producidos.
+Analizar la composición de los residuos para determinar su potencial de reciclaje.
+Reducción en la Fuente:
+Promover prácticas de consumo responsable y reducción de desechos.
+Implementar estrategias para minimizar la generación de residuos en todas las etapas del
+ciclo de vida de un producto.
+Reutilización:
+Fomentar la reutilización de materiales y productos.
+Promover la reparación y el reacondicionamiento de objetos.
+Reciclaje:
+Separación y clasificación de los residuos reciclables.
+Establecimiento de sistemas de recolección selectiva.
+Promoción de la compra de productos reciclados.
+Tratamiento y Disposición Final:
+Tratamiento de residuos orgánicos a través del compostaje o la digestión anaeróbica.
+Tratamiento de residuos peligrosos de acuerdo con la normativa vigente.
+Disposición final de los residuos no recuperables en rellenos sanitarios controlados.
+Monitoreo y Evaluación:
+Implementar un sistema de seguimiento para evaluar el desempeño del programa.
+Realizar ajustes al programa según los resultados obtenidos (Vanegas, 2014).
+
+34
+Programa control de Plagas
+Un programa de control de plagas es un plan estratégico diseñado para prevenir, detectar
+y eliminar la presencia de plagas en un determinado lugar, ya sea un hogar, un negocio, una
+industria, etc. Este plan debe ser integral y considerar diversos factores para garantizar su
+efectividad (Zapata, 2022).
+Identificación de Plagas:
+Inventario de plagas: Elaborar una lista de las plagas más comunes en la zona y aquellas
+que puedan afectar el lugar en particular.
+Inspección inicial: Realizar una inspección exhaustiva para identificar las áreas de mayor
+riesgo y las posibles vías de entrada de las plagas.
+Monitoreo Continuo:
+Trampeo: Utilizar trampas adhesivas, mecánicas o químicas para detectar la presencia de
+plagas y evaluar su actividad.
+Inspección visual: Realizar inspecciones periódicas de áreas críticas como cocinas,
+almacenes, sótanos y exteriores.
+Medidas Preventivas:
+Saneamiento: Mantener el área limpia y ordenada, eliminando fuentes de alimento y
+agua para las plagas.
+Sellado: Sellar grietas, hendiduras y otros puntos de entrada para evitar que las plagas
+accedan al lugar.
+Mantenimiento: Realizar un mantenimiento adecuado de las instalaciones, incluyendo
+tuberías, drenajes y sistemas de ventilación.
+Control Químico:
+
+35
+Aplicación de insecticidas: Utilizar insecticidas específicos para cada tipo de plaga,
+siguiendo las instrucciones del fabricante.
+Rodenticidas: En caso de infestaciones por roedores, emplear rodenticidas de acuerdo a
+las regulaciones locales.
+Control Físico:
+Trampeo: Utilizar trampas mecánicas o adhesivas para capturar y eliminar las plagas.
+Barreras físicas: Instalar barreras físicas como mallas metálicas o rejillas para evitar el
+acceso de las plagas.
+Control Biológico:
+Introducción de enemigos naturales: Utilizar insectos benéficos o depredadores
+naturales para controlar las poblaciones de plagas.
+Registro y Documentación:
+Informes: Llevar un registro detallado de todas las actividades realizadas, incluyendo
+inspecciones, tratamientos y resultados.
+Análisis de datos: Evaluar periódicamente los datos recopilados para identificar
+tendencias y ajustar el programa si es necesario (Zapata, 2022).
+Programa de Abastecimiento de Agua Potable
+Un programa de abastecimiento de agua es un conjunto de acciones planificadas y
+coordinadas con el objetivo de garantizar que una población tenga acceso a agua potable de
+manera continua y en cantidad suficiente para satisfacer sus necesidades básicas y productivas.
+Este tipo de programas son fundamentales para la salud pública, el desarrollo económico y la
+calidad de vida de las comunidades (Maya, 2015).
+
+36
+Componentes Clave de un Programa de Abastecimiento de Agua.
+Fuente de agua: Identificación y evaluación de fuentes de agua superficiales (ríos, lagos)
+o subterráneas (acuíferos).
+Captación y tratamiento: Construcción de infraestructura para captar el agua cruda y
+someterla a los procesos de tratamiento necesarios para garantizar su potabilidad.
+Almacenamiento: Construcción de tanques y reservorios para almacenar el agua tratada
+y garantizar su distribución continúa.
+Red de distribución: Construcción de una red de tuberías que transporte el agua desde
+las plantas de tratamiento hasta los usuarios finales.
+Conexiones domiciliarias: Instalación de conexiones individuales en cada vivienda para
+garantizar el acceso al servicio.
+Saneamiento: Implementación de sistemas de alcantarillado y tratamiento de aguas
+residuales para evitar la contaminación de las fuentes de agua (Maya, 2015).
+Buenas Prácticas de Manufactura (BPM)
+Las Buenas Prácticas de Manufactura (BPM) son un conjunto de principios básicos cuyo
+objetivo es garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se
+disminuyan los riesgos inherentes en la producción y distribución.
+Las BPM son una serie de directrices que definen la gestión y manejo de acciones con el objetivo
+de asegurar condiciones favorables para la producción de alimentos seguros. También son de
+utilidad para el diseño y gestión de establecimientos y para el desarrollo de procesos y productos
+relacionados con la alimentación (Rojas, 2013).
+Las BPM fueron desarrolladas por el Codex Alimentarius con el objetivo de proteger al
+cliente. Incluye varias condiciones y procedimientos operativos básicos que cualquier empresa
+alimentaria debe cumplir, considerando también el marco legal del país.
+
+37
+Las empresas alimentarias que intervienen en cada etapa de la cadena son responsables de
+adoptar todas las medidas a su alcance para que los productos alimenticios cumplan con estas
+normas de higiene (Rojas, 2013).
+
+38
+Metodología
+El presente proyecto se realizó por etapas, con un primer análisis y recolección de
+información y evidencia de la situación del restaurante con el contexto normativo actual. En la
+segunda etapa se realizó la revisión bibliográfica de los planes de saneamiento básico y la
+creación del PSB donde fue entregado, se estableció su implementación y se inició el respectivo
+seguimiento de los indicadores y toma de acciones correctivas que fueron necesarias, además del
+diligenciamiento de formatos de registro para control y seguimiento de las actividades realizadas
+en el restaurante.
+
+39
+Fase 1. Visita Inspección
+Una inspección detallada, respaldada por evidencia fotográfica realizada el día 01 de junio
+de los corrientes, permitió evaluar a fondo el estado sanitario del establecimiento en diferentes
+áreas (ver figura 1, 2, 3, 4 y 5). Se recopilaron datos sobre su operación y se entrevistó al
+personal. Los hallazgos visuales se compararon con los requisitos establecidos por el INVIMA."
+Se inició la visita en el área de producción donde se pudo evidenciar a un manipulador de
+alimentos sin la dotación adecuada para la actividad (uniforme de colores claros), además el
+elemento de protección tapa boca no estaba haciendo uso de la forma correcta dejando al
+descubierto la nariz, además no se evidencio frecuencia en el lavado de manos. Las instalaciones
+presentan deterioro y abolladura en las paredes y techo, falta ruta de evacuación, habladores
+alusivos a buenas prácticas de manufactura lo cual se puede evidenciar en la figura 1 (resolución
+2674 de 2013).
+Figura 1
+Área de producción
+
+Fuente: Autor
+
+40
+En el área de baños se evidencia que no tiene equipo para secado de manos o toallas desechables,
+además la caneca de depósito de papel no cuenta con tapa o caneca de pedal, el baño no está
+identificado (puerta de acceso), lo cual se puede evidenciar en la figura 2 (resolución 2674 de
+2013).
+Figura 2
+Área de baños
+
+Fuente: Autor
+En el área de atención al cliente no se evidencia ruta de evacuación, el ingreso a la cocina
+se observan paredes con abolladuras y falta de embellecimiento de pintura, el piso se observa con
+pintura de demarcación desgastada especialmente en rampa de acceso lo cual se puede observar
+en la figura 3 (resolución 2674 de 2013).
+
+41
+Figura 3
+Área de atención al cliente
+
+Fuente: Autor
+En el área de almacenamiento en congelador horizontal se evidencia producto almacenado
+en bolsa negra (bolsa de basura), alimentos en bolsas abiertas, recipientes con alimentos
+preparados sin tapa (resolución 2674 de 2013).
+Figura 4
+Área de almacenamiento
+
+Fuente: Autor
+
+42
+Los residuos sólidos en el área de producción se evidencian en recipiente plástico sin
+protección (sin tapa), además no se observa clasificación de los mismos por colores figura 5
+(resolución 2674 de 2013).
+Figura 5
+Área de residuos solidos
+
+Fuente: Autor
+Fase 2. Diagnóstico
+En esta fase para el día 10 de junio de los corrientes se definieron las deficiencias
+sanitarias y el orden de prioridades de las mismas, lo que ayudo en el diseño de los programas del
+plan de saneamiento básico.
+Se efectuó un análisis de riesgos basado en el registro fotográfico y acta de inspección de
+la fase 1 (Figura 1, 2, 3, 4 y 5) de producción de pizza, identificando potenciales peligros en cada
+etapa del proceso. Asimismo, se cotejaron las condiciones físicas del establecimiento con los
+hallazgos descritos en el acta de inspección sanitaria del INVIMA. A partir de este diagnóstico
+integral, se propusieron medidas correctivas para subsanar las no conformidades detectadas.
+Estos hallazgos fueron divulgados al personal y gerencia del establecimiento para el día 12 de
+junio del año en curso.
+
+43
+Fase 3. Diseño
+De acuerdo a los resultados del diagnóstico realizado, se procedió a establecer un plan de
+saneamiento básico para la ESTACION PIZZA Y SABOR, el cual está compuesto por los
+programas de:
+Limpieza y desinfección
+Control integral de plagas
+Residuos solidos
+Abastecimiento de agua potable (Resolución 2674 de 2013).
+Además, se diseñaron formatos de registro que se efectuaron para el control y
+seguimiento de las actividades que se realizan en el establecimiento. Los formatos que se
+utilizaron fueron:
+Formato de limpieza y desinfección
+Formato control de evacuación e inspección del área temporal de basura
+Formato control de inspección, control y prevención de plagas.
+
+44
+Fase 4. Capacitación
+Se involucró a todo el personal en el plan de saneamiento básico, explicando cada
+programa y la importancia de su participación activa en el registro y seguimiento de las
+actividades.
+Fase 5. Evaluación Final
+Una vez concluida la fase de diseño, implementación y ejecución de los programas
+prerrequisito del plan de saneamiento básico, se procede a realizar una evaluación final con el
+propósito de cuantificar el grado de cumplimiento de los objetivos planteados y contrastar los
+resultados obtenidos con la situación inicial.
+
+45
+Cronograma de Actividades
+Se planifico y estructuro el tiempo para llevar a cabo las distintas fases del estudio en la
+siguiente tabla:
+Tabla 1
+Cronograma de actividades
+Actividad
+Asignación Asesor de
+proyecto
+Visita inicial (fase 1)
+registro fotográfico
+Diagnóstico (fase 2)
+Divulgación hallazgos
+Elaboración y diseño del
+proyecto ( fase 3)
+Entrega y aprobación
+gerencia del proyecto
+Capacitación al personal
+(fase 4)
+Elaboración,
+diligenciamiento y
+seguimiento de los
+registros de calidad.
+Elaboración de
+indicadores
+Evaluación final (fase 5)
+
+Mayo
+
+Junio
+
+Julio
+
+Agosto
+
+31 mayo 2024
+01 junio 2024
+10 junio 2024
+12 junio 2024
+17 junio 2024
+01 julio 2024
+
+10 junio 2024
+
+01, 15 y 29
+julio 2024
+
+12 y 26
+agosto
+
+01 julio -31
+julio 2024
+
+01 agosto –
+31 agosto
+2024
+31 agosto
+2024
+31 agosto
+2024
+
+46
+Resultados y Análisis
+Fase 1. Visita de Inspección
+Se realizó visita de inspección a todas las instalaciones del establecimiento las cuales son
+producción, baños, atención al cliente y almacenamiento.
+Producción.
+Esta área cuenta con un espacio estrecho donde se ubican un mesón, estufas y horno, las
+paredes y techos presentan humedad, desprendimiento de pintura y techo en material no lavable
+(ver figura 1. Área de producción).
+Baños.
+Cuenta con un solo baño para empleados y clientes, está dotado de jabón antibacterial y
+papel higiénico, falta de toallas para secado de manos, la caneca de residuos no cumple con la
+normatividad (ver figura 2 área de baños).
+Atención al Cliente.
+Esta área cuenta con suficiente espacio, espacio al aire libre, presenta paredes porosas,
+desprendimiento de pintura, falta de organización, se evidencia maleza y fácil acceso a cualquier
+tipo de plagas (ver figura 3 área de atención al cliente).
+Almacenamiento.
+Este espacio cuenta con (1) refrigerador vertical, (1) congelador vertical y (1) nevera
+horizontal, paredes y pisos presentan porosidad, desprendimiento de pintura, humedad, el techo
+está diseñado de material no lavable y presenta humedad. Se evidencia ventana sin protección sin
+angeos (ver Figura 4 área de almacenamiento).
+
+47
+Disposición de Residuos Sólidos
+La pizzería no cuenta con un espacio temporal de manejo de residuos, las canecas que se
+utilizan no cumplen con la normatividad, los residuos esta expuestos generando plagas y mal
+aspecto al espacio. Ver figura 5 (Área de residuos sólidos).
+Horarios y Servicios
+La ESTACION PIZZERIA Y SABOR presta sus servicios al cliente todos los días en los
+siguientes horarios:
+Lunes a domingos de 3:00 PM- 10:00PM
+
+48
+Fase 2. Diagnóstico
+Edificaciones e Instalaciones Físicas
+La evaluación reveló un incumplimiento total de los requisitos sanitarios establecidos. No
+se observó ninguna medida de separación entre el área de vivienda y el establecimiento, lo cual
+representa un riesgo significativo de contaminación. Además, las condiciones físicas del local son
+precarias, evidenciando deterioro en pintura, techo y sistemas de iluminación. Las instalaciones
+sanitarias carecen de elementos básicos como secadores de manos y papeleras con pedal, lo que
+compromete la higiene y la seguridad alimentaria.
+Equipos y Utensilios
+En este caso tenemos un cumplimiento del 75% mientras que un 25% de incumpliendo
+debido que no se observa equipos de medición para tomas de temperatura de equipos ni de
+cocción (ver Figura 6), y si cuenta con mesones de material inoxidable.
+Figura 6
+Porcentaje de cumplimiento con respecto a equipos y utensilios
+
+Equipos y utensilios
+
+25%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+
+0%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PARCIAL
+
+75%
+
+Fuente: Autor
+
+PORCENTAJE DE
+NO
+CUMPLIMIENTO
+
+49
+Personal Manipulador de Alimentos
+La evaluación de las competencias del personal manipulador arrojó un índice de
+cumplimiento del 82,5% (ver figura 7) Se verificó que el personal contaba con la capacitación
+básica en manipulación de alimentos. No obstante, se detectaron incumplimientos en relación con
+las Buenas Prácticas de Higiene (BPM), específicamente en lo concerniente al uso de EPP y a la
+frecuencia del lavado de manos. Asimismo, la ausencia de un programa de capacitación continua
+constituye una desviación del sistema de gestión de seguridad alimentaria.
+Figura 7
+Personal manipulador de alimentos
+
+Fuente: Autor
+El establecimiento cuenta con 4 manipuladores de alimentos:
+José Wilson Lopez (certificado de manipulación de alimentos figura 8)
+Olga patricia zapata (certificado de manipulación de alimentos figura 9)
+Elizabeth chaparro (certificado de manipulación de alimentos figura 10)
+Jaén s Merchancano (certificado de manipulación de alimentos figura 11)
+
+50
+Figura 8
+Plan de capacitación
+
+51
+
+52
+Requisitos Higiénicos de Fabricación
+Los resultados de la auditoría sanitaria indicaron una tasa de conformidad del 36%,
+inferior a los parámetros establecidos. Se identificó una condición crítica asociada a la
+contaminación cruzada en un equipo de refrigeración. La inadecuada segmentación de alimentos
+(cocidos y crudos) y el uso de material de empaque no homologado para alimentos (bolsas
+negras) representaron una vulnerabilidad en el sistema de gestión de seguridad alimentaria (ver
+figura 9).
+Figura 9
+Requisitos higiénicos de fabricación
+
+Requisitos Higienicos
+
+PORCENTAJE DE
+CUMPLIMIENTO
+
+0%
+36%
+
+64%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PARCIAL
+PORCENTAJE DE
+NO CUMPLIMIENTO
+
+Fuente: Autor
+Saneamiento
+El análisis de las prácticas de manejo de residuos sólidos mostró un incumplimiento del
+46% de los requisitos establecidos. La no separación de residuos en la fuente y la ausencia de un
+plan de saneamiento formal generan un riesgo potencial para el medio ambiente y comprometen
+
+53
+la higiene del establecimiento. La falta de registros de control impide evaluar la eficacia de las
+medidas implementadas (ver figura 10).
+Figura 10
+Saneamiento
+
+Fuente autor
+
+54
+Figura 11
+Diagnóstico inicial check list invima
+
+55
+Continuidad figura 11 diagnóstico inicial check list Invima
+
+56
+Continuidad figura 11 diagnóstico inicial check list Invima
+
+57
+Continuidad figura 11 diagnóstico inicial check list Invima
+
+Nota. Para realizar el diagnostico se utilizó como modelo el acta de inspección sanitaria o check
+list. utilizado por el Invima con enfoque de riesgo en establecimientos de preparación de
+alimentos en el departamento del Tolima.
+
+58
+Fase 3. Diseño Plan de Saneamiento
+El plan de saneamiento básico que se diseñó para LA ESTACIÓN PIZZA Y SABOR
+cuenta con los siguientes componentes:
+Programa de limpieza y desinfección
+Objetivo
+Alcance
+Vigencia
+Responsabilidad
+Definiciones
+Procedimientos
+Principios
+Proceso de limpieza
+Proceso de desinfección
+Procedimiento (POES)
+Puntos muertos
+Requisitos y obligaciones de los manipuladores de alimentos
+Normas para ingreso de visitantes
+Verificación y control
+Instructivo lavado de manos
+Instructiva desinfección de manos
+Fichas técnicas
+Registro y control
+
+59
+Programa de Manejo de Residuos Solidos
+Objetivo
+Alcance
+Vigencia
+Responsabilidad
+Definiciones
+Procedimientos
+Clasificación de residuos solidos
+Separación de residuos solidos
+Tipos de residuos generados
+Programa Control de Plagas
+Objetivo
+Alcance
+Vigencia
+Responsabilidad
+Definiciones
+Saneamiento ambiental
+Controles químicos
+Fichas técnicas
+Registro y control
+
+60
+Programa de Abastecimiento de Agua Potable
+Objetivo
+Alcance
+Vigencia
+Responsabilidad
+Definiciones
+Guía para el almacenamiento de agua
+Suministro de agua potable
+Acciones para el lavado y desinfección del tanque
+Fase 4. Capacitación
+El personal manipulador de alimentos cuenta con una capacitación de 5 horas la cual fue
+dictado por una empresa prestadora del servicio avalada por la secretaria departamental de
+secretaria de salud y ambiental de Cali.
+El autor llevó a cabo una capacitación exhaustiva sobre el Plan de Saneamiento Básico,
+asignando 4 horas a cada uno de los programas que lo componen. La metodología empleada
+combinó teoría y práctica en los módulos de limpieza, desinfección, manejo de residuos y
+abastecimiento de agua. En el caso del control de plagas, se hizo hincapié en la prevención a
+través de la higiene y el orden, confiando la ejecución de las medidas correctivas a una empresa
+externa certificada.
+
+61
+
+Figura 12
+Socialización del plan de saneamiento básico
+
+Fuente: Autor
+Fase 5. Evaluación Final
+Edificaciones e Instalaciones Físicas
+Los resultados obtenidos muestran una disminución del 60% en el porcentaje de
+incumplimiento del indicador relacionado con las instalaciones sanitarias, pasando de un 100% a
+un 40% tras la implementación del plan de saneamiento. Este avance se atribuye principalmente a
+la instalación de dispensadores de papel y papeleras (ver figura 12). Sin embargo, el análisis de
+los datos indica que persisten deficiencias significativas en la infraestructura, tales como la
+ausencia de divisiones entre unidades habitacionales y la presencia de patologías constructivas en
+pisos, paredes y techos.
+
+62
+Figura 13
+Instalación sanitaria
+
+Fuente: Autor
+Equipos y Utensilios
+Se constató un cumplimiento total del indicador relacionado con la verificación de
+temperaturas en equipos de refrigeración al finalizar la intervención. La adquisición de
+termómetros de punzón para frío y calor permitió asegurar la calibración y el control de las
+temperaturas en todas las unidades, como se muestra en la Figura 15.
+
+63
+Figura 14
+Equipos y utensilios evaluación inicial
+
+Equipos y utensilios inicial
+
+0%
+PORCENTAJE DE
+CUMPLIMIENTO
+
+25%
+
+PORCENTAJE DE
+CUMPLIMIENTO PARCIAL
+
+75%
+
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+Fuente: Autor
+Figura 15
+Equipos y utensilios evaluación final
+
+Equipos y utensilios final
+
+0%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PORCENTAJE DE
+CUMPLIMIENTO
+PARCIAL
+
+100%
+
+Fuente: Autor
+
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+64
+Personal Manipulador de Alimentos
+Los resultados obtenidos demuestran un avance significativo en el cumplimiento de los
+requisitos normativos en materia de higiene y seguridad alimentaria. El uso adecuado del
+tapabocas por parte de los manipuladores, así como la ejecución de un programa de capacitación
+estructurado, constituyen evidencias claras de la implementación de prácticas operativas estándar
+(POES) y de un compromiso con la mejora continua de los procesos (ver figura 17).
+Figura 16
+Personal manipulador de alimentos evaluación inicial
+
+Personal manipulador de
+alimentos inicial
+
+0%
+PORCENTAJE DE
+CUMPLIMIENTO
+
+PORCENTAJE DE
+CUMPLIMIENTO PARCIAL
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+100%
+
+Fuente: Autor
+
+65
+Figura 17
+Personal manipulador de alimentos evaluación final
+
+Personal manipulador de alimentos
+Final
+0%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PORCENTAJE DE
+CUMPLIMIENTO PARCIAL
+
+100%
+
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+Fuente: Autor
+Requisitos Higiénicos de Fabricación
+Los resultados de la segunda auditoría evidencian una mejora sustancial en el
+cumplimiento de los requisitos de inocuidad alimentaria, especialmente en lo concerniente a la
+prevención de la contaminación cruzada y el uso adecuado de materiales de empaque. La
+implementación de un plan de saneamiento integral, alineado con los lineamientos establecidos
+en la Resolución 2674 de 2013, ha sido fundamental para mitigar los riesgos asociados a estos
+ítems, los cuales representaban la mayor proporción de no conformidades en la auditoría previa.
+La eficacia de estas medidas se refleja en la significativa reducción de las desviaciones detectadas
+en esta última evaluación (Ver figura 19).
+
+66
+Figura 18
+Requisitos higiénicos iniciales
+
+Requisitos higienicos iniciales
+
+0%
+36%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PORCENTAJE DE
+CUMPLIMIENTO PARCIAL
+
+64%
+
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+Fuente: Autor
+Figura 19
+Requisitos higiénicos finales
+
+Requisitos Higienicos Finales
+
+0%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PORCENTAJE DE
+CUMPLIMIENTO PARCIAL
+
+100%
+
+Fuente: Autor
+
+PORCENTAJE DE NO
+CUMPLIMIENTO
+
+67
+Saneamiento
+La ejecución del plan de saneamiento generó un impacto positivo en la gestión de
+residuos, evidenciado por el aumento de un 54% a un 87,9%. La implementación de prácticas de
+separación de residuos, soportadas por la provisión de contenedores debidamente identificados,
+resultó en una mejora sustancial en el manejo de los desechos (ver figura 21).
+Figura 20
+Saneamiento inicial
+
+Saneamiento (inicial)
+PORCENTAJE DE
+CUMPLIMIENTO
+
+0%
+46%
+
+54%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PARCIAL
+PORCENTAJE DE
+NO
+CUMPLIMIENTO
+
+Fuente: Autor
+Figura 21
+Saneamiento final
+
+Saneamiento (final)
+0%
+13%
+
+PORCENTAJE DE
+CUMPLIMIENTO
+
+PORCENTAJE DE
+CUMPLIMIENTO
+PARCIAL
+
+87%
+
+Fuente: Autor
+
+PORCENTAJE DE
+NO
+CUMPLIMIENTO
+
+68
+
+Figura 22
+Diagnóstico final check list invima
+
+69
+Continuidad figura 22 diagnostico final check list invima
+
+70
+Continuidad figura 22 diagnostico final check list invima
+
+71
+Continuidad figura 22 diagnostico final check list invima
+
+Nota. Para realizar el diagnostico se utilizó como modelo el acta de inspección sanitaria o lista de
+chequeo. utilizado por el Invima con enfoque de riesgo en establecimientos de preparación de
+alimentos en el departamento del Tolima.
+
+72
+Mejoras realizadas con la Implementación del Plan de Saneamiento (Resolución
+2674 de 2013)
+En la figura 21 se puede observar cómo se encontraba anteriormente el área de
+producción, y con las mejoras realizadas de embellecimiento de pintura y resanes de paredes se
+puede evidenciar en la figura 24 el cambio que tuvo el área de producción.
+Figura 23
+Área de producción (antes)
+
+Fuente: Autor
+
+73
+Figura 24
+Área de producción (después)
+
+Fuente: Autor
+En la figura 25 se puede observar el estado de paredes detrás del horno a gas natural como
+se encontraba antes y luego en la figura 26 se puede ver el embellecimiento de pintura y resane
+de paredes realizado en dicha área al realizar los cambios y mejoras.
+
+74
+Figura 25
+Interior producción horno a gas (antes)
+
+Fuente: Autor
+
+Figura 26
+Interior producción horno a gas (después)
+
+Fuente: Autor
+
+75
+El área de baño no se encontraba dotado con equipo secador de manos o toallas
+desechables para el secado, lo cual se puede observar en la figura 27. Como mejora se instaló
+dispensador dotado de toallas desechables para el secado de manos lo cual se evidencia en la
+figura 28.
+Figura 27
+Baño (antes)
+
+Fuente: Autor
+
+76
+Figura 28
+Baño (después)
+
+Fuente: Autor
+En el área de producción los desechos orgánicos e inorgánicos se encontraban
+almacenados en un recipiente abierto sin protección o tapa sin clasificación alguna de los mismos
+(ver figura 29). Como mejora se dotaron canecas con tapa para clasificar los desechos, color
+verde para los desechos orgánicos y color negro para los desechos inorgánicos previamente
+identificados, se instalaron letreros alusivos a la clasificación de desechos y se asignó un área
+externa para el deposito temporal de los residuos sólidos (ver figuras 30 y 31).
+
+77
+Figura 29
+Residuos sólidos (antes)
+
+Fuente: Autor
+Figura 30
+Residuos sólidos (después)
+
+Fuente: Autor
+
+78
+Figura 31
+Residuos sólidos (después)
+
+Fuente: Autor
+El ingreso al área de producción se encontraba en mal estado de pintura de paredes y
+abolladuras en las mismas, el piso se notaba sucio y con desgaste lo cual se puede observar en la
+figura 32. Se realizaron mejoras en cuanto a paredes, pisos y pintura de señalización en rampas
+de ingreso al área de producción (ver figura 33).
+Figura 32
+Ingreso área producción (antes)
+
+79
+Fuente: Autor
+Figura 33
+Ingreso área producción (después)
+
+Fuente: Autor
+Se instalaron habladores en las diferentes áreas alusivos a las buenas prácticas de
+manufactura (BPM), ruta de evacuación, punto de encuentro e identificación de equipos además
+se puede notar el embellecimiento de pintura en otras áreas, lo cual se puede evidenciar en la
+figura 34, 35, 36 y 37.
+
+80
+Figura 34
+Habladores (después)
+
+Fuente: Autor
+Figura 35
+Habladores y ruta evacuación (después)
+
+Fuente: Autor
+
+81
+Figura 36
+Habladores equipos (después)
+
+Fuente: Autor
+Figura 37
+Punto de encuentro (después)
+
+Fuente: Autor
+
+82
+Costo del Proyecto
+Tabla 2
+Costo del proyecto
+RECURSO
+1. Equipo
+Humano
+2. Equipos y
+Software
+3. Viajes y
+Salidas de Campo
+4. Materiales y
+suministros
+5.
+
+Bibliografía
+
+TOTAL
+
+DESCRIPCIÓN
+
+PRESUPUESTO
+
+Investigador del Proyecto y Digitador
+
+$ 3.000.000
+
+Computador con conexión a internet,
+teléfono móvil con cámara, impresora
+
+$ 500.0000
+
+12 durante el proyecto
+
+$ 240.000
+
+Papel, lapicero, fotocopias, etc.
+
+$ 300.000
+
+Biblioteca UNAD, artículos de referencia
+en Internet
+
+$0
+$ 4.040.000
+
+83
+Conclusiones
+Se llevó a cabo la implementación de un Plan de Saneamiento Básico en la ESTACION
+PIZZA Y SABOR, mediante un proceso de 5 fases donde la fase 1 comenzó con una visita de
+inspección llevada a cabo utilizando material fotográfico y acta de inspección sanitaria visual
+utilizada por los entes de control (INVIMA) del departamento del Tolima, en la fase 2 se realizó
+el diagnostico donde se definieron las deficiencias sanitarias y el orden de prioridades de las
+mismas, en la fase 3 de diseño se elaboró el plan de saneamiento, el cual fue autorizado por el
+gerente de la empresa y se ejecutó, luego en la fase 4 se capacito, educó y concientizo al personal
+mediante charlas, evaluaciones y videos alusivos a las buenas prácticas de manufactura, y en la
+fase 5 se realizó nuevamente una inspección final utilizando material fotográfico y el acta de
+inspección (INVIMA). A través del diagnóstico inicial, se identificaron brechas significativas en
+el conocimiento del personal respecto a las Buenas Prácticas de Manufactura (BPM) y los
+requisitos normativos. Como respuesta, se diseñaron y documentaron programas específicos de
+limpieza y desinfección, gestión de residuos sólidos, control de plagas y abastecimiento de agua
+potable. Mediante capacitaciones y la implementación de procedimientos operativos estándar
+(POES), se logró un cambio cultural en la organización, fortaleciendo la conciencia sobre la
+importancia de la inocuidad alimentaria. La evaluación final del perfil sanitario demostró un
+incremento sustancial en el índice de inocuidad, evidenciando la efectividad del PSB
+implementado.
+La implementación del Plan de Saneamiento Básico en el restaurante ha demostrado ser
+altamente efectiva en la mejora de las prácticas de higiene y seguridad alimentaria. La
+implementación del Plan de Saneamiento Básico (PSB) en la Estación Pizza y Sabor se desarrolló
+a través de un diagnóstico inicial que permitió identificar importantes deficiencias en el
+conocimiento del personal sobre las Buenas Prácticas de Manufactura (BPM) y los requisitos
+
+84
+establecidos en la Resolución 2674 de 2013. A partir de este diagnóstico, se diseñaron programas
+específicos enfocados en áreas clave como la limpieza y desinfección, la gestión de residuos
+sólidos, el control de plagas y el suministro de agua potable. Este proceso se ejecutó en un lapso
+de tres meses, desde junio hasta agosto del año en curso, durante los cuales se capacitó al
+personal en las BPM y los procedimientos operativos estándar (POES). Al finalizar, la evaluación
+reveló una mejora considerable en el cumplimiento de los estándares sanitarios, que pasó del 72%
+al 93.5%, lo que demostró la efectividad del Plan de Saneamiento Básico implementado.
+En conclusión, los resultados obtenidos evidencian que el Plan de Saneamiento Básico ha
+sido una inversión estratégica para el restaurante, al garantizar la calidad y seguridad de los
+alimentos, mejorar la imagen ante los clientes y cumplir con la normativa vigente.
+
+85
+Recomendaciones
+Una vez implementado el Plan de Saneamiento, es crucial establecer un proceso de
+seguimiento y mejora continua para garantizar la sostenibilidad de los resultados obtenidos. A
+continuación, presento algunas recomendaciones clave:
+Monitoreo y Evaluación Continua
+Indicadores clave: Definir y monitorear regularmente indicadores clave de desempeño
+relacionados con la higiene, la seguridad alimentaria y el cumplimiento normativo. Estos
+indicadores te permitirán evaluar la efectividad del plan y detectar posibles desviaciones.
+Auditorías internas: Realizar auditorías internas periódicas para verificar el
+cumplimiento de los procedimientos y estándares establecidos. Estas auditorías deben ser
+realizadas por personal capacitado y objetiva.
+Revisión de registros: Mantener registros detallados de todas las actividades relacionadas
+con el plan de saneamiento, como capacitaciones, controles de plagas, análisis de agua, etc. La
+revisión periódica de estos registros permitirá identificar tendencias y áreas de mejora.
+Capacitación Continua del Personal:
+Refuerzo de conocimientos: Organizar capacitaciones periódicas para reforzar los
+conocimientos del personal sobre las BPM, las normas de higiene y los procedimientos
+específicos del plan de saneamiento.
+Actualización de conocimientos: Mantener al personal actualizado sobre cualquier
+cambio en la normativa o en los procedimientos internos.
+Fomento de una cultura de seguridad alimentaria: Promover una cultura de seguridad
+alimentaria en toda la organización, incentivando la participación activa de todos los empleados.
+
+86
+Mejora Continua:
+Análisis de desviaciones: Analizar las desviaciones detectadas durante el monitoreo y las
+auditorías para identificar las causas raíz y tomar acciones correctivas.
+Implementación de mejoras: Implementar mejoras en los procesos y procedimientos,
+basadas en los resultados de los análisis y en las mejores prácticas de la industria.
+Revisión y actualización del plan: Revisar y actualizar el plan de saneamiento de manera
+periódica para adaptarlo a los cambios en la normativa, las necesidades del negocio y los
+resultados de las evaluaciones.
+Comunicación y Colaboración:
+Comunicación efectiva: Mantener una comunicación abierta y transparente con todo el
+personal sobre los objetivos del plan de saneamiento, los resultados obtenidos y las mejoras
+implementadas.
+Colaboración interdepartamental: Fomentar la colaboración entre los diferentes
+departamentos de la organización para asegurar la implementación efectiva del plan.
+Certificación:
+Considerar la certificación: Evaluar la posibilidad de certificar el sistema de gestión de
+seguridad alimentaria de acuerdo con una norma reconocida internacionalmente, como ISO
+22000. La certificación puede brindar un reconocimiento externo de la calidad y seguridad de los
+productos y servicios.
+
+87
+Referencias Bibliográficas
+Código Sanitario Nacional Ley 9. Colombia Ministerio de Salud (2013). Condiciones Higiénico
+Sanitaria de Alimentos. Resolución 2674, Colombia.
+https://www1.funcionpublica.gov.co/documents/418537/604808/1962.pdf/abe38fb4e74d-4dcc-b812-52776a9787f6
+Colombia, C. D. (1979). LEY 9 DE 1979 “Por la cual se dictan Medidas Sanitarias”. Bogotá
+Colombia: Diario Oficial, (35308). Disponible en:
+https://www.minsalud.gov.co/Normatividad_Nuevo/ley%200009%20de%201979.pdf
+Colombia, Ministerio de Salud y Protección Social Resolución 2674 (22 de Julio de 2013). Por la
+cual se reglamenta el artículo 126 del Decreto Ley 019 de 2012 y se dictan otras
+disposiciones. Bogotá D.C., 2013. El ministerio. 1-7p. Disponible en:
+https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion2674-de2013.pdf
+Colombia, Ministerio de Salud y Protección Social. Resolución 1229 (22 de abril de 2013). Por la
+cual se establece el modelo de inspección, vigilancia y control sanitario para los productos
+de uso y consumo humano. Bogotá D.C., 2013. El ministerio. 11p. Disponible en:
+https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion1229-de2013.pdf
+Colombia, Presidencia de la Republica, Decreto 3075 de 1997. Por el cual se reglamenta
+parcialmente la Ley 09 de 1979 y se dictan otras disposiciones. Bogotá D.C., 1997. La
+presidencia. Disponible en:
+https://www.invima.gov.co/images/stories/aliementos/decreto_3075_1997.pdf
+
+88
+Farfán Herrera, A. S., & Socha Gutiérrez, I. M. (2016). Diseño del plan de saneamiento para el
+restaurante Sopas, carnes y algo más Bogotá DC 2015.
+https://repository.udistrital.edu.co/server/api/core/bitstreams/ef7551cd-3a30-467b-9c0fee3649840b16/content
+Gobernador.co. (s.f.). Plan de saneamiento básico: Sistema Plazas de Mercado. Instituto para la
+Economía Social (IPES). Recuperado el 30 de agosto de 2024, de
+https://www.ipes.gov.co/images/informes/SDE/Mapa_de_Procesos/Proceso_Planeacion_
+Estrategica_y_Tactica/2020/De_043_Plan_De_Saneamiento_Basico_Sistema_Plazas_Me
+rcado.pdf.pdf
+Guía Técnica Colombiana GTC 86. Gestión ambiental. Guía para la implementación de la gestión
+integral de residuos. Primera edición. 2003. Disponible en: https://tienda.icontec.org/gpguiapara-la-implementacion-de-la-gestion-integral-de-residuos--gir--gtc86-2003.html
+INVIMA (2015). Manual De Inspección, Vigilancia Y Control Sanitario De Alimentos Y bebidas
+Basado En Riesgo Para Las Entidades Territoriales De Salud. Colombia
+https://normograma.invima.gov.co/compilacion/docs/resolucion_invima_48290_2015.htm
+Maya Diaz, C. E. (2015). Documentación de un plan de saneamiento para la cadena de
+restaurantes Pizzburguer ubicados en diferentes puntos de la ciudad de Pasto Nariño.
+https://sired.udenar.edu.co/8780/
+Ministerio de Salud (2012). Manual para el Control Integral de Roedores. Bogotá Ministerio de
+Salud (1979). Disponible:
+https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/PAI/Lineamie
+nto-acciones-pyp-control-vectores-establecimientos-especiales-2014.pdf
+
+89
+Rojas Gómez, V. (2013). Control de calidad, diagnostico, implementación y refuerzo de las
+buenas prácticas de manufactura en las cocinas y restaurantes del Hotel Dann Carlton
+Medellín (Doctoral dissertation, Corporación Universitaria Lasallista).
+Universidad Nacional de Colombia. (2017). Protocolo de Limpieza y Desinfección de Áreas,
+Superficies y Equipos. Recuperado el 2018, de
+http://oga.bogota.unal.edu.co/wpcontent/uploads/2017/09/B.PC_.15.003.002-Protocolode-limpieza-ydesinfecci%C3%B3n-de-%C3%81reas-Superficies-y-Equipos.pdf
+Vanegas, O. F. (2014). Plan de saneamiento básico para el asadero y restaurante el bracero caleño
+Bogotá 2012 (Bachelor's thesis, Universidad Distrital Francisco José de Caldas).
+Disponible:
+https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=Vanegas%2C+O.+F.+%2820
+14%29.+Plan+de+saneamiento+b%C3%A1sico+para+el+asadero+y+restaurante+el+brac
+ero+cale%C3%B1o+Bogot%C3%A1+2012+%28Bachelor%27s+thesis%2C+Universidad
++Distrital+Francisco+Jos%C3%A9+de+Caldas%29.&btnG=
+Zapata Castro, D. (2022). Plan de saneamiento básico de los restaurantes del Hotel Santorini.
+https://repositorio.unimagdalena.edu.co/items/551db666-71a4-43a8-8928-3f9b0f8dabf0
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+90
+Apéndices
+Apéndice A.
+Plan de saneamiento básico restaurante la estación pizza y sabor
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+91
+
+Programa limpieza y desinfección
+Objetivo
+Establecer los procedimientos de limpieza y desinfección de los equipos, utensilios,
+personal manipulador y áreas del establecimiento LA ESTACION PIZZA Y SABOR, con el fin
+de mantener la inocuidad de todos los productos elaborados y distribuidos y disminuir riesgos en
+su manipulación.
+Alcance
+Este documento aplica para todas las actividades de limpieza y desinfección en
+superficies, equipos, utensilios, personal manipulador y áreas del establecimiento LA ESTACION
+PIZZA Y SABOR.
+VIGENCIA
+Este documento tiene validez a partir de la aprobación por parte del Representante legal
+del establecimiento y/o Gerente.
+Responsabilidad
+Del Gerente garantizar los recursos para la implementación de este programa
+Del Representante legal del establecimiento y del personal a su cargo ejecutar los
+procedimientos descritos en este programa
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+92
+Del Coordinador de calidad o su delegado, realizar control y seguimiento a las actividades
+propuestas en este programa.
+
+Definiciones
+Agua potable: Es aquella que por reunir los requisitos organolépticos (olor, sabor y
+percepción visual), físicos, químicos y microbiológicos, puede ser consumida por la población
+humana sin producir efectos adversos a la salud.
+Aspersión: Método de aplicación de un agente limpiador o desinfectante en el cual la
+solución se pulveriza o se esparce.
+Ambiente: Cualquier área interna o externa delimitada físicamente que forma parte del
+establecimiento destinado a la fabricación, al procesamiento, a la preparación, al envase,
+almacenamiento y expendio de alimentos.
+Contaminación: La contaminación de los alimentos consiste en la presencia en éstos y
+otros productos relacionados, de sustancias de orígenes biológicos o químicos y riesgosos o
+tóxicos para la salud del consumidor.
+Contaminación Cruzada: Se produce cuando los contaminantes pasan de un alimento a
+otro mediante utensilios, equipos, superficies o manos sucias.
+Desinfección: Reducción o disminución de los microorganismos presentes, por medio de
+agentes químicos y/o físicos, a un nivel que no sea dañino para el alimento o para el ser humano.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+93
+
+Tipos de desinfección:
+-
+
+Desinfección con vapor y/o agua caliente: Los microorganismos se pueden
+
+destruir al entrar en contacto con el agua caliente, no es un método muy utilizado ya que se
+requiere de mucha energía para su aplicación.
+-
+
+Desinfección química: Estos son compuestos químicos que varían mucho en sus
+
+formas de uso y composición. La eficiencia de estos desinfectantes depende de muchos factores
+como tiempo de exposición, temperatura, concentración etc.
+Agentes desinfectantes: Existe un gran número de agentes que eliminan o inhiben el
+crecimiento microbiano, algunos ejemplos de ellos son:
+-
+
+Compuestos de cloro
+
+-
+
+Compuestos de yodo
+
+-
+
+Compuestos Amonio Cuaternario
+
+Detergente: Compuesto químico que tiene una acción limpiadora ya que dispone de
+propiedades que le permiten quitar la suciedad sin afectar el material sometido al proceso de
+limpieza como los jabones pero que no se deriva directamente de las grasas y los aceites. Existe
+diferentes tipos de detergentes como:
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+94
+Compuestos alcalinos: (pH mayor de 7). Son productos de acción muy fuerte, para
+eliminar suciedades pesadas.
+Compuestos ácidos: (pH menor de 7). Se utilizan para remover materiales incrustados en
+superficies y tipos específicos de limpieza.
+Detergentes sintéticos: Agentes humedecedores, tienen poder para separar la suciedad de
+las superficies y no causan irritación ni daño alguno, se eliminan fácilmente con enjuagar con
+agua.
+Limpiadores solventes: son productos que contienen alcohol o éter y se utilizan para
+disolver depósitos sólidos. Se usan para eliminar suciedades generadas por productos derivados
+de petróleo como aceites lubricantes y grasas.
+Diluir: Disminuir la concentración de un agente o insumo líquido/sólido, por medio de un
+solvente, en nuestro caso agua.
+Disolver: Mezclar de forma homogénea una sustancia sólida, líquida o gaseosa en el seno
+de un líquido disolvente, generalmente agua, hasta que sus partículas se deshagan y queden
+incorporadas a dicho líquido.
+Estregar: Eliminar la mugre y microbios de una superficie, mediante la fricción con un
+cepillo, máquina lavadora a presión, brilladora industrial y utilizando solución limpiadora o
+desinfectante.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+95
+Estación de aseo: Gabinete ubicado en diferentes sitios del establecimiento para guardar
+los implementos utilizados en el aseo del área.
+Higiene de alimentos: Son un conjunto de normas preventivas necesarias para garantizar
+un producto seguro, limpio y de excelente calidad.
+Inocuidad: Característica de calidad inherente a los alimentos a través de la cual se
+garantiza la ausencia de contaminantes que puedan afectar la salud.(Garantía de que los alimentos
+no causarán daño al consumidor cuando se preparen y/o consuman de acuerdo con el uso al que
+se destinan).
+Limpieza: Eliminación de tierra, residuos de alimentos, suciedad, grasas u otros
+materiales extraños. Se pueden clasificar en:
+
+
+Limpieza en seco: Se realiza para equipos y superficies de difícil acceso.
+
+
+
+Limpieza húmeda: Se realiza con la aplicación de una solución limpiadora. Los
+
+detergentes y desinfectantes a utilizar dependerán del tipo de suciedad que se desee remover, del
+tipo de planta o centro de acopio, del proceso y del presupuesto destinado para tal fin.
+Lavar: Sacar la mugre de la superficie (pisos, estructuras, paredes, ventanas, techos)
+mediante el uso de uno solución limpiadora.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+96
+Punto Muerto: Se define como el lugar o parte, ya sea de un equipo, utensilio o zona, que
+no se encuentra a la vista y es además apto para la acumulación de suciedad, por lo tanto dichos
+puntos deben ser atacados para evitar la acumulación de mugre y la contaminación.
+POES: Procedimientos Operativos Estandarizados de Saneamiento.
+Saneamiento: Es la aplicación conjunta de programas de limpieza y desinfección, control
+de plagas, control de residuos sólidos y líquidos, con el fin de lograr ambientes, superficies,
+equipos, utensilios y personal manipulador aptos para el procesamiento de alimentos teniendo en
+cuenta la protección del medio ambiente.
+Procedimientos
+Principios
+Para realizar la limpieza y desinfección se deben tener en cuenta lo siguientes principios
+técnicos básicos:
+
+
+Tener la Información o ficha técnica de los detergentes y desinfectantes que se
+
+usarán según el tipo de suciedad que se presente.
+
+
+Tener la Información de los Proveedores de los productos de Limpieza y
+
+Desinfección (L&D).
+
+
+Establecer los Procedimientos e instructivos de limpieza y desinfección o POES.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+97
+
+
+Seleccionar los responsables de la aplicación de los productos de L&D y cada
+
+cuanto tiempo se harán según el área, equipo o utensilio que se limpie y desinfecte.
+
+
+Establecer un procedimiento para la preparación de las soluciones del agente
+
+desinfectante.
+
+
+Realizar la preparación de las soluciones de jabón y desinfectante de acuerdo a la
+
+Ficha técnica y recomendaciones del proveedor.
+
+
+Disolver los jabones previamente en agua potable en las concentraciones indicadas
+
+y nunca colocarlos directamente sobre los lugares a limpiar.
+
+
+Al enjabonar las superficies a limpiar, no use la mano para esparcir la solución
+
+
+
+Utilizar el equipo de protección personal, teniendo en cuenta las recomendaciones
+
+de la ficha de seguridad del producto.
+
+
+Contar con los utensilios necesarios para desarrollar estas actividades, los cuales
+
+deben corresponder con el código de colores.
+
+
+Todos los productos de limpieza y desinfección deben estar rotulados y contenidos
+
+en sus recipientes originales. En caso de productos que requieren diluciones los recipientes deben
+estar rotulados con el nombre, concentración y fecha de preparación.
+
+
+Realizar la clasificación y depósito de los residuos sólidos generados en los
+
+recipientes indicados según lo establecido en el Programa de Manejo de Residuos Sólidos.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+98
+
+
+Cuando se presenten derrames de productos de limpieza y desinfección se deben
+
+seguir los protocolos establecidos en las fichas de seguridad.
+
+
+El agua usada en la limpieza y desinfección debe ser agua potable
+
+Proceso de limpieza
+Revisar que el área quede libre de productos e insumos expuestos y que los equipos se
+encuentren apagados y desconectados.
+Recoger y desechar residuos sólidos que hayan quedado del proceso operacional del
+establecimiento, como bolsas, desechables.
+Preparar la solución de jabón que se va a utilizar:
+
+
+Tomar la cantidad de jabón necesaria con la ayuda de una probeta aforada y
+
+diluirlo en agua de acuerdo a las indicaciones de la ficha técnica y del proveedor.
+Humedecer con agua potable la superficie que se va limpiar.
+Aplicar la solución de jabón. Al enjabonar las superficies realizar la acción mecánica
+(esponja, escoba, cepillo) siempre en un mismo sentido para evitar que queden espacios sin
+limpiar, comenzando de arriba hacia abajo, de adentro hacia afuera y de las zonas más limpias a
+las menos limpias, teniendo especial cuidado de limpiar muy bien en los ángulos, bordes y puntos
+muertos.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+99
+Enjuagar con agua asegurándose que todo el jabón sea eliminado.
+Después del enjuague verificar que toda suciedad haya sido eliminada, de lo contrario
+realizar nuevamente la limpieza.
+
+Proceso de desinfección
+Verificar que la superficie esté limpia y libre de jabón.
+Preparar la solución desinfectante que se va a utilizar:
+
+
+Tomar la cantidad de desinfectante necesaria con la ayuda de una probeta aforada
+
+y diluirlo en agua de acuerdo a las indicaciones de la ficha técnica y del proveedor.
+Aplicar la solución desinfectante y dejarla actuar sobre la superficie por el tiempo acción
+correspondiente.
+Una vez terminadas las actividades de limpieza y desinfección, se deben disponer
+nuevamente los utensilios de aseo en el área exclusiva para tal fin.
+Procedimientos operativos estandarizados de sanitización (POES)
+Las actividades de limpieza y desinfección se deben realizar de acuerdo a lo establecido
+en los POES, los cuales describen claramente las operaciones de limpieza y desinfección
+realizadas en las diferentes áreas, equipos, utensilios, manipuladores, alimentos e instalaciones,
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+100
+incluyendo productos a utilizar, concentraciones, tiempo de acción, frecuencias de aplicación y
+responsables. Ver POES anexo 1.
+Puntos muertos.
+La determinación de puntos muertos se realiza con el objetivo de identificar aquellos
+lugares o partes de equipos, utensilios o instalaciones de difícil acceso que pueden convertirse en
+foco de contaminación y por lo tanto requieren de mayor atención y cuidado en el proceso de
+limpieza y desinfección. Se debe realizar un eficiente proceso de limpieza y desinfección en los
+puntos muertos relacionados en el Anexo 2.
+Requisitos y obligaciones de los manipuladores de alimentos.
+Los manipuladores de alimentos, como agentes activos en la cadena alimentaria, tiene un
+papel determinante en la seguridad y salubridad de los alimentos por lo tanto debe cumplir con
+los siguientes requisitos
+Realizar aseo personal y baño diario. Afeitarse, mantener uñas cortas, limpias y no utilizar
+esmalte.
+Usar zapatos de material resistente, adecuado para el desarrollo de las actividades.
+Utilizar el uniforme asignado y cambiarlo con la frecuencia requerida. El uniforme debe
+estar en perfectas condiciones de limpieza. No se debe usar el uniforme en áreas diferentes a las
+de procesamiento para evitar la contaminación. Para el personal involucrado directamente en el
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+101
+proceso de preparación de alimentos (chef, Cocineros), está prohibido emplear ropa de calle
+debajo del uniforme.
+Utilizar gorras higiénicas, redecillas o mallas para cubrir el cabello.
+Usar guantes adecuados para la operación cuando se requiera, limpios y sin roturas.
+Usar tapabocas en todas las operaciones de manipulación y áreas del punto donde se
+requiera.
+No usar durante las horas laborales anillos, argollas, aretes, pulseras, relojes u otros
+adornos que puedan contaminar los alimentos.
+No se permite comer, beber o masticar cualquier objeto o producto, como tampoco fumar
+o escupir en las áreas de manipulación y servicio.
+El cambio de dotación se debe realizar exclusivamente en las áreas que se tienen
+asignados para esta actividad.
+Cuando se sufra de una cortadura o herida, se debe acudir e informar inmediatamente al
+Jefe inmediato y/o el coordinador de calidad para que tome las acciones correspondientes. El
+puesto de trabajo y las superficies que hayan estado expuestas al contacto con sangre, deben ser
+lavadas y desinfectadas, y el producto implicado se da de baja, con el fin de evitar riesgos de
+contaminación cruzada.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+102
+Cuando alguna persona presente síntomas y/o problemas digestivos, enfermedades como
+diarrea, catarro e infección en la piel se debe dar aviso al Representante Legal y/o el coordinador
+de calidad para autorizar remisión a la EPS.
+Lavar las manos con agua y jabón, antes y después de: ingresar a la planta, cambio de
+actividad, uso del servicio sanitario, toser, descongestionarse la nariz, sacar la basura, manipular
+alimentos, contestar el teléfono, manipular cualquier material u otro objeto que pueda representar
+un riesgo de contaminación para los alimentos y las veces que sea necesario. Ver Anexo 3.
+Instructivo de lavado de manos.
+Normas para el ingreso de visitantes
+Para realizar visitas de personal externo al área de producción se debe realizar lo
+siguiente:
+
+
+Programar la visita con una semana de anticipación (excepto auditorias de
+
+Inspección Vigilancia y Control)
+
+
+El Coordinador de calidad y/o el Representante legal autorizan la visita y
+
+confirman fecha y hora.
+
+
+La persona responsable de la visita debe reclamar la dotación respectiva para cada
+
+uno de los visitantes, que es de uso obligatorio.
+-
+
+1 gorro cubre cabello (desechable)
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+103
+-
+
+1 tapabocas (desechable)
+
+-
+
+1 blusa (bata desechable)
+
+-
+
+1 Par de Polainas (Protección de Calzado)
+
+
+
+Después de finalizar la visita, se recoge la dotación que se usó y se ubica con la
+
+caneca de residuos sólidos designada para tal fin.
+Verificación y control.
+Después de cada limpieza y desinfección se debe inspeccionar para verificar la
+efectividad del proceso, si las condiciones no son óptimas se debe realizar nuevamente la
+limpieza y desinfección bajo la supervisión y verificación del Director de Planta o el coordinador
+de calidad.
+3.1.1 Se debe realizar seguimiento a todas las actividades descritas en este programa por
+medio de controles de Prácticas higiénicas de manipuladores de alimentos y Limpieza y
+desinfección de equipos e instalaciones.
+3.1.2 Las actividades de muestreo permitirán determinar la efectividad del programa de
+limpieza y desinfección por medio de análisis microbiológicos de ambientes, superficies,
+alimentos y manipuladores.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+104
+
+Procedimientos Operativos Estandarizados de Saneamiento
+Limpieza
+Área/
+Equipo,
+Instalación,
+Utensilio,
+Producto
+
+Mesones
+
+Desinfección
+
+Eliminar y remover
+Eliminar y
+posibles fuentes de
+controlar el
+suciedad
+crecimiento
+Responsable
+provenientes de la
+microbiano para
+Objetivo
+Objetivo
+operación para
+evitar su
+evitar o prevenir la
+proliferación en
+contaminación de
+los productos
+los productos
+BLUE GLO
+Cloro al 5.25%
+Producto
+Producto
+10 ml por cada
+7 ml por cada
+Concentración
+Concentración
+Litro de agua
+Litro de agua
+Tiempo de
+3 minutos
+Tiempo de Acción 3 minutos
+Acción
+1. Retirar residuos.
+1. Verificar que
+2.
+Aplicar la
+la superficie se
+dilución sobre el
+encuentre limpio
+equipo y restregar
+y sin residuos de
+uniformemente
+jabón.
+3.
+Restregar
+uniformemente la
+2. Aplicar
+Encargado
+superficie.
+solución
+del proceso
+4.
+Limpiar
+desinfectante
+cuidadosamente
+por aspersión.
+Procedimiento todas las
+Procedimiento
+superficies del
+3. Dejar actuar
+equipo, con
+tiempo de acción
+especial atención
+en los puntos
+4. Al finalizar
+muertos.
+jornada, realizar
+5.
+Enjuagar
+la desinfección y
+con agua limpia
+dejar actuar
+6.
+Verificar
+durante la
+que la limpieza
+noche, antes de
+haya sido efectiva,
+iniciar proceso
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+105
+
+Frecuencia
+
+identificando las
+pautas físicas de
+eliminación de
+biopelícula:
+
+Las
+superficies brillan
+
+Las
+superficies quedan
+lisas
+
+No queda
+olor
+Si se evidencia
+alguna de las
+anteriores durante
+el proceso de
+enjuague se debe
+repetir el
+procedimiento de
+lavado y
+desinfección
+7. Dejar escurrir
+8. Secar con toallas
+de papel
+desechable
+Diaria, cada vez
+Frecuencia
+que sea necesario.
+
+Producto
+
+BLUE GLO
+
+Producto
+
+Concentración
+
+10 ml por cada
+Litro de agua
+
+Concentración
+
+Tiempo de
+Acción
+
+3 minutos
+
+Tiempo de Acción
+
+Procedimiento
+
+1.
+Desocupe
+el depósito de
+grasa y lávelo con
+una solución
+disolvente suave.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Procedimiento
+
+Fecha de emisión
+Julio de 2024
+
+realizar el
+enjuague del
+producto de
+desinfección.
+
+Diaria, cada vez
+que sea
+necesario.
+Cloro 5.25% de
+Concentración Encargado
+del proceso
+4ml/L
+10 min
+
+Preparar
+en el aspersor el
+desinfectante
+con hipoclorito
+de sodio al
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+106
+
+Parrillas,
+Estufón con
+plancha y
+horno
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Lave los
+protectores de
+goteo y las rejillas.
+Si es necesario,
+raspe la rejilla con
+un raspador
+metálico de tres
+esquinas. Friegue
+toda la cámara del
+asador y el frente
+del equipo.
+2.
+Limpie los
+quemadores y
+asegúrese que las
+aperturas y
+persianas de
+ventilación estén
+despejadas.
+3.
+Enjuagar
+con agua limpia
+4.
+Verificar
+que la limpieza
+haya sido efectiva,
+identificando las
+pautas físicas de
+eliminación de
+biopelícula:
+•
+Las
+superficies brillan
+•
+Las
+superficies quedan
+lisas
+•
+No queda
+olor
+Si se evidencia
+alguna de las
+anteriores durante
+el proceso de
+
+Fecha de emisión
+Julio de 2024
+
+5.25% en una
+concentración de
+4 ml por litro de
+agua.
+
+Asperjar
+el producto
+sobre todas las
+superficies y
+dejar actuar
+durante 10
+minutos.
+
+Enjuagar
+el desinfectante.
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+107
+
+Lavaplatos
+
+Pocetas para
+lavado de
+manos.
+
+enjuague se debe
+repetir el
+procedimiento de
+lavado y
+desinfección
+7. Dejar escurrir
+Mensual
+Mensual
+Frecuencia
+Frecuencia
+BLUE GLO
+Cloro 5.25%
+Producto
+Producto
+10 ml por cada
+7 ml por cada
+Concentración
+Concentración
+Litro de agua
+Litro de agua
+Tiempo de
+3 minutos
+Tiempo de Acción 3 minutos
+Acción
+1.
+Retirar
+1. Verificar que
+todos los residuos
+la superficie se
+que haya en la
+encuentre limpio
+superficie del
+y sin residuos de
+lavaplatos y
+jabón.
+botarlos en una
+bolsa de basura.
+2. Aplicar
+2.
+Hacer una
+solución
+solución con jabón
+desinfectante por
+Encargado
+líquido y agua.
+aspersión.
+del proceso
+3.
+Con una
+Procedimiento
+Procedimiento
+esponja remover la
+3. Dejar actuar
+grasa y suciedad.
+tiempo de acción
+4.
+Enjuagar
+con agua.
+4. Al finalizar
+5.
+Dejar secar
+jornada, realizar
+al ambiente.
+la desinfección y
+dejar actuar
+durante la noche,
+no requiere
+enjuague
+posterior.
+Diaria
+Diaria
+Frecuencia
+Frecuencia
+BLUE GLO
+Cloro al 5.25%
+Producto
+Producto
+10 ml por cada
+7 ml por cada Encargado
+Concentración
+Concentración
+del proceso
+Litro de agua
+Litro de agua
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+108
+Tiempo de
+Acción
+
+Pisos,
+Puertas,
+paredes y
+ventanas.
+
+3 minutos
+
+Tiempo de Acción 3 minutos
+
+1.
+Humedecer
+1. Verificar que
+todas las
+la superficie se
+superficies de la
+encuentre limpio
+poceta.
+y sin residuos de
+2.
+Aplicar la
+jabón.
+solución del
+detergente.
+2. Aplicar
+3.
+Con una
+solución
+esponja tipo sabrá,
+desinfectante por
+restregar todas las
+aspersión.
+superficies del
+3. Dejar actuar
+Procedimiento equipo, con
+Procedimiento
+especial cuidado en
+tiempo de acción
+los puntos muertos
+ubicados en la
+4. Al finalizar
+parte inferior del
+jornada, realizar
+equipo.
+la desinfección y
+4.
+Enjuagar
+dejar actuar
+cuidando de no
+durante la noche,
+dejar residuos de
+no requiere
+jabón.
+enjuague
+5.
+Dejar secar
+posterior.
+al ambiente.
+Diaria
+Diaria
+Frecuencia
+Frecuencia
+BLUE GLO
+Cloro 5.25%
+Producto
+Producto
+10 ml por cada
+7 ml por cada
+Concentración
+Concentración
+Litro de agua
+Litro de agua
+Tiempo de
+3 minutos
+Tiempo de Acción 3 minutos
+Acción
+1. Remover toda
+1. Verificar que Encargado
+presencia de
+las superficies se del proceso
+suciedad (polvo,
+encuentren
+limpios y sin
+Procedimiento tierra, residuos
+Procedimiento
+sólidos).
+residuos de
+2. Preparar
+jabón.
+solución
+2. Aplicar
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+109
+detergente.
+solución
+3. Humedecer con
+desinfectante
+toalla mojada.
+por aspersión
+4. Enjabonar y
+3. Dejar actuar
+Restregar
+tiempo de
+fuertemente con
+acción.
+cepillo.
+5. Retirar el
+detergente
+mediante el uso de
+toallas
+humedecidas.
+6. Verificar la
+limpieza de la
+superficie.
+Al final del día y
+Al final del día y
+Frecuencia
+Semanalmente
+Semanalmente
+Frecuencia
+aseo profundo
+aseo profundo
+10 ml por cada
+7 ml por cada
+Concentración
+Concentración
+Litro de agua
+Litro de agua
+Tiempo de
+3 minutos
+Tiempo de Acción 3 minutos
+Acción
+1. Remover toda
+1. Verificar que
+presencia de
+las superficies se
+suciedad (polvo y
+encuentren
+residuos).
+limpios y sin
+2. Preparar
+residuos de
+solución
+jabón.
+detergente.
+2. Aplicar
+3. Humedecer con
+solución
+Procedimiento
+Procedimiento
+toalla mojada.
+desinfectante por
+4. Enjabonar y
+aspersión
+Restregar
+3. Dejar actuar
+fuertemente con
+tiempo de
+cepillo.
+acción.
+5. Retirar el
+4. No requiere
+detergente
+enjuague
+mediante el uso de
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+110
+toallas
+humedecidas.
+6. Verificar la
+limpieza de la
+superficie.
+Semanalmente
+aseo profundo
+
+Frecuencia
+
+Semanalmente
+aseo profundo
+
+Frecuencia
+
+Producto
+
+BLUE GLO
+
+Producto
+
+Concentración
+
+10 ml por cada
+Litro de agua
+
+Concentración
+
+Tiempo de
+Acción
+
+3 minutos
+
+Tiempo de Acción 3 minutos
+
+Techos
+Procedimiento
+
+Frecuencia
+Tiempo de
+Acción
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+1. Preparar
+solución
+detergente.
+2. Humedecer con
+agua potable.
+3. Enjabonar y
+Restregar
+fuertemente con
+esponjilla.
+Procedimiento
+4. Retirar el
+detergente
+mediante el uso de
+toallas
+humedecidas.
+5. Verificar la
+limpieza de la
+superficie.
+Trimestral
+Frecuencia
+3 minutos
+
+Cloro 5,25% de
+concentración
+7 ml por cada
+Litro de agua
+1. Aplicar
+solución
+desinfectante por
+aspersión
+2. Dejar actuar
+tiempo de
+acción.
+Encargado
+3. No requiere del proceso
+enjuague
+posterior
+
+Trimestral
+
+Tiempo de Acción 3 minutos
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+111
+
+Procedimiento
+
+Frecuencia
+
+Frecuencia
+
+1. Antes de iniciar Procedimiento
+desconecte el
+equipo y retire la
+bandeja de la
+balanza.
+2. Retirar la
+suciedad presente.
+3. Aplicar solución
+detergente con
+esponja.
+4. Enjuagar con
+trapo húmedo.
+5. Secar con toalla
+de papel
+desechable
+Frecuencia
+Cada vez que se
+cambie de proceso
+Diaria
+
+BLUE GLO
+10 ml por cada
+Concentración
+Litro de agua
+Tiempo de
+3 minutos
+Acción
+Producto
+
+Mesas, sillas.
+Procedimiento
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Frecuencia
+Producto
+Concentración
+
+1. Verificar que
+la bandeja se
+encuentre limpia
+y sin residuos de
+jabón.
+2. Aplicar
+solución
+desinfectante.
+3. Dejar actuar
+tiempo de
+acción.
+
+Cada vez que se
+cambie de
+proceso
+Al finalizar la
+jornada laboral
+
+Cloro 5.25%
+7 ml por cada
+Litro de agua
+
+Tiempo de Acción 3 minutos
+
+1. Retirar residuos.
+2. Preparar
+solución
+detergente.
+Procedimiento
+3. Enjabonar y
+Restregar
+fuertemente con
+cepillo
+4. Enjuagar con
+
+Fecha de emisión
+Julio de 2024
+
+1. Verificar que
+las superficies se Encargado
+encuentren
+del proceso
+limpias y sin
+residuos de
+jabón.
+2. Aplicar la
+solución
+desinfectante por
+aspersión
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+112
+abundante agua.
+5. Escurrir el agua
+sobrante.
+6. Secar con un
+trapo limpio.
+Frecuencia
+
+Diaria
+
+Desengrasante
+Neutro
+10 ml por cada
+Concentración
+Litro de agua
+Tiempo de
+3 minutos
+Acción
+Producto
+
+Procedimiento
+
+Cubiertos,
+Vajillas y
+
+Frecuencia
+
+Concentración
+Tiempo de Acción
+Procedimiento
+
+Frecuencia
+
+Cada vez que se
+requiera
+
+Frecuencia
+
+Producto
+
+Jabón Líquido
+
+Producto
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Cloro 5,25% de
+Concentración
+4ml/L
+
+Producto
+
+1. Realizar dilución
+en agua caliente.
+2. Sumergir el
+trapero durante el
+tiempo de acción.
+3. Refregar hasta
+eliminar restos de
+suciedad.
+4. Enjuagar.
+
+Trapero
+
+3. Dejar actuar
+tiempo de
+acción.
+4. No requiere
+enjuague
+posterior
+Diaria
+
+Fecha de emisión
+Julio de 2024
+
+10 min
+
+Preparar
+en la fumigadora
+el desinfectante
+con hipoclorito
+de sodio al
+5,25% en una
+concentración de Encargado
+4 ml por litro de del proceso
+agua.
+
+Asperjar
+el producto
+sobre todas las
+superficies de
+los tanques y
+dejar actuar
+durante 10
+minutos.
+
+Enjuagar
+el desinfectante.
+Cada vez que se
+requiera
+Hipoclorito de Encargado
+sodio al 5.25% del proceso
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+113
+utensilios
+menores.
+
+Concentración
+Tiempo de
+Acción
+Procedimiento
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+7 ml por cada Litro
+Concentración
+de agua
+3 minutos
+
+7 ml por cada
+Litro de agua
+
+Tiempo de Acción 3 minutos
+
+Realice los
+Procedimiento
+siguientes pasos
+todos los días
+después de cada
+servicio y siempre
+que sea necesario:
+1.
+Retire los
+residuos grandes
+de los platos y
+demás utensilios y
+deposítelos en una
+bolsa de basura.
+Utilice guantes de
+protección.
+2.
+Sumerja
+los utensilios y/o la
+vajilla en el
+recipiente con
+detergente,
+empiece por los
+que tienen menos
+grasa, restriegue
+con un paño
+abrasivo hasta
+retirar la grasa y
+escúrralo. Cambie
+el agua cada vez
+que sea necesario.
+3.
+Pase los
+utensilios y/o la
+vajilla que ha
+restregado al
+recipiente con agua
+limpia y retire el
+
+Fecha de emisión
+Julio de 2024
+
+
+Prepare
+3 recipientes,
+uno con solución
+detergente
+disuelta en agua
+y de acuerdo a
+las instrucciones
+del envase, otro
+con agua limpia
+para enjuagar y
+un tercero con
+solución
+desinfectante de
+hipoclorito de
+sodio al 5.25%,
+por cada litro de
+agua agregue 3
+ml y deje actuar
+10 minutos.
+
+Sumerja
+los utensilios y/o
+la vajilla en el
+recipiente con
+detergente,
+empiece por los
+que tienen
+menos grasa,
+restriegue con un
+paño abrasivo
+hasta retirar la
+grasa y
+escúrralo.
+Cambie el agua
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+114
+exceso de
+detergente. Cambie
+el agua cada vez
+que sea necesario.
+4.
+Dejar secar
+y ubicarlos en el
+lugar al que
+corresponda.
+
+Frecuencia
+
+Al terminar cada
+servicio
+
+BLUE GLO
+10 ml por cada
+Concentración
+Litro de agua
+Tiempo de
+3 minutos
+Acción
+1. Retirar residuos.
+Refrigeradores Procedimiento 2. Preparar
+y
+solución
+congeladores
+detergente.
+3. Enjabonar y
+Restregar
+fuertemente con
+cepillo
+4. Enjuagar con
+abundante agua.
+Producto
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+cada vez que sea
+necesario.
+
+Pase los
+utensilios y/o la
+vajilla que ha
+restregado al
+recipiente con
+agua limpia y
+retire el exceso
+de detergente.
+Cambie el agua
+cada vez que sea
+necesario.
+
+Ahora
+pase los
+utensilios y/o la
+vajilla al
+recipiente con
+desinfectante.
+Frecuencia
+
+Diaria
+
+Producto
+
+Cloro al 5.25%
+7 ml por cada
+Litro de agua
+
+Concentración
+
+Tiempo de Acción 3 minutos
+Procedimiento
+
+Fecha de emisión
+Julio de 2024
+
+Encargado
+del proceso
+
+Aplicar
+solución por
+aspersión antes
+de comenzar
+turno y
+desinfección de
+equipos.
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+115
+5. Escurrir el agua
+sobrante.
+6. Secar con un
+trapo limpio.
+Frecuencia
+
+Cada 8 días o cada Frecuencia
+que se requiera
+
+Diaria
+Cloro5,25% y
+detergente
+neutro
+7 ml por cada
+Litro de agua
+
+Producto
+
+Cloro5,25% y
+detergente neutro
+
+Producto
+
+Concentración
+
+10 ml por cada
+Litro de agua
+
+Concentración
+
+Tiempo de
+Acción
+
+3 minutos
+
+Tiempo de Acción 3 minutos
+
+Baño
+Procedimiento
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+1. Organizar el
+área, retirar papeles
+de las canecas y
+depositarlas en la
+bolsa
+correspondiente.
+2. Con una escoba,
+retirar los residuos
+y desecharlos en
+caneca
+correspondiente.
+3. Emplear
+Procedimiento
+solución jabonosa
+en inodoros de
+manera interna y
+externa,
+restregando con
+cepillo
+internamente y con
+una toalla
+desechable limpio
+externamente.
+
+Fecha de emisión
+Julio de 2024
+
+Encargado
+del proceso
+
+1. Desinfectar
+lavamanos,
+inodoro
+aplicando
+desinfectante
+con atomizador,
+dejar actuar por
+5 minutos y
+secar con trapo
+desechable.
+Desinfectar piso
+de igual forma y
+no retirar.
+2 Al finalizar la
+actividad aplicar
+el desinfectante
+por aspersión
+hasta que cubra
+todo el ambiente
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+116
+
+Frecuencia
+
+5. Aplicar solución
+jabonosa en el piso
+y restregar con
+escoba.
+6. Enjuagar y secar
+con el escurridor o
+trapero.
+7. Colocar bolsa a
+canecas,
+8. Verificar que la
+limpieza haya sido
+efectiva. En caso
+contrario, hacer
+una nueva
+limpieza.
+Diaria
+Frecuencia
+
+Producto
+
+Cloro5,25% y
+detergente neutro
+
+Concentración
+
+7 ml por cada Litro
+Concentración
+de agua
+
+Tiempo de
+Acción
+Procedimiento
+Canecas para
+Basura y
+Chuck
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+3 minutos
+
+Producto
+
+Diaria
+Cloro5,25% y
+detergente
+neutro
+7 ml por cada
+Litro de agua
+
+Tiempo de Acción 3 minutos
+
+1. Remover los
+Procedimiento
+residuos sólidos.
+2. Preparar
+solución
+detergente.
+3. Enjabonar y
+restregar con
+cepillo.
+4. Restregar todas
+las superficies de la
+caneca.
+5. Retirar el
+detergente
+enjuagando con
+
+Fecha de emisión
+Julio de 2024
+
+1. Asegúrese que Encargado
+las superficies se del proceso
+encuentren
+limpia y sin
+residuos de
+detergente.
+2. Aplicara
+solución
+desinfectante
+con atomizador.
+3. No requiere
+enjuague
+posterior.
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+117
+
+Manipulador
+/Manos
+
+suficiente agua
+potable
+6. Secar muy bien
+Cada vez que se
+Cada vez que se
+Frecuencia
+Frecuencia
+retiren los residuos
+retiren los
+sólidos
+residuos sólidos
+SG
+SG
+Jabón
+Desinfectante
+Puro
+Concentración Puro
+Concentración
+Tiempo de
+Tiempo de Acción Dejar secar
+1 Minuto
+sobre la piel
+Acción
+Todos los
+Ver.
+Procedimiento Ver.
+Procedimiento
+Instrucciones
+Instrucciones de Operarios de
+lavado de manos.
+desinfección de la pizzería
+Anexo 3
+manos. Anexo 4
+A diario, antes y
+después de ir al
+Después de lavar
+Frecuencia
+Frecuencia
+baño, al cambiar de
+las manos
+actividad, o tomar
+con las manos
+elementos ajenos al
+área de producción
+(cabello, ropa,
+dinero, joyas, etc.).
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+118
+Puntos muertos
+
+Área
+
+Instalación, equipo y/o
+
+Punto muerto
+
+Observaciones
+
+Parte inferior,
+
+Acumulación de polvo en cavidades
+
+cavidad inferior
+
+internas
+
+Estufas, parrillas, planchas y
+
+Partes internas e
+
+Acumulación de suciedad, grasa y
+
+horno
+
+inferiores.
+
+polvo
+
+Producci
+
+Utensilios
+
+Uniones, agarraderas Acumulación de suciedad
+
+ón
+
+Techo
+
+General
+
+utensilio
+Mesas y sillas.
+
+Paredes
+Piso
+Puertas
+Mesón
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Uniones entre
+paneles
+Uniones
+Parte superior y
+bisagras
+Parte inferior
+
+Fecha de emisión
+Julio de 2024
+
+Acumulación de polución.
+Acumulación de suciedad
+Acumulación de mugre en general.
+Acumulación de mugre en general.
+Acumulación de mugre en general
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+119
+Instructivo de lavado de manos
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+120
+Instructiva desinfección de manos
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+121
+Fichas técnicas
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+122
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+123
+Formato de limpieza y desinfección
+LIM PIEZA Y DESINFECCION
+
+ESTABLECIMIENTO:
+
+LIMPIEZA Y DESINFECCION DE AREAS Y EQUIPOS
+DIA
+
+Hora
+
+BA ÑOS
+
+A REA DE
+V ENTILA CION
+
+A REA DE
+COCINA
+
+HORNO
+
+ESTUFA
+
+MESONES
+
+EQUIPOS DE
+REFRIGERA CION
+BEBIDA S
+
+EQUIPOS DE
+REFRIGERA CION
+COCINA
+
+EQUIPO DE
+CONGELA CION
+COCINA
+
+EQUIPO DE
+CONGELA CION
+COCINA
+
+BA CHA
+
+PISOS Y
+PA REDES
+
+TECHO
+
+TRA PEROS,
+ESCOBA S,
+RECOGEDOR
+ES
+
+CA NECA S
+DE
+BA SURA
+
+RESPONSA BLE
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+CONVENCIONES: CUMPLE ( C ) - NO CUMPLE (NC) - NO
+APLICA (NA)
+
+OBSERVAC
+IONES
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+FIRMA RESPONSABLE
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+124
+Programa manejo de residuos solidos
+Objetivo
+Realizar una correcta identificación, clasificación y disposición de los residuos sólidos
+generados en las operaciones y actividades de limpieza y desinfección del establecimiento LA
+ESTACION PIZZA Y SABOR, con el fin eliminar o minimizar el riesgo generado a la
+inocuidad de los alimentos y el impacto generado en el medio ambiente.
+Alcance
+Este documento aplica para todas las actividades de la empresa LA ESTACION PIZZA
+Y SABOR donde se generen residuos sólidos.
+Vigencia
+Este documento tiene validez a partir de la aprobación por parte del Representante legal
+del establecimiento y/o Gerencia.
+Responsabilidad
+
+
+Del Gerente garantizar los recursos para la implementación de este programa,
+
+
+
+Del Representante Legal y del personal a su cargo ejecutar los procedimientos
+
+descritos en este programa.
+
+
+Del Coordinador de calidad o su delegado realizar control y seguimiento a las
+
+actividades propuestas en este programa.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+125
+Definiciones
+Almacenamiento: Es la acción del usuario de colocar temporalmente los residuos sólidos
+en recipientes, depósitos contenedores retornables o desechables mientras se procesan para su
+aprovechamiento, transformación, comercialización o se presentan al servicio de recolección para
+su tratamiento o disposición final.
+Aprovechamiento: Es el proceso mediante el cual, a través de un manejo integral de los
+residuos sólidos, los materiales recuperados se reincorporan al ciclo económico y productivo en
+forma eficiente, por medio de la reutilización, que conlleve beneficios sanitarios, ambientales y/o
+económicos.
+Barrido: Es el conjunto de actividades tendientes a dejar las áreas libres de todo residuo
+sólido esparcido o acumulado, mediante el uso de fuerza humana y elementos manuales o de
+equipos mecánicos, removiendo papeles, hojas, arenilla y cualquier otro objeto o material
+susceptible de ser removido manualmente.
+Bolsa: Bolsa plástica del color correspondiente al tipo de residuo sólido que va a
+contener.
+Contaminación: Es la alteración del medio ambiente por sustancias o formas de energía
+puestas allí por la actividad humana o de la naturaleza en cantidades, concentraciones o niveles
+capaces de interferir con el bienestar y la salud de las personas, atentar contra la flora y/o la
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+126
+fauna, degradar la calidad del medio ambiente o afectar los recursos de la Nación o de los
+particulares.
+Disposición Final. Es el proceso de aislar y confinar los residuos sólidos en especial los
+no aprovechables, en forma definitiva, en lugares especialmente seleccionados y diseñados para
+evitar la contaminación, y los daños o riesgos a la salud humana y al medio ambiente.
+Eliminación: Es cualquiera de las operaciones que pueden conducir a la disposición final
+o a la recuperación de recursos, al reciclaje, a la regeneración, al compostaje, la reutilización
+directa y a otros usos.
+Escombros. Es todo residuo sólido sobrante de las actividades de construcción,
+reparación o demolición, de las obras civiles o de otras actividades conexas, complementarias o
+análogas.
+Generador de los residuos sólidos: Fuente generadora de residuos (comercial, domestico,
+institucional, demolición, o agrícola).
+Gestión integral de residuos sólidos: Es el conjunto de operaciones y disposiciones
+encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista
+ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento,
+posibilidades de recuperación, aprovechamiento, comercialización y disposición final.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+127
+Lixiviado: Es el líquido residual generado por la descomposición biológica de la parte
+orgánica o biodegradable de los residuos sólidos bajo condiciones aeróbicas o anaeróbicas y/o
+como resultado de la percolación de agua a través de los residuos en proceso de degradación
+Manejo: Es el conjunto de actividades que se realizan desde la generación hasta la
+eliminación del residuo o desecho sólido. Comprende las actividades de separación en la fuente,
+presentación, recolección, transporte, almacenamiento, tratamiento y/o la eliminación de los
+residuos o desechos sólidos.
+Reciclaje: Es el proceso mediante el cual se aprovechan y transforman los residuos
+sólidos recuperados y se devuelve a los materiales su potencialidad de reincorporación como
+materia prima para la fabricación de nuevos productos.
+Recolección y confinamiento: Lugar aislado de cualquier otro sector de la empresa para
+la recolección y almacenamiento temporal de los residuos generados en las diferentes áreas de
+la misma, donde permanecerá hasta su recolección final.
+Recuperación: Es la acción que permite seleccionar y retirar los residuos sólidos que
+pueden someterse a un nuevo proceso de aprovechamiento, para convertirlos en materia prima
+útil en la fabricación de nuevos productos.
+Relleno Sanitario: Es el lugar técnicamente seleccionado, diseñado y operado para la
+disposición final controlada de los residuos sólidos, sin causar peligro, daño o riesgo a la salud
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+128
+pública, minimizando y controlando los impactos ambientales y utilizando principios de
+ingeniería, para la confinación y aislamiento de los residuos sólidos en un área mínima, con
+compactación de residuos, cobertura diaria de los mismos, control de gases y lixiviados, y
+cobertura final.
+Residuo Reciclable: Material que conserva sus propiedades físicas o químicas después de
+servir a un propósito y pueden ser reutilizados o convertidos en materia prima para la fabricación
+de nuevos productos.
+Residuos: Los residuos son todos los desperdicios que se producen en cualquier proceso
+de transformación de una materia prima o un proceso productivo donde intervenga el hombre.
+Residuo Orgánico: Residuo formado por materia viva o que estuvo viva.
+Residuos Sólidos: Cualquier objeto, material, sustancia o elemento sólido que se rechaza
+después de una actividad productiva.
+Residuo sólido aprovechable: Es cualquier material, objeto, sustancia o elemento sólido
+que no tiene valor de uso directo o indirecto para quien lo genere, pero que es susceptible de
+incorporación a un proceso productivo.
+Residuo sólido no aprovechable: Es todo material o sustancia sólida o semisólida de
+origen orgánico e inorgánico, putrescible o no, proveniente de actividades domésticas,
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+129
+industriales, comerciales, institucionales, de servicios, que no ofrece ninguna posibilidad de
+aprovechamiento, reutilización o reincorporación en un proceso productivo.
+Reutilización: Es la prolongación y adecuación de la vida útil de los residuos sólidos
+recuperados y que mediante procesos, operaciones o técnicas devuelven a los materiales su
+posibilidad de utilización en su función original o en alguna relacionada, sin que para ello
+requieran procesos adicionales de transformación.
+Separación: Es diferenciar los materiales en reciclables y no reciclables.
+Tratamiento: Es la alteración física, química, o biológica que se da a los residuos sólidos.
+Estos tratamientos tienen varios objetivos, entre otros, mejorar la eficiencia en las operaciones
+destinadas al manejo de los residuos que se generen de un proceso
+Procedimientos
+Clasificación de residuos sólidos
+Los residuos sólidos generados se deben clasificar de la siguiente manera:
+
+
+Residuo no reciclable: Son los materiales contaminados con residuos y / o fluidos
+
+orgánicos. Empaque plástico contaminado, papel revestido con plástico, papel adhesivo, vasos y
+cubiertos desechables impregnados con alimentos, polietileno expandido, plásticos de canastillas,
+residuos de papel de los baños o toallas del lavamanos, barrido de las diferentes áreas y residuos
+orgánicos provenientes de las actividades diarias.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+130
+
+
+Residuo reciclable: Son los residuos no peligrosos y poco susceptibles a la
+
+descomposición que pueden ser utilizados para fabricar nuevos productos Ej. papel, tetra pack,
+recipientes o material de metal, botellas o recipientes de vidrio, cartón, botellas o recipientes
+plásticos y bolsas plásticas limpias.
+Separación de residuos sólidos
+Para realizar la separación de residuos sólidos se utilizan recipientes plásticos con tapa,
+marcados y con bolsas de basura, para identificar su naturaleza y destino de la siguiente manera:
+
+TIPO DE
+COLOR
+
+RECIPIENTE
+
+BOLSA
+
+RESIDUO
+
+Reciclable
+
+Verde
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+131
+
+No Reciclables
+Blanco
+(Generales)
+
+Orgánicos
+
+Negra
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+132
+Tipos de Residuos generados
+Área
+
+Área de producción
+
+Tipos de residuos
+
+Clasificación
+
+Recipiente de
+recolección
+
+Residuos de bolsas,
+botellas y botellones
+rotos, etiquetas rotas,
+fajas termo incogibles
+rotas, bolsas plásticas de
+empaques, cubiertos
+plásticos.
+
+Residuo Reciclable
+
+Bolsa Verde
+
+Residuo no reciclable
+
+Bolsa Blanca
+
+Toallas de manos y
+recipientes y empaques
+desechables de
+polietileno.
+Barreduras.
+Barreduras.
+Baños
+
+Residuo no
+reciclable
+Residuo no
+reciclable
+
+Papel higiénico,
+Tollas de secado de
+manos
+
+Residuo no
+reciclable
+
+Barreduras.
+
+Residuo no
+reciclable
+
+Bolsa Blanca
+Bolsa Blanca
+Bolsa Blanca
+
+Bolsa Blanca
+Bolsas Plásticas,
+recipientes plásticos,
+Residuo reciclable
+Bolsa Verde
+papel y cartón limpios.
+Residuos de Alimentos
+Residuo Orgánico
+Bolsa Negra
+Nota. En el siguiente cuadro se explican los residuos sólidos generados de acuerdo al área
+Oficina y punto de
+venta
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+133
+Recolección y disposición final de residuos sólidos
+En las áreas del establecimiento LA ESTACION PIZZA Y SABOR se deben ubicar
+canecas plásticas con tapa, marcadas, las cuales deben tener una bolsa plástica sin rotura del color
+correspondiente de acuerdo al tipo de residuo sólido que se genere.
+El residuo sólido generado se debe clasificar en los recipientes destinados para la
+recolección de los residuos sólidos.
+Al finalizar el proceso o cuando las bolsas se llenen hasta su tercera parte se deben retirar
+las bolsas y las ubicarlas en el área de recolección de residuos sólidos.
+Los recipientes que contienen los residuos sólidos se deben lavar en cada cambio de bolsa
+y/o al realizar la limpieza de cada área.
+El Coordinador de calidad o su delegado realiza la verificación de la clasificación y
+recolección de los residuos sólidos y registra el formato Control de limpieza y desinfección de
+equipos e instalaciones.
+La recolección y disposición final de los residuos sólidos se realiza a través de un contrato
+suscrito con la bodega de reciclaje Recuperadora RCO, quienes retiran la totalidad de los
+residuos, con el fin de aprovecharlos, y disponer adecuadamente de ellos. La recolección se
+realiza todos los días de la semana y esta actividad es registrada en el formato de control de
+residuos.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+134
+Formato control de evacuación e inspección del área temporal de basuras
+
+Fuente: Autor
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+135
+Plano Ruta Evacuación Residuos Sólidos
+
+Fuente. Autor
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+136
+Programa control de plagas
+Objetivo
+Describir las actividades de prevención, control y eliminación de plagas en las áreas del
+establecimiento LA ESTACION PIZZA Y SABOR para impedir que se conviertan en un riesgo
+de contaminación, proliferación microbiana o de enfermedades, así mismo, evitar daños de los
+productos, instalaciones y el medio ambiente por medio de aplicaciones de productos especiales
+para su control.
+Alcance
+Este documento aplica para el manejo y control integrado de plagas en las áreas del
+establecimiento LA ESTACION PIZZA Y SABOR.
+Responsabilidad
+
+
+Del Gerente y del representante Legal garantizar los recursos para la
+
+implementación de este programa,
+
+
+Del Encargado de los procesos y del personal a su cargo ejecutar los
+
+procedimientos descritos en este programa y
+
+
+Del Coordinador de calidad o su delegado realizar control y seguimiento a las
+
+actividades propuestas en este programa.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+137
+Vigencia
+Este documento tiene validez a partir de la aprobación por parte de Dirección del negocio
+y Gerencia.
+Definiciones
+ETA: Enfermedad de carácter infeccioso o tóxico que es causada, o se cree que es
+causada por el consumo de alimentos o agua contaminada.
+Des infestación: Es la acción de eliminar insectos por medios químicos, mecánicos o con
+la aplicación de medidas de saneamiento básico.
+Desratización: Es la acción destinada a eliminar roedores mediante métodos de
+saneamiento básico, mecánicos o químicos.
+Infestación: Número de individuos de una especie consideradas como nocivos en un
+determinado lugar.
+Insectos: Artrópodos cuyo cuerpo tiene seis patas y está cubierto de un tegumento
+denominado exoesqueleto y está dividido en 3 partes distintas: cabeza, tórax y abdomen. Los
+insectos respiran a través de tráqueas que son pequeños tubos membranosos y ramificados que se
+comunican con el exterior por medio de orificios llamados estigmas
+Inspección: Ubicar e identificar la plaga, determinando su distribución y cuál es el origen
+de la infestación.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+138
+Plaga: Son todos aquellos animales que compiten con el hombre en la búsqueda de agua
+y alimentos, invadiendo los espacios en los que se desarrollan las actividades humanas. Su
+presencia resulta molesta y desagradable, pudiendo dañar estructuras o bienes, y constituyen uno
+de los más importantes vectores para la propagación de enfermedades, entre las que se destacan
+las enfermedades transmitidas por alimentos (ETA).
+Métodos de Control de Plagas: Actividades encaminadas a prevenir el ingreso,
+disminuir o eliminar la población de plagas y se puede clasificar en:
+
+
+Saneamiento ambiental: Actividades preventivas de orden, higiene y saneamiento
+
+del medio ambiente, eliminando la posibilidad de supervivencia y desarrollo biológico de las
+plagas.
+
+
+Métodos químicos: Uso de plaguicidas empleados de acuerdo a la población de
+
+plagas a controlar.
+
+
+Métodos físicos: Empleo de barreras para prevenir el ingreso de las plagas como
+
+trampas, mallas, ultrasonido etc.
+
+
+Métodos biológicos: Empleo de sustancias naturales que afectan el
+
+comportamiento o desarrollo de las especies a controlar como feromonas, inhibidores de
+desarrollo etc.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+139
+Plaguicida: Es cualquier sustancia o mezcla de sustancias destinadas a prevenir, destruir
+o controlar cualquier plaga incluyendo los vectores de enfermedades humanas o animales, las
+especies no deseadas de plantas o de animales que causan perjuicio y que interfieren de cualquier
+otra forma en la producción, elaboración, almacenamiento, transporte o comercialización de
+alimentos, productos agrícolas, entre otros.
+Tipos de Plaguicidas: Los plaguicidas se clasifican según el tipo de organismo a
+controlar, el tipo de químico a utilizar y la toxicidad del producto.
+Clasificación según organismo a controlar
+Larvicida: Larva
+Formícida: hormigas
+Plaguicida: pulgas
+Acaricidas: ácaros y arácnidos
+Nematicidas: nematodos
+Rodenticidas: roedores
+Bacteriostáticos: bacterias
+Fungicidas: hongos
+Herbicidas: malezas
+Cucarachicida: Cucarachas
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+140
+Insecticida: Insectos
+Clasificación química
+Órganos clorados
+órganos fosforados
+Carba matos derivados del cloronirofeno,
+Bipiridilos derivados del ácido fenoxiacetico,
+Piretroides derivados de la triazina
+Tiocarbamatos
+Clasificación según su toxicidad
+Extremadamente tóxicos
+Altamente tóxicos
+Medianamente tóxicos,
+Ligeramente tóxicos.
+Roedor.
+Orden de mamíferos caracterizados por poseer un único par de dientes incisivos de gran
+tamaño, de crecimiento continuo; son generalmente de pequeña envergadura, con el cuerpo
+cubierto de pelo y vegetarianos. Los roedores (ratas, ratones) pueden transmitir enfermedades si
+tienen acceso a los lugares donde se almacenan comestibles, siendo la aparición de excremento
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+141
+señal de su presencia. Estos animales llevan gérmenes patógenos, causantes de enfermedades, en
+sus patas, piel y aparato intestinal, ya que suelen andar y alimentarse en basureros y cloacas,
+constituyendo así un importante foco de infección.
+Control de plagas.
+Para prevenir la proliferación o presencia de plagas en las áreas de producción y punto de
+venta se debe realizar:
+Saneamiento ambiental
+ Implementar y mantener programa de limpieza y desinfección para todas las áreas.
+ Implementar y mantener programa de manejo de residuos sólidos y líquidos
+ Ubicar estibas en los cuartos de almacenamiento y realizar lavado frecuente.
+ Practicar el sistema PEPS, primero en entrar primero en salir para la rotación de los
+productos y materias primas.
+ Inspeccionar de forma permanente los alrededores y el interior para verificar las
+condiciones sanitarias y tomar medidas inmediatas si se presenta algún problema.
+ Inspeccionar las materias primas e insumos al momento de su ingreso para verificar que
+no traigan algún organismo invasor.
+ Manejar adecuadamente los residuos sólidos manteniéndolos en bolsas cerradas y
+evacuándolos frecuentemente de acuerdo a los procesos.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+142
+ Registrar cada aplicación para llevar control de la frecuencia de los productos y su
+efectividad.
+ Realizar capacitaciones a los manipuladores de alimentos en el Tema de manejo
+integrado de plagas.
+Controles físicos
+ Las instalaciones deben contar con medios físicos para evitar el ingreso de plagas.
+ El establecimiento debe contar con rejillas en desagües y sifones bien aseguradas,
+limpias y libres de residuos
+ Las puertas de acceso se deben mantener cerradas.
+Controles químicos
+ El establecimiento debe contar con los servicios de una empresa contratista autorizada
+para el Control de plagas, encargada de realizar el diagnóstico, aplicación de productos y
+seguimiento.
+ En las áreas del establecimiento se deben utilizar productos para la desinfección diaria.
+Diagnostico
+La empresa contratista encargada del Control de plagas del establecimiento, realiza un
+diagnóstico inicial de las áreas, para evaluar los riesgos e identificar los puntos a controlar y las
+actividades de corrección y prevención que se deben realizar.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+143
+Posteriormente se realiza el plan de acción y se establece la frecuencia de la aplicación de
+los productos recomendados por la empresa Contratista para el Control de Plagas.
+Aplicación
+La empresa contratista envía un técnico encargado de la aplicación de los productos, el
+Coordinador de calidad o el Director del establecimiento, con los elementos adecuados de
+seguridad (mascara con cartucho, mono gafas) acompaña al técnico en el proceso de aplicación.
+Antes de la aplicación se deben cubrir y desconectar los equipos para protección.
+Se aplican los productos según las actividades de las diferentes áreas y las
+recomendaciones del técnico
+El técnico debe registrar en el certificado las recomendaciones para minimizar el
+problema de plagas, al igual que el producto utilizado y debe ser firmada por la persona que lo
+acompaño durante el recorrido.
+La aplicación de los productos para el control de plagas se debe realizar cada tres (3)
+meses o con mayor o menor frecuencia, cuando la situación lo requiera o cuando no se evidencie
+presencia de plagas, respectivamente.
+Antes de empezar la producción se realiza limpieza y desinfección de los implementos,
+áreas y equipos que se requieran y que pudieron haber estado en contacto con el producto
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+144
+utilizado en el control. Adicionalmente se limpian mesones, mesas, estufas, y demás utensilios
+utilizados para realizar las actividades normales del establecimiento.
+Control
+Se realiza la aplicación de productos para el control de plagas de acuerdo a lo establecido
+en el Cronograma de control de plagas o cuando se requiera.
+Todas las actividades de aplicación de productos y áreas tratadas se deben registrar en el
+formato.
+Se realiza un control diario por medio de inspección para buscar señales de infestación
+principalmente en los puntos críticos (uniones entre pared y piso, parte trasera e inferior de los
+equipos, rejillas de desagüe) de todas las áreas para prevenir y proteger las áreas de la aparición
+de agentes contaminantes, esta actividad se registra en el formato Control de limpieza y
+desinfección de equipos e instalaciones
+De ser necesario, la empresa contratista deberá ubicar trampas en las diferentes áreas del
+establecimiento para el control de roedores (Trampas adherentes).
+Todos los productos que se utilizan para llevar a cabo las fumigaciones tienen fichas
+técnicas y de seguridad entregadas en medio magnéticas y/o físicas por el contratista y anexas a
+este programa. El contratista debe contar con la autorización vigente para realizar control de
+plagas, emitida por las autoridades sanitarias competentes.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+145
+En caso de evidenciarse presencia de plagas, se debe informar de inmediato al
+Coordinador de Calidad y al Representante legal del establecimiento, quienes son los encargados
+de evaluar la magnitud de la emergencia y tomar la decisión de solicitar ayuda especializada
+cuando se requiera.
+
+Fichas técnicas productos utilizados en el programa de control de plagas
+Ficha técnica No 1
+RACUMIN® POLVO
+Insecticidas
+Tipo De
+RACUMIN® POLVO
+Producto
+Rodenticida anticoagulante en polvo de efecto retardado, para el control de
+Uso
+ratas.
+Principio activo
+
+Coumatetralil 0,75%
+
+Modo de empleo
+
+Aplicar racumin 0.75 polvo hasta que haya signos de infestación de ratas.
+No debe contaminarse con olores o sabores fuertes que afecten su
+palatabilidad y sea rechazado por las ratas.
+Utilice el siguiente equipo de protección al manipular el producto y
+aplicación: guantes, mascarilla y anteojos protectores.
+
+Dosis de
+aplicación
+
+Aplicar con una cuchara dosificadora espolvoreando en los lugares de
+tránsito de las ratas y dentro de las cuevas para que estas se impregnen del
+racumin 0.75 polvo. Cuando las ratas se lamen para limpiarse ingerirán el
+producto.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+146
+RATAQUILL SB
+
+Ficha técnica No 2
+
+Insecticidas
+Tipo De
+Producto
+
+RATAQUILL SB
+
+Uso
+
+Cebo rodenticida peletizado a base de un anticoagulante de segunda
+generación, la BRADIFACOUMA, contiene atrayentes alimenticios
+especiales para ratas y ratones. RATA QUILL SB produce una muerte
+lenta y segura a partir del cuarto día de ingestión. No genera desconfianza
+ni recelo en la población de roedores, una sola dosis es suficiente.
+
+Principio activo
+
+Brodifacouma
+
+Modo de empleo
+
+Rataquill SB se aplica directamente del sobre o con una cuchara en las
+entradas de cada madriguera y en los sitios donde tengan presencia de
+roedores.
+
+Dosis de
+aplicación
+
+De 20 a 50 gramos cada 2 a 3 m lineales en caso de ratones y lauchas y
+cada 5 a 10 m lineales en caso de guarenes y ratas.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+147
+STORM® Pellets RATICIDA CEBO EN PELLETS (RB
+Insecticidas
+Tipo De
+Producto
+
+Ficha técnica No 3
+
+STORM® Pellets RATICIDA CEBO EN PELLETS (RB)
+
+STORM pellets es un raticida anticoagulante eﬁcaz contra gran variedad de
+especies de roedores. STORM pellets interﬁeren los mecanismos de
+coagulación de la sangre produciendo hemorragias generalizadas. STORM
+pellets PRODUCE LA MUERTE DE RATAS Y RATONES DESPUÉS DE
+Uso
+UNA SOLA ALIMENTACIÓN, aunque la muerte ocurre al cabo de unos días.
+STORM pellets está autorizado para ser usado y no se ha de diluir, ni
+mezclar.
+- Flocoumafen 0.005%
+Principio activo - Sustancia de sabor amargo 0.001%
+- Excipientes c.s.p.100%
+
+Modo de
+empleo
+
+Antes de colocar el cebo, determinar la localización de todas las entradas y
+madrigueras y zonas de alimentación. El cebo debe cubrirse con tejas,
+azulejos, maderas inclinadas, etc. para evitar el acceso a otra especie de
+animales. Eliminar inmediatamente cualquier cebo encontrado fuera de los
+puntos de cebado.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+148
+
+
+Ratas: los puntos de cebo pueden estar tan cerca como a distancias de
+5 metros en infestaciones fuertes. Colocar de 10 a 15 gramos en una porta
+cebos o un saquito (25 gramos) en cada punto de cebo y uno en cada
+madriguera. Examinar los puntos de cebo al cabo de 3 días y reponer donde
+hayan sido comidos. Repetir la inspección a intervalos de 7 días, hasta
+terminar con la plaga. Normalmente sólo se requieren 3 o 4 inspecciones para
+exterminar a los roedores.
+Dosis de
+aplicación
+
+
+Ratones: localizar de 10 a 15 gramos (granel) en una porta cebos o
+un saquito (25 gramos) a una distancia de 2 metros de separación en las
+zonas donde la actividad es clara, particularmente donde se vean
+excrementos.
+
+No utilizar sobre alimentos ni utensilios de cocina. No podrá aplicarse
+sobre superﬁcies donde se manipulen, preparen o hayan de servirse o
+consumirse alimentos.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+149
+Ficha técnica No 4
+Insecticidas
+Tipo De
+Producto
+
+K-OTHRINE SC 50
+
+Uso
+
+Es una deltametrina formulada en suspensión concentrada que controla
+todo tipo de insectos rastreros y voladores.
+
+Principio activo
+
+Deltametrina
+
+Modo de empleo
+
+Verter la cantidad de agua en la aspersora. Agregar la dosis de K-Othrine
+SC 50 recomendado y mezclar constantemente con una paleta de agitación.
+Finalmente agregar el resto de agua requerida para completar la mezcla.
+Utilice el siguiente equipo de protección: overol, botas, mascarilla,
+anteojos, guantes, dosificador y equipo de aplicación en buen estado.
+Espere a que la mezcla aplicada haya secado completamente para ingresar
+al área tratada.
+
+Dosis de
+aplicación
+
+Insectos rastreros y voladores: 4ml/ litro de agua en aspersión.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+150
+Ficha técnica No 5
+Insecticidas
+Tipo De
+Producto
+
+K-OTHRINE EC 25
+Es un insecticida piretroide a base de deltametrina, formulada en
+concentrado emulsionable, con un excelente efecto de choque y desalojo,
+indicado para el control de todo tipo de insectos
+
+Uso
+
+Principio activo
+Modo de empleo
+
+Dosis de
+aplicación
+
+Es efectivo contra insectos rastreros y voladores. Actúa por contacto e
+ingestión. Tiene muy buen efecto desalojan te, repelente y de knock-down.
+La aplicación de permite desalojar a los insectos de sus escondites y reducir
+drásticamente las poblaciones de plagas en un tiempo mínimo. Su acción
+prolongada controla insectos por varias semanas, actuando también sobre
+los insectos que entran en contacto posteriormente con las superficies
+tratadas.
+Es efectivo contra todo tipo de insectos rastreros (hormigas, cucarachas,
+chinches, pulgas) y voladores (moscas, mosquitos, palomilla, avispas)..
+Deltametrina 2.5%
+Utilizar bombas de aspersión convencional para aplicarlo directamente
+sobre los insectos o las superficies donde se encuentran. No tiene olor ni
+mancha.
+Cucarachas: 8 ml/litro de agua para 20 m2
+Polillas: 8 ml/litro de agua para 20 m2
+Moscas: 6 ml/litro de agua para 20 m2
+Mosquitos: 4 ml/litro de agua para 20 m2
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+151
+Fendona SC 60
+
+Ficha técnica No 6
+
+Insecticidas
+Tipo De
+Producto
+
+Uso
+
+Fendona SC 60
+Insecticida concentrado liquido de alta estabilidad térmica y en superficies
+acidad, se hidroliza en condiciones de alta alcalinidad, soluble en agua, no
+mancha, no huele no es corrosivo y estable por dos años en condiciones
+adecuadas de almacenamiento. Es un insecticida presentado como una
+suspensión viscosa blanca, cuya homogeneidad se conserva con
+El tiempo, para usarse debe de ser mezclado con agua. Es idóneo para el
+control de los insectos rastreros y voladores.
+
+Principio activo
+
+Modo de empleo
+
+Dosis de
+aplicación
+
+Alfacipermetrina 6%
+Es un concentrado para diluir en agua y aplicar por aspersión de superficies
+a la dosis de 15 a 30 mg/m2. Para el control de insectos en los granos
+almacenados la dosis puede elevarse hasta 45 mg/m2. La aplicación debe
+dirigirse a superficies como: paredes, techos, pisos, grietas y estibas donde
+se localizan las plagas.
+5 ml de agua / 100 ml de producto
+Un litro de solución debe rendir entre 20 a 25 m2.
+En caso de infestaciones severas y cuando se requiera persistencia, la dosis
+puede duplicarse.
+
+Solfac WP 10
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Ficha técnica No 7
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+152
+Insecticidas
+Tipo De
+Producto
+
+Uso
+
+Solfac WP 10
+Solfac WP 10 es un polvo mojable que se utiliza para el control residual de
+plagas de insectos voladores y rastreros en interiores y exteriores de
+establos, pabellones, porquerizas, pesebreras, gallineros, bodegas,
+estercoleros, basurales, etc. Solfac 10% WP controla efectivamente moscas
+y sus larvas, mosquitos, cucarachas, garrapatas, chinches, hormigas, pulgas,
+etc.
+Solfac® WP 10% actúa por contacto y por ingestión, interfiriendo el
+sistema nervioso del insecto o ácaro, impidiendo la transmisión de impulsos
+nerviosos, ocasionándole parálisis y muerte. Solfac® WP 10% es de baja
+toxicidad para mamíferos, no irrita, aplicado no deja olor y es estable en
+superficies alcalinas (pintado con cal).
+
+Principio activo
+
+Cyfluthrin 10%
+
+Solfac® WP 10® es un polvo mojable que se aplica con atomizador
+manual, aspersores manuales o a motor después de la dilución.
+
+Se rocían uniforme y abundantemente las superficies sin que haya
+escurrimiento.
+
+
+Modo de empleo
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+153
+
+Voladores: moscas, mosquitos, zancudos: 3 sobres (30 g) x 5 litros
+de agua.
+
+Rastreros: cucarachas, chinches, pulgas, ácaros, garrapatas 1 sobre
+(10 g) x 2, 5 litros de agua.
+
+Hormigas (aplicar en el hormiguero hasta que rebose): 1 sobre (10
+g) x 5-10 litros de agua
+
+Productos almacenados: gorgojos y polillas de las instalaciones 2
+sobre (20 g) en 2,5 litros de agua
+
+Mínimo aplicar 1 L de solución x m2.
+
+
+Dosis de
+aplicación
+
+Delmostyn 25 EC
+Insecticidas
+
+Ficha técnica No 9
+
+Tipo De
+Producto
+
+Delmostyn 25 EC
+
+Uso
+
+Su especial formulación Emulsionable le permite actuar con espectacular
+rapidez o buen efecto de derribo (Knock-Down), convirtiendo al producto
+en primera elección ante infestaciones altas o cuando se requiere de una
+eliminación instantánea de las plagas.
+Plagas que controla: Mosquitos, moscas, cucarachas, hormigas, pulgas,
+pitos, coquitos, gorgojos, chinches, escarabajos, escorpiones, arañas, y las
+plagas de los granos almacenados.
+
+Principio activo
+
+Deltametrina
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+154
+Debe diluirse la cantidad de producto recomendado con un poco de agua,
+luego agregar más agua hasta el volumen deseado y aplicar por el sistema de
+Modo de empleo aspersión y/o nebulización sobre los sitios donde viven o transitan los
+insectos cuidando de no aplicar sobre los animales domésticos o sus
+alimentos.
+Dilución
+
+Dosis de
+aplicación
+
+Dosis
+
+Observaciones
+
+Tratamiento
+Dosis alta
+10 ml/lt
+
+1 lt/15 a 20 m2
+
+Dosis baja
+Mosquitos
+
+1 lt/15 a 20 m2
+0.5 lt/Ha
+
+Infestaciones
+severas
+Infestaciones bajas
+Nebulización
+manual
+Motomochila ULV
+
+voladores
+
+5 ml/lt
+50 ml/lt de
+solvente
+80 ml/7.92 lt
+
+Delmostyn 5% SC
+
+100 ml/vivienda
+
+Ficha técnica No 10
+
+Insecticidas
+Tipo De
+Producto
+
+Delmostyn 5% SC
+
+Uso
+
+Su uso está indicado para el control profesional de insectos rastreros y
+voladores en todo tipo de ambiente. Su formulación en suspensión
+concentrada le confiere especial comportamiento al dejar depósitos de alto
+poder residual en las superficies que son tratadas, permitiendo su uso
+estratégico en situaciones donde se necesite controlar la plaga por períodos
+prolongados y donde sea conveniente fumigar menos número de veces.
+Recomendado para lugares sensibles, sin olor y excelente residualidad.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+155
+
+Principio activo
+
+Plagas que controla: Mosquitos, moscas, cucarachas, hormigas, pulgas,
+pitos, coquitos, gorgojos, chinches, escarabajos, escorpiones, arañas, y las
+plagas de los granos almacenados.
+Deltametrina
+
+Debe diluirse la cantidad de producto recomendado con un poco de agua,
+Modo de empleo luego agregar más agua hasta el volumen deseado y aplicar por el sistema de
+aspersión.
+
+Dosis de
+aplicación
+
+Tratamiento
+
+Dilución
+
+Dosis
+
+Observaciones
+
+Dosis ataque
+
+6 ml/lt
+
+1 lt/15 a 20 m2
+
+Dosis
+mantenimiento
+Aplicaciones
+residuales
+Impregnación
+toldilloscortinas
+
+4 ml/lt
+
+1 lt/15 a 20 m2
+
+100 ml/ 8lt de
+agua
+6 ml/300 mlt
+
+8 lt/ 200 mg
+
+Cucarachas,
+hormigas, pulgas,
+arañas.
+Moscas,
+mosquitos
+Son 25 mg de i.a/
+m2
+Secar a la sombra.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+25 mg/ m2 de
+tela
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+156
+Formato control de inspección, control y prevención de plagas
+F-LD004
+
+CONTROL DE INSPECCIÓN,CONTROL Y PREVENCIÓN DE PLAGAS
+
+ESTABLECIMIENTO:
+
+MES:
+
+PRESENCIA DE INSECTOS VOLADORES
+
+SEMANA
+
+VERSION 01
+
+AÑO
+
+PRESENCIA INSECTOS RASTREROS
+
+1
+
+PRESENCIA DE ROEDORES
+
+Hora
+
+RESPONSABLE
+SI
+
+NO
+
+ACCIÓN PREVENTIVA
+
+ACCIÓN CORRECTIVA
+
+SI
+
+NO
+
+ACCIÓN PREVENTIVA
+
+ACCIÓN CORRECTIVA
+
+SI
+
+NO
+
+ACCIÓN PREVENTIVA
+
+ACCION CORRECTIVA
+
+1
+
+2
+
+3
+
+4
+
+NOTA: Este formato debe ser diligenciado semanalmente.
+
+OBSERVACIONES
+
+Fuente: Autor
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+157
+Programa Abastecimiento de Agua Potable
+Objetivo
+Garantizar la calidad del agua empleada en la ESTACION PIZZERIA Y SABOR
+mediante el cumplimiento de las normas establecidas.
+Alcance
+Este programa va dirigido a cumplir con las normas establecidas por la legislación
+colombiana en cuanto al agua potable utilizada en la ESTACION PIZZERIA Y SABOR
+Vigencia
+Este documento tiene validez a partir de la aprobación por parte del Representante legal
+del establecimiento y/o Gerencia.
+Responsabilidad
+
+
+Del Gerente garantizar los recursos para la implementación de este programa,
+
+
+
+Del Representante Legal y del personal a su cargo ejecutar los procedimientos
+
+descritos en este programa.
+
+
+Del Coordinador de calidad o su delegado realizar control y seguimiento a las
+
+actividades propuestas en este programa.
+Definiciones
+Acueducto: sistema de abastecimiento de agua.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+158
+Abrasivo: es una sustancia que tiene como finalidad actuar sobre otros materiales con
+diferentes clases de esfuerzo mecánico.
+Acometida: derivación y distribución de red que llega al registro de corte del inmueble.
+Agua potable: agua tratada exenta de contaminantes que reúne los requisitos organolépticos,
+físico-químicos y microbiológicos, por tanto, es aceptable para el consumo humano sin producir
+efectos adversos para la salud.
+Abastecimiento de agua potable: sistema o servicio de captación, tratamiento y
+distribución de agua para el consumo de agua. Agua residual domestica: desechos líquidos
+provenientes de la actividad doméstica en residencias, edificios e instituciones
+Agua residual no domestica: son los residuos líquidos provenientes de una actividad
+comercial, industrial o de servicios y que en general tiene características notablemente distintas a
+las domesticas.
+Agua segura: es el agua que cumple en su totalidad con las normas de potabilización
+(decreto 475/98) y puede ser consumida sin riesgos para la salud. Almacenamiento seguro de
+agua: acción con el propósito de recolectar en condiciones sanitarias, agua (recipiente con tapa)
+suficiente para cubrir las necesidades del servicio en los picos de consumo o en la escasez de
+esta.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+159
+Amianto: es un grupo de minerales metamórficos fibrosos. Están compuestos de silicatos
+de cadena doble Bidón: es un recipiente hermético utilizado para contener, transportar y
+almacenar líquidos, habitualmente cilíndrico, con fondo plano, fabricado de metal, cartón,
+plástico o contrachapado para transportar grandes cantidades de líquidos.
+Contaminación del agua: presencia de sustancias extrañas indeseables en el agua y que
+puede generar una ETA (Enfermedades Transmitidas por Alimentos y/o Aguas).
+Desinfectante: agente químico o físico con el propósito de eliminar los microorganismos,
+o disminuir al máximo su población hasta llegar a un nivel seguro que no atente contra la salud
+humana.
+Desinfección: proceso al que se somete el agua para eliminar los microorganismos
+patógenos, se puede realizar a través de la filtración, la cloración, el hervido o la luz ultravioleta.
+Grasas y aceites: son todas aquellas sustancias de naturaleza lipídica, que, al ser
+inmiscibles con el agua, van a permanecer en la superficie dando lugar a la aparición de natas y
+espumas, interfiriendo el cambio de gases entre el agua y la atmósfera
+
+Tanque: depósito destinado a mantener agua potable en reserva para su uso posterior en
+las labores propias de proceso, limpieza y desinfección. Los materiales más comunes son: fibra
+de vidrio y plástico polietileno.
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+160
+Registro de control de actividades: es la recopilación escrita de los resultados de
+actividades realizadas en la higienización del tanque, se registra las variables elegidas bajo el
+mismo procedimiento aplicado.
+Microorganismos patógenos: son las bacterias, virus, hongos y protozoarios que pueden
+enfermar al ser humano, y pueden estar presentes en las fuentes de agua utilizadas para
+preparación de alimentos.
+Tratamiento: conjunto de procesos al que se somete el agua para lograr el objetivo
+sanitario de purificación y/o descontaminación del agua.
+Guía para el almacenamiento de agua
+El acceso al agua potable es fundamental para la salud, uno de los derechos humanos
+básicos y un componente de las políticas eficaces de protección de la salud. El suministro del
+agua potable debe ser suficiente, salubre y accesible. El agua debe ser potable cumpliendo con la
+normatividad vigente para consumo de agua, mitigando cualquier agente patógeno (bacterias,
+virus, protozoos y helmintos). Para evitar diarrea, disentería, cólera, hepatitis, fiebre tifoidea,
+entre otras.
+Suministro de agua potable Este programa tiene como fin mantener la calidad del agua
+potable suministrada. El suministro de agua potable lo realizará la empresa de acueducto (de
+acuerdo a la localización geográfica).
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+LA ESTACION PIZZA Y SABOR
+NIT 14622730-9
+PLAN DE SANEAMIENTO BASICO
+
+CODIGO:
+PSB-001-L
+VERSION
+1
+
+161
+Tanques de almacenamiento de agua potable La capacidad del tanque de
+almacenamiento de agua potable de la ESTACION PIZZERIA Y SAB0R es de 500 LTS de agua,
+es de tipo aéreo.
+Acciones para el lavado y desinfección del tanque
+El proceso de lavado y desinfección del tanque estará a cargo del representante Legal con
+una periodicidad mínimo cada seis (6) meses.
+
+Elaboró:
+Jhon Jairo López Fernández
+Est. Ingeniería de Alimentos
+Revisó: Juan Manuel Herrera
+Vargas
+
+Fecha de emisión
+Julio de 2024
+
+Aprobó:
+Gerencia
+Coordinó:
+Juan Manuel Herrera Vargas
+
+
