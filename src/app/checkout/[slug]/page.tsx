@@ -169,11 +169,16 @@ export default function CheckoutPage() {
       };
 
       // Abrir widget de WOMPI
-      // NOTA: publicKey se lee del bundle del cliente (NEXT_PUBLIC_*) porque el servidor
-      // devuelve "placeholder" al estar inlineado en build time.
-      const wompiPublicKey = process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY;
+      // publicKey viene del servidor (WOMPI_PUBLIC_KEY en Easypanel runtime), no del bundle del cliente
+      const wompiPublicKey = data.publicKey;
       console.log("[Wompi Widget] Inicializando con publicKey:", wompiPublicKey?.substring(0, 15) + "...");
       console.log("[Wompi Widget] Orden:", { orderId: data.orderId, amountInCents: data.amountInCents });
+
+      if (!wompiPublicKey || wompiPublicKey === "placeholder") {
+        console.error("[Wompi Widget] ❌ publicKey inválida:", wompiPublicKey);
+        setError("Error de configuración del sistema de pagos. Contacta al soporte.");
+        return;
+      }
 
       const checkout = new (window as any).WidgetCheckout({
         currency: "COP",
@@ -226,7 +231,8 @@ export default function CheckoutPage() {
           setError("El pago no pudo ser completado. Estado: " + transaction.status);
         }
       });
-    } catch (err) {
+    } catch (err: any) {
+      console.error("[Checkout] ❌ Error al iniciar pago:", err?.message, err);
       setError("Error al iniciar el proceso de pago.");
     }
   };
