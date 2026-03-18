@@ -65,6 +65,7 @@ export default function DashboardPage() {
   const [editModal, setEditModal] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
   const [formLoading, setFormLoading] = useState(false);
+  const [retryingPdf, setRetryingPdf] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -141,6 +142,23 @@ export default function DashboardPage() {
       }
     } catch (err) {
       console.error("Error fetching profile:", err);
+    }
+  };
+
+  const handleRetryPdf = async (planId: string) => {
+    setRetryingPdf(planId);
+    try {
+      const res = await fetch(`/api/admin/plans/${planId}/generate-pdf`, { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        await fetchSanitationPlans(); // refrescar para mostrar el nuevo pdfUrl
+      } else {
+        console.error("Error al generar PDF:", data.error);
+      }
+    } catch (err) {
+      console.error("Error al reintentar PDF:", err);
+    } finally {
+      setRetryingPdf(null);
     }
   };
 
@@ -616,13 +634,20 @@ export default function DashboardPage() {
                                  ) : (
                                    <div className="flex flex-col items-end gap-1">
                                      <button
-                                       disabled
-                                       className="p-2.5 bg-slate-100 text-text-muted border border-slate-200 rounded-xl flex items-center gap-2 cursor-not-allowed opacity-60"
+                                       onClick={() => handleRetryPdf(plan.id)}
+                                       disabled={retryingPdf === plan.id}
+                                       className="p-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-600 border border-amber-500/20 rounded-xl flex items-center gap-2 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
                                      >
-                                       <Download size={18} />
-                                       <span className="text-[10px] font-bold uppercase tracking-widest">Descargar Plan</span>
+                                       {retryingPdf === plan.id ? (
+                                         <Loader2 size={18} className="animate-spin" />
+                                       ) : (
+                                         <Download size={18} />
+                                       )}
+                                       <span className="text-[10px] font-bold uppercase tracking-widest">
+                                         {retryingPdf === plan.id ? "Generando PDF..." : "Generar PDF"}
+                                       </span>
                                      </button>
-                                     <span className="text-[8px] text-text-muted uppercase font-bold italic">Plan en elaboración</span>
+                                     <span className="text-[8px] text-text-muted uppercase font-bold italic">Listo — clic para generar</span>
                                    </div>
                                  )}
                                </div>
