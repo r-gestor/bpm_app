@@ -46,7 +46,7 @@ export default function PlanViewer({ plan }: PlanViewerProps) {
  }`}
  >
  <div className={`${activeSection === s.id ? "text-white" : "text-blue-600"} transition-colors`}>
- {React.cloneElement(s.icon as React.ReactElement, { size: 20 })}
+ {React.cloneElement(s.icon as React.ReactElement<{ size?: number }>, { size: 20 })}
  </div>
  <span className="text-sm font-bold flex-1">{s.label}</span>
  <ChevronRight size={16} className={`${activeSection === s.id ? "opacity-100" : "opacity-0"} group-hover:opacity-100 transition-opacity`} />
