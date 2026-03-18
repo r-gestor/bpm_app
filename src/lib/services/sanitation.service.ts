@@ -2,6 +2,51 @@ import { supabase } from "@/lib/supabase";
 
 export class SanitationService {
   /**
+   * Sube una imagen base64 a Supabase Storage y retorna la URL pública.
+   */
+  private static async uploadLogoToStorage(
+    base64DataUrl: string,
+    ownerId: string
+  ): Promise<string | null> {
+    try {
+      // Extraer mime type y datos del data URL
+      const match = base64DataUrl.match(/^data:(image\/\w+);base64,(.+)$/);
+      if (!match) {
+        console.warn("[SanitationService] Logo base64 inválido, no se puede subir.");
+        return null;
+      }
+
+      const mimeType = match[1];
+      const base64Data = match[2];
+      const ext = mimeType.split("/")[1] || "png";
+      const buffer = Buffer.from(base64Data, "base64");
+      const fileName = `logos/${ownerId}/${Date.now()}.${ext}`;
+
+      const { error: uploadError } = await supabase.storage
+        .from("sanitation-assets")
+        .upload(fileName, buffer, {
+          contentType: mimeType,
+          upsert: false,
+        });
+
+      if (uploadError) {
+        console.error("[SanitationService] Error subiendo logo:", uploadError.message);
+        return null;
+      }
+
+      const { data: publicUrlData } = supabase.storage
+        .from("sanitation-assets")
+        .getPublicUrl(fileName);
+
+      console.log("[SanitationService] Logo subido:", publicUrlData.publicUrl);
+      return publicUrlData.publicUrl;
+    } catch (err: any) {
+      console.error("[SanitationService] Error inesperado subiendo logo:", err.message);
+      return null;
+    }
+  }
+
+  /**
    * Genera un plan de saneamiento basado en los datos del negocio.
    */
   static async generatePlan(businessData: any, ownerId: string) {
@@ -39,7 +84,13 @@ export class SanitationService {
       records: "Control de temperatura (si aplica), Formato de limpieza y desinfección.",
     };
 
-    // 3. Empaquetar todo para persistencia (Plan + Respuestas originales)
+    // 3. Subir logo a Storage si existe (en vez de guardar base64 en content)
+    let logoUrl: string | null = null;
+    if (businessData.logoPreview && businessData.logoPreview.startsWith("data:")) {
+      logoUrl = await this.uploadLogoToStorage(businessData.logoPreview, ownerId);
+    }
+
+    // 4. Empaquetar todo para persistencia (Plan + Respuestas originales)
     const fullContent = {
       ...generatedPlan,
       rawAnswers: {
@@ -51,7 +102,7 @@ export class SanitationService {
         spaces: businessData.spaces,
         hasDelivery: businessData.hasDelivery,
         hasHighRiskFoods: businessData.hasHighRiskFoods,
-        logoUrl: businessData.logoPreview, // Guardamos el preview como referencia visual
+        logoUrl: logoUrl || null,
       }
     };
 
