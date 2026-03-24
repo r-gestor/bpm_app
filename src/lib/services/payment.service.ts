@@ -58,24 +58,11 @@ export class PaymentService {
       const concatenated = values.join("") + timestamp + eventsSecret;
       const hash = crypto.createHash("sha256").update(concatenated).digest("hex");
 
-      console.log("[Webhook] Signature debug:", {
-        properties: signature.properties,
-        resolvedValues: values,
-        timestamp,
-        eventsSecretLength: eventsSecret.length,
-        eventsSecretPrefix: eventsSecret.substring(0, 6) + "...",
-        concatenatedPreview: concatenated.substring(0, 80) + "...",
-        computedHash: hash,
-        expectedChecksum: signature.checksum,
-        match: hash === signature.checksum,
-      });
-
       // Comparación en tiempo constante para evitar timing attacks
       const hashBuffer = Buffer.from(hash, "hex");
       const checksumBuffer = Buffer.from(signature.checksum, "hex");
 
       if (hashBuffer.length !== checksumBuffer.length) {
-        console.error("[Webhook] Hash length mismatch:", hashBuffer.length, "vs", checksumBuffer.length);
         return false;
       }
 
