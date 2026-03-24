@@ -43,7 +43,7 @@ export class PaymentService {
         return false;
       }
 
-      // Obtener el valor de cada propiedad dinámica usando dot-notation (e.g. "transaction.id")
+      // Obtener el valor de cada propiedad dinámica usando dot-notation (e.g. "data.transaction.id")
       const values = signature.properties.map((prop: string) => {
         const parts = prop.split(".");
         let val: any = payload;
@@ -53,15 +53,28 @@ export class PaymentService {
         return val ?? "";
       });
 
-      // SHA256(prop1 + prop2 + ... + timestamp + eventsSecret)
-      const stringToSign = values.join("") + timestamp + eventsSecret;
-      const hash = crypto.createHash("sha256").update(stringToSign).digest("hex");
+      // Wompi: SHA256(prop1 + prop2 + ... + timestamp + eventsSecret)
+      const concatenated = values.join("") + timestamp + eventsSecret;
+      const hash = crypto.createHash("sha256").update(concatenated).digest("hex");
+
+      console.log("[Webhook] Signature debug:", {
+        properties: signature.properties,
+        resolvedValues: values,
+        timestamp,
+        eventsSecretLength: eventsSecret.length,
+        eventsSecretPrefix: eventsSecret.substring(0, 6) + "...",
+        concatenatedPreview: concatenated.substring(0, 80) + "...",
+        computedHash: hash,
+        expectedChecksum: signature.checksum,
+        match: hash === signature.checksum,
+      });
 
       // Comparación en tiempo constante para evitar timing attacks
       const hashBuffer = Buffer.from(hash, "hex");
       const checksumBuffer = Buffer.from(signature.checksum, "hex");
 
       if (hashBuffer.length !== checksumBuffer.length) {
+        console.error("[Webhook] Hash length mismatch:", hashBuffer.length, "vs", checksumBuffer.length);
         return false;
       }
 

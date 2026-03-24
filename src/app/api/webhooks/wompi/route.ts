@@ -22,6 +22,13 @@ export async function POST(req: Request) {
 
   // 1. Validar firma — OBLIGATORIA en producción
   const eventsSecret = process.env.WOMPI_EVENTS_SECRET;
+  console.log("[Webhook/Wompi] Config:", {
+    NODE_ENV: process.env.NODE_ENV,
+    eventsSecretPresent: !!eventsSecret,
+    eventsSecretLength: eventsSecret?.length ?? 0,
+    hasSignatureInPayload: !!rawBody?.signature?.checksum,
+    hasTimestamp: !!rawBody?.timestamp,
+  });
 
   if (!eventsSecret) {
     if (process.env.NODE_ENV === "production") {
