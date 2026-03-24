@@ -1,11 +1,21 @@
 import { supabase } from "@/lib/supabase";
 
+/** Fisher-Yates shuffle — produce una permutación uniforme sin sesgo */
+function shuffleArray<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export class ExamService {
   /**
    * Inicia un nuevo intento de examen seleccionando 10 preguntas aleatorias.
    */
   static async startAttempt(studentId: string, courseId: string) {
-    // 1. Obtener todas las preguntas del curso con sus respuestas
+    // 1. Obtener todas las preguntas del curso con sus respuestas (incluye isCorrect para validar)
     const { data: questions, error: qError } = await supabase
       .from('questions')
       .select(`
@@ -13,15 +23,26 @@ export class ExamService {
         text,
         answers:answers (
           id,
-          text
+          text,
+          isCorrect
         )
       `)
       .eq('courseId', courseId);
 
     if (qError || !questions || !questions.length) throw new Error("No hay preguntas disponibles para este curso.");
 
-    // 2. Barajar y seleccionar 10
-    const shuffled = questions.sort(() => 0.5 - Math.random());
+    // Filtrar preguntas válidas: al menos 2 opciones y exactamente 1 respuesta correcta
+    const validQuestions = questions.filter(q => {
+      const answers = q.answers || [];
+      if (answers.length < 2) return false;
+      const correctCount = answers.filter((a: any) => a.isCorrect === true).length;
+      return correctCount === 1;
+    });
+
+    if (validQuestions.length === 0) throw new Error("No hay preguntas válidas disponibles para este curso.");
+
+    // 2. Fisher-Yates shuffle y seleccionar 10
+    const shuffled = shuffleArray(validQuestions);
     const selectedQuestions = shuffled.slice(0, 10);
 
     // 3. Crear el intento en la DB
@@ -44,11 +65,12 @@ export class ExamService {
     return {
       attemptId: attempt.id,
       questions: selectedQuestions.map(q => {
-        // Ordenamos las respuestas por ID para asegurar consistencia con el índice
-        const sortedAnswers = [...q.answers].sort((a, b) => a.id.localeCompare(b.id));
+        // Orden determinista por ID — comparación binaria (NO localeCompare)
+        const sortedAnswers = [...q.answers].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
         return {
           id: q.id,
           question: q.text,
+          // Solo enviamos texto — nunca isCorrect al cliente
           options: sortedAnswers.map((a: any) => a.text)
         };
       })
@@ -78,16 +100,15 @@ export class ExamService {
 
     if (qError) throw qError;
 
-    // 3. Calcular puntaje
+    // 3. Calcular puntaje — mismo orden determinista que startAttempt
     let correctCount = 0;
     studentAnswers.forEach(sa => {
-      // Obtenemos las respuestas de ESTA pregunta y las ordenamos igual que al enviarlas
       const questionAnswers = allAnswers
         .filter(a => a.questionId === sa.questionId)
-        .sort((a, b) => a.id.localeCompare(b.id));
-      
+        .sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+
       const selectedAnswer = questionAnswers[sa.selectedAnswer];
-      if (selectedAnswer && selectedAnswer.isCorrect) {
+      if (selectedAnswer && selectedAnswer.isCorrect === true) {
         correctCount++;
       }
     });

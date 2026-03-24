@@ -119,7 +119,7 @@ export default function ExamViewer({ slug }: ExamViewerProps) {
 
  if (result) {
  const passed = result.passed;
- const questionResults: { questionId: string; selectedAnswerIndex: number; correctAnswerIndex: number; isCorrect: boolean }[] = result.questionResults || [];
+ const questionResults: { questionId: string; selectedAnswerIndex: number; correctAnswerIndex: number; isCorrect: boolean; correctAnswerText?: string | null }[] = result.questionResults || [];
 
  return (
  <div className="w-full max-w-2xl mx-auto space-y-6">
@@ -219,6 +219,16 @@ export default function ExamViewer({ slug }: ExamViewerProps) {
    {questionResults.map((qr, idx) => {
    const q = submittedQuestions.find(sq => sq.id === qr.questionId);
    if (!q) return null;
+
+   // Validación defensiva: si correctAnswerIndex está fuera de rango,
+   // intentamos localizar la respuesta correcta por texto (fallback del backend)
+   let resolvedCorrectIdx = qr.correctAnswerIndex;
+   if (resolvedCorrectIdx < 0 || resolvedCorrectIdx >= q.options.length) {
+     if (qr.correctAnswerText) {
+       resolvedCorrectIdx = q.options.findIndex((o: string) => o === qr.correctAnswerText);
+     }
+   }
+
    return (
    <div key={qr.questionId} className={`p-6 ${qr.isCorrect ? "bg-green-50/40" : "bg-red-50/40"}`}>
    {/* Número y pregunta */}
@@ -235,7 +245,7 @@ export default function ExamViewer({ slug }: ExamViewerProps) {
    <div className="space-y-2 ml-10">
    {q.options.map((option, optIdx) => {
    const isSelected = optIdx === qr.selectedAnswerIndex;
-   const isCorrect = optIdx === qr.correctAnswerIndex;
+   const isCorrect = optIdx === resolvedCorrectIdx;
 
    let style = "bg-white border-slate-200 text-slate-600";
    if (isCorrect) style = "bg-green-100 border-green-400 text-green-800 font-bold";

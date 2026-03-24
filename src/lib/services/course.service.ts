@@ -1,5 +1,15 @@
 import { supabase } from "@/lib/supabase";
 
+/** Fisher-Yates shuffle — produce una permutación uniforme sin sesgo */
+function shuffleArray<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export class CourseService {
   static async isEnrolled(studentId: string, courseId: string): Promise<boolean> {
     const { data, error } = await supabase
@@ -97,6 +107,8 @@ export class CourseService {
 
   static async getExamQuestions(courseId: string, count: number = 10) {
     if (!courseId) throw new Error("ID de curso no válido");
+
+    // Incluimos isCorrect para poder validar integridad antes de servir la pregunta
     const { data: questions, error } = await supabase
       .from('questions')
       .select(`
@@ -104,25 +116,49 @@ export class CourseService {
         text,
         answers:answers (
           id,
-          text
+          text,
+          isCorrect
         )
       `)
       .eq('courseId', courseId);
 
     if (error) throw error;
-    
-    // Shuffle and pick 'count' questions
-    return questions
-      .sort(() => Math.random() - 0.5)
-      .slice(0, count)
-      .map(q => {
-        const sortedAnswers = [...q.answers].sort((a, b) => a.id.localeCompare(b.id));
-        return {
-          id: q.id,
-          question: q.text,
-          options: sortedAnswers.map((a: any) => a.text)
-        };
-      });
+
+    // Filtrar solo preguntas que tengan al menos 2 opciones Y exactamente 1 respuesta correcta.
+    // Esto previene servir preguntas con datos incompletos o corruptos.
+    const validQuestions = questions.filter(q => {
+      const answers = q.answers || [];
+      if (answers.length < 2) return false;
+      const correctCount = answers.filter((a: any) => a.isCorrect === true).length;
+      return correctCount === 1;
+    });
+
+    if (validQuestions.length === 0) {
+      throw new Error("No hay preguntas válidas disponibles para este curso.");
+    }
+
+    // Fisher-Yates shuffle para selección uniforme sin sesgo
+    const shuffled = shuffleArray(validQuestions);
+    const selected = shuffled.slice(0, count);
+
+    return selected.map(q => {
+      // Orden determinista por ID — debe coincidir con submitExam
+      const sortedAnswers = [...q.answers].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+
+      // Garantía: la respuesta correcta SIEMPRE está en las opciones
+      const correctIdx = sortedAnswers.findIndex((a: any) => a.isCorrect === true);
+      if (correctIdx === -1) {
+        // Defensa extra — no debería llegar aquí por el filtro anterior
+        throw new Error(`Pregunta ${q.id} no tiene respuesta correcta marcada.`);
+      }
+
+      return {
+        id: q.id,
+        question: q.text,
+        // Solo enviamos texto al estudiante — nunca isCorrect
+        options: sortedAnswers.map((a: any) => a.text)
+      };
+    });
   }
 
   static async submitExam(data: {
@@ -142,20 +178,24 @@ export class CourseService {
     // 2. Calculate score and build per-question results
     let correctCount = 0;
     const questionResults = data.answers.map(userAns => {
+      // Mismo orden determinista que getExamQuestions — comparación binaria, NO localeCompare
       const questionAnswers = allAnswers
         .filter(a => a.questionId === userAns.questionId)
-        .sort((a, b) => a.id.localeCompare(b.id));
+        .sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 
       const selectedAnswer = questionAnswers[userAns.selectedAnswer];
-      const correctAnswerIndex = questionAnswers.findIndex(a => a.isCorrect);
-      const isCorrect = !!(selectedAnswer && selectedAnswer.isCorrect);
+      const correctAnswerIndex = questionAnswers.findIndex(a => a.isCorrect === true);
+      const isCorrect = !!(selectedAnswer && selectedAnswer.isCorrect === true);
       if (isCorrect) correctCount++;
 
       return {
         questionId: userAns.questionId,
         selectedAnswerIndex: userAns.selectedAnswer,
+        // Defensa: si no hay respuesta correcta, devolvemos -1 (el frontend lo maneja)
         correctAnswerIndex,
-        isCorrect
+        isCorrect,
+        // Enviamos el texto correcto para que el frontend pueda verificar visualmente
+        correctAnswerText: correctAnswerIndex >= 0 ? questionAnswers[correctAnswerIndex].text : null
       };
     });
 
