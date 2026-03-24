@@ -137,20 +137,22 @@ export class OrderService {
       buyerId: order.buyerId,
     });
 
-    // Evitar procesar estados que ya están en un estado final si es una actualización repetida
-    if (order.status === 'APPROVED' && status === 'APPROVED') {
-      console.log("[updateOrderStatus] Order already APPROVED, skipping.");
+    // Idempotencia: no reprocesar si ya está en estado final con el mismo transactionId
+    const FINAL_STATUSES = ['APPROVED', 'DECLINED', 'ERROR', 'VOIDED'];
+    if (FINAL_STATUSES.includes(order.status)) {
+      if (order.status === status) {
+        console.log("[updateOrderStatus] Orden ya en estado final, skipping:", order.status);
+        return;
+      }
+      // No permitir regresiones de estado final
+      console.warn("[updateOrderStatus] Intento de cambiar estado final:", { current: order.status, new: status });
       return;
     }
 
     // 2. Actualizar estado del pago con el valor exacto que llega (APPROVED, DECLINED, etc)
-    const updateData: any = { 
+    const updateData: any = {
       status: status
     };
-    
-    if (transactionId) {
-      updateData.transactionId = transactionId;
-    }
 
     if (transactionId) {
       updateData.transactionId = transactionId;

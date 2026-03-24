@@ -179,6 +179,60 @@ export class AiPlanService {
     return results;
   }
 
+  /**
+   * Fallback: genera secciones una por una con la Messages API cuando la Batch API falla.
+   * Procesa en paralelo con concurrencia limitada a 3 para no saturar la API.
+   */
+  private static async generateSectionsIndividually(
+    sections: Array<{ id: string; system: string; user: string; maxTokens: number }>
+  ): Promise<Map<string, string>> {
+    const results = new Map<string, string>();
+    const CONCURRENCY = 3;
+
+    console.log(`[AiPlanService] Fallback: generando ${sections.length} secciones individualmente (concurrencia: ${CONCURRENCY})...`);
+
+    // Procesar en lotes de CONCURRENCY
+    for (let i = 0; i < sections.length; i += CONCURRENCY) {
+      const chunk = sections.slice(i, i + CONCURRENCY);
+
+      const promises = chunk.map(async (section) => {
+        try {
+          console.log(`[AiPlanService] Generando sección individual: ${section.id}...`);
+          const response = await fetch("https://api.anthropic.com/v1/messages", {
+            method: "POST",
+            headers: this.ANTHROPIC_HEADERS(),
+            body: JSON.stringify({
+              model: "claude-sonnet-4-6",
+              max_tokens: section.maxTokens,
+              system: section.system,
+              messages: [{ role: "user", content: section.user }],
+            }),
+          });
+
+          if (!response.ok) {
+            const errText = await response.text();
+            console.error(`[AiPlanService] Sección ${section.id} falló (${response.status}): ${errText.substring(0, 200)}`);
+            return;
+          }
+
+          const data = await response.json();
+          const text = data?.content?.[0]?.text;
+          if (text) {
+            results.set(section.id, text);
+            console.log(`[AiPlanService] Sección ${section.id} completada (${text.length} chars)`);
+          }
+        } catch (err: any) {
+          console.error(`[AiPlanService] Sección ${section.id} error: ${err?.message}`);
+        }
+      });
+
+      await Promise.all(promises);
+    }
+
+    console.log(`[AiPlanService] Fallback completado: ${results.size}/${sections.length} secciones OK`);
+    return results;
+  }
+
   // ═══════════════════════════════════════════════════════════════════════════
   // FASE 1: GENERACIÓN DE CONTENIDO
   // ═══════════════════════════════════════════════════════════════════════════
@@ -368,26 +422,39 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
       }
 
       // ═══════════════════════════════════════════════════════════════════════
-      // Enviar Batch y esperar resultado
+      // Enviar Batch y esperar resultado (con fallback a llamadas individuales)
       // ═══════════════════════════════════════════════════════════════════════
       console.log(`[AiPlanService] Enviando batch con ${sections.length} secciones...`);
 
-      const batchId = await this.submitBatch(
-        sections.map((s) => ({
-          custom_id: s.id,
-          params: {
-            model: "claude-sonnet-4-6",
-            max_tokens: s.maxTokens,
-            system: s.system,
-            messages: [{ role: "user", content: s.user }],
-          },
-        }))
-      );
+      let results: Map<string, string>;
 
-      await this.pollBatchUntilDone(batchId);
-      const results = await this.getBatchResults(batchId);
+      try {
+        const batchId = await this.submitBatch(
+          sections.map((s) => ({
+            custom_id: s.id,
+            params: {
+              model: "claude-sonnet-4-6",
+              max_tokens: s.maxTokens,
+              system: s.system,
+              messages: [{ role: "user", content: s.user }],
+            },
+          }))
+        );
 
-      console.log(`[AiPlanService] Batch completado. ${results.size}/${sections.length} secciones recibidas.`);
+        await this.pollBatchUntilDone(batchId);
+        results = await this.getBatchResults(batchId);
+
+        // Si el batch terminó pero TODAS las secciones fallaron, usar fallback individual
+        if (results.size === 0) {
+          console.warn(`[AiPlanService] Batch completó con 0 resultados — activando fallback individual`);
+          results = await this.generateSectionsIndividually(sections);
+        }
+      } catch (batchErr: any) {
+        console.warn(`[AiPlanService] Batch API falló: ${batchErr?.message} — activando fallback individual`);
+        results = await this.generateSectionsIndividually(sections);
+      }
+
+      console.log(`[AiPlanService] Generación completada. ${results.size}/${sections.length} secciones recibidas.`);
 
       // ═══════════════════════════════════════════════════════════════════════
       // Guardar cada sección en Supabase
@@ -1006,7 +1073,6 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
       <p><strong>Propietario:</strong> ${meta.ownerName || "N/A"}</p>
       <p><strong>Normativa aplicada:</strong> ${meta.normApplied || "Resolución 2674 de 2013"}</p>
       <p><strong>Fecha de elaboración:</strong> ${meta.elaborationDate || new Date().toLocaleDateString("es-CO", { year: "numeric", month: "long", day: "numeric" })}</p>
-      <p><strong>Vigencia:</strong> ${meta.validity || "1 año"}</p>
       <p><strong>Versión:</strong> ${meta.version || "1.0"}</p>
     </div>
   </div>
@@ -1096,7 +1162,7 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
           ${signatureDataUrl ? `<img src="${signatureDataUrl}" class="signature-img" />` : ''}
         </div>
         <div class="signature-line"></div>
-        <div class="signature-name">Angelica M. López</div>
+        <div class="signature-name">Angelica M. Caicedo</div>
         <div class="signature-role">Nutricionista - Dietista</div>
         <div class="signature-desc">Elaboró el Plan de Saneamiento</div>
       </div>
@@ -1327,16 +1393,46 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
 
   // ─── Generar PDF con Puppeteer ──────────────────────────────────────────────
   
+  private static async getChromiumPath(): Promise<string> {
+    // En desarrollo local, buscar Chrome instalado primero
+    if (process.env.NODE_ENV !== "production") {
+      const candidates = [
+        // Windows
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        `${process.env.LOCALAPPDATA}\\Google\\Chrome\\Application\\chrome.exe`,
+        // macOS
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        // Linux
+        "/usr/bin/google-chrome",
+        "/usr/bin/chromium-browser",
+        "/usr/bin/chromium",
+      ];
+
+      for (const c of candidates) {
+        if (fs.existsSync(c)) {
+          console.log("[Puppeteer] Usando Chrome local:", c);
+          return c;
+        }
+      }
+    }
+
+    // En producción (Docker/serverless), usar @sparticuz/chromium
+    const sparticuzPath = await chromium.executablePath();
+    console.log("[Puppeteer] Usando @sparticuz/chromium:", sparticuzPath);
+    return sparticuzPath;
+  }
+
   private static async generatePdfWithPuppeteer(html: string, plan: any, logoDataUrl?: string, qrCodeDataUrl?: string): Promise<Buffer> {
     console.log("[Puppeteer] Iniciando lanzamiento del browser...");
     console.log("[Puppeteer] NODE_ENV:", process.env.NODE_ENV);
 
-    const executablePath = await chromium.executablePath();
-    console.log("[Puppeteer] executablePath (@sparticuz/chromium):", executablePath);
+    const executablePath = await this.getChromiumPath();
+    console.log("[Puppeteer] executablePath:", executablePath);
 
     const browser = await puppeteer.launch({
       executablePath,
-      headless: chromium.headless,
+      headless: true,
       args: chromium.args,
     });
     console.log("[Puppeteer] ✅ Browser lanzado correctamente");

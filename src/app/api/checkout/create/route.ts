@@ -36,17 +36,21 @@ export async function POST(req: Request) {
     const wompiPublicKey = process.env.WOMPI_PUBLIC_KEY ?? process.env.NEXT_PUBLIC_WOMPI_PUBLIC_KEY;
     const integritySecret = process.env.WOMPI_INTEGRITY_SECRET;
 
-    console.log("[Checkout/Create] Configuración Wompi:", {
-      amountInCents,
-      publicKeyPrefix: wompiPublicKey?.substring(0, 12) ?? "MISSING",
-      integritySecretPresent: !!integritySecret,
-    });
+    if (!integritySecret) {
+      console.error("[Checkout/Create] WOMPI_INTEGRITY_SECRET no configurado");
+      return NextResponse.json({ error: "Payment configuration error" }, { status: 500 });
+    }
+
+    if (!wompiPublicKey) {
+      console.error("[Checkout/Create] WOMPI_PUBLIC_KEY no configurado");
+      return NextResponse.json({ error: "Payment configuration error" }, { status: 500 });
+    }
 
     const integritySignature = PaymentService.generateIntegritySignature(
       order.id,
       amountInCents,
       "COP",
-      integritySecret!
+      integritySecret
     );
 
     console.log("[Checkout/Create] ✅ Respuesta lista para el cliente");

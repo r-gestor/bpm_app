@@ -12,7 +12,7 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "Transaction ID is required" }, { status: 400 });
   }
 
-  console.log("[Verify] ▶ Verificando transacción Wompi:", { transactionId: id, planId });
+  console.log("[Verify] Verificando transacción Wompi:", { transactionId: id, planId });
 
   try {
     const baseUrl =
@@ -21,47 +21,35 @@ export async function GET(req: Request) {
         ? "https://production.wompi.co/v1"
         : "https://sandbox.wompi.co/v1");
 
-    console.log("[Verify] NODE_ENV:", process.env.NODE_ENV, "→ URL Wompi:", baseUrl);
-
     const response = await fetch(`${baseUrl}/transactions/${id}`, {
       headers: { "Content-Type": "application/json" },
     });
 
-    console.log("[Verify] Respuesta HTTP de Wompi:", response.status, response.statusText);
-
     if (!response.ok) {
-      const errorBody = await response.text();
-      console.error("[Verify] ❌ Wompi respondió con error:", response.status, errorBody);
+      console.error("[Verify] Wompi respondió con error:", response.status);
       return NextResponse.json({ status: "PENDING" });
     }
 
     const result = await response.json();
-    console.log("[Verify] Respuesta Wompi (data):", JSON.stringify(result?.data ?? result));
 
     if (!result.data) {
-      console.error("[Verify] ❌ Sin campo 'data' en respuesta Wompi:", result);
       return NextResponse.json({ status: "PENDING" });
     }
 
     const transaction = result.data;
-    console.log("[Verify] Estado de la transacción:", {
-      wompiId: transaction.id,
-      reference: transaction.reference,
-      status: transaction.status,
-      amountInCents: transaction.amount_in_cents,
-    });
+    console.log("[Verify] Estado:", { reference: transaction.reference, status: transaction.status });
 
-    // Actualizar DB si llegó a estado final — fire-and-forget, no bloquea la respuesta
+    // Actualizar DB si llegó a estado final.
+    // Esto es un respaldo al webhook — el webhook es la fuente autoritativa,
+    // pero el polling del cliente también dispara actualización por si el webhook
+    // se retrasa o falla. La idempotencia en OrderService evita doble procesamiento.
     if (FINAL_STATUSES.includes(transaction.status)) {
-      console.log("[Verify] Estado final detectado, actualizando DB en background...");
       OrderService.updateOrderStatus(
         transaction.reference,
         transaction.status,
         transaction.id,
         planId || undefined
-      )
-        .then(() => console.log("[Verify] ✅ DB actualizada correctamente para:", transaction.reference))
-        .catch((err) => console.error("[Verify] ❌ Error actualizando DB:", err?.message, err?.stack));
+      ).catch((err) => console.error("[Verify] Error actualizando DB:", err?.message));
     }
 
     return NextResponse.json({
@@ -69,7 +57,7 @@ export async function GET(req: Request) {
       reference: transaction.reference,
     });
   } catch (error: any) {
-    console.error("[Verify] ❌ Error inesperado:", error?.message, error?.stack);
+    console.error("[Verify] Error inesperado:", error?.message);
     return NextResponse.json({ status: "PENDING" });
   }
 }
