@@ -43,10 +43,11 @@ export class PaymentService {
         return false;
       }
 
-      // Obtener el valor de cada propiedad dinámica usando dot-notation (e.g. "data.transaction.id")
+      // Obtener el valor de cada propiedad dinámica usando dot-notation.
+      // Wompi envía properties como "transaction.id" que son relativas a payload.data
       const values = signature.properties.map((prop: string) => {
         const parts = prop.split(".");
-        let val: any = payload;
+        let val: any = payload.data;
         for (const part of parts) {
           val = val?.[part];
         }
