@@ -233,12 +233,13 @@ export const StudentService = {
       // 0. Sync role just in case (e.g. manual DB updates)
       await this.syncUserRole(buyerId);
 
-      // 1. Get total purchased slots
+      // 1. Get total purchased slots (only course products, exclude sanitation plans)
       const { data: payments, error: pError } = await supabase
         .from("payments")
-        .select("quantity")
+        .select("quantity, products!inner(slug)")
         .eq("buyerId", buyerId)
-        .eq("status", "APPROVED");
+        .eq("status", "APPROVED")
+        .neq("products.slug", "plan-saneamiento-iav");
 
       if (pError) {
         console.error("DEBUG: Error fetching payments quantity:", pError);
