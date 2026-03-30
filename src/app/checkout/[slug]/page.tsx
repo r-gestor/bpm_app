@@ -317,19 +317,23 @@ export default function CheckoutPage() {
                <div className="flex justify-between items-start mb-6">
                  <div>
                    <h2 className="text-xl font-bold text-slate-900 ">{product.name}</h2>
-                   <p className="text-slate-500 text-sm mt-1">{product.type === "COURSE" ? "Curso Online" : "Servicio IA"}</p>
+                   <p className="text-slate-500 text-sm mt-1">{product.type === "COURSE" ? "Curso Online" : "Servicio Profesional"}</p>
                  </div>
                  <div className="text-right">
                    <span className="text-xl font-bold text-slate-400 line-through block italic">
                      {originalUnitPrice.toLocaleString("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 })}
                    </span>
-                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">Precio regular por persona</span>
+                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">
+                     {product.slug.startsWith('plan-saneamiento-') ? 'Precio regular por plan de saneamiento' : 'Precio regular por persona'}
+                   </span>
                  </div>
                </div>
 
                <div className="border-t border-slate-100 pt-6 space-y-4">
                  <div className="flex justify-between items-center text-sm mb-2">
-                   <span className="text-slate-500 font-medium">Precio con descuento por persona:</span>
+                   <span className="text-slate-500 font-medium">
+                     {product.slug.startsWith('plan-saneamiento-') ? 'Precio con descuento:' : 'Precio con descuento por persona:'}
+                   </span>
                    <span className="text-slate-900 font-black">
                      {planUnitPrice.toLocaleString("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 })}
                    </span>
@@ -339,7 +343,7 @@ export default function CheckoutPage() {
                    <span className="flex items-center text-xs">
                      <CheckCircle2 size={14} className="mr-2" />
                      {product.slug.startsWith('plan-saneamiento-') 
-                       ? 'Descuento Plan IA' 
+                       ? 'Descuento Especial'
                        : `Descuento Plan (${quantity} ${quantity === 1 ? 'persona' : 'personas'}) — ${Math.round((1 - planUnitPrice/originalUnitPrice)*100)}% off`}
                    </span>
                    <span className="text-sm">-{planSavings.toLocaleString("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 })}</span>
