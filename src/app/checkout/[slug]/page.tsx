@@ -316,7 +316,7 @@ export default function CheckoutPage() {
             <div className="bg-white p-8 rounded-[1.5rem] shadow-brand border border-slate-100">
                <div className="flex justify-between items-start mb-6">
                  <div>
-                   <h2 className="text-xl font-bold text-slate-900 ">{product.name}</h2>
+                   <h2 className="text-xl font-bold text-slate-900 ">{product.slug?.startsWith('plan-saneamiento-') ? 'Plan de Saneamiento' : product.name}</h2>
                    <p className="text-slate-500 text-sm mt-1">{product.type === "COURSE" ? "Curso Online" : "Servicio Profesional"}</p>
                  </div>
                  <div className="text-right">
