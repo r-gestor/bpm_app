@@ -12,10 +12,13 @@ export async function PUT(req: Request) {
     }
 
     const body = await req.json();
-    const { id, name, documentType, documentNumber } = body;
+    const { id, name, documentType, documentNumber, password } = body;
 
     if (!id || !name || !documentType || !documentNumber) {
       return NextResponse.json({ error: "Todos los campos son obligatorios" }, { status: 400 });
+    }
+    if (password && password.length < 6) {
+      return NextResponse.json({ error: "La contraseña debe tener al menos 6 caracteres" }, { status: 400 });
     }
 
     // Security: Ensure the student belongs to this buyer
@@ -30,6 +33,10 @@ export async function PUT(req: Request) {
     }
 
     await StudentService.updateStudent(id, { name, documentType, documentNumber });
+
+    if (password) {
+      await StudentService.updateStudentPassword(id, password);
+    }
 
     return NextResponse.json({ message: "Estudiante actualizado exitosamente" });
   } catch (error: any) {

@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth/auth-options";
 import { StudentService } from "@/lib/services/student.service";
-import { EmailService } from "@/lib/services/email.service";
 import { supabase } from "@/lib/supabase";
 
 export async function POST(req: Request) {
@@ -31,10 +30,10 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, email, documentType, documentNumber, password } = body;
 
-    if (!name || !email || !documentType || !documentNumber) {
+    if (!name || !email || !documentType || !documentNumber || !password) {
       return NextResponse.json({ error: "Todos los campos son obligatorios" }, { status: 400 });
     }
-    if (password && password.length < 6) {
+    if (password.length < 6) {
       return NextResponse.json({ error: "La contraseña debe tener al menos 6 caracteres" }, { status: 400 });
     }
 
@@ -48,7 +47,7 @@ export async function POST(req: Request) {
       }, { status: 403 });
     }
 
-    const result = await StudentService.registerStudent({
+    await StudentService.registerStudent({
       buyerId,
       name,
       email,
@@ -57,17 +56,8 @@ export async function POST(req: Request) {
       password
     });
 
-    // 4. Send activation email asynchronously
-    try {
-      await EmailService.sendActivationEmail(email, name, result.activationLink);
-    } catch (emailError) {
-      console.error("Failed to send activation email:", emailError);
-      // We don't block the response even if email fails, as we still show the link in the UI
-    }
-
-    return NextResponse.json({ 
-      message: "Estudiante registrado exitosamente. Se ha enviado un correo de activación.",
-      activationLink: result.activationLink 
+    return NextResponse.json({
+      message: "Estudiante registrado exitosamente."
     });
   } catch (error: any) {
     console.error("Error registering student:", error);

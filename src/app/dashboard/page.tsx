@@ -75,7 +75,6 @@ export default function DashboardPage() {
   });
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
-  const [lastActivationLink, setLastActivationLink] = useState("");
   const [shouldBounce, setShouldBounce] = useState(false);
   const [showEnrollGuide, setShowEnrollGuide] = useState(false);
   const [showProfileModal, setShowProfileModal] = useState(false);
@@ -212,11 +211,13 @@ export default function DashboardPage() {
 
       if (!res.ok) throw new Error(data.error);
 
-      setSuccess("Estudiante registrado con éxito. Se ha generado su cuenta.");
-      setLastActivationLink(data.activationLink);
+      setSuccess("Trabajador registrado con éxito. Ya puede iniciar sesión con el correo y la contraseña.");
       setFormData({ name: "", email: "", documentType: "CC", documentNumber: "", password: "" });
       fetchStudents();
-      // Ya no cerramos el modal automáticamente tan rápido para que puedan ver el link
+      setTimeout(() => {
+        setShowModal(false);
+        setSuccess("");
+      }, 1500);
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -536,7 +537,8 @@ export default function DashboardPage() {
                                      name: student.name,
                                      email: student.email,
                                      documentType: student.documentType || "CC",
-                                     documentNumber: student.documentNumber || ""
+                                     documentNumber: student.documentNumber || "",
+                                     password: ""
                                    });
                                    setEditModal(true);
                                  }}
@@ -813,42 +815,8 @@ export default function DashboardPage() {
                 </div>
               )}
               {success && (
-                <div className="p-6 bg-success/10 border border-success/20 rounded-2xl space-y-4">
-                  <div className="flex items-center gap-3 text-success text-sm font-bold">
-                    <CheckCircle2 size={20} /> {success}
-                  </div>
-                  
-                  {lastActivationLink && (
-                    <div className="space-y-3 pt-2">
-                       <p className="text-xs text-slate-400 font-medium italic">Enlace de activación manual (mientras se configura el envío de correos):</p>
-                       <div className="flex items-center gap-2">
-                          <input 
-                            readOnly
-                            value={lastActivationLink}
-                            className="flex-1 bg-slate-950 border border-slate-100 rounded-xl py-2 px-4 text-[10px] text-primary font-mono focus:outline-none"
-                          />
-                          <button 
-                            type="button"
-                            onClick={() => navigator.clipboard.writeText(lastActivationLink)}
-                            className="bg-blue-600/20 hover:bg-blue-600/30 text-primary text-[10px] font-bold px-3 py-2 rounded-xl transition-all"
-                          >
-                            Copiar
-                          </button>
-                       </div>
-                    </div>
-                  )}
-
-                  <button 
-                    type="button"
-                    onClick={() => {
-                      setShowModal(false);
-                      setSuccess("");
-                      setLastActivationLink("");
-                    }}
-                    className="w-full py-3 bg-success/10 hover:bg-emerald-500/20 text-success rounded-xl text-sm font-bold transition-all border border-success/20"
-                  >
-                    Cerrar
-                  </button>
+                <div className="p-4 bg-success/10 border border-success/20 rounded-2xl flex items-center gap-3 text-success text-sm font-bold">
+                  <CheckCircle2 size={20} /> {success}
                 </div>
               )}
 
@@ -1009,7 +977,7 @@ export default function DashboardPage() {
                       </div>
                       <div className="col-span-2">
                         <label className="block text-xs font-bold uppercase tracking-widest text-text-muted mb-2 ml-1">Número de Documento</label>
-                        <input 
+                        <input
                           type="text"
                           value={formData.documentNumber}
                           onChange={(e) => setFormData({...formData, documentNumber: e.target.value})}
@@ -1018,6 +986,19 @@ export default function DashboardPage() {
                           required
                         />
                       </div>
+                    </div>
+
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-widest text-text-muted mb-2 ml-1">Cambiar Contraseña (opcional)</label>
+                      <input
+                        type="text"
+                        value={formData.password}
+                        onChange={(e) => setFormData({...formData, password: e.target.value})}
+                        placeholder="Dejar en blanco para mantener la actual"
+                        minLength={6}
+                        className="w-full bg-slate-50 border border-slate-100 rounded-2xl py-4 px-6 text-text text-sm focus:ring-2 focus:ring-primary/20 transition-all outline-none"
+                      />
+                      <p className="text-[11px] text-text-muted mt-2 ml-1">Si llenas este campo, se reemplazará la contraseña del trabajador.</p>
                     </div>
                   </div>
 

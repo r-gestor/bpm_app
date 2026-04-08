@@ -12,8 +12,12 @@ export const StudentService = {
     email: string;
     documentType: string;
     documentNumber: string;
-    password?: string;
+    password: string;
   }) {
+    if (!data.password || data.password.length < 6) {
+      throw new Error("La contraseña es obligatoria (mínimo 6 caracteres).");
+    }
+
     // 1. Check if user already exists
     const { data: existingUser } = await supabase
       .from("users")
@@ -25,13 +29,7 @@ export const StudentService = {
       throw new Error("Este correo ya está en uso.");
     }
 
-    // 2. If a password is provided, create an active account directly.
-    // Otherwise fall back to the activation-link flow.
-    const hasPassword = !!data.password;
-    const activationToken = hasPassword ? null : uuidv4();
-    const passwordHash = hasPassword
-      ? await bcrypt.hash(data.password as string, 10)
-      : "PENDING_ACTIVATION";
+    const passwordHash = await bcrypt.hash(data.password, 10);
 
     const { data: newUser, error: createError } = await supabase
       .from("users")
@@ -42,52 +40,81 @@ export const StudentService = {
         documentType: data.documentType,
         documentNumber: data.documentNumber,
         registeredBy: data.buyerId,
-        activationToken,
+        activationToken: null,
         passwordHash,
-        isActive: hasPassword ? true : false
+        isActive: true,
       })
       .select()
       .single();
 
     if (createError) throw createError;
 
-    // 4. Automatically enroll in the course associated with the buyer's purchase
+    // 2. Automatically enroll in a course product purchased by the buyer.
+    // We join to products and exclude the sanitation plan, and iterate
+    // until we find a payment whose product actually has an associated course.
+    let enrollmentCreated = false;
     try {
-      // Find a product purchased by the buyer that has an associated course
       const { data: payments } = await supabase
         .from("payments")
-        .select("productId")
+        .select("productId, products!inner(slug)")
         .eq("buyerId", data.buyerId)
         .eq("status", "APPROVED")
-        .limit(1);
+        .neq("products.slug", "plan-saneamiento-iav");
 
       if (payments && payments.length > 0) {
-        const { data: course } = await supabase
-          .from("courses")
-          .select("id")
-          .eq("productId", payments[0].productId)
-          .single();
+        for (const p of payments) {
+          const { data: course } = await supabase
+            .from("courses")
+            .select("id")
+            .eq("productId", p.productId)
+            .maybeSingle();
 
-        if (course) {
-          await supabase
-            .from("enrollments")
-            .insert({
+          if (course?.id) {
+            const { error: enErr } = await supabase.from("enrollments").insert({
               buyerId: data.buyerId,
               studentId: newUser.id,
               courseId: course.id,
-              status: "ACTIVE"
+              status: "ACTIVE",
             });
+            if (!enErr) {
+              enrollmentCreated = true;
+              break;
+            } else {
+              console.error("[registerStudent] enrollment insert error:", enErr);
+            }
+          }
         }
       }
     } catch (enrollError) {
       console.error("Error with automatic enrollment:", enrollError);
-      // We don't fail registration if enrollment fails, but it's not ideal
     }
 
-    return {
-      user: newUser,
-      activationLink: `${process.env.NEXTAUTH_URL}/activate?token=${activationToken}`
-    };
+    if (!enrollmentCreated) {
+      // Roll back the user so the buyer can retry — otherwise the student
+      // would exist without access to the course.
+      await supabase.from("users").delete().eq("id", newUser.id);
+      throw new Error(
+        "No se pudo inscribir al trabajador en el curso. Verifica que tengas un curso comprado y cupos disponibles."
+      );
+    }
+
+    return { user: newUser };
+  },
+
+  /**
+   * Updates a student's password (buyer changing worker credentials)
+   */
+  async updateStudentPassword(id: string, newPassword: string) {
+    if (!newPassword || newPassword.length < 6) {
+      throw new Error("La contraseña debe tener al menos 6 caracteres.");
+    }
+    const passwordHash = await bcrypt.hash(newPassword, 10);
+    const { error } = await supabase
+      .from("users")
+      .update({ passwordHash, isActive: true })
+      .eq("id", id);
+    if (error) throw error;
+    return true;
   },
 
   /**
