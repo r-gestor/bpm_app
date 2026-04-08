@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { v4 as uuidv4 } from "uuid";
+import bcrypt from "bcryptjs";
 
 export const StudentService = {
   /**
@@ -11,6 +12,7 @@ export const StudentService = {
     email: string;
     documentType: string;
     documentNumber: string;
+    password?: string;
   }) {
     // 1. Check if user already exists
     const { data: existingUser } = await supabase
@@ -23,11 +25,14 @@ export const StudentService = {
       throw new Error("Este correo ya está en uso.");
     }
 
-    // 2. Generate unique activation token
-    const activationToken = uuidv4();
+    // 2. If a password is provided, create an active account directly.
+    // Otherwise fall back to the activation-link flow.
+    const hasPassword = !!data.password;
+    const activationToken = hasPassword ? null : uuidv4();
+    const passwordHash = hasPassword
+      ? await bcrypt.hash(data.password as string, 10)
+      : "PENDING_ACTIVATION";
 
-    // 3. Create the student user
-    // Note: We use a placeholder password for now, as they'll set it via activation
     const { data: newUser, error: createError } = await supabase
       .from("users")
       .insert({
@@ -38,8 +43,8 @@ export const StudentService = {
         documentNumber: data.documentNumber,
         registeredBy: data.buyerId,
         activationToken,
-        passwordHash: "PENDING_ACTIVATION",
-        isActive: false // Student is inactive until password is set
+        passwordHash,
+        isActive: hasPassword ? true : false
       })
       .select()
       .single();

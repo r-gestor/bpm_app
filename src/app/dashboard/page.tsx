@@ -70,7 +70,8 @@ export default function DashboardPage() {
     name: "",
     email: "",
     documentType: "CC",
-    documentNumber: ""
+    documentNumber: "",
+    password: ""
   });
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
@@ -213,7 +214,7 @@ export default function DashboardPage() {
 
       setSuccess("Estudiante registrado con éxito. Se ha generado su cuenta.");
       setLastActivationLink(data.activationLink);
-      setFormData({ name: "", email: "", documentType: "CC", documentNumber: "" });
+      setFormData({ name: "", email: "", documentType: "CC", documentNumber: "", password: "" });
       fetchStudents();
       // Ya no cerramos el modal automáticamente tan rápido para que puedan ver el link
     } catch (err: any) {
@@ -363,7 +364,7 @@ export default function DashboardPage() {
 
               <button 
                 onClick={() => {
-                  setFormData({ name: "", email: "", documentType: "CC", documentNumber: "" });
+                  setFormData({ name: "", email: "", documentType: "CC", documentNumber: "", password: "" });
                   setShowModal(true);
                 }}
                 disabled={quota.remainingSlots === 0}
@@ -881,7 +882,7 @@ export default function DashboardPage() {
                 <div className="grid grid-cols-3 gap-4">
                   <div className="col-span-1">
                     <label className="block text-xs font-bold uppercase tracking-widest text-text-muted mb-2 ml-1">Tipo Doc.</label>
-                    <select 
+                    <select
                       value={formData.documentType}
                       onChange={(e) => setFormData({...formData, documentType: e.target.value})}
                       className="w-full bg-slate-50 border border-slate-100 rounded-2xl py-4 px-4 text-text text-sm focus:ring-2 focus:ring-primary/20 transition-all outline-none appearance-none"
@@ -894,7 +895,7 @@ export default function DashboardPage() {
                   </div>
                   <div className="col-span-2">
                     <label className="block text-xs font-bold uppercase tracking-widest text-text-muted mb-2 ml-1">Número de Documento</label>
-                    <input 
+                    <input
                       type="text"
                       value={formData.documentNumber}
                       onChange={(e) => setFormData({...formData, documentNumber: e.target.value})}
@@ -903,6 +904,20 @@ export default function DashboardPage() {
                       required
                     />
                   </div>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold uppercase tracking-widest text-text-muted mb-2 ml-1">Contraseña</label>
+                  <input
+                    type="text"
+                    value={formData.password}
+                    onChange={(e) => setFormData({...formData, password: e.target.value})}
+                    placeholder="Mínimo 6 caracteres"
+                    minLength={6}
+                    className="w-full bg-slate-50 border border-slate-100 rounded-2xl py-4 px-6 text-text text-sm focus:ring-2 focus:ring-primary/20 transition-all outline-none"
+                    required
+                  />
+                  <p className="text-[11px] text-text-muted mt-2 ml-1">El trabajador usará esta contraseña para iniciar sesión. Compártela con él de forma segura.</p>
                 </div>
               </div>
 

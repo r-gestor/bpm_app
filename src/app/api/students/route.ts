@@ -29,10 +29,13 @@ export async function POST(req: Request) {
     }
 
     const body = await req.json();
-    const { name, email, documentType, documentNumber } = body;
+    const { name, email, documentType, documentNumber, password } = body;
 
     if (!name || !email || !documentType || !documentNumber) {
       return NextResponse.json({ error: "Todos los campos son obligatorios" }, { status: 400 });
+    }
+    if (password && password.length < 6) {
+      return NextResponse.json({ error: "La contraseña debe tener al menos 6 caracteres" }, { status: 400 });
     }
 
     // Check quota before registering
@@ -50,7 +53,8 @@ export async function POST(req: Request) {
       name,
       email,
       documentType,
-      documentNumber
+      documentNumber,
+      password
     });
 
     // 4. Send activation email asynchronously

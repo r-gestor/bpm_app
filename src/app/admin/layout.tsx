@@ -20,6 +20,7 @@ export default function AdminLayout({
   const menuItems = [
     { icon: LayoutDashboard, label: "Vista General", href: "/admin" },
     { icon: Users, label: "Usuarios", href: "/admin/users" },
+    { icon: Users, label: "Carga Masiva", href: "/admin/users/bulk" },
     { icon: BookOpen, label: "Cursos", href: "/admin/courses" },
     { icon: ClipboardList, label: "Saneamiento", href: "/admin/sanitation" },
     { icon: CreditCard, label: "Pagos", href: "/admin/payments" },
