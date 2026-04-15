@@ -6,31 +6,40 @@ export async function verifyDocument(code: string, ipAddress?: string, userAgent
     .from('certificates')
     .select(`
       *,
-      student:users!studentId(name),
-      examAttempt:exam_attempts(score, courseId, completedAt)
+      enrollment:enrollments (
+        student:users!studentId(name),
+        course:courses(title)
+      )
     `)
-    .eq('certificateCode', code) // Ajustado al nombre de columna real en el nuevo schema
+    .eq('certificateCode', code)
     .single();
 
   if (certificate) {
+    const enrollment: any = certificate.enrollment;
+
+    // Determinar estado real basado en expiración
+    let status = certificate.status;
+    if (certificate.expiresAt && new Date(certificate.expiresAt) < new Date()) {
+      status = 'EXPIRED';
+    }
+
     // Log verification attempt
     await supabase.from('verification_logs').insert({
       documentType: "CERTIFICATE",
       documentCode: code,
       ipAddress,
       userAgent,
-      verified: certificate.status === "VALID"
+      verified: status === "VALID"
     });
 
     return {
       type: "CERTIFICATE" as const,
-      valid: certificate.status === "VALID",
+      valid: status === "VALID",
       data: {
-        studentName: (certificate.student as any)?.name,
-        courseName: (certificate.examAttempt as any)?.courseId,
-        score: (certificate.examAttempt as any)?.score,
+        studentName: enrollment?.student?.name,
+        courseName: enrollment?.course?.title,
         issuedAt: certificate.createdAt,
-        status: certificate.status,
+        status,
         uniqueCode: certificate.certificateCode,
         documentHash: certificate.verificationHash
       }

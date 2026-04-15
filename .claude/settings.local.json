@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git show:*)"
+      "Bash(git show:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl:*)",
+      "Bash(npx tsc *)"
     ]
   }
 }
