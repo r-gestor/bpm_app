@@ -352,6 +352,13 @@ export default function BulkUsersClient({ products }: { products: Product[] }) {
               Estudiantes creados e inscritos:{" "}
               <strong>{result.createdCount}</strong>
             </p>
+            {typeof result.reenrolledCount === "number" &&
+              result.reenrolledCount > 0 && (
+                <p>
+                  Estudiantes existentes re-inscritos en este curso:{" "}
+                  <strong>{result.reenrolledCount}</strong>
+                </p>
+              )}
             {result.buyerEnrolled && (
               <p>El comprador también quedó inscrito como estudiante.</p>
             )}

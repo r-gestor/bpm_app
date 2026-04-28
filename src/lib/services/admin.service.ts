@@ -273,9 +273,105 @@ export class AdminService {
       buyerId = newBuyer.id;
     }
 
-    const totalQuantity = studentRows.length + (includeBuyerAsStudent ? 1 : 0);
+    // 3. Resolve each CSV row BEFORE creating the payment, so quantity reflects
+    //    only the rows that will actually consume a slot (new users + existing
+    //    students of this buyer that need a fresh enrollment in this course).
+    type Resolved =
+      | { kind: "create"; email: string; row: (typeof studentRows)[number] }
+      | {
+          kind: "reenroll";
+          email: string;
+          userId: string;
+          alreadyEnrolled: boolean;
+        };
 
-    // 3. APPROVED payment attributed to the BUYER (so quota sums in their dashboard)
+    const resolved: Resolved[] = [];
+    const skipped: Array<{ email: string; reason: string }> = [];
+
+    for (const row of studentRows) {
+      const email = (row.email || "").trim().toLowerCase();
+      if (!email || !row.name) {
+        skipped.push({ email, reason: "Campos obligatorios faltantes" });
+        continue;
+      }
+
+      const { data: existing } = await supabase
+        .from("users")
+        .select("id, registeredBy")
+        .eq("email", email)
+        .maybeSingle();
+
+      if (!existing) {
+        if (!row.password) {
+          skipped.push({
+            email,
+            reason: "Falta contraseña para usuario nuevo",
+          });
+          continue;
+        }
+        resolved.push({ kind: "create", email, row });
+        continue;
+      }
+
+      // Email already exists. Allow ONLY when it belongs to this buyer's
+      // account (registeredBy === buyerId) or is the buyer themself.
+      if (existing.id === buyerId) {
+        skipped.push({
+          email,
+          reason:
+            "Este correo es el del comprador. Usa la opción 'el comprador también tomará el curso'.",
+        });
+        continue;
+      }
+
+      if (existing.registeredBy !== buyerId) {
+        skipped.push({
+          email,
+          reason:
+            "Ya existe un usuario con este correo en otra cuenta. Cambia el correo electrónico.",
+        });
+        continue;
+      }
+
+      // Existing student of THIS buyer — check if already enrolled in the course
+      const { data: existingEnrollment } = await supabase
+        .from("enrollments")
+        .select("id")
+        .eq("studentId", existing.id)
+        .eq("courseId", courseId)
+        .maybeSingle();
+
+      resolved.push({
+        kind: "reenroll",
+        email,
+        userId: existing.id,
+        alreadyEnrolled: !!existingEnrollment,
+      });
+    }
+
+    // Slots consumed = new users + re-enrollments that actually create a new
+    // enrollment row. Already-enrolled students don't consume a new slot.
+    const slotConsumers = resolved.filter(
+      (r) => r.kind === "create" || (r.kind === "reenroll" && !r.alreadyEnrolled)
+    ).length;
+    const totalQuantity = slotConsumers + (includeBuyerAsStudent ? 1 : 0);
+
+    if (totalQuantity === 0) {
+      return {
+        paymentId: null,
+        buyerId,
+        buyerEmail,
+        totalQuantity: 0,
+        createdCount: 0,
+        skippedCount: skipped.length,
+        buyerEnrolled: false,
+        created: [],
+        reenrolled: [],
+        skipped,
+      };
+    }
+
+    // 4. APPROVED payment attributed to the BUYER (so quota sums in their dashboard)
     const { data: payment, error: payErr } = await supabase
       .from("payments")
       .insert({
@@ -293,72 +389,89 @@ export class AdminService {
     if (payErr) throw payErr;
 
     const created: Array<{ email: string; id: string }> = [];
-    const skipped: Array<{ email: string; reason: string }> = [];
+    const reenrolled: Array<{ email: string; id: string; alreadyEnrolled: boolean }> = [];
 
-    // 4. Create each student and enrollment under this buyer
-    for (const row of studentRows) {
-      const email = (row.email || "").trim().toLowerCase();
-      if (!email || !row.name || !row.password) {
-        skipped.push({ email, reason: "Campos obligatorios faltantes" });
-        continue;
-      }
+    // 5. Apply each resolved action
+    for (const item of resolved) {
+      if (item.kind === "create") {
+        const passwordHash = await bcrypt.hash(item.row.password, 10);
 
-      const { data: existing } = await supabase
-        .from("users")
-        .select("id")
-        .eq("email", email)
-        .maybeSingle();
+        const { data: newUser, error: uErr } = await supabase
+          .from("users")
+          .insert({
+            email: item.email,
+            name: item.row.name,
+            passwordHash,
+            role: "STUDENT",
+            documentType: item.row.documentType || null,
+            documentNumber: item.row.documentNumber || null,
+            registeredBy: buyerId,
+            isActive: true,
+          })
+          .select("id, email")
+          .single();
 
-      if (existing) {
-        skipped.push({ email, reason: "Ya existe un usuario con este correo" });
-        continue;
-      }
+        if (uErr || !newUser) {
+          skipped.push({
+            email: item.email,
+            reason: uErr?.message || "Error al crear usuario",
+          });
+          continue;
+        }
 
-      const passwordHash = await bcrypt.hash(row.password, 10);
-
-      const { data: newUser, error: uErr } = await supabase
-        .from("users")
-        .insert({
-          email,
-          name: row.name,
-          passwordHash,
-          role: "STUDENT",
-          documentType: row.documentType || null,
-          documentNumber: row.documentNumber || null,
-          registeredBy: buyerId,
-          isActive: true,
-        })
-        .select("id, email")
-        .single();
-
-      if (uErr || !newUser) {
-        skipped.push({
-          email,
-          reason: uErr?.message || "Error al crear usuario",
+        const { error: enErr } = await supabase.from("enrollments").insert({
+          buyerId,
+          studentId: newUser.id,
+          courseId,
+          orderId: payment.id,
+          status: "ACTIVE",
         });
-        continue;
-      }
 
-      const { error: enErr } = await supabase.from("enrollments").insert({
-        buyerId,
-        studentId: newUser.id,
-        courseId,
-        orderId: payment.id,
-        status: "ACTIVE",
-      });
+        if (enErr) {
+          skipped.push({
+            email: item.email,
+            reason: `Usuario creado pero enrollment falló: ${enErr.message}`,
+          });
+          continue;
+        }
 
-      if (enErr) {
-        skipped.push({
-          email,
-          reason: `Usuario creado pero enrollment falló: ${enErr.message}`,
+        created.push({ email: newUser.email, id: newUser.id });
+      } else {
+        // re-enroll an existing student of this buyer
+        if (item.alreadyEnrolled) {
+          reenrolled.push({
+            email: item.email,
+            id: item.userId,
+            alreadyEnrolled: true,
+          });
+          continue;
+        }
+
+        const { error: enErr } = await supabase.from("enrollments").insert({
+          buyerId,
+          studentId: item.userId,
+          courseId,
+          orderId: payment.id,
+          status: "ACTIVE",
         });
-        continue;
-      }
 
-      created.push({ email: newUser.email, id: newUser.id });
+        if (enErr) {
+          skipped.push({
+            email: item.email,
+            reason: `Re-inscripción falló: ${enErr.message}`,
+          });
+          continue;
+        }
+
+        reenrolled.push({
+          email: item.email,
+          id: item.userId,
+          alreadyEnrolled: false,
+        });
+      }
     }
 
-    // 5. Optionally enroll the buyer themself as a student
+    // 6. Optionally enroll the buyer themself as a student
     let buyerEnrolled = false;
     if (includeBuyerAsStudent) {
       await supabase
@@ -393,9 +506,11 @@ export class AdminService {
       buyerEmail,
       totalQuantity,
       createdCount: created.length,
+      reenrolledCount: reenrolled.length,
       skippedCount: skipped.length,
       buyerEnrolled,
       created,
+      reenrolled,
       skipped,
     };
   }
