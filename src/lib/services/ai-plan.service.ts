@@ -237,12 +237,21 @@ export class AiPlanService {
   // FASE 1: GENERACIÓN DE CONTENIDO
   // ═══════════════════════════════════════════════════════════════════════════
 
-  static async generateContent(planId: string): Promise<ContentGenerationResult> {
+  static async generateContent(planId: string, paidAt?: Date | string): Promise<ContentGenerationResult> {
     console.log(`[AiPlanService] ══════════════════════════════════════`);
     console.log(`[AiPlanService] FASE 1: Generando contenido para ${planId}`);
     console.log(`[AiPlanService] ══════════════════════════════════════`);
 
     const errors: string[] = [];
+
+    // Fecha de elaboración = timestamp del pago (Wompi). Fallback: ahora.
+    const paidAtDate = paidAt ? new Date(paidAt) : new Date();
+    const elaborationDate = paidAtDate.toLocaleDateString("es-CO", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
 
     try {
       // 1. Obtener datos del plan
@@ -332,7 +341,7 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
         {
           id: "plan_meta", col: "plan_meta", isJson: true,
           system: metaSystemPrompt,
-          user: `Genera metadatos del plan para:\n${negocioInfo}\n\nJSON exacto:\n{ "businessName": "${businessName}", "nit": "${bd.nit || "N/A"}", "address": "${bd.address || "N/A"}", "establishmentType": "${estType}", "ownerName": "${ownerName}", "normApplied": "norma aplicable", "elaborationDate": "fecha actual formato largo", "validity": "1 año", "version": "1.0" }`,
+          user: `Genera metadatos del plan para:\n${negocioInfo}\n\nJSON exacto:\n{ "businessName": "${businessName}", "nit": "${bd.nit || "N/A"}", "address": "${bd.address || "N/A"}", "establishmentType": "${estType}", "ownerName": "${ownerName}", "normApplied": "norma aplicable", "validity": "1 año", "version": "1.0" }`,
           maxTokens: 1024,
         },
         // ── Secciones base (Markdown)
@@ -483,6 +492,11 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
               .replace(/\s*```$/i, "")
               .trim();
             valueToSave = JSON.parse(cleaned);
+
+            // Sobrescribir fecha con el timestamp del pago (no confiar en la IA)
+            if (section.col === "plan_meta" && valueToSave && typeof valueToSave === "object") {
+              valueToSave.elaborationDate = elaborationDate;
+            }
           } else {
             valueToSave = rawText.trim();
           }
@@ -1072,7 +1086,7 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
       <p><strong>Dirección:</strong> ${meta.address || "N/A"}</p>
       <p><strong>Propietario:</strong> ${meta.ownerName || "N/A"}</p>
       <p><strong>Normativa aplicada:</strong> ${meta.normApplied || "Resolución 2674 de 2013"}</p>
-      <p><strong>Fecha de elaboración:</strong> ${meta.elaborationDate || new Date().toLocaleDateString("es-CO", { year: "numeric", month: "long", day: "numeric" })}</p>
+      <p><strong>Fecha de elaboración:</strong> ${meta.elaborationDate || new Date().toLocaleDateString("es-CO", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</p>
       <p><strong>Versión:</strong> ${meta.version || "1.0"}</p>
     </div>
   </div>
@@ -1498,9 +1512,9 @@ Responde ÚNICAMENTE con JSON válido. Sin markdown, sin backticks. Empieza con 
   // ORQUESTADOR COMPLETO
   // ═══════════════════════════════════════════════════════════════════════════
 
-  static async generateFullPlan(planId: string): Promise<FullPlanResult> {
+  static async generateFullPlan(planId: string, paidAt?: Date | string): Promise<FullPlanResult> {
     // Fase 1: Generar contenido
-    const contentResult = await this.generateContent(planId);
+    const contentResult = await this.generateContent(planId, paidAt);
 
     if (!contentResult.success) {
       return {

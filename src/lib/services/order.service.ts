@@ -247,9 +247,11 @@ export class OrderService {
           .eq('status', 'APPROVED');
 
         if (plans) {
+          // Timestamp del pago aprobado por Wompi (anclar fecha de elaboración a este momento)
+          const paidAt = updatedObj?.[0]?.updatedAt ? new Date(updatedObj[0].updatedAt) : new Date();
           for (const plan of plans) {
             // Esto genera el plan usando RAG y lo marca como COMPLETED
-            await AiPlanService.generateFullPlan(plan.id);
+            await AiPlanService.generateFullPlan(plan.id, paidAt);
           }
         }
       }
