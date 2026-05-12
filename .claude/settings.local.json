@@ -7,7 +7,12 @@
       "Bash(git push:*)",
       "WebFetch(domain:localhost)",
       "Bash(curl:*)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -w \"\\\\n---HTTP %{http_code}---\\\\nTotal: %{time_total}s\\\\n\" \"http://localhost:3000/api/debug/test-ai-plan?planId=99285550-db83-4014-b0f0-5c0cf3ec90ac&action=full\" -m 3600)",
+      "Read(//tmp/**)",
+      "Bash(npx eslint *)",
+      "Bash(node *)"
     ]
   }
 }
